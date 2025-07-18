@@ -1,0 +1,390 @@
+name: earth_engine_stats
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "0 14 * * *"  # Run daily at 14:00 UTC (9:00 AM CDT)
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    
+    permissions:
+      contents: write  # Allow the action to commit and push changes
+    
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        
+      - name: Setup Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: "3.11"
+          
+      - name: Setup Google Cloud CLI
+        uses: google-github-actions/setup-gcloud@v2
+        with:
+          version: 'latest'
+          
+      - name: Create service account key file
+        run: |
+          echo '${{ secrets.GCP_SERVICE_ACCOUNT_KEY }}' > /tmp/gcp-key.json
+          
+      - name: Authenticate to Google Cloud
+        run: |
+          gcloud auth activate-service-account --key-file=/tmp/gcp-key.json
+          gcloud config set project $(cat /tmp/gcp-key.json | jq -r '.project_id')
+          
+      - name: Install Python dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install pandas
+          sudo apt-get update
+          sudo apt-get install -y jq
+          
+      - name: Generate Earth Engine Stats JSON
+        uses: jannekem/run-python-script-action@v1
+        with:
+          script: |
+            import json
+            import logging
+            import os
+            import subprocess
+            import tempfile
+            from collections import defaultdict
+            from concurrent.futures import ThreadPoolExecutor, as_completed
+            from datetime import date, datetime, timedelta
+            from typing import Dict, List, Optional
+            import pandas as pd
+
+            # Set up logging
+            logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
+            logger = logging.getLogger(__name__)
+
+            class EarthEngineStatsProcessor:
+                """Process Earth Engine statistics with 30-day moving window data."""
+
+                def __init__(self):
+                    """Initialize the processor."""
+                    self.bucket_name = "earthengine-stats"
+                    self.base_path = "providers/sat-io"
+                    self.start_date = date(2024, 4, 23)
+                    self.moving_window_data = {}  # Store data by date
+                    self.processed_stats = {}
+
+                def _generate_date_range(self, end_date: Optional[date] = None) -> List[date]:
+                    """Generate list of dates for moving window snapshots."""
+                    if end_date is None:
+                        end_date = date.today() - timedelta(days=1)
+                    return [self.start_date + timedelta(days=x) for x in range((end_date - self.start_date).days + 1)]
+
+                def _download_csv_data(self, target_date: date) -> Optional[pd.DataFrame]:
+                    """Download and parse CSV data for a specific date (30-day window ending on this date)."""
+                    filename = f"earthengine_stats_{target_date.strftime('%Y-%m-%d')}.csv"
+                    gs_path = f"gs://{self.bucket_name}/{self.base_path}/{filename}"
+
+                    try:
+                        with tempfile.NamedTemporaryFile(mode='w+', suffix='.csv', delete=False) as temp_file:
+                            temp_path = temp_file.name
+
+                        result = subprocess.run(
+                            ['gcloud', 'storage', 'cp', gs_path, temp_path],
+                            capture_output=True, text=True, timeout=30, check=False
+                        )
+
+                        if result.returncode != 0:
+                            if "No such object" in result.stderr or "Not Found" in result.stderr:
+                                logger.debug(f"File not found: {gs_path}")
+                            else:
+                                logger.error(f"gcloud error for {filename}: {result.stderr.strip()}")
+                            os.unlink(temp_path)
+                            return None
+
+                        df = pd.read_csv(temp_path)
+                        if df.empty:
+                            os.unlink(temp_path)
+                            return None
+
+                        # Add metadata about this moving window snapshot
+                        df['snapshot_date'] = pd.to_datetime(target_date)
+                        df['window_end'] = pd.to_datetime(target_date)
+                        df['window_start'] = pd.to_datetime(target_date) - timedelta(days=29)  # 30-day window
+                        df['30-day active users'] = pd.to_numeric(df['30-day active users'], errors='coerce')
+                        
+                        logger.debug(f"Successfully downloaded {len(df)} records from {filename} (30-day window ending {target_date})")
+                        os.unlink(temp_path)
+                        return df
+
+                    except (subprocess.TimeoutExpired, FileNotFoundError, Exception) as e:
+                        logger.error(f"Error downloading {filename}: {e}")
+                        if 'temp_path' in locals() and os.path.exists(temp_path):
+                            os.unlink(temp_path)
+                        return None
+
+                def collect_all_data(self, end_date: Optional[date] = None, max_workers: int = 12) -> None:
+                    """Collect moving window snapshots from all available dates."""
+                    dates = self._generate_date_range(end_date)
+                    logger.info(f"Collecting 30-day moving window snapshots for {len(dates)} dates using {max_workers} workers.")
+
+                    successful_downloads = 0
+                    
+                    with ThreadPoolExecutor(max_workers=max_workers) as executor:
+                        future_to_date = {executor.submit(self._download_csv_data, target_date): target_date for target_date in dates}
+                        for i, future in enumerate(as_completed(future_to_date)):
+                            target_date = future_to_date[future]
+                            df = future.result()
+                            if df is not None:
+                                # Store the moving window snapshot by date
+                                self.moving_window_data[target_date.strftime('%Y-%m-%d')] = df
+                                successful_downloads += 1
+                                
+                            if (i + 1) % 50 == 0 or (i + 1) == len(dates):
+                                logger.info(f"Download progress: {i + 1}/{len(dates)} snapshots processed, {successful_downloads} successful downloads.")
+
+                    if self.moving_window_data:
+                        logger.info(f"Total moving window snapshots collected: {successful_downloads}")
+                    else:
+                        logger.warning("No data was collected.")
+
+                def _generate_moving_window_format(self) -> Dict:
+                    """Generate moving window data in the format expected by the updated HTML template."""
+                    if not self.moving_window_data:
+                        return {}
+
+                    # Convert to the format expected by the template
+                    # Each date represents a 30-day moving window snapshot
+                    formatted_data = {}
+                    
+                    for date_str, df in self.moving_window_data.items():
+                        formatted_data[date_str] = {}
+                        
+                        # Clean dataset names and aggregate if needed
+                        df_clean = df.copy()
+                        df_clean['Dataset'] = df_clean['Dataset'].str.replace(r'/\[\d+\s+assets\]$', '', regex=True)
+                        df_clean['users'] = df_clean['30-day active users'].fillna(0).astype(int)
+                        
+                        # Group by dataset name (in case there are duplicates after cleaning)
+                        dataset_users = df_clean.groupby('Dataset')['users'].sum()
+                        
+                        for dataset, users in dataset_users.items():
+                            formatted_data[date_str][dataset] = int(users)
+                    
+                    return formatted_data
+
+                def _calculate_moving_window_statistics(self) -> Dict:
+                    """Calculate statistics for moving window data."""
+                    if not self.moving_window_data:
+                        return {}
+
+                    # Generate the formatted data
+                    moving_window_snapshots = self._generate_moving_window_format()
+
+                    # Calculate snapshot-level trends (each snapshot is a 30-day window)
+                    snapshot_trends = {}
+                    for date_str, datasets in moving_window_snapshots.items():
+                        total_users = sum(datasets.values())
+                        dataset_count = len(datasets)
+                        avg_users = total_users / dataset_count if dataset_count > 0 else 0
+                        
+                        snapshot_trends[date_str] = {
+                            'total_users': total_users,
+                            'dataset_count': dataset_count,
+                            'avg_users': round(avg_users, 2)
+                        }
+
+                    # Get latest snapshot for current rankings
+                    sorted_dates = sorted(moving_window_snapshots.keys())
+                    if not sorted_dates:
+                        return {}
+                        
+                    latest_snapshot = moving_window_snapshots[sorted_dates[-1]]
+                    
+                    # Dataset rankings based on latest snapshot
+                    dataset_rankings = {}
+                    for dataset, users in sorted(latest_snapshot.items(), key=lambda x: x[1], reverse=True):
+                        # Calculate appearances and trends across all snapshots
+                        appearances = sum(1 for snapshot in moving_window_snapshots.values() if dataset in snapshot)
+                        all_values = [snapshot.get(dataset, 0) for snapshot in moving_window_snapshots.values()]
+                        avg_users = sum(all_values) / len(all_values) if all_values else 0
+                        std_users = pd.Series(all_values).std() if len(all_values) > 1 else 0
+                        
+                        dataset_rankings[dataset] = {
+                            'total_users': users,  # Latest snapshot value
+                            'avg_users': round(avg_users, 2),
+                            'appearances': appearances,
+                            'std_users': round(std_users, 2)
+                        }
+
+                    # Summary statistics
+                    latest_total_users = sum(latest_snapshot.values())
+                    total_datasets = len(latest_snapshot)
+                    
+                    # Growth rate calculation (compare first and last snapshots)
+                    if len(sorted_dates) > 1:
+                        first_snapshot_total = sum(moving_window_snapshots[sorted_dates[0]].values())
+                        last_snapshot_total = sum(moving_window_snapshots[sorted_dates[-1]].values())
+                        growth_rate = ((last_snapshot_total - first_snapshot_total) / first_snapshot_total * 100) if first_snapshot_total > 0 else 0
+                    else:
+                        growth_rate = 0
+
+                    # Peak snapshot
+                    peak_snapshot_date = max(snapshot_trends.keys(), key=lambda d: snapshot_trends[d]['total_users'])
+                    peak_snapshot = {
+                        'date': peak_snapshot_date,
+                        'total_users': snapshot_trends[peak_snapshot_date]['total_users'],
+                        'dataset_count': snapshot_trends[peak_snapshot_date]['dataset_count']
+                    }
+
+                    # Peak dataset (from latest snapshot)
+                    peak_dataset = max(latest_snapshot.items(), key=lambda x: x[1]) if latest_snapshot else ('N/A', 0)
+                    peak_dataset_info = {
+                        'name': peak_dataset[0],
+                        'total_users': peak_dataset[1],
+                        'avg_users': dataset_rankings.get(peak_dataset[0], {}).get('avg_users', 0)
+                    }
+
+                    # Weekly and monthly aggregations of snapshots
+                    weekly_trends = {}
+                    monthly_trends = {}
+                    
+                    for date_str, trend_data in snapshot_trends.items():
+                        date_obj = datetime.strptime(date_str, '%Y-%m-%d')
+                        
+                        # Weekly grouping
+                        week_label = date_obj.strftime('%Y-W%U')
+                        if week_label not in weekly_trends:
+                            weekly_trends[week_label] = {
+                                'total_users': 0,
+                                'count': 0,
+                                'dates': [],
+                                'start_date': date_obj,
+                                'end_date': date_obj
+                            }
+                        weekly_trends[week_label]['total_users'] += trend_data['total_users']
+                        weekly_trends[week_label]['count'] += 1
+                        weekly_trends[week_label]['dates'].append(date_str)
+                        weekly_trends[week_label]['start_date'] = min(weekly_trends[week_label]['start_date'], date_obj)
+                        weekly_trends[week_label]['end_date'] = max(weekly_trends[week_label]['end_date'], date_obj)
+                        
+                        # Monthly grouping
+                        month_label = date_obj.strftime('%Y-%m')
+                        if month_label not in monthly_trends:
+                            monthly_trends[month_label] = {
+                                'total_users': 0,
+                                'count': 0,
+                                'values': []
+                            }
+                        monthly_trends[month_label]['total_users'] += trend_data['total_users']
+                        monthly_trends[month_label]['count'] += 1
+                        monthly_trends[month_label]['values'].append(trend_data['total_users'])
+
+                    # Finalize weekly and monthly data
+                    for week_data in weekly_trends.values():
+                        week_data['avg_users'] = round(week_data['total_users'] / week_data['count'], 2)
+                        week_data['unique_datasets'] = len(set().union(*[moving_window_snapshots[d].keys() for d in week_data['dates']]))
+                        week_data['date_range'] = f"{week_data['start_date'].strftime('%Y-%m-%d')} to {week_data['end_date'].strftime('%Y-%m-%d')}"
+                        # Clean up temporary fields
+                        del week_data['count'], week_data['dates'], week_data['start_date'], week_data['end_date']
+
+                    for month_data in monthly_trends.values():
+                        month_data['avg_users'] = round(month_data['total_users'] / month_data['count'], 2)
+                        month_data['std_users'] = round(pd.Series(month_data['values']).std(), 2) if len(month_data['values']) > 1 else 0
+                        month_data['unique_datasets'] = month_data['count']  # Simplified for now
+                        # Clean up temporary fields
+                        del month_data['count'], month_data['values']
+
+                    stats = {
+                        "moving_window_snapshots": moving_window_snapshots,  # Key format for the template
+                        "data_type": "moving_window",  # Flag to indicate data type
+                        "window_size_days": 30,  # Document the window size
+                        "summary": {
+                            "total_datasets": total_datasets,
+                            "total_usage_events": len(moving_window_snapshots),  # Number of snapshots
+                            "latest_total_users": latest_total_users,  # Users in latest 30-day window
+                            "avg_users_per_dataset": round(latest_total_users / total_datasets, 2) if total_datasets > 0 else 0,
+                            "date_range": {
+                                "start": sorted_dates[0],
+                                "end": sorted_dates[-1]
+                            },
+                            "growth_rate": round(growth_rate, 2)
+                        },
+                        "peaks": {
+                            "peak_snapshot": peak_snapshot,
+                            "peak_dataset": peak_dataset_info
+                        },
+                        "dataset_rankings": dataset_rankings,
+                        "snapshot_trends": snapshot_trends,
+                        "weekly_trends": weekly_trends,
+                        "monthly_trends": monthly_trends
+                    }
+                    
+                    self.processed_stats = stats
+                    return stats
+
+                def generate_json_output(self, output_file: str = "object_stats.json") -> None:
+                    """Generate JSON output file."""
+                    if not self.processed_stats:
+                        logger.error("No processed stats available. Run _calculate_moving_window_statistics first.")
+                        return
+
+                    try:
+                        with open(output_file, 'w', encoding='utf-8') as f:
+                            json.dump(self.processed_stats, f, indent=2, ensure_ascii=False)
+                        logger.info(f"Successfully generated JSON output: {output_file}")
+                    except IOError as e:
+                        logger.error(f"Failed to write JSON output to {output_file}: {e}")
+
+                def process_and_generate_json(self, end_date: Optional[date] = None,
+                                              output_file: str = "object_stats.json",
+                                              max_workers: int = 12) -> None:
+                    """Main method to process moving window data and generate JSON output."""
+                    logger.info("Starting Earth Engine moving window stats processing...")
+                    self.collect_all_data(end_date, max_workers)
+
+                    if not self.moving_window_data:
+                        logger.error("No moving window data collected. Aborting JSON generation.")
+                        return
+
+                    logger.info("Calculating moving window statistics...")
+                    self._calculate_moving_window_statistics()
+
+                    logger.info("Generating JSON output...")
+                    self.generate_json_output(output_file)
+
+                    # Log summary information
+                    logger.info(f"Processing complete. Summary:")
+                    logger.info(f"  - Moving window snapshots: {len(self.moving_window_data)}")
+                    logger.info(f"  - Latest snapshot datasets: {self.processed_stats['summary']['total_datasets']}")
+                    logger.info(f"  - Latest 30-day window users: {self.processed_stats['summary']['latest_total_users']:,}")
+                    logger.info(f"  - Snapshot date range: {self.processed_stats['summary']['date_range']['start']} to {self.processed_stats['summary']['date_range']['end']}")
+                    logger.info(f"  - Growth rate: {self.processed_stats['summary']['growth_rate']:.2f}%")
+
+            # Main execution
+            processor = EarthEngineStatsProcessor()
+            processor.process_and_generate_json(end_date=None, output_file="object_stats.json", max_workers=12)
+            
+      - name: Verify JSON output
+        run: |
+          if [ -f "object_stats.json" ]; then
+            echo "JSON file generated successfully"
+            echo "File size: $(stat -c%s object_stats.json) bytes"
+            echo "First few lines:"
+            head -10 object_stats.json
+          else
+            echo "ERROR: JSON file was not generated"
+            exit 1
+          fi
+          
+      - name: Commit and push changes
+        run: |
+          export TZ="America/Chicago"
+          today=$(date +"%Y-%m-%d %H:%M CDT")
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add object_stats.json
+          git commit -m "Updated Earth Engine moving window stats ${today}" -a
+          git push
+          
+      - name: Cleanup
+        if: always()
+        run: |
+          rm -f /tmp/gcp-key.json
