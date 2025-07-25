@@ -1,49 +1,49 @@
 {
   "moving_window_snapshots": {
-    "2024-04-25": {
-      "projects/sat-io/open-datasets/GLOBathy/GLOBathy_bathymetry": 149,
-      "projects/sat-io/open-datasets/ORNL/LANDSCAN_GLOBAL": 188,
-      "projects/sat-io/open-datasets/us-drought-monitor": 80
-    },
     "2024-05-04": {
       "projects/sat-io/open-datasets/GLOBathy/GLOBathy_bathymetry": 140,
       "projects/sat-io/open-datasets/ORNL/LANDSCAN_GLOBAL": 197,
       "projects/sat-io/open-datasets/us-drought-monitor": 73
-    },
-    "2024-04-30": {
-      "projects/sat-io/open-datasets/GLOBathy/GLOBathy_bathymetry": 143,
-      "projects/sat-io/open-datasets/ORNL/LANDSCAN_GLOBAL": 192,
-      "projects/sat-io/open-datasets/us-drought-monitor": 76
     },
     "2024-04-26": {
       "projects/sat-io/open-datasets/GLOBathy/GLOBathy_bathymetry": 146,
       "projects/sat-io/open-datasets/ORNL/LANDSCAN_GLOBAL": 190,
       "projects/sat-io/open-datasets/us-drought-monitor": 77
     },
-    "2024-05-03": {
+    "2024-04-30": {
       "projects/sat-io/open-datasets/GLOBathy/GLOBathy_bathymetry": 143,
-      "projects/sat-io/open-datasets/ORNL/LANDSCAN_GLOBAL": 196,
-      "projects/sat-io/open-datasets/us-drought-monitor": 74
-    },
-    "2024-05-02": {
-      "projects/sat-io/open-datasets/GLOBathy/GLOBathy_bathymetry": 148,
-      "projects/sat-io/open-datasets/ORNL/LANDSCAN_GLOBAL": 199,
-      "projects/sat-io/open-datasets/us-drought-monitor": 77
+      "projects/sat-io/open-datasets/ORNL/LANDSCAN_GLOBAL": 192,
+      "projects/sat-io/open-datasets/us-drought-monitor": 76
     },
     "2024-04-28": {
       "projects/sat-io/open-datasets/GLOBathy/GLOBathy_bathymetry": 145,
       "projects/sat-io/open-datasets/ORNL/LANDSCAN_GLOBAL": 188,
       "projects/sat-io/open-datasets/us-drought-monitor": 74
     },
-    "2024-05-01": {
-      "projects/sat-io/open-datasets/GLOBathy/GLOBathy_bathymetry": 144,
-      "projects/sat-io/open-datasets/ORNL/LANDSCAN_GLOBAL": 195,
-      "projects/sat-io/open-datasets/us-drought-monitor": 77
+    "2024-04-25": {
+      "projects/sat-io/open-datasets/GLOBathy/GLOBathy_bathymetry": 149,
+      "projects/sat-io/open-datasets/ORNL/LANDSCAN_GLOBAL": 188,
+      "projects/sat-io/open-datasets/us-drought-monitor": 80
+    },
+    "2024-05-03": {
+      "projects/sat-io/open-datasets/GLOBathy/GLOBathy_bathymetry": 143,
+      "projects/sat-io/open-datasets/ORNL/LANDSCAN_GLOBAL": 196,
+      "projects/sat-io/open-datasets/us-drought-monitor": 74
     },
     "2024-04-24": {
       "projects/sat-io/open-datasets/GLOBathy/GLOBathy_bathymetry": 153,
       "projects/sat-io/open-datasets/ORNL/LANDSCAN_GLOBAL": 190,
       "projects/sat-io/open-datasets/us-drought-monitor": 81
+    },
+    "2024-05-01": {
+      "projects/sat-io/open-datasets/GLOBathy/GLOBathy_bathymetry": 144,
+      "projects/sat-io/open-datasets/ORNL/LANDSCAN_GLOBAL": 195,
+      "projects/sat-io/open-datasets/us-drought-monitor": 77
+    },
+    "2024-05-02": {
+      "projects/sat-io/open-datasets/GLOBathy/GLOBathy_bathymetry": 148,
+      "projects/sat-io/open-datasets/ORNL/LANDSCAN_GLOBAL": 199,
+      "projects/sat-io/open-datasets/us-drought-monitor": 77
     },
     "2024-04-29": {
       "projects/sat-io/open-datasets/GLOBathy/GLOBathy_bathymetry": 145,
@@ -55,19 +55,19 @@
       "projects/sat-io/open-datasets/ORNL/LANDSCAN_GLOBAL": 194,
       "projects/sat-io/open-datasets/us-drought-monitor": 74
     },
+    "2024-05-06": {
+      "projects/sat-io/open-datasets/GLOBathy/GLOBathy_bathymetry": 143,
+      "projects/sat-io/open-datasets/ORNL/LANDSCAN_GLOBAL": 197,
+      "projects/sat-io/open-datasets/us-drought-monitor": 72
+    },
     "2024-05-07": {
       "projects/sat-io/open-datasets/GLOBathy/GLOBathy_bathymetry": 146,
       "projects/sat-io/open-datasets/ORNL/LANDSCAN_GLOBAL": 199,
       "projects/sat-io/open-datasets/us-drought-monitor": 69
     },
-    "2024-05-10": {
-      "projects/sat-io/open-datasets/GLOBathy/GLOBathy_bathymetry": 158,
-      "projects/sat-io/open-datasets/ORNL/LANDSCAN_GLOBAL": 198,
-      "projects/sat-io/open-datasets/us-drought-monitor": 71
-    },
-    "2024-05-06": {
-      "projects/sat-io/open-datasets/GLOBathy/GLOBathy_bathymetry": 143,
-      "projects/sat-io/open-datasets/ORNL/LANDSCAN_GLOBAL": 197,
+    "2024-05-08": {
+      "projects/sat-io/open-datasets/GLOBathy/GLOBathy_bathymetry": 154,
+      "projects/sat-io/open-datasets/ORNL/LANDSCAN_GLOBAL": 200,
       "projects/sat-io/open-datasets/us-drought-monitor": 72
     },
     "2024-05-09": {
@@ -75,25 +75,30 @@
       "projects/sat-io/open-datasets/ORNL/LANDSCAN_GLOBAL": 198,
       "projects/sat-io/open-datasets/us-drought-monitor": 72
     },
-    "2024-05-16": {
-      "projects/sat-io/open-datasets/GLOBathy/GLOBathy_bathymetry": 171,
-      "projects/sat-io/open-datasets/ORNL/LANDSCAN_GLOBAL": 201,
-      "projects/sat-io/open-datasets/us-drought-monitor": 71
-    },
-    "2024-05-08": {
-      "projects/sat-io/open-datasets/GLOBathy/GLOBathy_bathymetry": 154,
-      "projects/sat-io/open-datasets/ORNL/LANDSCAN_GLOBAL": 200,
-      "projects/sat-io/open-datasets/us-drought-monitor": 72
+    "2024-05-13": {
+      "projects/sat-io/open-datasets/GLOBathy/GLOBathy_bathymetry": 159,
+      "projects/sat-io/open-datasets/ORNL/LANDSCAN_GLOBAL": 190,
+      "projects/sat-io/open-datasets/us-drought-monitor": 68
     },
     "2024-05-11": {
       "projects/sat-io/open-datasets/GLOBathy/GLOBathy_bathymetry": 153,
       "projects/sat-io/open-datasets/ORNL/LANDSCAN_GLOBAL": 190,
       "projects/sat-io/open-datasets/us-drought-monitor": 67
     },
-    "2024-05-13": {
-      "projects/sat-io/open-datasets/GLOBathy/GLOBathy_bathymetry": 159,
-      "projects/sat-io/open-datasets/ORNL/LANDSCAN_GLOBAL": 190,
-      "projects/sat-io/open-datasets/us-drought-monitor": 68
+    "2024-05-16": {
+      "projects/sat-io/open-datasets/GLOBathy/GLOBathy_bathymetry": 171,
+      "projects/sat-io/open-datasets/ORNL/LANDSCAN_GLOBAL": 201,
+      "projects/sat-io/open-datasets/us-drought-monitor": 71
+    },
+    "2024-05-10": {
+      "projects/sat-io/open-datasets/GLOBathy/GLOBathy_bathymetry": 158,
+      "projects/sat-io/open-datasets/ORNL/LANDSCAN_GLOBAL": 198,
+      "projects/sat-io/open-datasets/us-drought-monitor": 71
+    },
+    "2024-05-14": {
+      "projects/sat-io/open-datasets/GLOBathy/GLOBathy_bathymetry": 167,
+      "projects/sat-io/open-datasets/ORNL/LANDSCAN_GLOBAL": 198,
+      "projects/sat-io/open-datasets/us-drought-monitor": 69
     },
     "2024-05-15": {
       "projects/sat-io/open-datasets/GLOBathy/GLOBathy_bathymetry": 171,
@@ -104,11 +109,6 @@
       "projects/sat-io/open-datasets/GLOBathy/GLOBathy_bathymetry": 153,
       "projects/sat-io/open-datasets/ORNL/LANDSCAN_GLOBAL": 187,
       "projects/sat-io/open-datasets/us-drought-monitor": 67
-    },
-    "2024-05-14": {
-      "projects/sat-io/open-datasets/GLOBathy/GLOBathy_bathymetry": 167,
-      "projects/sat-io/open-datasets/ORNL/LANDSCAN_GLOBAL": 198,
-      "projects/sat-io/open-datasets/us-drought-monitor": 69
     },
     "2024-05-17": {
       "projects/sat-io/open-datasets/GLOBathy/GLOBathy_bathymetry": 171,
@@ -125,35 +125,15 @@
       "projects/sat-io/open-datasets/ORNL/LANDSCAN_GLOBAL": 201,
       "projects/sat-io/open-datasets/us-drought-monitor": 67
     },
-    "2024-05-21": {
-      "projects/sat-io/open-datasets/GLOBathy/GLOBathy_bathymetry": 169,
-      "projects/sat-io/open-datasets/ORNL/LANDSCAN_GLOBAL": 208,
-      "projects/sat-io/open-datasets/us-drought-monitor": 67
-    },
-    "2024-05-22": {
-      "projects/sat-io/open-datasets/GLOBathy/GLOBathy_bathymetry": 167,
-      "projects/sat-io/open-datasets/ORNL/LANDSCAN_GLOBAL": 209,
-      "projects/sat-io/open-datasets/us-drought-monitor": 67
-    },
     "2024-05-20": {
       "projects/sat-io/open-datasets/GLOBathy/GLOBathy_bathymetry": 170,
       "projects/sat-io/open-datasets/ORNL/LANDSCAN_GLOBAL": 204,
       "projects/sat-io/open-datasets/us-drought-monitor": 68
     },
-    "2024-05-23": {
-      "projects/sat-io/open-datasets/GLOBathy/GLOBathy_bathymetry": 170,
+    "2024-05-21": {
+      "projects/sat-io/open-datasets/GLOBathy/GLOBathy_bathymetry": 169,
       "projects/sat-io/open-datasets/ORNL/LANDSCAN_GLOBAL": 208,
-      "projects/sat-io/open-datasets/us-drought-monitor": 66
-    },
-    "2024-05-24": {
-      "projects/sat-io/open-datasets/GLOBathy/GLOBathy_bathymetry": 167,
-      "projects/sat-io/open-datasets/ORNL/LANDSCAN_GLOBAL": 206,
-      "projects/sat-io/open-datasets/us-drought-monitor": 63
-    },
-    "2024-05-27": {
-      "projects/sat-io/open-datasets/GLOBathy/GLOBathy_bathymetry": 166,
-      "projects/sat-io/open-datasets/ORNL/LANDSCAN_GLOBAL": 204,
-      "projects/sat-io/open-datasets/us-drought-monitor": 61
+      "projects/sat-io/open-datasets/us-drought-monitor": 67
     },
     "2024-05-25": {
       "projects/sat-io/open-datasets/GLOBathy/GLOBathy_bathymetry": 165,
@@ -165,10 +145,30 @@
       "projects/sat-io/open-datasets/ORNL/LANDSCAN_GLOBAL": 200,
       "projects/sat-io/open-datasets/us-drought-monitor": 60
     },
+    "2024-05-23": {
+      "projects/sat-io/open-datasets/GLOBathy/GLOBathy_bathymetry": 170,
+      "projects/sat-io/open-datasets/ORNL/LANDSCAN_GLOBAL": 208,
+      "projects/sat-io/open-datasets/us-drought-monitor": 66
+    },
+    "2024-05-22": {
+      "projects/sat-io/open-datasets/GLOBathy/GLOBathy_bathymetry": 167,
+      "projects/sat-io/open-datasets/ORNL/LANDSCAN_GLOBAL": 209,
+      "projects/sat-io/open-datasets/us-drought-monitor": 67
+    },
+    "2024-05-27": {
+      "projects/sat-io/open-datasets/GLOBathy/GLOBathy_bathymetry": 166,
+      "projects/sat-io/open-datasets/ORNL/LANDSCAN_GLOBAL": 204,
+      "projects/sat-io/open-datasets/us-drought-monitor": 61
+    },
     "2024-05-28": {
       "projects/sat-io/open-datasets/GLOBathy/GLOBathy_bathymetry": 166,
       "projects/sat-io/open-datasets/ORNL/LANDSCAN_GLOBAL": 202,
       "projects/sat-io/open-datasets/us-drought-monitor": 59
+    },
+    "2024-05-24": {
+      "projects/sat-io/open-datasets/GLOBathy/GLOBathy_bathymetry": 167,
+      "projects/sat-io/open-datasets/ORNL/LANDSCAN_GLOBAL": 206,
+      "projects/sat-io/open-datasets/us-drought-monitor": 63
     },
     "2024-05-29": {
       "projects/sat-io/open-datasets/GLOBathy/GLOBathy_bathymetry": 167,
@@ -195,30 +195,30 @@
       "projects/sat-io/open-datasets/ORNL/LANDSCAN_GLOBAL": 188,
       "projects/sat-io/open-datasets/us-drought-monitor": 50
     },
-    "2024-06-03": {
-      "projects/sat-io/open-datasets/GLOBathy/GLOBathy_bathymetry": 173,
-      "projects/sat-io/open-datasets/ORNL/LANDSCAN_GLOBAL": 190,
-      "projects/sat-io/open-datasets/us-drought-monitor": 51
+    "2024-06-05": {
+      "projects/sat-io/open-datasets/GLOBathy/GLOBathy_bathymetry": 171,
+      "projects/sat-io/open-datasets/ORNL/LANDSCAN_GLOBAL": 192
+    },
+    "2024-06-07": {
+      "projects/sat-io/open-datasets/GLOBathy/GLOBathy_bathymetry": 160,
+      "projects/sat-io/open-datasets/ORNL/LANDSCAN_GLOBAL": 187
     },
     "2024-06-06": {
       "projects/sat-io/open-datasets/GLOBathy/GLOBathy_bathymetry": 170,
       "projects/sat-io/open-datasets/ORNL/LANDSCAN_GLOBAL": 193
     },
-    "2024-06-05": {
-      "projects/sat-io/open-datasets/GLOBathy/GLOBathy_bathymetry": 171,
-      "projects/sat-io/open-datasets/ORNL/LANDSCAN_GLOBAL": 192
-    },
-    "2024-06-04": {
-      "projects/sat-io/open-datasets/GLOBathy/GLOBathy_bathymetry": 176,
-      "projects/sat-io/open-datasets/ORNL/LANDSCAN_GLOBAL": 194
+    "2024-06-03": {
+      "projects/sat-io/open-datasets/GLOBathy/GLOBathy_bathymetry": 173,
+      "projects/sat-io/open-datasets/ORNL/LANDSCAN_GLOBAL": 190,
+      "projects/sat-io/open-datasets/us-drought-monitor": 51
     },
     "2024-06-09": {
       "projects/sat-io/open-datasets/GLOBathy/GLOBathy_bathymetry": 151,
       "projects/sat-io/open-datasets/ORNL/LANDSCAN_GLOBAL": 180
     },
-    "2024-06-07": {
-      "projects/sat-io/open-datasets/GLOBathy/GLOBathy_bathymetry": 160,
-      "projects/sat-io/open-datasets/ORNL/LANDSCAN_GLOBAL": 187
+    "2024-06-04": {
+      "projects/sat-io/open-datasets/GLOBathy/GLOBathy_bathymetry": 176,
+      "projects/sat-io/open-datasets/ORNL/LANDSCAN_GLOBAL": 194
     },
     "2024-06-08": {
       "projects/sat-io/open-datasets/GLOBathy/GLOBathy_bathymetry": 155,
@@ -232,16 +232,6 @@
       "projects/sat-io/open-datasets/GLOBathy/GLOBathy_bathymetry": 152,
       "projects/sat-io/open-datasets/ORNL/LANDSCAN_GLOBAL": 187
     },
-    "2024-06-12": {
-      "projects/sat-io/open-datasets/GLOBathy/GLOBathy_bathymetry": 151,
-      "projects/sat-io/open-datasets/ORNL/LANDSCAN_GLOBAL": 190,
-      "projects/sat-io/open-datasets/us-drought-monitor": 50
-    },
-    "2024-06-14": {
-      "projects/sat-io/open-datasets/GLOBathy/GLOBathy_bathymetry": 144,
-      "projects/sat-io/open-datasets/ORNL/LANDSCAN_GLOBAL": 179,
-      "projects/sat-io/open-datasets/us-drought-monitor": 54
-    },
     "2024-06-13": {
       "projects/sat-io/open-datasets/GLOBathy/GLOBathy_bathymetry": 148,
       "projects/sat-io/open-datasets/ORNL/LANDSCAN_GLOBAL": 182,
@@ -252,25 +242,15 @@
       "projects/sat-io/open-datasets/ORNL/LANDSCAN_GLOBAL": 172,
       "projects/sat-io/open-datasets/us-drought-monitor": 53
     },
-    "2024-06-21": {
-      "projects/sat-io/open-datasets/GLOBathy/GLOBathy_bathymetry": 152,
-      "projects/sat-io/open-datasets/ORNL/LANDSCAN_GLOBAL": 161,
-      "projects/sat-io/open-datasets/us-drought-monitor": 58
-    },
-    "2024-06-18": {
-      "projects/sat-io/open-datasets/GLOBathy/GLOBathy_bathymetry": 142,
-      "projects/sat-io/open-datasets/ORNL/LANDSCAN_GLOBAL": 174,
+    "2024-06-14": {
+      "projects/sat-io/open-datasets/GLOBathy/GLOBathy_bathymetry": 144,
+      "projects/sat-io/open-datasets/ORNL/LANDSCAN_GLOBAL": 179,
       "projects/sat-io/open-datasets/us-drought-monitor": 54
     },
-    "2024-06-17": {
-      "projects/sat-io/open-datasets/GLOBathy/GLOBathy_bathymetry": 140,
-      "projects/sat-io/open-datasets/ORNL/LANDSCAN_GLOBAL": 174,
-      "projects/sat-io/open-datasets/us-drought-monitor": 52
-    },
-    "2024-06-19": {
-      "projects/sat-io/open-datasets/GLOBathy/GLOBathy_bathymetry": 146,
-      "projects/sat-io/open-datasets/ORNL/LANDSCAN_GLOBAL": 168,
-      "projects/sat-io/open-datasets/us-drought-monitor": 56
+    "2024-06-12": {
+      "projects/sat-io/open-datasets/GLOBathy/GLOBathy_bathymetry": 151,
+      "projects/sat-io/open-datasets/ORNL/LANDSCAN_GLOBAL": 190,
+      "projects/sat-io/open-datasets/us-drought-monitor": 50
     },
     "2024-06-20": {
       "projects/sat-io/open-datasets/GLOBathy/GLOBathy_bathymetry": 150,
@@ -282,14 +262,29 @@
       "projects/sat-io/open-datasets/ORNL/LANDSCAN_GLOBAL": 172,
       "projects/sat-io/open-datasets/us-drought-monitor": 51
     },
+    "2024-06-21": {
+      "projects/sat-io/open-datasets/GLOBathy/GLOBathy_bathymetry": 152,
+      "projects/sat-io/open-datasets/ORNL/LANDSCAN_GLOBAL": 161,
+      "projects/sat-io/open-datasets/us-drought-monitor": 58
+    },
+    "2024-06-17": {
+      "projects/sat-io/open-datasets/GLOBathy/GLOBathy_bathymetry": 140,
+      "projects/sat-io/open-datasets/ORNL/LANDSCAN_GLOBAL": 174,
+      "projects/sat-io/open-datasets/us-drought-monitor": 52
+    },
+    "2024-06-18": {
+      "projects/sat-io/open-datasets/GLOBathy/GLOBathy_bathymetry": 142,
+      "projects/sat-io/open-datasets/ORNL/LANDSCAN_GLOBAL": 174,
+      "projects/sat-io/open-datasets/us-drought-monitor": 54
+    },
+    "2024-06-19": {
+      "projects/sat-io/open-datasets/GLOBathy/GLOBathy_bathymetry": 146,
+      "projects/sat-io/open-datasets/ORNL/LANDSCAN_GLOBAL": 168,
+      "projects/sat-io/open-datasets/us-drought-monitor": 56
+    },
     "2024-06-22": {
       "projects/sat-io/open-datasets/GLOBathy/GLOBathy_bathymetry": 149,
       "projects/sat-io/open-datasets/ORNL/LANDSCAN_GLOBAL": 160,
-      "projects/sat-io/open-datasets/us-drought-monitor": 60
-    },
-    "2024-06-24": {
-      "projects/sat-io/open-datasets/GLOBathy/GLOBathy_bathymetry": 147,
-      "projects/sat-io/open-datasets/ORNL/LANDSCAN_GLOBAL": 172,
       "projects/sat-io/open-datasets/us-drought-monitor": 60
     },
     "2024-06-23": {
@@ -297,20 +292,40 @@
       "projects/sat-io/open-datasets/ORNL/LANDSCAN_GLOBAL": 159,
       "projects/sat-io/open-datasets/us-drought-monitor": 57
     },
-    "2024-06-25": {
+    "2024-06-24": {
       "projects/sat-io/open-datasets/GLOBathy/GLOBathy_bathymetry": 147,
-      "projects/sat-io/open-datasets/ORNL/LANDSCAN_GLOBAL": 175,
-      "projects/sat-io/open-datasets/us-drought-monitor": 61
+      "projects/sat-io/open-datasets/ORNL/LANDSCAN_GLOBAL": 172,
+      "projects/sat-io/open-datasets/us-drought-monitor": 60
+    },
+    "2024-06-27": {
+      "projects/sat-io/open-datasets/GLOBathy/GLOBathy_bathymetry": 150,
+      "projects/sat-io/open-datasets/ORNL/LANDSCAN_GLOBAL": 181,
+      "projects/sat-io/open-datasets/us-drought-monitor": 62
     },
     "2024-06-26": {
       "projects/sat-io/open-datasets/GLOBathy/GLOBathy_bathymetry": 148,
       "projects/sat-io/open-datasets/ORNL/LANDSCAN_GLOBAL": 179,
       "projects/sat-io/open-datasets/us-drought-monitor": 63
     },
-    "2024-06-27": {
-      "projects/sat-io/open-datasets/GLOBathy/GLOBathy_bathymetry": 150,
-      "projects/sat-io/open-datasets/ORNL/LANDSCAN_GLOBAL": 181,
-      "projects/sat-io/open-datasets/us-drought-monitor": 62
+    "2024-06-25": {
+      "projects/sat-io/open-datasets/GLOBathy/GLOBathy_bathymetry": 147,
+      "projects/sat-io/open-datasets/ORNL/LANDSCAN_GLOBAL": 175,
+      "projects/sat-io/open-datasets/us-drought-monitor": 61
+    },
+    "2024-06-29": {
+      "projects/sat-io/open-datasets/GLOBathy/GLOBathy_bathymetry": 148,
+      "projects/sat-io/open-datasets/ORNL/LANDSCAN_GLOBAL": 177,
+      "projects/sat-io/open-datasets/us-drought-monitor": 63
+    },
+    "2024-07-03": {
+      "projects/sat-io/open-datasets/GLOBathy/GLOBathy_bathymetry": 140,
+      "projects/sat-io/open-datasets/ORNL/LANDSCAN_GLOBAL": 174,
+      "projects/sat-io/open-datasets/us-drought-monitor": 60
+    },
+    "2024-06-30": {
+      "projects/sat-io/open-datasets/GLOBathy/GLOBathy_bathymetry": 147,
+      "projects/sat-io/open-datasets/ORNL/LANDSCAN_GLOBAL": 172,
+      "projects/sat-io/open-datasets/us-drought-monitor": 61
     },
     "2024-07-01": {
       "projects/sat-io/open-datasets/GLOBathy/GLOBathy_bathymetry": 148,
@@ -322,21 +337,6 @@
       "projects/sat-io/open-datasets/ORNL/LANDSCAN_GLOBAL": 180,
       "projects/sat-io/open-datasets/us-drought-monitor": 63
     },
-    "2024-07-03": {
-      "projects/sat-io/open-datasets/GLOBathy/GLOBathy_bathymetry": 140,
-      "projects/sat-io/open-datasets/ORNL/LANDSCAN_GLOBAL": 174,
-      "projects/sat-io/open-datasets/us-drought-monitor": 60
-    },
-    "2024-06-29": {
-      "projects/sat-io/open-datasets/GLOBathy/GLOBathy_bathymetry": 148,
-      "projects/sat-io/open-datasets/ORNL/LANDSCAN_GLOBAL": 177,
-      "projects/sat-io/open-datasets/us-drought-monitor": 63
-    },
-    "2024-06-30": {
-      "projects/sat-io/open-datasets/GLOBathy/GLOBathy_bathymetry": 147,
-      "projects/sat-io/open-datasets/ORNL/LANDSCAN_GLOBAL": 172,
-      "projects/sat-io/open-datasets/us-drought-monitor": 61
-    },
     "2024-07-02": {
       "projects/sat-io/open-datasets/GLOBathy/GLOBathy_bathymetry": 148,
       "projects/sat-io/open-datasets/ORNL/LANDSCAN_GLOBAL": 175,
@@ -347,15 +347,20 @@
       "projects/sat-io/open-datasets/ORNL/LANDSCAN_GLOBAL": 178,
       "projects/sat-io/open-datasets/us-drought-monitor": 61
     },
+    "2024-07-05": {
+      "projects/sat-io/open-datasets/GLOBathy/GLOBathy_bathymetry": 145,
+      "projects/sat-io/open-datasets/ORNL/LANDSCAN_GLOBAL": 182,
+      "projects/sat-io/open-datasets/us-drought-monitor": 61
+    },
     "2024-07-06": {
       "projects/sat-io/open-datasets/GLOBathy/GLOBathy_bathymetry": 144,
       "projects/sat-io/open-datasets/ORNL/LANDSCAN_GLOBAL": 179,
       "projects/sat-io/open-datasets/us-drought-monitor": 64
     },
-    "2024-07-05": {
-      "projects/sat-io/open-datasets/GLOBathy/GLOBathy_bathymetry": 145,
-      "projects/sat-io/open-datasets/ORNL/LANDSCAN_GLOBAL": 182,
-      "projects/sat-io/open-datasets/us-drought-monitor": 61
+    "2024-07-08": {
+      "projects/sat-io/open-datasets/GLOBathy/GLOBathy_bathymetry": 148,
+      "projects/sat-io/open-datasets/ORNL/LANDSCAN_GLOBAL": 184,
+      "projects/sat-io/open-datasets/us-drought-monitor": 68
     },
     "2024-07-07": {
       "projects/sat-io/open-datasets/GLOBathy/GLOBathy_bathymetry": 146,
@@ -367,25 +372,25 @@
       "projects/sat-io/open-datasets/ORNL/LANDSCAN_GLOBAL": 186,
       "projects/sat-io/open-datasets/us-drought-monitor": 70
     },
-    "2024-07-08": {
-      "projects/sat-io/open-datasets/GLOBathy/GLOBathy_bathymetry": 148,
-      "projects/sat-io/open-datasets/ORNL/LANDSCAN_GLOBAL": 184,
-      "projects/sat-io/open-datasets/us-drought-monitor": 68
-    },
-    "2024-07-11": {
-      "projects/sat-io/open-datasets/GLOBathy/GLOBathy_bathymetry": 157,
-      "projects/sat-io/open-datasets/ORNL/LANDSCAN_GLOBAL": 192,
-      "projects/sat-io/open-datasets/us-drought-monitor": 69
+    "2024-07-10": {
+      "projects/sat-io/open-datasets/GLOBathy/GLOBathy_bathymetry": 155,
+      "projects/sat-io/open-datasets/ORNL/LANDSCAN_GLOBAL": 196,
+      "projects/sat-io/open-datasets/us-drought-monitor": 70
     },
     "2024-07-12": {
       "projects/sat-io/open-datasets/GLOBathy/GLOBathy_bathymetry": 154,
       "projects/sat-io/open-datasets/ORNL/LANDSCAN_GLOBAL": 192,
       "projects/sat-io/open-datasets/us-drought-monitor": 67
     },
-    "2024-07-10": {
-      "projects/sat-io/open-datasets/GLOBathy/GLOBathy_bathymetry": 155,
-      "projects/sat-io/open-datasets/ORNL/LANDSCAN_GLOBAL": 196,
-      "projects/sat-io/open-datasets/us-drought-monitor": 70
+    "2024-07-14": {
+      "projects/sat-io/open-datasets/GLOBathy/GLOBathy_bathymetry": 147,
+      "projects/sat-io/open-datasets/ORNL/LANDSCAN_GLOBAL": 193,
+      "projects/sat-io/open-datasets/us-drought-monitor": 66
+    },
+    "2024-07-11": {
+      "projects/sat-io/open-datasets/GLOBathy/GLOBathy_bathymetry": 157,
+      "projects/sat-io/open-datasets/ORNL/LANDSCAN_GLOBAL": 192,
+      "projects/sat-io/open-datasets/us-drought-monitor": 69
     },
     "2024-07-13": {
       "projects/sat-io/open-datasets/GLOBathy/GLOBathy_bathymetry": 150,
@@ -396,11 +401,6 @@
       "projects/sat-io/open-datasets/GLOBathy/GLOBathy_bathymetry": 152,
       "projects/sat-io/open-datasets/ORNL/LANDSCAN_GLOBAL": 199,
       "projects/sat-io/open-datasets/us-drought-monitor": 65
-    },
-    "2024-07-14": {
-      "projects/sat-io/open-datasets/GLOBathy/GLOBathy_bathymetry": 147,
-      "projects/sat-io/open-datasets/ORNL/LANDSCAN_GLOBAL": 193,
-      "projects/sat-io/open-datasets/us-drought-monitor": 66
     },
     "2024-07-17": {
       "projects/sat-io/open-datasets/GLOBathy/GLOBathy_bathymetry": 157,
@@ -422,15 +422,20 @@
       "projects/sat-io/open-datasets/ORNL/LANDSCAN_GLOBAL": 203,
       "projects/sat-io/open-datasets/us-drought-monitor": 74
     },
+    "2024-07-22": {
+      "projects/sat-io/open-datasets/GLOBathy/GLOBathy_bathymetry": 148,
+      "projects/sat-io/open-datasets/ORNL/LANDSCAN_GLOBAL": 204,
+      "projects/sat-io/open-datasets/us-drought-monitor": 77
+    },
     "2024-07-21": {
       "projects/sat-io/open-datasets/GLOBathy/GLOBathy_bathymetry": 147,
       "projects/sat-io/open-datasets/ORNL/LANDSCAN_GLOBAL": 205,
       "projects/sat-io/open-datasets/us-drought-monitor": 74
     },
-    "2024-07-22": {
-      "projects/sat-io/open-datasets/GLOBathy/GLOBathy_bathymetry": 148,
-      "projects/sat-io/open-datasets/ORNL/LANDSCAN_GLOBAL": 204,
-      "projects/sat-io/open-datasets/us-drought-monitor": 77
+    "2024-07-24": {
+      "projects/sat-io/open-datasets/GLOBathy/GLOBathy_bathymetry": 153,
+      "projects/sat-io/open-datasets/ORNL/LANDSCAN_GLOBAL": 210,
+      "projects/sat-io/open-datasets/us-drought-monitor": 82
     },
     "2024-07-23": {
       "projects/sat-io/open-datasets/GLOBathy/GLOBathy_bathymetry": 151,
@@ -442,19 +447,14 @@
       "projects/sat-io/open-datasets/ORNL/LANDSCAN_GLOBAL": 212,
       "projects/sat-io/open-datasets/us-drought-monitor": 1386
     },
-    "2024-07-26": {
-      "projects/sat-io/open-datasets/GLOBathy/GLOBathy_bathymetry": 149,
-      "projects/sat-io/open-datasets/ORNL/LANDSCAN_GLOBAL": 208,
-      "projects/sat-io/open-datasets/us-drought-monitor": 1384
-    },
-    "2024-07-24": {
-      "projects/sat-io/open-datasets/GLOBathy/GLOBathy_bathymetry": 153,
-      "projects/sat-io/open-datasets/ORNL/LANDSCAN_GLOBAL": 210,
-      "projects/sat-io/open-datasets/us-drought-monitor": 82
-    },
     "2024-07-27": {
       "projects/sat-io/open-datasets/GLOBathy/GLOBathy_bathymetry": 149,
       "projects/sat-io/open-datasets/ORNL/LANDSCAN_GLOBAL": 205,
+      "projects/sat-io/open-datasets/us-drought-monitor": 1384
+    },
+    "2024-07-26": {
+      "projects/sat-io/open-datasets/GLOBathy/GLOBathy_bathymetry": 149,
+      "projects/sat-io/open-datasets/ORNL/LANDSCAN_GLOBAL": 208,
       "projects/sat-io/open-datasets/us-drought-monitor": 1384
     },
     "2024-07-28": {
@@ -472,6 +472,11 @@
       "projects/sat-io/open-datasets/ORNL/LANDSCAN_GLOBAL": 223,
       "projects/sat-io/open-datasets/us-drought-monitor": 1390
     },
+    "2024-08-01": {
+      "projects/sat-io/open-datasets/GLOBathy/GLOBathy_bathymetry": 145,
+      "projects/sat-io/open-datasets/ORNL/LANDSCAN_GLOBAL": 217,
+      "projects/sat-io/open-datasets/us-drought-monitor": 1388
+    },
     "2024-07-31": {
       "projects/sat-io/open-datasets/GLOBathy/GLOBathy_bathymetry": 147,
       "projects/sat-io/open-datasets/ORNL/LANDSCAN_GLOBAL": 219,
@@ -480,11 +485,6 @@
     "2024-08-02": {
       "projects/sat-io/open-datasets/GLOBathy/GLOBathy_bathymetry": 145,
       "projects/sat-io/open-datasets/ORNL/LANDSCAN_GLOBAL": 214,
-      "projects/sat-io/open-datasets/us-drought-monitor": 1388
-    },
-    "2024-08-01": {
-      "projects/sat-io/open-datasets/GLOBathy/GLOBathy_bathymetry": 145,
-      "projects/sat-io/open-datasets/ORNL/LANDSCAN_GLOBAL": 217,
       "projects/sat-io/open-datasets/us-drought-monitor": 1388
     },
     "2024-08-03": {
@@ -497,30 +497,30 @@
       "projects/sat-io/open-datasets/ORNL/LANDSCAN_GLOBAL": 205,
       "projects/sat-io/open-datasets/us-drought-monitor": 1388
     },
+    "2024-08-05": {
+      "projects/sat-io/open-datasets/GLOBathy/GLOBathy_bathymetry": 146,
+      "projects/sat-io/open-datasets/ORNL/LANDSCAN_GLOBAL": 207,
+      "projects/sat-io/open-datasets/us-drought-monitor": 1386
+    },
     "2024-08-06": {
       "projects/sat-io/open-datasets/GLOBathy/GLOBathy_bathymetry": 145,
       "projects/sat-io/open-datasets/ORNL/LANDSCAN_GLOBAL": 207,
       "projects/sat-io/open-datasets/us-drought-monitor": 1386
-    },
-    "2024-08-07": {
-      "projects/sat-io/open-datasets/GLOBathy/GLOBathy_bathymetry": 150,
-      "projects/sat-io/open-datasets/ORNL/LANDSCAN_GLOBAL": 211,
-      "projects/sat-io/open-datasets/us-drought-monitor": 1388
     },
     "2024-08-08": {
       "projects/sat-io/open-datasets/GLOBathy/GLOBathy_bathymetry": 150,
       "projects/sat-io/open-datasets/ORNL/LANDSCAN_GLOBAL": 211,
       "projects/sat-io/open-datasets/us-drought-monitor": 1392
     },
+    "2024-08-07": {
+      "projects/sat-io/open-datasets/GLOBathy/GLOBathy_bathymetry": 150,
+      "projects/sat-io/open-datasets/ORNL/LANDSCAN_GLOBAL": 211,
+      "projects/sat-io/open-datasets/us-drought-monitor": 1388
+    },
     "2024-08-09": {
       "projects/sat-io/open-datasets/GLOBathy/GLOBathy_bathymetry": 149,
       "projects/sat-io/open-datasets/ORNL/LANDSCAN_GLOBAL": 202,
       "projects/sat-io/open-datasets/us-drought-monitor": 1392
-    },
-    "2024-08-05": {
-      "projects/sat-io/open-datasets/GLOBathy/GLOBathy_bathymetry": 146,
-      "projects/sat-io/open-datasets/ORNL/LANDSCAN_GLOBAL": 207,
-      "projects/sat-io/open-datasets/us-drought-monitor": 1386
     },
     "2024-08-10": {
       "projects/sat-io/open-datasets/GLOBathy/GLOBathy_bathymetry": 143,
@@ -532,25 +532,35 @@
       "projects/sat-io/open-datasets/ORNL/LANDSCAN_GLOBAL": 195,
       "projects/sat-io/open-datasets/us-drought-monitor": 1389
     },
-    "2024-08-12": {
-      "projects/sat-io/open-datasets/GLOBathy/GLOBathy_bathymetry": 139,
-      "projects/sat-io/open-datasets/ORNL/LANDSCAN_GLOBAL": 201,
-      "projects/sat-io/open-datasets/us-drought-monitor": 1392
-    },
     "2024-08-13": {
       "projects/sat-io/open-datasets/GLOBathy/GLOBathy_bathymetry": 143,
       "projects/sat-io/open-datasets/ORNL/LANDSCAN_GLOBAL": 203,
       "projects/sat-io/open-datasets/us-drought-monitor": 1390
+    },
+    "2024-08-14": {
+      "projects/sat-io/open-datasets/GLOBathy/GLOBathy_bathymetry": 145,
+      "projects/sat-io/open-datasets/ORNL/LANDSCAN_GLOBAL": 199,
+      "projects/sat-io/open-datasets/us-drought-monitor": 1391
+    },
+    "2024-08-12": {
+      "projects/sat-io/open-datasets/GLOBathy/GLOBathy_bathymetry": 139,
+      "projects/sat-io/open-datasets/ORNL/LANDSCAN_GLOBAL": 201,
+      "projects/sat-io/open-datasets/us-drought-monitor": 1392
     },
     "2024-08-15": {
       "projects/sat-io/open-datasets/GLOBathy/GLOBathy_bathymetry": 140,
       "projects/sat-io/open-datasets/ORNL/LANDSCAN_GLOBAL": 200,
       "projects/sat-io/open-datasets/us-drought-monitor": 1382
     },
-    "2024-08-14": {
-      "projects/sat-io/open-datasets/GLOBathy/GLOBathy_bathymetry": 145,
-      "projects/sat-io/open-datasets/ORNL/LANDSCAN_GLOBAL": 199,
-      "projects/sat-io/open-datasets/us-drought-monitor": 1391
+    "2024-08-19": {
+      "projects/sat-io/open-datasets/GLOBathy/GLOBathy_bathymetry": 141,
+      "projects/sat-io/open-datasets/ORNL/LANDSCAN_GLOBAL": 192,
+      "projects/sat-io/open-datasets/us-drought-monitor": 1351
+    },
+    "2024-08-18": {
+      "projects/sat-io/open-datasets/GLOBathy/GLOBathy_bathymetry": 140,
+      "projects/sat-io/open-datasets/ORNL/LANDSCAN_GLOBAL": 191,
+      "projects/sat-io/open-datasets/us-drought-monitor": 1351
     },
     "2024-08-16": {
       "projects/sat-io/open-datasets/GLOBathy/GLOBathy_bathymetry": 138,
@@ -562,25 +572,15 @@
       "projects/sat-io/open-datasets/ORNL/LANDSCAN_GLOBAL": 191,
       "projects/sat-io/open-datasets/us-drought-monitor": 1378
     },
-    "2024-08-21": {
-      "projects/sat-io/open-datasets/GLOBathy/GLOBathy_bathymetry": 149,
-      "projects/sat-io/open-datasets/ORNL/LANDSCAN_GLOBAL": 191,
-      "projects/sat-io/open-datasets/us-drought-monitor": 1350
-    },
-    "2024-08-18": {
-      "projects/sat-io/open-datasets/GLOBathy/GLOBathy_bathymetry": 140,
-      "projects/sat-io/open-datasets/ORNL/LANDSCAN_GLOBAL": 191,
-      "projects/sat-io/open-datasets/us-drought-monitor": 1351
-    },
     "2024-08-20": {
       "projects/sat-io/open-datasets/GLOBathy/GLOBathy_bathymetry": 144,
       "projects/sat-io/open-datasets/ORNL/LANDSCAN_GLOBAL": 190,
       "projects/sat-io/open-datasets/us-drought-monitor": 1355
     },
-    "2024-08-19": {
-      "projects/sat-io/open-datasets/GLOBathy/GLOBathy_bathymetry": 141,
-      "projects/sat-io/open-datasets/ORNL/LANDSCAN_GLOBAL": 192,
-      "projects/sat-io/open-datasets/us-drought-monitor": 1351
+    "2024-08-21": {
+      "projects/sat-io/open-datasets/GLOBathy/GLOBathy_bathymetry": 149,
+      "projects/sat-io/open-datasets/ORNL/LANDSCAN_GLOBAL": 191,
+      "projects/sat-io/open-datasets/us-drought-monitor": 1350
     },
     "2024-08-22": {
       "projects/sat-io/open-datasets/GLOBathy/GLOBathy_bathymetry": 148,
@@ -592,85 +592,80 @@
       "projects/sat-io/open-datasets/ORNL/LANDSCAN_GLOBAL": 186,
       "projects/sat-io/open-datasets/us-drought-monitor": 1348
     },
-    "2024-08-24": {
-      "projects/sat-io/open-datasets/GLOBathy/GLOBathy_bathymetry": 144,
-      "projects/sat-io/open-datasets/ORNL/LANDSCAN_GLOBAL": 180,
-      "projects/sat-io/open-datasets/us-drought-monitor": 65
-    },
     "2024-08-25": {
       "projects/sat-io/open-datasets/GLOBathy/GLOBathy_bathymetry": 142,
       "projects/sat-io/open-datasets/ORNL/LANDSCAN_GLOBAL": 175,
       "projects/sat-io/open-datasets/us-drought-monitor": 66
     },
-    "2024-08-26": {
-      "projects/sat-io/open-datasets/GLOBathy/GLOBathy_bathymetry": 146,
-      "projects/sat-io/open-datasets/ORNL/LANDSCAN_GLOBAL": 175,
-      "projects/sat-io/open-datasets/us-drought-monitor": 66
-    },
-    "2024-08-28": {
-      "projects/sat-io/open-datasets/GLOBathy/GLOBathy_bathymetry": 151,
-      "projects/sat-io/open-datasets/ORNL/LANDSCAN_GLOBAL": 170,
-      "projects/sat-io/open-datasets/us-drought-monitor": 71
+    "2024-08-24": {
+      "projects/sat-io/open-datasets/GLOBathy/GLOBathy_bathymetry": 144,
+      "projects/sat-io/open-datasets/ORNL/LANDSCAN_GLOBAL": 180,
+      "projects/sat-io/open-datasets/us-drought-monitor": 65
     },
     "2024-08-27": {
       "projects/sat-io/open-datasets/GLOBathy/GLOBathy_bathymetry": 151,
       "projects/sat-io/open-datasets/ORNL/LANDSCAN_GLOBAL": 173,
       "projects/sat-io/open-datasets/us-drought-monitor": 69
     },
+    "2024-08-26": {
+      "projects/sat-io/open-datasets/GLOBathy/GLOBathy_bathymetry": 146,
+      "projects/sat-io/open-datasets/ORNL/LANDSCAN_GLOBAL": 175,
+      "projects/sat-io/open-datasets/us-drought-monitor": 66
+    },
     "2024-08-29": {
       "projects/sat-io/open-datasets/GLOBathy/GLOBathy_bathymetry": 146,
       "projects/sat-io/open-datasets/ORNL/LANDSCAN_GLOBAL": 166,
       "projects/sat-io/open-datasets/us-drought-monitor": 69
     },
-    "2024-08-31": {
-      "projects/sat-io/open-datasets/GLOBathy/GLOBathy_bathymetry": 143,
-      "projects/sat-io/open-datasets/ORNL/LANDSCAN_GLOBAL": 164,
-      "projects/sat-io/open-datasets/us-drought-monitor": 70
-    },
-    "2024-09-02": {
-      "projects/sat-io/open-datasets/GLOBathy/GLOBathy_bathymetry": 145,
-      "projects/sat-io/open-datasets/ORNL/LANDSCAN_GLOBAL": 172,
-      "projects/sat-io/open-datasets/us-drought-monitor": 73
-    },
-    "2024-09-01": {
-      "projects/sat-io/open-datasets/GLOBathy/GLOBathy_bathymetry": 145,
-      "projects/sat-io/open-datasets/ORNL/LANDSCAN_GLOBAL": 166,
-      "projects/sat-io/open-datasets/us-drought-monitor": 69
+    "2024-08-28": {
+      "projects/sat-io/open-datasets/GLOBathy/GLOBathy_bathymetry": 151,
+      "projects/sat-io/open-datasets/ORNL/LANDSCAN_GLOBAL": 170,
+      "projects/sat-io/open-datasets/us-drought-monitor": 71
     },
     "2024-08-30": {
       "projects/sat-io/open-datasets/GLOBathy/GLOBathy_bathymetry": 144,
       "projects/sat-io/open-datasets/ORNL/LANDSCAN_GLOBAL": 162,
       "projects/sat-io/open-datasets/us-drought-monitor": 70
     },
-    "2024-09-04": {
-      "projects/sat-io/open-datasets/GLOBathy/GLOBathy_bathymetry": 142,
-      "projects/sat-io/open-datasets/ORNL/LANDSCAN_GLOBAL": 171,
-      "projects/sat-io/open-datasets/us-drought-monitor": 76
+    "2024-08-31": {
+      "projects/sat-io/open-datasets/GLOBathy/GLOBathy_bathymetry": 143,
+      "projects/sat-io/open-datasets/ORNL/LANDSCAN_GLOBAL": 164,
+      "projects/sat-io/open-datasets/us-drought-monitor": 70
+    },
+    "2024-09-01": {
+      "projects/sat-io/open-datasets/GLOBathy/GLOBathy_bathymetry": 145,
+      "projects/sat-io/open-datasets/ORNL/LANDSCAN_GLOBAL": 166,
+      "projects/sat-io/open-datasets/us-drought-monitor": 69
     },
     "2024-09-03": {
       "projects/sat-io/open-datasets/GLOBathy/GLOBathy_bathymetry": 140,
       "projects/sat-io/open-datasets/ORNL/LANDSCAN_GLOBAL": 174,
       "projects/sat-io/open-datasets/us-drought-monitor": 77
     },
+    "2024-09-02": {
+      "projects/sat-io/open-datasets/GLOBathy/GLOBathy_bathymetry": 145,
+      "projects/sat-io/open-datasets/ORNL/LANDSCAN_GLOBAL": 172,
+      "projects/sat-io/open-datasets/us-drought-monitor": 73
+    },
+    "2024-09-04": {
+      "projects/sat-io/open-datasets/GLOBathy/GLOBathy_bathymetry": 142,
+      "projects/sat-io/open-datasets/ORNL/LANDSCAN_GLOBAL": 171,
+      "projects/sat-io/open-datasets/us-drought-monitor": 76
+    },
     "2024-09-05": {
       "projects/sat-io/open-datasets/GLOBathy/GLOBathy_bathymetry": 140,
       "projects/sat-io/open-datasets/ORNL/LANDSCAN_GLOBAL": 172,
       "projects/sat-io/open-datasets/us-drought-monitor": 77
-    },
-    "2024-09-06": {
-      "projects/sat-io/open-datasets/GLOBathy/GLOBathy_bathymetry": 137,
-      "projects/sat-io/open-datasets/ORNL/LANDSCAN_GLOBAL": 168,
-      "projects/sat-io/open-datasets/us-drought-monitor": 75
     },
     "2024-09-07": {
       "projects/sat-io/open-datasets/GLOBathy/GLOBathy_bathymetry": 136,
       "projects/sat-io/open-datasets/ORNL/LANDSCAN_GLOBAL": 159,
       "projects/sat-io/open-datasets/us-drought-monitor": 71
     },
-    "2024-09-10": {
-      "projects/sat-io/open-datasets/GLOBathy/GLOBathy_bathymetry": 143,
+    "2024-09-06": {
+      "projects/sat-io/open-datasets/GLOBathy/GLOBathy_bathymetry": 137,
       "projects/sat-io/open-datasets/ORNL/LANDSCAN_GLOBAL": 168,
-      "projects/sat-io/open-datasets/us-drought-monitor": 72
+      "projects/sat-io/open-datasets/us-drought-monitor": 75
     },
     "2024-09-08": {
       "projects/sat-io/open-datasets/GLOBathy/GLOBathy_bathymetry": 133,
@@ -682,24 +677,29 @@
       "projects/sat-io/open-datasets/ORNL/LANDSCAN_GLOBAL": 166,
       "projects/sat-io/open-datasets/us-drought-monitor": 72
     },
-    "2024-09-13": {
-      "projects/sat-io/open-datasets/GLOBathy/GLOBathy_bathymetry": 151,
-      "projects/sat-io/open-datasets/ORNL/LANDSCAN_GLOBAL": 169,
-      "projects/sat-io/open-datasets/us-drought-monitor": 70
+    "2024-09-10": {
+      "projects/sat-io/open-datasets/GLOBathy/GLOBathy_bathymetry": 143,
+      "projects/sat-io/open-datasets/ORNL/LANDSCAN_GLOBAL": 168,
+      "projects/sat-io/open-datasets/us-drought-monitor": 72
     },
     "2024-09-11": {
       "projects/sat-io/open-datasets/GLOBathy/GLOBathy_bathymetry": 146,
       "projects/sat-io/open-datasets/ORNL/LANDSCAN_GLOBAL": 167,
       "projects/sat-io/open-datasets/us-drought-monitor": 72
     },
+    "2024-09-12": {
+      "projects/sat-io/open-datasets/GLOBathy/GLOBathy_bathymetry": 148,
+      "projects/sat-io/open-datasets/ORNL/LANDSCAN_GLOBAL": 165,
+      "projects/sat-io/open-datasets/us-drought-monitor": 70
+    },
     "2024-09-14": {
       "projects/sat-io/open-datasets/GLOBathy/GLOBathy_bathymetry": 148,
       "projects/sat-io/open-datasets/ORNL/LANDSCAN_GLOBAL": 169,
       "projects/sat-io/open-datasets/us-drought-monitor": 69
     },
-    "2024-09-12": {
-      "projects/sat-io/open-datasets/GLOBathy/GLOBathy_bathymetry": 148,
-      "projects/sat-io/open-datasets/ORNL/LANDSCAN_GLOBAL": 165,
+    "2024-09-13": {
+      "projects/sat-io/open-datasets/GLOBathy/GLOBathy_bathymetry": 151,
+      "projects/sat-io/open-datasets/ORNL/LANDSCAN_GLOBAL": 169,
       "projects/sat-io/open-datasets/us-drought-monitor": 70
     },
     "2024-09-15": {
@@ -717,15 +717,15 @@
       "projects/sat-io/open-datasets/ORNL/LANDSCAN_GLOBAL": 178,
       "projects/sat-io/open-datasets/us-drought-monitor": 75
     },
-    "2024-09-18": {
-      "projects/sat-io/open-datasets/GLOBathy/GLOBathy_bathymetry": 143,
-      "projects/sat-io/open-datasets/ORNL/LANDSCAN_GLOBAL": 179,
-      "projects/sat-io/open-datasets/us-drought-monitor": 80
-    },
     "2024-09-19": {
       "projects/sat-io/open-datasets/GLOBathy/GLOBathy_bathymetry": 139,
       "projects/sat-io/open-datasets/ORNL/LANDSCAN_GLOBAL": 184,
       "projects/sat-io/open-datasets/us-drought-monitor": 78
+    },
+    "2024-09-18": {
+      "projects/sat-io/open-datasets/GLOBathy/GLOBathy_bathymetry": 143,
+      "projects/sat-io/open-datasets/ORNL/LANDSCAN_GLOBAL": 179,
+      "projects/sat-io/open-datasets/us-drought-monitor": 80
     },
     "2024-09-21": {
       "projects/sat-io/open-datasets/GLOBathy/GLOBathy_bathymetry": 135,
@@ -737,15 +737,15 @@
       "projects/sat-io/open-datasets/ORNL/LANDSCAN_GLOBAL": 181,
       "projects/sat-io/open-datasets/us-drought-monitor": 79
     },
+    "2024-09-26": {
+      "projects/sat-io/open-datasets/GLOBathy/GLOBathy_bathymetry": 145,
+      "projects/sat-io/open-datasets/ORNL/LANDSCAN_GLOBAL": 189,
+      "projects/sat-io/open-datasets/us-drought-monitor": 77
+    },
     "2024-09-22": {
       "projects/sat-io/open-datasets/GLOBathy/GLOBathy_bathymetry": 138,
       "projects/sat-io/open-datasets/ORNL/LANDSCAN_GLOBAL": 180,
       "projects/sat-io/open-datasets/us-drought-monitor": 75
-    },
-    "2024-09-24": {
-      "projects/sat-io/open-datasets/GLOBathy/GLOBathy_bathymetry": 147,
-      "projects/sat-io/open-datasets/ORNL/LANDSCAN_GLOBAL": 186,
-      "projects/sat-io/open-datasets/us-drought-monitor": 77
     },
     "2024-09-25": {
       "projects/sat-io/open-datasets/GLOBathy/GLOBathy_bathymetry": 147,
@@ -757,15 +757,15 @@
       "projects/sat-io/open-datasets/ORNL/LANDSCAN_GLOBAL": 184,
       "projects/sat-io/open-datasets/us-drought-monitor": 76
     },
+    "2024-09-24": {
+      "projects/sat-io/open-datasets/GLOBathy/GLOBathy_bathymetry": 147,
+      "projects/sat-io/open-datasets/ORNL/LANDSCAN_GLOBAL": 186,
+      "projects/sat-io/open-datasets/us-drought-monitor": 77
+    },
     "2024-09-27": {
       "projects/sat-io/open-datasets/GLOBathy/GLOBathy_bathymetry": 143,
       "projects/sat-io/open-datasets/ORNL/LANDSCAN_GLOBAL": 185,
       "projects/sat-io/open-datasets/us-drought-monitor": 70
-    },
-    "2024-09-26": {
-      "projects/sat-io/open-datasets/GLOBathy/GLOBathy_bathymetry": 145,
-      "projects/sat-io/open-datasets/ORNL/LANDSCAN_GLOBAL": 189,
-      "projects/sat-io/open-datasets/us-drought-monitor": 77
     },
     "2024-09-28": {
       "projects/sat-io/open-datasets/GLOBathy/GLOBathy_bathymetry": 145,
@@ -787,11 +787,6 @@
       "projects/sat-io/open-datasets/ORNL/LANDSCAN_GLOBAL": 182,
       "projects/sat-io/open-datasets/us-drought-monitor": 73
     },
-    "2024-10-04": {
-      "projects/sat-io/open-datasets/GLOBathy/GLOBathy_bathymetry": 142,
-      "projects/sat-io/open-datasets/ORNL/LANDSCAN_GLOBAL": 177,
-      "projects/sat-io/open-datasets/us-drought-monitor": 65
-    },
     "2024-10-02": {
       "projects/sat-io/open-datasets/GLOBathy/GLOBathy_bathymetry": 150,
       "projects/sat-io/open-datasets/ORNL/LANDSCAN_GLOBAL": 180,
@@ -811,6 +806,11 @@
       "projects/sat-io/open-datasets/GLOBathy/GLOBathy_bathymetry": 135,
       "projects/sat-io/open-datasets/ORNL/LANDSCAN_GLOBAL": 176,
       "projects/sat-io/open-datasets/us-drought-monitor": 71
+    },
+    "2024-10-04": {
+      "projects/sat-io/open-datasets/GLOBathy/GLOBathy_bathymetry": 142,
+      "projects/sat-io/open-datasets/ORNL/LANDSCAN_GLOBAL": 177,
+      "projects/sat-io/open-datasets/us-drought-monitor": 65
     },
     "2024-10-06": {
       "projects/sat-io/open-datasets/GLOBathy/GLOBathy_bathymetry": 133,
@@ -847,19 +847,34 @@
       "projects/sat-io/open-datasets/ORNL/LANDSCAN_GLOBAL": 163,
       "projects/sat-io/open-datasets/us-drought-monitor": 71
     },
-    "2024-10-14": {
-      "projects/sat-io/open-datasets/GLOBathy/GLOBathy_bathymetry": 128,
-      "projects/sat-io/open-datasets/ORNL/LANDSCAN_GLOBAL": 172,
-      "projects/sat-io/open-datasets/us-drought-monitor": 76
-    },
     "2024-10-15": {
       "projects/sat-io/open-datasets/GLOBathy/GLOBathy_bathymetry": 132,
       "projects/sat-io/open-datasets/ORNL/LANDSCAN_GLOBAL": 177,
       "projects/sat-io/open-datasets/us-drought-monitor": 79
     },
+    "2024-10-14": {
+      "projects/sat-io/open-datasets/GLOBathy/GLOBathy_bathymetry": 128,
+      "projects/sat-io/open-datasets/ORNL/LANDSCAN_GLOBAL": 172,
+      "projects/sat-io/open-datasets/us-drought-monitor": 76
+    },
+    "2024-10-19": {
+      "projects/sat-io/open-datasets/GLOBathy/GLOBathy_bathymetry": 139,
+      "projects/sat-io/open-datasets/ORNL/LANDSCAN_GLOBAL": 175,
+      "projects/sat-io/open-datasets/us-drought-monitor": 78
+    },
+    "2024-10-18": {
+      "projects/sat-io/open-datasets/GLOBathy/GLOBathy_bathymetry": 143,
+      "projects/sat-io/open-datasets/ORNL/LANDSCAN_GLOBAL": 180,
+      "projects/sat-io/open-datasets/us-drought-monitor": 78
+    },
     "2024-10-16": {
       "projects/sat-io/open-datasets/GLOBathy/GLOBathy_bathymetry": 133,
       "projects/sat-io/open-datasets/ORNL/LANDSCAN_GLOBAL": 180,
+      "projects/sat-io/open-datasets/us-drought-monitor": 77
+    },
+    "2024-10-21": {
+      "projects/sat-io/open-datasets/GLOBathy/GLOBathy_bathymetry": 152,
+      "projects/sat-io/open-datasets/ORNL/LANDSCAN_GLOBAL": 187,
       "projects/sat-io/open-datasets/us-drought-monitor": 77
     },
     "2024-10-17": {
@@ -867,24 +882,9 @@
       "projects/sat-io/open-datasets/ORNL/LANDSCAN_GLOBAL": 184,
       "projects/sat-io/open-datasets/us-drought-monitor": 80
     },
-    "2024-10-18": {
-      "projects/sat-io/open-datasets/GLOBathy/GLOBathy_bathymetry": 143,
-      "projects/sat-io/open-datasets/ORNL/LANDSCAN_GLOBAL": 180,
-      "projects/sat-io/open-datasets/us-drought-monitor": 78
-    },
     "2024-10-20": {
       "projects/sat-io/open-datasets/GLOBathy/GLOBathy_bathymetry": 139,
       "projects/sat-io/open-datasets/ORNL/LANDSCAN_GLOBAL": 178,
-      "projects/sat-io/open-datasets/us-drought-monitor": 77
-    },
-    "2024-10-19": {
-      "projects/sat-io/open-datasets/GLOBathy/GLOBathy_bathymetry": 139,
-      "projects/sat-io/open-datasets/ORNL/LANDSCAN_GLOBAL": 175,
-      "projects/sat-io/open-datasets/us-drought-monitor": 78
-    },
-    "2024-10-21": {
-      "projects/sat-io/open-datasets/GLOBathy/GLOBathy_bathymetry": 152,
-      "projects/sat-io/open-datasets/ORNL/LANDSCAN_GLOBAL": 187,
       "projects/sat-io/open-datasets/us-drought-monitor": 77
     },
     "2024-10-22": {
@@ -892,25 +892,25 @@
       "projects/sat-io/open-datasets/ORNL/LANDSCAN_GLOBAL": 191,
       "projects/sat-io/open-datasets/us-drought-monitor": 78
     },
-    "2024-10-23": {
-      "projects/sat-io/open-datasets/GLOBathy/GLOBathy_bathymetry": 161,
-      "projects/sat-io/open-datasets/ORNL/LANDSCAN_GLOBAL": 189,
-      "projects/sat-io/open-datasets/us-drought-monitor": 80
-    },
     "2024-10-24": {
       "projects/sat-io/open-datasets/GLOBathy/GLOBathy_bathymetry": 159,
       "projects/sat-io/open-datasets/ORNL/LANDSCAN_GLOBAL": 186,
       "projects/sat-io/open-datasets/us-drought-monitor": 79
     },
-    "2024-10-26": {
-      "projects/sat-io/open-datasets/GLOBathy/GLOBathy_bathymetry": 160,
-      "projects/sat-io/open-datasets/ORNL/LANDSCAN_GLOBAL": 184,
-      "projects/sat-io/open-datasets/us-drought-monitor": 79
+    "2024-10-23": {
+      "projects/sat-io/open-datasets/GLOBathy/GLOBathy_bathymetry": 161,
+      "projects/sat-io/open-datasets/ORNL/LANDSCAN_GLOBAL": 189,
+      "projects/sat-io/open-datasets/us-drought-monitor": 80
     },
     "2024-10-25": {
       "projects/sat-io/open-datasets/GLOBathy/GLOBathy_bathymetry": 162,
       "projects/sat-io/open-datasets/ORNL/LANDSCAN_GLOBAL": 185,
       "projects/sat-io/open-datasets/us-drought-monitor": 80
+    },
+    "2024-10-26": {
+      "projects/sat-io/open-datasets/GLOBathy/GLOBathy_bathymetry": 160,
+      "projects/sat-io/open-datasets/ORNL/LANDSCAN_GLOBAL": 184,
+      "projects/sat-io/open-datasets/us-drought-monitor": 79
     },
     "2024-10-27": {
       "projects/sat-io/open-datasets/GLOBathy/GLOBathy_bathymetry": 164,
@@ -922,35 +922,35 @@
       "projects/sat-io/open-datasets/ORNL/LANDSCAN_GLOBAL": 186,
       "projects/sat-io/open-datasets/us-drought-monitor": 78
     },
-    "2024-10-30": {
-      "projects/sat-io/open-datasets/GLOBathy/GLOBathy_bathymetry": 176,
-      "projects/sat-io/open-datasets/ORNL/LANDSCAN_GLOBAL": 196,
-      "projects/sat-io/open-datasets/us-drought-monitor": 79
-    },
     "2024-10-29": {
       "projects/sat-io/open-datasets/GLOBathy/GLOBathy_bathymetry": 176,
       "projects/sat-io/open-datasets/ORNL/LANDSCAN_GLOBAL": 190,
       "projects/sat-io/open-datasets/us-drought-monitor": 77
+    },
+    "2024-10-30": {
+      "projects/sat-io/open-datasets/GLOBathy/GLOBathy_bathymetry": 176,
+      "projects/sat-io/open-datasets/ORNL/LANDSCAN_GLOBAL": 196,
+      "projects/sat-io/open-datasets/us-drought-monitor": 79
     },
     "2024-10-31": {
       "projects/sat-io/open-datasets/GLOBathy/GLOBathy_bathymetry": 175,
       "projects/sat-io/open-datasets/ORNL/LANDSCAN_GLOBAL": 198,
       "projects/sat-io/open-datasets/us-drought-monitor": 79
     },
-    "2024-11-02": {
-      "projects/sat-io/open-datasets/GLOBathy/GLOBathy_bathymetry": 173,
-      "projects/sat-io/open-datasets/ORNL/LANDSCAN_GLOBAL": 197,
-      "projects/sat-io/open-datasets/us-drought-monitor": 78
+    "2024-11-03": {
+      "projects/sat-io/open-datasets/GLOBathy/GLOBathy_bathymetry": 177,
+      "projects/sat-io/open-datasets/ORNL/LANDSCAN_GLOBAL": 202,
+      "projects/sat-io/open-datasets/us-drought-monitor": 77
     },
     "2024-11-01": {
       "projects/sat-io/open-datasets/GLOBathy/GLOBathy_bathymetry": 179,
       "projects/sat-io/open-datasets/ORNL/LANDSCAN_GLOBAL": 199,
       "projects/sat-io/open-datasets/us-drought-monitor": 80
     },
-    "2024-11-03": {
-      "projects/sat-io/open-datasets/GLOBathy/GLOBathy_bathymetry": 177,
-      "projects/sat-io/open-datasets/ORNL/LANDSCAN_GLOBAL": 202,
-      "projects/sat-io/open-datasets/us-drought-monitor": 77
+    "2024-11-02": {
+      "projects/sat-io/open-datasets/GLOBathy/GLOBathy_bathymetry": 173,
+      "projects/sat-io/open-datasets/ORNL/LANDSCAN_GLOBAL": 197,
+      "projects/sat-io/open-datasets/us-drought-monitor": 78
     },
     "2024-11-04": {
       "projects/sat-io/open-datasets/GLOBathy/GLOBathy_bathymetry": 180,
@@ -962,25 +962,20 @@
       "projects/sat-io/open-datasets/ORNL/LANDSCAN_GLOBAL": 216,
       "projects/sat-io/open-datasets/us-drought-monitor": 81
     },
-    "2024-11-07": {
-      "projects/sat-io/open-datasets/GLOBathy/GLOBathy_bathymetry": 191,
-      "projects/sat-io/open-datasets/ORNL/LANDSCAN_GLOBAL": 221,
-      "projects/sat-io/open-datasets/us-drought-monitor": 73
-    },
     "2024-11-06": {
       "projects/sat-io/open-datasets/GLOBathy/GLOBathy_bathymetry": 186,
       "projects/sat-io/open-datasets/ORNL/LANDSCAN_GLOBAL": 218,
       "projects/sat-io/open-datasets/us-drought-monitor": 74
     },
+    "2024-11-07": {
+      "projects/sat-io/open-datasets/GLOBathy/GLOBathy_bathymetry": 191,
+      "projects/sat-io/open-datasets/ORNL/LANDSCAN_GLOBAL": 221,
+      "projects/sat-io/open-datasets/us-drought-monitor": 73
+    },
     "2024-11-08": {
       "projects/sat-io/open-datasets/GLOBathy/GLOBathy_bathymetry": 192,
       "projects/sat-io/open-datasets/ORNL/LANDSCAN_GLOBAL": 222,
       "projects/sat-io/open-datasets/us-drought-monitor": 76
-    },
-    "2024-11-09": {
-      "projects/sat-io/open-datasets/GLOBathy/GLOBathy_bathymetry": 190,
-      "projects/sat-io/open-datasets/ORNL/LANDSCAN_GLOBAL": 221,
-      "projects/sat-io/open-datasets/us-drought-monitor": 74
     },
     "2024-11-11": {
       "projects/sat-io/open-datasets/GLOBathy/GLOBathy_bathymetry": 194,
@@ -992,20 +987,25 @@
       "projects/sat-io/open-datasets/ORNL/LANDSCAN_GLOBAL": 217,
       "projects/sat-io/open-datasets/us-drought-monitor": 76
     },
+    "2024-11-09": {
+      "projects/sat-io/open-datasets/GLOBathy/GLOBathy_bathymetry": 190,
+      "projects/sat-io/open-datasets/ORNL/LANDSCAN_GLOBAL": 221,
+      "projects/sat-io/open-datasets/us-drought-monitor": 74
+    },
     "2024-11-13": {
       "projects/sat-io/open-datasets/GLOBathy/GLOBathy_bathymetry": 204,
       "projects/sat-io/open-datasets/ORNL/LANDSCAN_GLOBAL": 228,
       "projects/sat-io/open-datasets/us-drought-monitor": 79
     },
-    "2024-11-14": {
-      "projects/sat-io/open-datasets/GLOBathy/GLOBathy_bathymetry": 203,
-      "projects/sat-io/open-datasets/ORNL/LANDSCAN_GLOBAL": 232,
-      "projects/sat-io/open-datasets/us-drought-monitor": 78
-    },
     "2024-11-15": {
       "projects/sat-io/open-datasets/GLOBathy/GLOBathy_bathymetry": 202,
       "projects/sat-io/open-datasets/ORNL/LANDSCAN_GLOBAL": 238,
       "projects/sat-io/open-datasets/us-drought-monitor": 76
+    },
+    "2024-11-14": {
+      "projects/sat-io/open-datasets/GLOBathy/GLOBathy_bathymetry": 203,
+      "projects/sat-io/open-datasets/ORNL/LANDSCAN_GLOBAL": 232,
+      "projects/sat-io/open-datasets/us-drought-monitor": 78
     },
     "2024-11-16": {
       "projects/sat-io/open-datasets/GLOBathy/GLOBathy_bathymetry": 193,
@@ -1017,14 +1017,14 @@
       "projects/sat-io/open-datasets/ORNL/LANDSCAN_GLOBAL": 228,
       "projects/sat-io/open-datasets/us-drought-monitor": 71
     },
-    "2024-11-19": {
-      "projects/sat-io/open-datasets/GLOBathy/GLOBathy_bathymetry": 198,
-      "projects/sat-io/open-datasets/ORNL/LANDSCAN_GLOBAL": 239,
-      "projects/sat-io/open-datasets/us-drought-monitor": 72
-    },
     "2024-11-18": {
       "projects/sat-io/open-datasets/GLOBathy/GLOBathy_bathymetry": 197,
       "projects/sat-io/open-datasets/ORNL/LANDSCAN_GLOBAL": 237,
+      "projects/sat-io/open-datasets/us-drought-monitor": 72
+    },
+    "2024-11-19": {
+      "projects/sat-io/open-datasets/GLOBathy/GLOBathy_bathymetry": 198,
+      "projects/sat-io/open-datasets/ORNL/LANDSCAN_GLOBAL": 239,
       "projects/sat-io/open-datasets/us-drought-monitor": 72
     },
     "2024-11-20": {
@@ -1042,20 +1042,15 @@
       "projects/sat-io/open-datasets/ORNL/LANDSCAN_GLOBAL": 235,
       "projects/sat-io/open-datasets/us-drought-monitor": 75
     },
-    "2024-11-24": {
-      "projects/sat-io/open-datasets/GLOBathy/GLOBathy_bathymetry": 186,
-      "projects/sat-io/open-datasets/ORNL/LANDSCAN_GLOBAL": 235,
-      "projects/sat-io/open-datasets/us-drought-monitor": 74
-    },
     "2024-11-23": {
       "projects/sat-io/open-datasets/GLOBathy/GLOBathy_bathymetry": 186,
       "projects/sat-io/open-datasets/ORNL/LANDSCAN_GLOBAL": 235,
       "projects/sat-io/open-datasets/us-drought-monitor": 76
     },
-    "2024-11-26": {
-      "projects/sat-io/open-datasets/GLOBathy/GLOBathy_bathymetry": 191,
-      "projects/sat-io/open-datasets/ORNL/LANDSCAN_GLOBAL": 234,
-      "projects/sat-io/open-datasets/us-drought-monitor": 75
+    "2024-11-24": {
+      "projects/sat-io/open-datasets/GLOBathy/GLOBathy_bathymetry": 186,
+      "projects/sat-io/open-datasets/ORNL/LANDSCAN_GLOBAL": 235,
+      "projects/sat-io/open-datasets/us-drought-monitor": 74
     },
     "2024-11-25": {
       "projects/sat-io/open-datasets/GLOBathy/GLOBathy_bathymetry": 192,
@@ -1066,6 +1061,11 @@
       "projects/sat-io/open-datasets/GLOBathy/GLOBathy_bathymetry": 188,
       "projects/sat-io/open-datasets/ORNL/LANDSCAN_GLOBAL": 238,
       "projects/sat-io/open-datasets/us-drought-monitor": 74
+    },
+    "2024-11-26": {
+      "projects/sat-io/open-datasets/GLOBathy/GLOBathy_bathymetry": 191,
+      "projects/sat-io/open-datasets/ORNL/LANDSCAN_GLOBAL": 234,
+      "projects/sat-io/open-datasets/us-drought-monitor": 75
     },
     "2024-11-28": {
       "projects/sat-io/open-datasets/GLOBathy/GLOBathy_bathymetry": 191,
@@ -1082,6 +1082,11 @@
       "projects/sat-io/open-datasets/ORNL/LANDSCAN_GLOBAL": 251,
       "projects/sat-io/open-datasets/us-drought-monitor": 70
     },
+    "2024-12-02": {
+      "projects/sat-io/open-datasets/GLOBathy/GLOBathy_bathymetry": 187,
+      "projects/sat-io/open-datasets/ORNL/LANDSCAN_GLOBAL": 255,
+      "projects/sat-io/open-datasets/us-drought-monitor": 70
+    },
     "2024-12-01": {
       "projects/sat-io/open-datasets/GLOBathy/GLOBathy_bathymetry": 184,
       "projects/sat-io/open-datasets/ORNL/LANDSCAN_GLOBAL": 252,
@@ -1090,11 +1095,6 @@
     "2024-12-03": {
       "projects/sat-io/open-datasets/GLOBathy/GLOBathy_bathymetry": 182,
       "projects/sat-io/open-datasets/ORNL/LANDSCAN_GLOBAL": 253,
-      "projects/sat-io/open-datasets/us-drought-monitor": 70
-    },
-    "2024-12-02": {
-      "projects/sat-io/open-datasets/GLOBathy/GLOBathy_bathymetry": 187,
-      "projects/sat-io/open-datasets/ORNL/LANDSCAN_GLOBAL": 255,
       "projects/sat-io/open-datasets/us-drought-monitor": 70
     },
     "2024-12-04": {
@@ -1157,6 +1157,11 @@
       "projects/sat-io/open-datasets/ORNL/LANDSCAN_GLOBAL": 335,
       "projects/sat-io/open-datasets/us-drought-monitor": 58
     },
+    "2024-12-18": {
+      "projects/sat-io/open-datasets/GLOBathy/GLOBathy_bathymetry": 186,
+      "projects/sat-io/open-datasets/ORNL/LANDSCAN_GLOBAL": 344,
+      "projects/sat-io/open-datasets/us-drought-monitor": 61
+    },
     "2024-12-16": {
       "projects/sat-io/open-datasets/GLOBathy/GLOBathy_bathymetry": 181,
       "projects/sat-io/open-datasets/ORNL/LANDSCAN_GLOBAL": 338,
@@ -1172,45 +1177,40 @@
       "projects/sat-io/open-datasets/ORNL/LANDSCAN_GLOBAL": 343,
       "projects/sat-io/open-datasets/us-drought-monitor": 60
     },
-    "2024-12-18": {
-      "projects/sat-io/open-datasets/GLOBathy/GLOBathy_bathymetry": 186,
-      "projects/sat-io/open-datasets/ORNL/LANDSCAN_GLOBAL": 344,
-      "projects/sat-io/open-datasets/us-drought-monitor": 61
+    "2024-12-22": {
+      "projects/sat-io/open-datasets/GLOBathy/GLOBathy_bathymetry": 177,
+      "projects/sat-io/open-datasets/ORNL/LANDSCAN_GLOBAL": 340,
+      "projects/sat-io/open-datasets/us-drought-monitor": 54
     },
     "2024-12-20": {
       "projects/sat-io/open-datasets/GLOBathy/GLOBathy_bathymetry": 184,
       "projects/sat-io/open-datasets/ORNL/LANDSCAN_GLOBAL": 347,
       "projects/sat-io/open-datasets/us-drought-monitor": 59
     },
-    "2024-12-21": {
-      "projects/sat-io/open-datasets/GLOBathy/GLOBathy_bathymetry": 178,
-      "projects/sat-io/open-datasets/ORNL/LANDSCAN_GLOBAL": 342,
-      "projects/sat-io/open-datasets/us-drought-monitor": 55
-    },
-    "2024-12-22": {
-      "projects/sat-io/open-datasets/GLOBathy/GLOBathy_bathymetry": 177,
-      "projects/sat-io/open-datasets/ORNL/LANDSCAN_GLOBAL": 340,
-      "projects/sat-io/open-datasets/us-drought-monitor": 54
-    },
     "2024-12-23": {
       "projects/sat-io/open-datasets/GLOBathy/GLOBathy_bathymetry": 181,
       "projects/sat-io/open-datasets/ORNL/LANDSCAN_GLOBAL": 347,
       "projects/sat-io/open-datasets/us-drought-monitor": 54
+    },
+    "2024-12-21": {
+      "projects/sat-io/open-datasets/GLOBathy/GLOBathy_bathymetry": 178,
+      "projects/sat-io/open-datasets/ORNL/LANDSCAN_GLOBAL": 342,
+      "projects/sat-io/open-datasets/us-drought-monitor": 55
     },
     "2024-12-24": {
       "projects/sat-io/open-datasets/GLOBathy/GLOBathy_bathymetry": 178,
       "projects/sat-io/open-datasets/ORNL/LANDSCAN_GLOBAL": 345,
       "projects/sat-io/open-datasets/us-drought-monitor": 55
     },
-    "2024-12-26": {
-      "projects/sat-io/open-datasets/GLOBathy/GLOBathy_bathymetry": 168,
-      "projects/sat-io/open-datasets/ORNL/LANDSCAN_GLOBAL": 342,
-      "projects/sat-io/open-datasets/us-drought-monitor": 58
-    },
     "2024-12-25": {
       "projects/sat-io/open-datasets/GLOBathy/GLOBathy_bathymetry": 171,
       "projects/sat-io/open-datasets/ORNL/LANDSCAN_GLOBAL": 346,
       "projects/sat-io/open-datasets/us-drought-monitor": 55
+    },
+    "2024-12-26": {
+      "projects/sat-io/open-datasets/GLOBathy/GLOBathy_bathymetry": 168,
+      "projects/sat-io/open-datasets/ORNL/LANDSCAN_GLOBAL": 342,
+      "projects/sat-io/open-datasets/us-drought-monitor": 58
     },
     "2024-12-27": {
       "projects/sat-io/open-datasets/GLOBathy/GLOBathy_bathymetry": 169,
@@ -1221,11 +1221,6 @@
       "projects/sat-io/open-datasets/GLOBathy/GLOBathy_bathymetry": 161,
       "projects/sat-io/open-datasets/ORNL/LANDSCAN_GLOBAL": 279,
       "projects/sat-io/open-datasets/us-drought-monitor": 59
-    },
-    "2024-12-30": {
-      "projects/sat-io/open-datasets/GLOBathy/GLOBathy_bathymetry": 157,
-      "projects/sat-io/open-datasets/ORNL/LANDSCAN_GLOBAL": 270,
-      "projects/sat-io/open-datasets/us-drought-monitor": 61
     },
     "2024-12-29": {
       "projects/sat-io/open-datasets/GLOBathy/GLOBathy_bathymetry": 157,
@@ -1242,35 +1237,40 @@
       "projects/sat-io/open-datasets/ORNL/LANDSCAN_GLOBAL": 267,
       "projects/sat-io/open-datasets/us-drought-monitor": 61
     },
+    "2024-12-30": {
+      "projects/sat-io/open-datasets/GLOBathy/GLOBathy_bathymetry": 157,
+      "projects/sat-io/open-datasets/ORNL/LANDSCAN_GLOBAL": 270,
+      "projects/sat-io/open-datasets/us-drought-monitor": 61
+    },
     "2025-01-02": {
       "projects/sat-io/open-datasets/GLOBathy/GLOBathy_bathymetry": 156,
       "projects/sat-io/open-datasets/ORNL/LANDSCAN_GLOBAL": 269,
       "projects/sat-io/open-datasets/us-drought-monitor": 60
-    },
-    "2025-01-03": {
-      "projects/sat-io/open-datasets/GLOBathy/GLOBathy_bathymetry": 157,
-      "projects/sat-io/open-datasets/ORNL/LANDSCAN_GLOBAL": 265,
-      "projects/sat-io/open-datasets/us-drought-monitor": 59
     },
     "2025-01-04": {
       "projects/sat-io/open-datasets/GLOBathy/GLOBathy_bathymetry": 154,
       "projects/sat-io/open-datasets/ORNL/LANDSCAN_GLOBAL": 255,
       "projects/sat-io/open-datasets/us-drought-monitor": 56
     },
+    "2025-01-03": {
+      "projects/sat-io/open-datasets/GLOBathy/GLOBathy_bathymetry": 157,
+      "projects/sat-io/open-datasets/ORNL/LANDSCAN_GLOBAL": 265,
+      "projects/sat-io/open-datasets/us-drought-monitor": 59
+    },
     "2025-01-05": {
       "projects/sat-io/open-datasets/GLOBathy/GLOBathy_bathymetry": 152,
       "projects/sat-io/open-datasets/ORNL/LANDSCAN_GLOBAL": 249,
-      "projects/sat-io/open-datasets/us-drought-monitor": 57
-    },
-    "2025-01-07": {
-      "projects/sat-io/open-datasets/GLOBathy/GLOBathy_bathymetry": 164,
-      "projects/sat-io/open-datasets/ORNL/LANDSCAN_GLOBAL": 237,
       "projects/sat-io/open-datasets/us-drought-monitor": 57
     },
     "2025-01-06": {
       "projects/sat-io/open-datasets/GLOBathy/GLOBathy_bathymetry": 157,
       "projects/sat-io/open-datasets/ORNL/LANDSCAN_GLOBAL": 245,
       "projects/sat-io/open-datasets/us-drought-monitor": 56
+    },
+    "2025-01-07": {
+      "projects/sat-io/open-datasets/GLOBathy/GLOBathy_bathymetry": 164,
+      "projects/sat-io/open-datasets/ORNL/LANDSCAN_GLOBAL": 237,
+      "projects/sat-io/open-datasets/us-drought-monitor": 57
     },
     "2025-01-08": {
       "projects/sat-io/open-datasets/GLOBathy/GLOBathy_bathymetry": 160,
@@ -1282,20 +1282,20 @@
       "projects/sat-io/open-datasets/ORNL/LANDSCAN_GLOBAL": 217,
       "projects/sat-io/open-datasets/us-drought-monitor": 56
     },
-    "2025-01-10": {
-      "projects/sat-io/open-datasets/GLOBathy/GLOBathy_bathymetry": 154,
-      "projects/sat-io/open-datasets/ORNL/LANDSCAN_GLOBAL": 213,
-      "projects/sat-io/open-datasets/us-drought-monitor": 56
+    "2025-01-13": {
+      "projects/sat-io/open-datasets/GLOBathy/GLOBathy_bathymetry": 155,
+      "projects/sat-io/open-datasets/ORNL/LANDSCAN_GLOBAL": 212,
+      "projects/sat-io/open-datasets/us-drought-monitor": 55
     },
     "2025-01-11": {
       "projects/sat-io/open-datasets/GLOBathy/GLOBathy_bathymetry": 154,
       "projects/sat-io/open-datasets/ORNL/LANDSCAN_GLOBAL": 215,
       "projects/sat-io/open-datasets/us-drought-monitor": 55
     },
-    "2025-01-13": {
-      "projects/sat-io/open-datasets/GLOBathy/GLOBathy_bathymetry": 155,
-      "projects/sat-io/open-datasets/ORNL/LANDSCAN_GLOBAL": 212,
-      "projects/sat-io/open-datasets/us-drought-monitor": 55
+    "2025-01-10": {
+      "projects/sat-io/open-datasets/GLOBathy/GLOBathy_bathymetry": 154,
+      "projects/sat-io/open-datasets/ORNL/LANDSCAN_GLOBAL": 213,
+      "projects/sat-io/open-datasets/us-drought-monitor": 56
     },
     "2025-01-12": {
       "projects/sat-io/open-datasets/GLOBathy/GLOBathy_bathymetry": 152,
@@ -1307,15 +1307,15 @@
       "projects/sat-io/open-datasets/ORNL/LANDSCAN_GLOBAL": 215,
       "projects/sat-io/open-datasets/us-drought-monitor": 56
     },
-    "2025-01-15": {
-      "projects/sat-io/open-datasets/GLOBathy/GLOBathy_bathymetry": 154,
-      "projects/sat-io/open-datasets/ORNL/LANDSCAN_GLOBAL": 217,
-      "projects/sat-io/open-datasets/us-drought-monitor": 56
-    },
     "2025-01-16": {
       "projects/sat-io/open-datasets/GLOBathy/GLOBathy_bathymetry": 151,
       "projects/sat-io/open-datasets/ORNL/LANDSCAN_GLOBAL": 216,
       "projects/sat-io/open-datasets/us-drought-monitor": 57
+    },
+    "2025-01-15": {
+      "projects/sat-io/open-datasets/GLOBathy/GLOBathy_bathymetry": 154,
+      "projects/sat-io/open-datasets/ORNL/LANDSCAN_GLOBAL": 217,
+      "projects/sat-io/open-datasets/us-drought-monitor": 56
     },
     "2025-01-17": {
       "projects/sat-io/open-datasets/GLOBathy/GLOBathy_bathymetry": 150,
@@ -1342,14 +1342,14 @@
       "projects/sat-io/open-datasets/ORNL/LANDSCAN_GLOBAL": 214,
       "projects/sat-io/open-datasets/us-drought-monitor": 60
     },
-    "2025-01-23": {
-      "projects/sat-io/open-datasets/GLOBathy/GLOBathy_bathymetry": 154,
-      "projects/sat-io/open-datasets/ORNL/LANDSCAN_GLOBAL": 212,
-      "projects/sat-io/open-datasets/us-drought-monitor": 62
-    },
     "2025-01-22": {
       "projects/sat-io/open-datasets/GLOBathy/GLOBathy_bathymetry": 156,
       "projects/sat-io/open-datasets/ORNL/LANDSCAN_GLOBAL": 215,
+      "projects/sat-io/open-datasets/us-drought-monitor": 62
+    },
+    "2025-01-23": {
+      "projects/sat-io/open-datasets/GLOBathy/GLOBathy_bathymetry": 154,
+      "projects/sat-io/open-datasets/ORNL/LANDSCAN_GLOBAL": 212,
       "projects/sat-io/open-datasets/us-drought-monitor": 62
     },
     "2025-01-24": {
@@ -1367,14 +1367,14 @@
       "projects/sat-io/open-datasets/ORNL/LANDSCAN_GLOBAL": 203,
       "projects/sat-io/open-datasets/us-drought-monitor": 65
     },
-    "2025-01-27": {
-      "projects/sat-io/open-datasets/GLOBathy/GLOBathy_bathymetry": 161,
-      "projects/sat-io/open-datasets/ORNL/LANDSCAN_GLOBAL": 207,
-      "projects/sat-io/open-datasets/us-drought-monitor": 67
-    },
     "2025-01-28": {
       "projects/sat-io/open-datasets/GLOBathy/GLOBathy_bathymetry": 161,
       "projects/sat-io/open-datasets/ORNL/LANDSCAN_GLOBAL": 206,
+      "projects/sat-io/open-datasets/us-drought-monitor": 67
+    },
+    "2025-01-27": {
+      "projects/sat-io/open-datasets/GLOBathy/GLOBathy_bathymetry": 161,
+      "projects/sat-io/open-datasets/ORNL/LANDSCAN_GLOBAL": 207,
       "projects/sat-io/open-datasets/us-drought-monitor": 67
     },
     "2025-01-29": {
@@ -1402,25 +1402,25 @@
       "projects/sat-io/open-datasets/ORNL/LANDSCAN_GLOBAL": 209,
       "projects/sat-io/open-datasets/us-drought-monitor": 73
     },
-    "2025-02-06": {
-      "projects/sat-io/open-datasets/GLOBathy/GLOBathy_bathymetry": 146,
-      "projects/sat-io/open-datasets/ORNL/LANDSCAN_GLOBAL": 195,
-      "projects/sat-io/open-datasets/us-drought-monitor": 72
-    },
     "2025-02-07": {
       "projects/sat-io/open-datasets/GLOBathy/GLOBathy_bathymetry": 146,
       "projects/sat-io/open-datasets/ORNL/LANDSCAN_GLOBAL": 193,
       "projects/sat-io/open-datasets/us-drought-monitor": 74
     },
-    "2025-02-08": {
-      "projects/sat-io/open-datasets/GLOBathy/GLOBathy_bathymetry": 143,
-      "projects/sat-io/open-datasets/ORNL/LANDSCAN_GLOBAL": 192,
-      "projects/sat-io/open-datasets/us-drought-monitor": 75
+    "2025-02-06": {
+      "projects/sat-io/open-datasets/GLOBathy/GLOBathy_bathymetry": 146,
+      "projects/sat-io/open-datasets/ORNL/LANDSCAN_GLOBAL": 195,
+      "projects/sat-io/open-datasets/us-drought-monitor": 72
     },
     "2025-02-09": {
       "projects/sat-io/open-datasets/GLOBathy/GLOBathy_bathymetry": 143,
       "projects/sat-io/open-datasets/ORNL/LANDSCAN_GLOBAL": 253,
       "projects/sat-io/open-datasets/us-drought-monitor": 73
+    },
+    "2025-02-08": {
+      "projects/sat-io/open-datasets/GLOBathy/GLOBathy_bathymetry": 143,
+      "projects/sat-io/open-datasets/ORNL/LANDSCAN_GLOBAL": 192,
+      "projects/sat-io/open-datasets/us-drought-monitor": 75
     },
     "2025-02-10": {
       "projects/sat-io/open-datasets/GLOBathy/GLOBathy_bathymetry": 146,
@@ -1467,39 +1467,39 @@
       "projects/sat-io/open-datasets/ORNL/LANDSCAN_GLOBAL": 310,
       "projects/sat-io/open-datasets/us-drought-monitor": 75
     },
-    "2025-03-04": {
-      "projects/sat-io/open-datasets/GLOBathy/GLOBathy_bathymetry": 195,
-      "projects/sat-io/open-datasets/ORNL/LANDSCAN_GLOBAL": 324,
-      "projects/sat-io/open-datasets/us-drought-monitor": 83
-    },
-    "2025-03-03": {
-      "projects/sat-io/open-datasets/GLOBathy/GLOBathy_bathymetry": 185,
-      "projects/sat-io/open-datasets/ORNL/LANDSCAN_GLOBAL": 312,
-      "projects/sat-io/open-datasets/us-drought-monitor": 83
-    },
     "2025-02-28": {
       "projects/sat-io/open-datasets/GLOBathy/GLOBathy_bathymetry": 173,
       "projects/sat-io/open-datasets/ORNL/LANDSCAN_GLOBAL": 305,
       "projects/sat-io/open-datasets/us-drought-monitor": 84
-    },
-    "2025-03-02": {
-      "projects/sat-io/open-datasets/GLOBathy/GLOBathy_bathymetry": 177,
-      "projects/sat-io/open-datasets/ORNL/LANDSCAN_GLOBAL": 307,
-      "projects/sat-io/open-datasets/us-drought-monitor": 81
-    },
-    "2025-03-05": {
-      "projects/sat-io/open-datasets/GLOBathy/GLOBathy_bathymetry": 204,
-      "projects/sat-io/open-datasets/ORNL/LANDSCAN_GLOBAL": 333,
-      "projects/sat-io/open-datasets/us-drought-monitor": 82
     },
     "2025-03-01": {
       "projects/sat-io/open-datasets/GLOBathy/GLOBathy_bathymetry": 175,
       "projects/sat-io/open-datasets/ORNL/LANDSCAN_GLOBAL": 303,
       "projects/sat-io/open-datasets/us-drought-monitor": 82
     },
+    "2025-03-02": {
+      "projects/sat-io/open-datasets/GLOBathy/GLOBathy_bathymetry": 177,
+      "projects/sat-io/open-datasets/ORNL/LANDSCAN_GLOBAL": 307,
+      "projects/sat-io/open-datasets/us-drought-monitor": 81
+    },
+    "2025-03-03": {
+      "projects/sat-io/open-datasets/GLOBathy/GLOBathy_bathymetry": 185,
+      "projects/sat-io/open-datasets/ORNL/LANDSCAN_GLOBAL": 312,
+      "projects/sat-io/open-datasets/us-drought-monitor": 83
+    },
     "2025-03-06": {
       "projects/sat-io/open-datasets/GLOBathy/GLOBathy_bathymetry": 207,
       "projects/sat-io/open-datasets/ORNL/LANDSCAN_GLOBAL": 339,
+      "projects/sat-io/open-datasets/us-drought-monitor": 82
+    },
+    "2025-03-04": {
+      "projects/sat-io/open-datasets/GLOBathy/GLOBathy_bathymetry": 195,
+      "projects/sat-io/open-datasets/ORNL/LANDSCAN_GLOBAL": 324,
+      "projects/sat-io/open-datasets/us-drought-monitor": 83
+    },
+    "2025-03-05": {
+      "projects/sat-io/open-datasets/GLOBathy/GLOBathy_bathymetry": 204,
+      "projects/sat-io/open-datasets/ORNL/LANDSCAN_GLOBAL": 333,
       "projects/sat-io/open-datasets/us-drought-monitor": 82
     },
     "2025-03-07": {
@@ -1522,10 +1522,20 @@
       "projects/sat-io/open-datasets/ORNL/LANDSCAN_GLOBAL": 372,
       "projects/sat-io/open-datasets/us-drought-monitor": 78
     },
+    "2025-03-13": {
+      "projects/sat-io/open-datasets/GLOBathy/GLOBathy_bathymetry": 215,
+      "projects/sat-io/open-datasets/ORNL/LANDSCAN_GLOBAL": 367,
+      "projects/sat-io/open-datasets/us-drought-monitor": 80
+    },
     "2025-03-11": {
       "projects/sat-io/open-datasets/GLOBathy/GLOBathy_bathymetry": 211,
       "projects/sat-io/open-datasets/ORNL/LANDSCAN_GLOBAL": 356,
       "projects/sat-io/open-datasets/us-drought-monitor": 78
+    },
+    "2025-03-15": {
+      "projects/sat-io/open-datasets/GLOBathy/GLOBathy_bathymetry": 206,
+      "projects/sat-io/open-datasets/ORNL/LANDSCAN_GLOBAL": 361,
+      "projects/sat-io/open-datasets/us-drought-monitor": 81
     },
     "2025-03-12": {
       "projects/sat-io/open-datasets/GLOBathy/GLOBathy_bathymetry": 215,
@@ -1537,30 +1547,20 @@
       "projects/sat-io/open-datasets/ORNL/LANDSCAN_GLOBAL": 363,
       "projects/sat-io/open-datasets/us-drought-monitor": 81
     },
-    "2025-03-13": {
-      "projects/sat-io/open-datasets/GLOBathy/GLOBathy_bathymetry": 215,
-      "projects/sat-io/open-datasets/ORNL/LANDSCAN_GLOBAL": 367,
-      "projects/sat-io/open-datasets/us-drought-monitor": 80
-    },
-    "2025-03-15": {
-      "projects/sat-io/open-datasets/GLOBathy/GLOBathy_bathymetry": 206,
-      "projects/sat-io/open-datasets/ORNL/LANDSCAN_GLOBAL": 361,
-      "projects/sat-io/open-datasets/us-drought-monitor": 81
-    },
     "2025-03-17": {
       "projects/sat-io/open-datasets/GLOBathy/GLOBathy_bathymetry": 220,
       "projects/sat-io/open-datasets/ORNL/LANDSCAN_GLOBAL": 398,
+      "projects/sat-io/open-datasets/us-drought-monitor": 81
+    },
+    "2025-03-18": {
+      "projects/sat-io/open-datasets/GLOBathy/GLOBathy_bathymetry": 225,
+      "projects/sat-io/open-datasets/ORNL/LANDSCAN_GLOBAL": 399,
       "projects/sat-io/open-datasets/us-drought-monitor": 81
     },
     "2025-03-16": {
       "projects/sat-io/open-datasets/GLOBathy/GLOBathy_bathymetry": 211,
       "projects/sat-io/open-datasets/ORNL/LANDSCAN_GLOBAL": 360,
       "projects/sat-io/open-datasets/us-drought-monitor": 80
-    },
-    "2025-03-18": {
-      "projects/sat-io/open-datasets/GLOBathy/GLOBathy_bathymetry": 225,
-      "projects/sat-io/open-datasets/ORNL/LANDSCAN_GLOBAL": 399,
-      "projects/sat-io/open-datasets/us-drought-monitor": 81
     },
     "2025-03-19": {
       "projects/sat-io/open-datasets/GLOBathy/GLOBathy_bathymetry": 221,
@@ -1572,6 +1572,11 @@
       "projects/sat-io/open-datasets/ORNL/LANDSCAN_GLOBAL": 396,
       "projects/sat-io/open-datasets/us-drought-monitor": 80
     },
+    "2025-03-21": {
+      "projects/sat-io/open-datasets/GLOBathy/GLOBathy_bathymetry": 221,
+      "projects/sat-io/open-datasets/ORNL/LANDSCAN_GLOBAL": 397,
+      "projects/sat-io/open-datasets/us-drought-monitor": 81
+    },
     "2025-03-22": {
       "projects/sat-io/open-datasets/GLOBathy/GLOBathy_bathymetry": 217,
       "projects/sat-io/open-datasets/ORNL/LANDSCAN_GLOBAL": 395,
@@ -1581,11 +1586,6 @@
       "projects/sat-io/open-datasets/GLOBathy/GLOBathy_bathymetry": 213,
       "projects/sat-io/open-datasets/ORNL/LANDSCAN_GLOBAL": 399,
       "projects/sat-io/open-datasets/us-drought-monitor": 78
-    },
-    "2025-03-21": {
-      "projects/sat-io/open-datasets/GLOBathy/GLOBathy_bathymetry": 221,
-      "projects/sat-io/open-datasets/ORNL/LANDSCAN_GLOBAL": 397,
-      "projects/sat-io/open-datasets/us-drought-monitor": 81
     },
     "2025-03-24": {
       "projects/sat-io/open-datasets/GLOBathy/GLOBathy_bathymetry": 222,
@@ -1607,11 +1607,6 @@
       "projects/sat-io/open-datasets/ORNL/LANDSCAN_GLOBAL": 380,
       "projects/sat-io/open-datasets/us-drought-monitor": 72
     },
-    "2025-03-27": {
-      "projects/sat-io/open-datasets/GLOBathy/GLOBathy_bathymetry": 228,
-      "projects/sat-io/open-datasets/ORNL/LANDSCAN_GLOBAL": 388,
-      "projects/sat-io/open-datasets/us-drought-monitor": 78
-    },
     "2025-03-30": {
       "projects/sat-io/open-datasets/GLOBathy/GLOBathy_bathymetry": 214,
       "projects/sat-io/open-datasets/ORNL/LANDSCAN_GLOBAL": 377,
@@ -1622,15 +1617,20 @@
       "projects/sat-io/open-datasets/ORNL/LANDSCAN_GLOBAL": 375,
       "projects/sat-io/open-datasets/us-drought-monitor": 67
     },
-    "2025-03-31": {
-      "projects/sat-io/open-datasets/GLOBathy/GLOBathy_bathymetry": 219,
-      "projects/sat-io/open-datasets/ORNL/LANDSCAN_GLOBAL": 385,
-      "projects/sat-io/open-datasets/us-drought-monitor": 62
+    "2025-03-27": {
+      "projects/sat-io/open-datasets/GLOBathy/GLOBathy_bathymetry": 228,
+      "projects/sat-io/open-datasets/ORNL/LANDSCAN_GLOBAL": 388,
+      "projects/sat-io/open-datasets/us-drought-monitor": 78
     },
     "2025-04-01": {
       "projects/sat-io/open-datasets/GLOBathy/GLOBathy_bathymetry": 224,
       "projects/sat-io/open-datasets/ORNL/LANDSCAN_GLOBAL": 393,
       "projects/sat-io/open-datasets/us-drought-monitor": 63
+    },
+    "2025-03-31": {
+      "projects/sat-io/open-datasets/GLOBathy/GLOBathy_bathymetry": 219,
+      "projects/sat-io/open-datasets/ORNL/LANDSCAN_GLOBAL": 385,
+      "projects/sat-io/open-datasets/us-drought-monitor": 62
     },
     "2025-04-02": {
       "projects/sat-io/open-datasets/GLOBathy/GLOBathy_bathymetry": 218,
@@ -1647,11 +1647,6 @@
       "projects/sat-io/open-datasets/ORNL/LANDSCAN_GLOBAL": 385,
       "projects/sat-io/open-datasets/us-drought-monitor": 65
     },
-    "2025-04-07": {
-      "projects/sat-io/open-datasets/GLOBathy/GLOBathy_bathymetry": 213,
-      "projects/sat-io/open-datasets/ORNL/LANDSCAN_GLOBAL": 356,
-      "projects/sat-io/open-datasets/us-drought-monitor": 66
-    },
     "2025-04-05": {
       "projects/sat-io/open-datasets/GLOBathy/GLOBathy_bathymetry": 200,
       "projects/sat-io/open-datasets/ORNL/LANDSCAN_GLOBAL": 379,
@@ -1662,6 +1657,16 @@
       "projects/sat-io/open-datasets/ORNL/LANDSCAN_GLOBAL": 380,
       "projects/sat-io/open-datasets/us-drought-monitor": 62
     },
+    "2025-04-07": {
+      "projects/sat-io/open-datasets/GLOBathy/GLOBathy_bathymetry": 213,
+      "projects/sat-io/open-datasets/ORNL/LANDSCAN_GLOBAL": 356,
+      "projects/sat-io/open-datasets/us-drought-monitor": 66
+    },
+    "2025-04-11": {
+      "projects/sat-io/open-datasets/GLOBathy/GLOBathy_bathymetry": 223,
+      "projects/sat-io/open-datasets/ORNL/LANDSCAN_GLOBAL": 367,
+      "projects/sat-io/open-datasets/us-drought-monitor": 69
+    },
     "2025-04-08": {
       "projects/sat-io/open-datasets/GLOBathy/GLOBathy_bathymetry": 223,
       "projects/sat-io/open-datasets/ORNL/LANDSCAN_GLOBAL": 357,
@@ -1671,11 +1676,6 @@
       "projects/sat-io/open-datasets/GLOBathy/GLOBathy_bathymetry": 227,
       "projects/sat-io/open-datasets/ORNL/LANDSCAN_GLOBAL": 363,
       "projects/sat-io/open-datasets/us-drought-monitor": 70
-    },
-    "2025-04-11": {
-      "projects/sat-io/open-datasets/GLOBathy/GLOBathy_bathymetry": 223,
-      "projects/sat-io/open-datasets/ORNL/LANDSCAN_GLOBAL": 367,
-      "projects/sat-io/open-datasets/us-drought-monitor": 69
     },
     "2025-04-09": {
       "projects/sat-io/open-datasets/GLOBathy/GLOBathy_bathymetry": 223,
@@ -1697,20 +1697,15 @@
       "projects/sat-io/open-datasets/ORNL/LANDSCAN_GLOBAL": 358,
       "projects/sat-io/open-datasets/us-drought-monitor": 71
     },
-    "2025-04-15": {
-      "projects/sat-io/open-datasets/GLOBathy/GLOBathy_bathymetry": 229,
-      "projects/sat-io/open-datasets/ORNL/LANDSCAN_GLOBAL": 357,
-      "projects/sat-io/open-datasets/us-drought-monitor": 74
-    },
     "2025-04-16": {
       "projects/sat-io/open-datasets/GLOBathy/GLOBathy_bathymetry": 221,
       "projects/sat-io/open-datasets/ORNL/LANDSCAN_GLOBAL": 350,
       "projects/sat-io/open-datasets/us-drought-monitor": 75
     },
-    "2025-04-19": {
-      "projects/sat-io/open-datasets/GLOBathy/GLOBathy_bathymetry": 217,
-      "projects/sat-io/open-datasets/ORNL/LANDSCAN_GLOBAL": 345,
-      "projects/sat-io/open-datasets/us-drought-monitor": 71
+    "2025-04-15": {
+      "projects/sat-io/open-datasets/GLOBathy/GLOBathy_bathymetry": 229,
+      "projects/sat-io/open-datasets/ORNL/LANDSCAN_GLOBAL": 357,
+      "projects/sat-io/open-datasets/us-drought-monitor": 74
     },
     "2025-04-17": {
       "projects/sat-io/open-datasets/GLOBathy/GLOBathy_bathymetry": 218,
@@ -1722,6 +1717,16 @@
       "projects/sat-io/open-datasets/ORNL/LANDSCAN_GLOBAL": 348,
       "projects/sat-io/open-datasets/us-drought-monitor": 73
     },
+    "2025-04-23": {
+      "projects/sat-io/open-datasets/GLOBathy/GLOBathy_bathymetry": 220,
+      "projects/sat-io/open-datasets/ORNL/LANDSCAN_GLOBAL": 333,
+      "projects/sat-io/open-datasets/us-drought-monitor": 69
+    },
+    "2025-04-19": {
+      "projects/sat-io/open-datasets/GLOBathy/GLOBathy_bathymetry": 217,
+      "projects/sat-io/open-datasets/ORNL/LANDSCAN_GLOBAL": 345,
+      "projects/sat-io/open-datasets/us-drought-monitor": 71
+    },
     "2025-04-20": {
       "projects/sat-io/open-datasets/GLOBathy/GLOBathy_bathymetry": 216,
       "projects/sat-io/open-datasets/ORNL/LANDSCAN_GLOBAL": 338,
@@ -1732,25 +1737,20 @@
       "projects/sat-io/open-datasets/ORNL/LANDSCAN_GLOBAL": 345,
       "projects/sat-io/open-datasets/us-drought-monitor": 72
     },
-    "2025-04-23": {
-      "projects/sat-io/open-datasets/GLOBathy/GLOBathy_bathymetry": 220,
-      "projects/sat-io/open-datasets/ORNL/LANDSCAN_GLOBAL": 333,
-      "projects/sat-io/open-datasets/us-drought-monitor": 69
-    },
     "2025-04-22": {
       "projects/sat-io/open-datasets/GLOBathy/GLOBathy_bathymetry": 228,
       "projects/sat-io/open-datasets/ORNL/LANDSCAN_GLOBAL": 344,
       "projects/sat-io/open-datasets/us-drought-monitor": 73
     },
-    "2025-04-24": {
-      "projects/sat-io/open-datasets/GLOBathy/GLOBathy_bathymetry": 223,
-      "projects/sat-io/open-datasets/ORNL/LANDSCAN_GLOBAL": 327,
-      "projects/sat-io/open-datasets/us-drought-monitor": 67
-    },
     "2025-04-25": {
       "projects/sat-io/open-datasets/GLOBathy/GLOBathy_bathymetry": 224,
       "projects/sat-io/open-datasets/ORNL/LANDSCAN_GLOBAL": 325,
       "projects/sat-io/open-datasets/us-drought-monitor": 64
+    },
+    "2025-04-24": {
+      "projects/sat-io/open-datasets/GLOBathy/GLOBathy_bathymetry": 223,
+      "projects/sat-io/open-datasets/ORNL/LANDSCAN_GLOBAL": 327,
+      "projects/sat-io/open-datasets/us-drought-monitor": 67
     },
     "2025-04-26": {
       "projects/sat-io/open-datasets/GLOBathy/GLOBathy_bathymetry": 219,
@@ -1767,50 +1767,50 @@
       "projects/sat-io/open-datasets/ORNL/LANDSCAN_GLOBAL": 328,
       "projects/sat-io/open-datasets/us-drought-monitor": 63
     },
-    "2025-04-30": {
-      "projects/sat-io/open-datasets/GLOBathy/GLOBathy_bathymetry": 212,
-      "projects/sat-io/open-datasets/ORNL/LANDSCAN_GLOBAL": 283,
-      "projects/sat-io/open-datasets/us-drought-monitor": 71
-    },
     "2025-04-29": {
       "projects/sat-io/open-datasets/GLOBathy/GLOBathy_bathymetry": 220,
       "projects/sat-io/open-datasets/ORNL/LANDSCAN_GLOBAL": 329,
       "projects/sat-io/open-datasets/us-drought-monitor": 66
     },
-    "2025-05-05": {
-      "projects/sat-io/open-datasets/GLOBathy/GLOBathy_bathymetry": 200,
-      "projects/sat-io/open-datasets/ORNL/LANDSCAN_GLOBAL": 281,
-      "projects/sat-io/open-datasets/us-drought-monitor": 70
-    },
-    "2025-05-01": {
-      "projects/sat-io/open-datasets/GLOBathy/GLOBathy_bathymetry": 206,
-      "projects/sat-io/open-datasets/ORNL/LANDSCAN_GLOBAL": 275,
-      "projects/sat-io/open-datasets/us-drought-monitor": 73
+    "2025-04-30": {
+      "projects/sat-io/open-datasets/GLOBathy/GLOBathy_bathymetry": 212,
+      "projects/sat-io/open-datasets/ORNL/LANDSCAN_GLOBAL": 283,
+      "projects/sat-io/open-datasets/us-drought-monitor": 71
     },
     "2025-05-02": {
       "projects/sat-io/open-datasets/GLOBathy/GLOBathy_bathymetry": 203,
       "projects/sat-io/open-datasets/ORNL/LANDSCAN_GLOBAL": 268,
       "projects/sat-io/open-datasets/us-drought-monitor": 72
     },
-    "2025-05-04": {
-      "projects/sat-io/open-datasets/GLOBathy/GLOBathy_bathymetry": 196,
-      "projects/sat-io/open-datasets/ORNL/LANDSCAN_GLOBAL": 269,
-      "projects/sat-io/open-datasets/us-drought-monitor": 68
+    "2025-05-01": {
+      "projects/sat-io/open-datasets/GLOBathy/GLOBathy_bathymetry": 206,
+      "projects/sat-io/open-datasets/ORNL/LANDSCAN_GLOBAL": 275,
+      "projects/sat-io/open-datasets/us-drought-monitor": 73
     },
     "2025-05-03": {
       "projects/sat-io/open-datasets/GLOBathy/GLOBathy_bathymetry": 202,
       "projects/sat-io/open-datasets/ORNL/LANDSCAN_GLOBAL": 272,
       "projects/sat-io/open-datasets/us-drought-monitor": 70
     },
-    "2025-05-06": {
-      "projects/sat-io/open-datasets/GLOBathy/GLOBathy_bathymetry": 199,
-      "projects/sat-io/open-datasets/ORNL/LANDSCAN_GLOBAL": 279,
-      "projects/sat-io/open-datasets/us-drought-monitor": 72
+    "2025-05-04": {
+      "projects/sat-io/open-datasets/GLOBathy/GLOBathy_bathymetry": 196,
+      "projects/sat-io/open-datasets/ORNL/LANDSCAN_GLOBAL": 269,
+      "projects/sat-io/open-datasets/us-drought-monitor": 68
     },
     "2025-05-07": {
       "projects/sat-io/open-datasets/GLOBathy/GLOBathy_bathymetry": 205,
       "projects/sat-io/open-datasets/ORNL/LANDSCAN_GLOBAL": 282,
       "projects/sat-io/open-datasets/us-drought-monitor": 71
+    },
+    "2025-05-05": {
+      "projects/sat-io/open-datasets/GLOBathy/GLOBathy_bathymetry": 200,
+      "projects/sat-io/open-datasets/ORNL/LANDSCAN_GLOBAL": 281,
+      "projects/sat-io/open-datasets/us-drought-monitor": 70
+    },
+    "2025-05-06": {
+      "projects/sat-io/open-datasets/GLOBathy/GLOBathy_bathymetry": 199,
+      "projects/sat-io/open-datasets/ORNL/LANDSCAN_GLOBAL": 279,
+      "projects/sat-io/open-datasets/us-drought-monitor": 72
     },
     "2025-05-08": {
       "projects/sat-io/open-datasets/GLOBathy/GLOBathy_bathymetry": 200,
@@ -1822,15 +1822,20 @@
       "projects/sat-io/open-datasets/ORNL/LANDSCAN_GLOBAL": 345,
       "projects/sat-io/open-datasets/us-drought-monitor": 69
     },
+    "2025-05-11": {
+      "projects/sat-io/open-datasets/GLOBathy/GLOBathy_bathymetry": 190,
+      "projects/sat-io/open-datasets/ORNL/LANDSCAN_GLOBAL": 333,
+      "projects/sat-io/open-datasets/us-drought-monitor": 66
+    },
     "2025-05-10": {
       "projects/sat-io/open-datasets/GLOBathy/GLOBathy_bathymetry": 190,
       "projects/sat-io/open-datasets/ORNL/LANDSCAN_GLOBAL": 349,
       "projects/sat-io/open-datasets/us-drought-monitor": 67
     },
-    "2025-05-11": {
-      "projects/sat-io/open-datasets/GLOBathy/GLOBathy_bathymetry": 190,
-      "projects/sat-io/open-datasets/ORNL/LANDSCAN_GLOBAL": 333,
-      "projects/sat-io/open-datasets/us-drought-monitor": 66
+    "2025-05-12": {
+      "projects/sat-io/open-datasets/GLOBathy/GLOBathy_bathymetry": 195,
+      "projects/sat-io/open-datasets/ORNL/LANDSCAN_GLOBAL": 339,
+      "projects/sat-io/open-datasets/us-drought-monitor": 122
     },
     "2025-05-13": {
       "projects/sat-io/open-datasets/GLOBathy/GLOBathy_bathymetry": 197,
@@ -1842,29 +1847,24 @@
       "projects/sat-io/open-datasets/ORNL/LANDSCAN_GLOBAL": 343,
       "projects/sat-io/open-datasets/us-drought-monitor": 123
     },
-    "2025-05-18": {
-      "projects/sat-io/open-datasets/GLOBathy/GLOBathy_bathymetry": 170,
-      "projects/sat-io/open-datasets/ORNL/LANDSCAN_GLOBAL": 275,
-      "projects/sat-io/open-datasets/us-drought-monitor": 173
-    },
-    "2025-05-12": {
-      "projects/sat-io/open-datasets/GLOBathy/GLOBathy_bathymetry": 195,
-      "projects/sat-io/open-datasets/ORNL/LANDSCAN_GLOBAL": 339,
-      "projects/sat-io/open-datasets/us-drought-monitor": 122
+    "2025-05-15": {
+      "projects/sat-io/open-datasets/GLOBathy/GLOBathy_bathymetry": 179,
+      "projects/sat-io/open-datasets/ORNL/LANDSCAN_GLOBAL": 342,
+      "projects/sat-io/open-datasets/us-drought-monitor": 118
     },
     "2025-05-16": {
       "projects/sat-io/open-datasets/GLOBathy/GLOBathy_bathymetry": 174,
       "projects/sat-io/open-datasets/ORNL/LANDSCAN_GLOBAL": 282,
       "projects/sat-io/open-datasets/us-drought-monitor": 115
     },
-    "2025-05-15": {
-      "projects/sat-io/open-datasets/GLOBathy/GLOBathy_bathymetry": 179,
-      "projects/sat-io/open-datasets/ORNL/LANDSCAN_GLOBAL": 342,
-      "projects/sat-io/open-datasets/us-drought-monitor": 118
-    },
     "2025-05-17": {
       "projects/sat-io/open-datasets/GLOBathy/GLOBathy_bathymetry": 172,
       "projects/sat-io/open-datasets/ORNL/LANDSCAN_GLOBAL": 280,
+      "projects/sat-io/open-datasets/us-drought-monitor": 173
+    },
+    "2025-05-18": {
+      "projects/sat-io/open-datasets/GLOBathy/GLOBathy_bathymetry": 170,
+      "projects/sat-io/open-datasets/ORNL/LANDSCAN_GLOBAL": 275,
       "projects/sat-io/open-datasets/us-drought-monitor": 173
     },
     "2025-05-19": {
@@ -1872,24 +1872,19 @@
       "projects/sat-io/open-datasets/ORNL/LANDSCAN_GLOBAL": 283,
       "projects/sat-io/open-datasets/us-drought-monitor": 175
     },
-    "2025-05-21": {
-      "projects/sat-io/open-datasets/GLOBathy/GLOBathy_bathymetry": 176,
-      "projects/sat-io/open-datasets/ORNL/LANDSCAN_GLOBAL": 278,
-      "projects/sat-io/open-datasets/us-drought-monitor": 180
-    },
     "2025-05-20": {
       "projects/sat-io/open-datasets/GLOBathy/GLOBathy_bathymetry": 176,
       "projects/sat-io/open-datasets/ORNL/LANDSCAN_GLOBAL": 278,
       "projects/sat-io/open-datasets/us-drought-monitor": 174
     },
+    "2025-05-21": {
+      "projects/sat-io/open-datasets/GLOBathy/GLOBathy_bathymetry": 176,
+      "projects/sat-io/open-datasets/ORNL/LANDSCAN_GLOBAL": 278,
+      "projects/sat-io/open-datasets/us-drought-monitor": 180
+    },
     "2025-05-22": {
       "projects/sat-io/open-datasets/GLOBathy/GLOBathy_bathymetry": 172,
       "projects/sat-io/open-datasets/ORNL/LANDSCAN_GLOBAL": 278,
-      "projects/sat-io/open-datasets/us-drought-monitor": 181
-    },
-    "2025-05-23": {
-      "projects/sat-io/open-datasets/GLOBathy/GLOBathy_bathymetry": 170,
-      "projects/sat-io/open-datasets/ORNL/LANDSCAN_GLOBAL": 282,
       "projects/sat-io/open-datasets/us-drought-monitor": 181
     },
     "2025-05-24": {
@@ -1897,15 +1892,10 @@
       "projects/sat-io/open-datasets/ORNL/LANDSCAN_GLOBAL": 276,
       "projects/sat-io/open-datasets/us-drought-monitor": 181
     },
-    "2025-05-27": {
-      "projects/sat-io/open-datasets/GLOBathy/GLOBathy_bathymetry": 168,
-      "projects/sat-io/open-datasets/ORNL/LANDSCAN_GLOBAL": 281,
-      "projects/sat-io/open-datasets/us-drought-monitor": 180
-    },
-    "2025-05-28": {
-      "projects/sat-io/open-datasets/GLOBathy/GLOBathy_bathymetry": 171,
-      "projects/sat-io/open-datasets/ORNL/LANDSCAN_GLOBAL": 285,
-      "projects/sat-io/open-datasets/us-drought-monitor": 180
+    "2025-05-23": {
+      "projects/sat-io/open-datasets/GLOBathy/GLOBathy_bathymetry": 170,
+      "projects/sat-io/open-datasets/ORNL/LANDSCAN_GLOBAL": 282,
+      "projects/sat-io/open-datasets/us-drought-monitor": 181
     },
     "2025-05-25": {
       "projects/sat-io/open-datasets/GLOBathy/GLOBathy_bathymetry": 156,
@@ -1917,25 +1907,35 @@
       "projects/sat-io/open-datasets/ORNL/LANDSCAN_GLOBAL": 277,
       "projects/sat-io/open-datasets/us-drought-monitor": 181
     },
-    "2025-05-30": {
-      "projects/sat-io/open-datasets/GLOBathy/GLOBathy_bathymetry": 169,
-      "projects/sat-io/open-datasets/ORNL/LANDSCAN_GLOBAL": 276,
-      "projects/sat-io/open-datasets/us-drought-monitor": 174
+    "2025-05-27": {
+      "projects/sat-io/open-datasets/GLOBathy/GLOBathy_bathymetry": 168,
+      "projects/sat-io/open-datasets/ORNL/LANDSCAN_GLOBAL": 281,
+      "projects/sat-io/open-datasets/us-drought-monitor": 180
     },
     "2025-05-29": {
       "projects/sat-io/open-datasets/GLOBathy/GLOBathy_bathymetry": 170,
       "projects/sat-io/open-datasets/ORNL/LANDSCAN_GLOBAL": 283,
       "projects/sat-io/open-datasets/us-drought-monitor": 179
     },
-    "2025-05-31": {
-      "projects/sat-io/open-datasets/GLOBathy/GLOBathy_bathymetry": 165,
-      "projects/sat-io/open-datasets/ORNL/LANDSCAN_GLOBAL": 274,
-      "projects/sat-io/open-datasets/us-drought-monitor": 163
+    "2025-05-28": {
+      "projects/sat-io/open-datasets/GLOBathy/GLOBathy_bathymetry": 171,
+      "projects/sat-io/open-datasets/ORNL/LANDSCAN_GLOBAL": 285,
+      "projects/sat-io/open-datasets/us-drought-monitor": 180
     },
     "2025-06-01": {
       "projects/sat-io/open-datasets/GLOBathy/GLOBathy_bathymetry": 166,
       "projects/sat-io/open-datasets/ORNL/LANDSCAN_GLOBAL": 283,
       "projects/sat-io/open-datasets/us-drought-monitor": 164
+    },
+    "2025-05-31": {
+      "projects/sat-io/open-datasets/GLOBathy/GLOBathy_bathymetry": 165,
+      "projects/sat-io/open-datasets/ORNL/LANDSCAN_GLOBAL": 274,
+      "projects/sat-io/open-datasets/us-drought-monitor": 163
+    },
+    "2025-05-30": {
+      "projects/sat-io/open-datasets/GLOBathy/GLOBathy_bathymetry": 169,
+      "projects/sat-io/open-datasets/ORNL/LANDSCAN_GLOBAL": 276,
+      "projects/sat-io/open-datasets/us-drought-monitor": 174
     },
     "2025-06-02": {
       "projects/sat-io/open-datasets/GLOBathy/GLOBathy_bathymetry": 170,
@@ -1957,45 +1957,45 @@
       "projects/sat-io/open-datasets/ORNL/LANDSCAN_GLOBAL": 334,
       "projects/sat-io/open-datasets/us-drought-monitor": 98
     },
-    "2025-06-06": {
-      "projects/sat-io/open-datasets/GLOBathy/GLOBathy_bathymetry": 179,
-      "projects/sat-io/open-datasets/ORNL/LANDSCAN_GLOBAL": 329,
-      "projects/sat-io/open-datasets/us-drought-monitor": 144
-    },
-    "2025-06-07": {
-      "projects/sat-io/open-datasets/GLOBathy/GLOBathy_bathymetry": 175,
-      "projects/sat-io/open-datasets/ORNL/LANDSCAN_GLOBAL": 263,
-      "projects/sat-io/open-datasets/us-drought-monitor": 146
-    },
     "2025-06-08": {
       "projects/sat-io/open-datasets/GLOBathy/GLOBathy_bathymetry": 172,
       "projects/sat-io/open-datasets/ORNL/LANDSCAN_GLOBAL": 254,
       "projects/sat-io/open-datasets/us-drought-monitor": 85
     },
-    "2025-06-09": {
-      "projects/sat-io/open-datasets/GLOBathy/GLOBathy_bathymetry": 175,
-      "projects/sat-io/open-datasets/ORNL/LANDSCAN_GLOBAL": 254,
-      "projects/sat-io/open-datasets/us-drought-monitor": 136
+    "2025-06-06": {
+      "projects/sat-io/open-datasets/GLOBathy/GLOBathy_bathymetry": 179,
+      "projects/sat-io/open-datasets/ORNL/LANDSCAN_GLOBAL": 329,
+      "projects/sat-io/open-datasets/us-drought-monitor": 144
     },
     "2025-06-10": {
       "projects/sat-io/open-datasets/GLOBathy/GLOBathy_bathymetry": 174,
       "projects/sat-io/open-datasets/ORNL/LANDSCAN_GLOBAL": 256,
       "projects/sat-io/open-datasets/us-drought-monitor": 137
     },
+    "2025-06-07": {
+      "projects/sat-io/open-datasets/GLOBathy/GLOBathy_bathymetry": 175,
+      "projects/sat-io/open-datasets/ORNL/LANDSCAN_GLOBAL": 263,
+      "projects/sat-io/open-datasets/us-drought-monitor": 146
+    },
+    "2025-06-09": {
+      "projects/sat-io/open-datasets/GLOBathy/GLOBathy_bathymetry": 175,
+      "projects/sat-io/open-datasets/ORNL/LANDSCAN_GLOBAL": 254,
+      "projects/sat-io/open-datasets/us-drought-monitor": 136
+    },
     "2025-06-12": {
       "projects/sat-io/open-datasets/GLOBathy/GLOBathy_bathymetry": 172,
       "projects/sat-io/open-datasets/ORNL/LANDSCAN_GLOBAL": 250,
       "projects/sat-io/open-datasets/us-drought-monitor": 78
     },
-    "2025-06-11": {
-      "projects/sat-io/open-datasets/GLOBathy/GLOBathy_bathymetry": 173,
-      "projects/sat-io/open-datasets/ORNL/LANDSCAN_GLOBAL": 254,
-      "projects/sat-io/open-datasets/us-drought-monitor": 129
-    },
     "2025-06-13": {
       "projects/sat-io/open-datasets/GLOBathy/GLOBathy_bathymetry": 174,
       "projects/sat-io/open-datasets/ORNL/LANDSCAN_GLOBAL": 247,
       "projects/sat-io/open-datasets/us-drought-monitor": 72
+    },
+    "2025-06-11": {
+      "projects/sat-io/open-datasets/GLOBathy/GLOBathy_bathymetry": 173,
+      "projects/sat-io/open-datasets/ORNL/LANDSCAN_GLOBAL": 254,
+      "projects/sat-io/open-datasets/us-drought-monitor": 129
     },
     "2025-06-14": {
       "projects/sat-io/open-datasets/GLOBathy/GLOBathy_bathymetry": 169,
@@ -2011,29 +2011,33 @@
       "projects/sat-io/open-datasets/GLOBathy/GLOBathy_bathymetry": 171,
       "projects/sat-io/open-datasets/ORNL/LANDSCAN_GLOBAL": 236
     },
-    "2025-06-18": {
-      "projects/sat-io/open-datasets/GLOBathy/GLOBathy_bathymetry": 176,
-      "projects/sat-io/open-datasets/ORNL/LANDSCAN_GLOBAL": 248
-    },
     "2025-06-17": {
       "projects/sat-io/open-datasets/GLOBathy/GLOBathy_bathymetry": 180,
       "projects/sat-io/open-datasets/ORNL/LANDSCAN_GLOBAL": 241
+    },
+    "2025-06-18": {
+      "projects/sat-io/open-datasets/GLOBathy/GLOBathy_bathymetry": 176,
+      "projects/sat-io/open-datasets/ORNL/LANDSCAN_GLOBAL": 248
     },
     "2025-06-19": {
       "projects/sat-io/open-datasets/GLOBathy/GLOBathy_bathymetry": 173,
       "projects/sat-io/open-datasets/ORNL/LANDSCAN_GLOBAL": 247
     },
-    "2025-06-22": {
-      "projects/sat-io/open-datasets/GLOBathy/GLOBathy_bathymetry": 166,
-      "projects/sat-io/open-datasets/ORNL/LANDSCAN_GLOBAL": 237
+    "2025-06-21": {
+      "projects/sat-io/open-datasets/GLOBathy/GLOBathy_bathymetry": 167,
+      "projects/sat-io/open-datasets/ORNL/LANDSCAN_GLOBAL": 242
     },
     "2025-06-20": {
       "projects/sat-io/open-datasets/GLOBathy/GLOBathy_bathymetry": 171,
       "projects/sat-io/open-datasets/ORNL/LANDSCAN_GLOBAL": 244
     },
-    "2025-06-21": {
-      "projects/sat-io/open-datasets/GLOBathy/GLOBathy_bathymetry": 167,
-      "projects/sat-io/open-datasets/ORNL/LANDSCAN_GLOBAL": 242
+    "2025-06-22": {
+      "projects/sat-io/open-datasets/GLOBathy/GLOBathy_bathymetry": 166,
+      "projects/sat-io/open-datasets/ORNL/LANDSCAN_GLOBAL": 237
+    },
+    "2025-06-25": {
+      "projects/sat-io/open-datasets/GLOBathy/GLOBathy_bathymetry": 173,
+      "projects/sat-io/open-datasets/ORNL/LANDSCAN_GLOBAL": 245
     },
     "2025-06-23": {
       "projects/sat-io/open-datasets/GLOBathy/GLOBathy_bathymetry": 168,
@@ -2042,10 +2046,6 @@
     "2025-06-24": {
       "projects/sat-io/open-datasets/GLOBathy/GLOBathy_bathymetry": 168,
       "projects/sat-io/open-datasets/ORNL/LANDSCAN_GLOBAL": 241
-    },
-    "2025-06-25": {
-      "projects/sat-io/open-datasets/GLOBathy/GLOBathy_bathymetry": 173,
-      "projects/sat-io/open-datasets/ORNL/LANDSCAN_GLOBAL": 245
     },
     "2025-06-26": {
       "projects/sat-io/open-datasets/GLOBathy/GLOBathy_bathymetry": 167,
@@ -2067,18 +2067,9 @@
       "projects/sat-io/open-datasets/GLOBathy/GLOBathy_bathymetry": 167,
       "projects/sat-io/open-datasets/ORNL/LANDSCAN_GLOBAL": 267
     },
-    "2025-07-02": {
-      "projects/sat-io/open-datasets/GLOBathy/GLOBathy_bathymetry": 168,
-      "projects/sat-io/open-datasets/ORNL/LANDSCAN_GLOBAL": 268,
-      "projects/sat-io/open-datasets/us-drought-monitor": 50
-    },
     "2025-07-01": {
       "projects/sat-io/open-datasets/GLOBathy/GLOBathy_bathymetry": 168,
       "projects/sat-io/open-datasets/ORNL/LANDSCAN_GLOBAL": 266
-    },
-    "2025-07-03": {
-      "projects/sat-io/open-datasets/GLOBathy/GLOBathy_bathymetry": 164,
-      "projects/sat-io/open-datasets/ORNL/LANDSCAN_GLOBAL": 276
     },
     "2025-07-04": {
       "projects/sat-io/open-datasets/GLOBathy/GLOBathy_bathymetry": 164,
@@ -2088,13 +2079,18 @@
       "projects/sat-io/open-datasets/GLOBathy/GLOBathy_bathymetry": 164,
       "projects/sat-io/open-datasets/ORNL/LANDSCAN_GLOBAL": 276
     },
+    "2025-07-02": {
+      "projects/sat-io/open-datasets/GLOBathy/GLOBathy_bathymetry": 168,
+      "projects/sat-io/open-datasets/ORNL/LANDSCAN_GLOBAL": 268,
+      "projects/sat-io/open-datasets/us-drought-monitor": 50
+    },
+    "2025-07-03": {
+      "projects/sat-io/open-datasets/GLOBathy/GLOBathy_bathymetry": 164,
+      "projects/sat-io/open-datasets/ORNL/LANDSCAN_GLOBAL": 276
+    },
     "2025-07-06": {
       "projects/sat-io/open-datasets/GLOBathy/GLOBathy_bathymetry": 165,
       "projects/sat-io/open-datasets/ORNL/LANDSCAN_GLOBAL": 278
-    },
-    "2025-07-07": {
-      "projects/sat-io/open-datasets/GLOBathy/GLOBathy_bathymetry": 172,
-      "projects/sat-io/open-datasets/ORNL/LANDSCAN_GLOBAL": 282
     },
     "2025-07-08": {
       "projects/sat-io/open-datasets/GLOBathy/GLOBathy_bathymetry": 175,
@@ -2103,6 +2099,10 @@
     "2025-07-09": {
       "projects/sat-io/open-datasets/GLOBathy/GLOBathy_bathymetry": 170,
       "projects/sat-io/open-datasets/ORNL/LANDSCAN_GLOBAL": 290
+    },
+    "2025-07-07": {
+      "projects/sat-io/open-datasets/GLOBathy/GLOBathy_bathymetry": 172,
+      "projects/sat-io/open-datasets/ORNL/LANDSCAN_GLOBAL": 282
     },
     "2025-07-10": {
       "projects/sat-io/open-datasets/GLOBathy/GLOBathy_bathymetry": 172,
@@ -2117,6 +2117,11 @@
       "projects/sat-io/open-datasets/ORNL/LANDSCAN_GLOBAL": 285,
       "projects/sat-io/open-datasets/us-drought-monitor": 52
     },
+    "2025-07-13": {
+      "projects/sat-io/open-datasets/GLOBathy/GLOBathy_bathymetry": 170,
+      "projects/sat-io/open-datasets/ORNL/LANDSCAN_GLOBAL": 288,
+      "projects/sat-io/open-datasets/us-drought-monitor": 53
+    },
     "2025-07-14": {
       "projects/sat-io/open-datasets/GLOBathy/GLOBathy_bathymetry": 173,
       "projects/sat-io/open-datasets/ORNL/LANDSCAN_GLOBAL": 302,
@@ -2126,11 +2131,6 @@
       "projects/sat-io/open-datasets/GLOBathy/GLOBathy_bathymetry": 175,
       "projects/sat-io/open-datasets/ORNL/LANDSCAN_GLOBAL": 303,
       "projects/sat-io/open-datasets/us-drought-monitor": 54
-    },
-    "2025-07-13": {
-      "projects/sat-io/open-datasets/GLOBathy/GLOBathy_bathymetry": 170,
-      "projects/sat-io/open-datasets/ORNL/LANDSCAN_GLOBAL": 288,
-      "projects/sat-io/open-datasets/us-drought-monitor": 53
     },
     "2025-07-16": {
       "projects/sat-io/open-datasets/GLOBathy/GLOBathy_bathymetry": 174,
@@ -2142,44 +2142,49 @@
       "projects/sat-io/open-datasets/ORNL/LANDSCAN_GLOBAL": 307,
       "projects/sat-io/open-datasets/us-drought-monitor": 59
     },
-    "2025-07-19": {
-      "projects/sat-io/open-datasets/GLOBathy/GLOBathy_bathymetry": 169,
-      "projects/sat-io/open-datasets/ORNL/LANDSCAN_GLOBAL": 323,
-      "projects/sat-io/open-datasets/us-drought-monitor": 59
-    },
     "2025-07-17": {
       "projects/sat-io/open-datasets/GLOBathy/GLOBathy_bathymetry": 172,
       "projects/sat-io/open-datasets/ORNL/LANDSCAN_GLOBAL": 307,
       "projects/sat-io/open-datasets/us-drought-monitor": 59
-    },
-    "2025-07-20": {
-      "projects/sat-io/open-datasets/GLOBathy/GLOBathy_bathymetry": 169,
-      "projects/sat-io/open-datasets/ORNL/LANDSCAN_GLOBAL": 321,
-      "projects/sat-io/open-datasets/us-drought-monitor": 58
     },
     "2025-07-21": {
       "projects/sat-io/open-datasets/GLOBathy/GLOBathy_bathymetry": 175,
       "projects/sat-io/open-datasets/ORNL/LANDSCAN_GLOBAL": 327,
       "projects/sat-io/open-datasets/us-drought-monitor": 58
     },
+    "2025-07-20": {
+      "projects/sat-io/open-datasets/GLOBathy/GLOBathy_bathymetry": 169,
+      "projects/sat-io/open-datasets/ORNL/LANDSCAN_GLOBAL": 321,
+      "projects/sat-io/open-datasets/us-drought-monitor": 58
+    },
+    "2025-07-19": {
+      "projects/sat-io/open-datasets/GLOBathy/GLOBathy_bathymetry": 169,
+      "projects/sat-io/open-datasets/ORNL/LANDSCAN_GLOBAL": 323,
+      "projects/sat-io/open-datasets/us-drought-monitor": 59
+    },
     "2025-07-22": {
       "projects/sat-io/open-datasets/GLOBathy/GLOBathy_bathymetry": 179,
       "projects/sat-io/open-datasets/ORNL/LANDSCAN_GLOBAL": 382,
       "projects/sat-io/open-datasets/us-drought-monitor": 58
+    },
+    "2025-07-23": {
+      "projects/sat-io/open-datasets/GLOBathy/GLOBathy_bathymetry": 181,
+      "projects/sat-io/open-datasets/ORNL/LANDSCAN_GLOBAL": 402,
+      "projects/sat-io/open-datasets/us-drought-monitor": 57
     }
   },
   "data_type": "moving_window",
   "window_size_days": 30,
   "summary": {
     "total_datasets": 3,
-    "total_usage_events": 440,
-    "latest_total_users": 619,
-    "avg_users_per_dataset": 206.33,
+    "total_usage_events": 441,
+    "latest_total_users": 640,
+    "avg_users_per_dataset": 213.33,
     "date_range": {
       "start": "2024-04-24",
-      "end": "2025-07-22"
+      "end": "2025-07-23"
     },
-    "growth_rate": 45.99
+    "growth_rate": 50.94
   },
   "peaks": {
     "peak_snapshot": {
@@ -2189,72 +2194,72 @@
     },
     "peak_dataset": {
       "name": "projects/sat-io/open-datasets/ORNL/LANDSCAN_GLOBAL",
-      "total_users": 382,
-      "avg_users": 245.17
+      "total_users": 402,
+      "avg_users": 245.52
     }
   },
   "dataset_rankings": {
     "projects/sat-io/open-datasets/ORNL/LANDSCAN_GLOBAL": {
-      "total_users": 382,
-      "avg_users": 245.17,
-      "appearances": 440,
-      "std_users": 67.1
+      "total_users": 402,
+      "avg_users": 245.52,
+      "appearances": 441,
+      "std_users": 67.44
     },
     "projects/sat-io/open-datasets/GLOBathy/GLOBathy_bathymetry": {
-      "total_users": 179,
-      "avg_users": 168.6,
-      "appearances": 440,
-      "std_users": 25.03
+      "total_users": 181,
+      "avg_users": 168.63,
+      "appearances": 441,
+      "std_users": 25.01
     },
     "projects/sat-io/open-datasets/us-drought-monitor": {
-      "total_users": 58,
-      "avg_users": 158.72,
-      "appearances": 407,
-      "std_users": 332.1
+      "total_users": 57,
+      "avg_users": 158.49,
+      "appearances": 408,
+      "std_users": 331.76
     }
   },
   "snapshot_trends": {
-    "2024-04-25": {
-      "total_users": 417,
-      "dataset_count": 3,
-      "avg_users": 139.0
-    },
     "2024-05-04": {
       "total_users": 410,
       "dataset_count": 3,
       "avg_users": 136.67
-    },
-    "2024-04-30": {
-      "total_users": 411,
-      "dataset_count": 3,
-      "avg_users": 137.0
     },
     "2024-04-26": {
       "total_users": 413,
       "dataset_count": 3,
       "avg_users": 137.67
     },
-    "2024-05-03": {
-      "total_users": 413,
+    "2024-04-30": {
+      "total_users": 411,
       "dataset_count": 3,
-      "avg_users": 137.67
-    },
-    "2024-05-02": {
-      "total_users": 424,
-      "dataset_count": 3,
-      "avg_users": 141.33
+      "avg_users": 137.0
     },
     "2024-04-28": {
       "total_users": 407,
       "dataset_count": 3,
       "avg_users": 135.67
     },
+    "2024-04-25": {
+      "total_users": 417,
+      "dataset_count": 3,
+      "avg_users": 139.0
+    },
+    "2024-05-03": {
+      "total_users": 413,
+      "dataset_count": 3,
+      "avg_users": 137.67
+    },
+    "2024-04-24": {
+      "total_users": 424,
+      "dataset_count": 3,
+      "avg_users": 141.33
+    },
     "2024-05-01": {
       "total_users": 416,
       "dataset_count": 3,
       "avg_users": 138.67
     },
-    "2024-04-24": {
+    "2024-05-02": {
       "total_users": 424,
       "dataset_count": 3,
       "avg_users": 141.33
@@ -2269,45 +2274,50 @@
       "dataset_count": 3,
       "avg_users": 135.67
     },
-    "2024-05-07": {
-      "total_users": 414,
-      "dataset_count": 3,
-      "avg_users": 138.0
-    },
-    "2024-05-10": {
-      "total_users": 427,
-      "dataset_count": 3,
-      "avg_users": 142.33
-    },
     "2024-05-06": {
       "total_users": 412,
       "dataset_count": 3,
       "avg_users": 137.33
     },
-    "2024-05-09": {
-      "total_users": 427,
+    "2024-05-07": {
+      "total_users": 414,
       "dataset_count": 3,
-      "avg_users": 142.33
-    },
-    "2024-05-16": {
-      "total_users": 443,
-      "dataset_count": 3,
-      "avg_users": 147.67
+      "avg_users": 138.0
     },
     "2024-05-08": {
       "total_users": 426,
       "dataset_count": 3,
       "avg_users": 142.0
     },
-    "2024-05-11": {
-      "total_users": 410,
+    "2024-05-09": {
+      "total_users": 427,
       "dataset_count": 3,
-      "avg_users": 136.67
+      "avg_users": 142.33
     },
     "2024-05-13": {
       "total_users": 417,
       "dataset_count": 3,
       "avg_users": 139.0
+    },
+    "2024-05-11": {
+      "total_users": 410,
+      "dataset_count": 3,
+      "avg_users": 136.67
+    },
+    "2024-05-16": {
+      "total_users": 443,
+      "dataset_count": 3,
+      "avg_users": 147.67
+    },
+    "2024-05-10": {
+      "total_users": 427,
+      "dataset_count": 3,
+      "avg_users": 142.33
+    },
+    "2024-05-14": {
+      "total_users": 434,
+      "dataset_count": 3,
+      "avg_users": 144.67
     },
     "2024-05-15": {
       "total_users": 434,
@@ -2318,11 +2328,6 @@
       "total_users": 407,
       "dataset_count": 3,
       "avg_users": 135.67
-    },
-    "2024-05-14": {
-      "total_users": 434,
-      "dataset_count": 3,
-      "avg_users": 144.67
     },
     "2024-05-17": {
       "total_users": 443,
@@ -2339,35 +2344,15 @@
       "dataset_count": 3,
       "avg_users": 144.67
     },
-    "2024-05-21": {
-      "total_users": 444,
-      "dataset_count": 3,
-      "avg_users": 148.0
-    },
-    "2024-05-22": {
-      "total_users": 443,
-      "dataset_count": 3,
-      "avg_users": 147.67
-    },
     "2024-05-20": {
       "total_users": 442,
       "dataset_count": 3,
       "avg_users": 147.33
     },
-    "2024-05-23": {
+    "2024-05-21": {
       "total_users": 444,
       "dataset_count": 3,
       "avg_users": 148.0
-    },
-    "2024-05-24": {
-      "total_users": 436,
-      "dataset_count": 3,
-      "avg_users": 145.33
-    },
-    "2024-05-27": {
-      "total_users": 431,
-      "dataset_count": 3,
-      "avg_users": 143.67
     },
     "2024-05-25": {
       "total_users": 431,
@@ -2379,10 +2364,30 @@
       "dataset_count": 3,
       "avg_users": 141.33
     },
+    "2024-05-23": {
+      "total_users": 444,
+      "dataset_count": 3,
+      "avg_users": 148.0
+    },
+    "2024-05-22": {
+      "total_users": 443,
+      "dataset_count": 3,
+      "avg_users": 147.67
+    },
+    "2024-05-27": {
+      "total_users": 431,
+      "dataset_count": 3,
+      "avg_users": 143.67
+    },
     "2024-05-28": {
       "total_users": 427,
       "dataset_count": 3,
       "avg_users": 142.33
+    },
+    "2024-05-24": {
+      "total_users": 436,
+      "dataset_count": 3,
+      "avg_users": 145.33
     },
     "2024-05-29": {
       "total_users": 426,
@@ -2409,35 +2414,35 @@
       "dataset_count": 3,
       "avg_users": 133.33
     },
-    "2024-06-03": {
-      "total_users": 414,
-      "dataset_count": 3,
-      "avg_users": 138.0
+    "2024-06-05": {
+      "total_users": 363,
+      "dataset_count": 2,
+      "avg_users": 181.5
+    },
+    "2024-06-07": {
+      "total_users": 347,
+      "dataset_count": 2,
+      "avg_users": 173.5
     },
     "2024-06-06": {
       "total_users": 363,
       "dataset_count": 2,
       "avg_users": 181.5
     },
-    "2024-06-05": {
-      "total_users": 363,
-      "dataset_count": 2,
-      "avg_users": 181.5
-    },
-    "2024-06-04": {
-      "total_users": 370,
-      "dataset_count": 2,
-      "avg_users": 185.0
+    "2024-06-03": {
+      "total_users": 414,
+      "dataset_count": 3,
+      "avg_users": 138.0
     },
     "2024-06-09": {
       "total_users": 331,
       "dataset_count": 2,
       "avg_users": 165.5
     },
-    "2024-06-07": {
-      "total_users": 347,
+    "2024-06-04": {
+      "total_users": 370,
       "dataset_count": 2,
-      "avg_users": 173.5
+      "avg_users": 185.0
     },
     "2024-06-08": {
       "total_users": 337,
@@ -2454,16 +2459,6 @@
       "dataset_count": 2,
       "avg_users": 169.5
     },
-    "2024-06-12": {
-      "total_users": 391,
-      "dataset_count": 3,
-      "avg_users": 130.33
-    },
-    "2024-06-14": {
-      "total_users": 377,
-      "dataset_count": 3,
-      "avg_users": 125.67
-    },
     "2024-06-13": {
       "total_users": 382,
       "dataset_count": 3,
@@ -2474,25 +2469,15 @@
       "dataset_count": 3,
       "avg_users": 121.33
     },
-    "2024-06-21": {
-      "total_users": 371,
+    "2024-06-14": {
+      "total_users": 377,
       "dataset_count": 3,
-      "avg_users": 123.67
+      "avg_users": 125.67
     },
-    "2024-06-18": {
-      "total_users": 370,
+    "2024-06-12": {
+      "total_users": 391,
       "dataset_count": 3,
-      "avg_users": 123.33
-    },
-    "2024-06-17": {
-      "total_users": 366,
-      "dataset_count": 3,
-      "avg_users": 122.0
-    },
-    "2024-06-19": {
-      "total_users": 370,
-      "dataset_count": 3,
-      "avg_users": 123.33
+      "avg_users": 130.33
     },
     "2024-06-20": {
       "total_users": 373,
@@ -2504,35 +2489,70 @@
       "dataset_count": 3,
       "avg_users": 119.0
     },
+    "2024-06-21": {
+      "total_users": 371,
+      "dataset_count": 3,
+      "avg_users": 123.67
+    },
+    "2024-06-17": {
+      "total_users": 366,
+      "dataset_count": 3,
+      "avg_users": 122.0
+    },
+    "2024-06-18": {
+      "total_users": 370,
+      "dataset_count": 3,
+      "avg_users": 123.33
+    },
+    "2024-06-19": {
+      "total_users": 370,
+      "dataset_count": 3,
+      "avg_users": 123.33
+    },
     "2024-06-22": {
       "total_users": 369,
       "dataset_count": 3,
       "avg_users": 123.0
-    },
-    "2024-06-24": {
-      "total_users": 379,
-      "dataset_count": 3,
-      "avg_users": 126.33
     },
     "2024-06-23": {
       "total_users": 363,
       "dataset_count": 3,
       "avg_users": 121.0
     },
-    "2024-06-25": {
-      "total_users": 383,
+    "2024-06-24": {
+      "total_users": 379,
       "dataset_count": 3,
-      "avg_users": 127.67
+      "avg_users": 126.33
+    },
+    "2024-06-27": {
+      "total_users": 393,
+      "dataset_count": 3,
+      "avg_users": 131.0
     },
     "2024-06-26": {
       "total_users": 390,
       "dataset_count": 3,
       "avg_users": 130.0
     },
-    "2024-06-27": {
-      "total_users": 393,
+    "2024-06-25": {
+      "total_users": 383,
       "dataset_count": 3,
-      "avg_users": 131.0
+      "avg_users": 127.67
+    },
+    "2024-06-29": {
+      "total_users": 388,
+      "dataset_count": 3,
+      "avg_users": 129.33
+    },
+    "2024-07-03": {
+      "total_users": 374,
+      "dataset_count": 3,
+      "avg_users": 124.67
+    },
+    "2024-06-30": {
+      "total_users": 380,
+      "dataset_count": 3,
+      "avg_users": 126.67
     },
     "2024-07-01": {
       "total_users": 388,
@@ -2544,21 +2564,6 @@
       "dataset_count": 3,
       "avg_users": 130.67
     },
-    "2024-07-03": {
-      "total_users": 374,
-      "dataset_count": 3,
-      "avg_users": 124.67
-    },
-    "2024-06-29": {
-      "total_users": 388,
-      "dataset_count": 3,
-      "avg_users": 129.33
-    },
-    "2024-06-30": {
-      "total_users": 380,
-      "dataset_count": 3,
-      "avg_users": 126.67
-    },
     "2024-07-02": {
       "total_users": 384,
       "dataset_count": 3,
@@ -2569,15 +2574,20 @@
       "dataset_count": 3,
       "avg_users": 126.67
     },
+    "2024-07-05": {
+      "total_users": 388,
+      "dataset_count": 3,
+      "avg_users": 129.33
+    },
     "2024-07-06": {
       "total_users": 387,
       "dataset_count": 3,
       "avg_users": 129.0
     },
-    "2024-07-05": {
-      "total_users": 388,
+    "2024-07-08": {
+      "total_users": 400,
       "dataset_count": 3,
-      "avg_users": 129.33
+      "avg_users": 133.33
     },
     "2024-07-07": {
       "total_users": 391,
@@ -2589,25 +2599,25 @@
       "dataset_count": 3,
       "avg_users": 135.0
     },
-    "2024-07-08": {
-      "total_users": 400,
+    "2024-07-10": {
+      "total_users": 421,
       "dataset_count": 3,
-      "avg_users": 133.33
-    },
-    "2024-07-11": {
-      "total_users": 418,
-      "dataset_count": 3,
-      "avg_users": 139.33
+      "avg_users": 140.33
     },
     "2024-07-12": {
       "total_users": 413,
       "dataset_count": 3,
       "avg_users": 137.67
     },
-    "2024-07-10": {
-      "total_users": 421,
+    "2024-07-14": {
+      "total_users": 406,
       "dataset_count": 3,
-      "avg_users": 140.33
+      "avg_users": 135.33
+    },
+    "2024-07-11": {
+      "total_users": 418,
+      "dataset_count": 3,
+      "avg_users": 139.33
     },
     "2024-07-13": {
       "total_users": 406,
@@ -2618,11 +2628,6 @@
       "total_users": 416,
       "dataset_count": 3,
       "avg_users": 138.67
-    },
-    "2024-07-14": {
-      "total_users": 406,
-      "dataset_count": 3,
-      "avg_users": 135.33
     },
     "2024-07-17": {
       "total_users": 437,
@@ -2644,15 +2649,20 @@
       "dataset_count": 3,
       "avg_users": 142.0
     },
+    "2024-07-22": {
+      "total_users": 429,
+      "dataset_count": 3,
+      "avg_users": 143.0
+    },
     "2024-07-21": {
       "total_users": 426,
       "dataset_count": 3,
       "avg_users": 142.0
     },
-    "2024-07-22": {
-      "total_users": 429,
+    "2024-07-24": {
+      "total_users": 445,
       "dataset_count": 3,
-      "avg_users": 143.0
+      "avg_users": 148.33
     },
     "2024-07-23": {
       "total_users": 447,
@@ -2664,20 +2674,15 @@
       "dataset_count": 3,
       "avg_users": 583.67
     },
-    "2024-07-26": {
-      "total_users": 1741,
-      "dataset_count": 3,
-      "avg_users": 580.33
-    },
-    "2024-07-24": {
-      "total_users": 445,
-      "dataset_count": 3,
-      "avg_users": 148.33
-    },
     "2024-07-27": {
       "total_users": 1738,
       "dataset_count": 3,
       "avg_users": 579.33
+    },
+    "2024-07-26": {
+      "total_users": 1741,
+      "dataset_count": 3,
+      "avg_users": 580.33
     },
     "2024-07-28": {
       "total_users": 1740,
@@ -2694,6 +2699,11 @@
       "dataset_count": 3,
       "avg_users": 588.0
     },
+    "2024-08-01": {
+      "total_users": 1750,
+      "dataset_count": 3,
+      "avg_users": 583.33
+    },
     "2024-07-31": {
       "total_users": 1755,
       "dataset_count": 3,
@@ -2703,11 +2713,6 @@
       "total_users": 1747,
       "dataset_count": 3,
       "avg_users": 582.33
-    },
-    "2024-08-01": {
-      "total_users": 1750,
-      "dataset_count": 3,
-      "avg_users": 583.33
     },
     "2024-08-03": {
       "total_users": 1741,
@@ -2719,30 +2724,30 @@
       "dataset_count": 3,
       "avg_users": 578.33
     },
+    "2024-08-05": {
+      "total_users": 1739,
+      "dataset_count": 3,
+      "avg_users": 579.67
+    },
     "2024-08-06": {
       "total_users": 1738,
       "dataset_count": 3,
       "avg_users": 579.33
-    },
-    "2024-08-07": {
-      "total_users": 1749,
-      "dataset_count": 3,
-      "avg_users": 583.0
     },
     "2024-08-08": {
       "total_users": 1753,
       "dataset_count": 3,
       "avg_users": 584.33
     },
+    "2024-08-07": {
+      "total_users": 1749,
+      "dataset_count": 3,
+      "avg_users": 583.0
+    },
     "2024-08-09": {
       "total_users": 1743,
       "dataset_count": 3,
       "avg_users": 581.0
-    },
-    "2024-08-05": {
-      "total_users": 1739,
-      "dataset_count": 3,
-      "avg_users": 579.67
     },
     "2024-08-10": {
       "total_users": 1730,
@@ -2754,25 +2759,35 @@
       "dataset_count": 3,
       "avg_users": 574.33
     },
-    "2024-08-12": {
-      "total_users": 1732,
-      "dataset_count": 3,
-      "avg_users": 577.33
-    },
     "2024-08-13": {
       "total_users": 1736,
       "dataset_count": 3,
       "avg_users": 578.67
+    },
+    "2024-08-14": {
+      "total_users": 1735,
+      "dataset_count": 3,
+      "avg_users": 578.33
+    },
+    "2024-08-12": {
+      "total_users": 1732,
+      "dataset_count": 3,
+      "avg_users": 577.33
     },
     "2024-08-15": {
       "total_users": 1722,
       "dataset_count": 3,
       "avg_users": 574.0
     },
-    "2024-08-14": {
-      "total_users": 1735,
+    "2024-08-19": {
+      "total_users": 1684,
       "dataset_count": 3,
-      "avg_users": 578.33
+      "avg_users": 561.33
+    },
+    "2024-08-18": {
+      "total_users": 1682,
+      "dataset_count": 3,
+      "avg_users": 560.67
     },
     "2024-08-16": {
       "total_users": 1709,
@@ -2784,25 +2799,15 @@
       "dataset_count": 3,
       "avg_users": 568.33
     },
-    "2024-08-21": {
-      "total_users": 1690,
-      "dataset_count": 3,
-      "avg_users": 563.33
-    },
-    "2024-08-18": {
-      "total_users": 1682,
-      "dataset_count": 3,
-      "avg_users": 560.67
-    },
     "2024-08-20": {
       "total_users": 1689,
       "dataset_count": 3,
       "avg_users": 563.0
     },
-    "2024-08-19": {
-      "total_users": 1684,
+    "2024-08-21": {
+      "total_users": 1690,
       "dataset_count": 3,
-      "avg_users": 561.33
+      "avg_users": 563.33
     },
     "2024-08-22": {
       "total_users": 1681,
@@ -2814,85 +2819,80 @@
       "dataset_count": 3,
       "avg_users": 559.67
     },
-    "2024-08-24": {
-      "total_users": 389,
-      "dataset_count": 3,
-      "avg_users": 129.67
-    },
     "2024-08-25": {
       "total_users": 383,
       "dataset_count": 3,
       "avg_users": 127.67
     },
-    "2024-08-26": {
-      "total_users": 387,
+    "2024-08-24": {
+      "total_users": 389,
       "dataset_count": 3,
-      "avg_users": 129.0
-    },
-    "2024-08-28": {
-      "total_users": 392,
-      "dataset_count": 3,
-      "avg_users": 130.67
+      "avg_users": 129.67
     },
     "2024-08-27": {
       "total_users": 393,
       "dataset_count": 3,
       "avg_users": 131.0
     },
+    "2024-08-26": {
+      "total_users": 387,
+      "dataset_count": 3,
+      "avg_users": 129.0
+    },
     "2024-08-29": {
       "total_users": 381,
       "dataset_count": 3,
       "avg_users": 127.0
     },
-    "2024-08-31": {
-      "total_users": 377,
+    "2024-08-28": {
+      "total_users": 392,
       "dataset_count": 3,
-      "avg_users": 125.67
-    },
-    "2024-09-02": {
-      "total_users": 390,
-      "dataset_count": 3,
-      "avg_users": 130.0
-    },
-    "2024-09-01": {
-      "total_users": 380,
-      "dataset_count": 3,
-      "avg_users": 126.67
+      "avg_users": 130.67
     },
     "2024-08-30": {
       "total_users": 376,
       "dataset_count": 3,
       "avg_users": 125.33
     },
-    "2024-09-04": {
-      "total_users": 389,
+    "2024-08-31": {
+      "total_users": 377,
       "dataset_count": 3,
-      "avg_users": 129.67
+      "avg_users": 125.67
+    },
+    "2024-09-01": {
+      "total_users": 380,
+      "dataset_count": 3,
+      "avg_users": 126.67
     },
     "2024-09-03": {
       "total_users": 391,
       "dataset_count": 3,
       "avg_users": 130.33
     },
-    "2024-09-05": {
+    "2024-09-02": {
+      "total_users": 390,
+      "dataset_count": 3,
+      "avg_users": 130.0
+    },
+    "2024-09-04": {
       "total_users": 389,
       "dataset_count": 3,
       "avg_users": 129.67
     },
-    "2024-09-06": {
-      "total_users": 380,
+    "2024-09-05": {
+      "total_users": 389,
       "dataset_count": 3,
-      "avg_users": 126.67
+      "avg_users": 129.67
     },
     "2024-09-07": {
       "total_users": 366,
       "dataset_count": 3,
       "avg_users": 122.0
     },
-    "2024-09-10": {
-      "total_users": 383,
+    "2024-09-06": {
+      "total_users": 380,
       "dataset_count": 3,
-      "avg_users": 127.67
+      "avg_users": 126.67
     },
     "2024-09-08": {
       "total_users": 364,
@@ -2904,25 +2904,30 @@
       "dataset_count": 3,
       "avg_users": 124.67
     },
-    "2024-09-13": {
-      "total_users": 390,
+    "2024-09-10": {
+      "total_users": 383,
       "dataset_count": 3,
-      "avg_users": 130.0
+      "avg_users": 127.67
     },
     "2024-09-11": {
       "total_users": 385,
       "dataset_count": 3,
       "avg_users": 128.33
     },
+    "2024-09-12": {
+      "total_users": 383,
+      "dataset_count": 3,
+      "avg_users": 127.67
+    },
     "2024-09-14": {
       "total_users": 386,
       "dataset_count": 3,
       "avg_users": 128.67
     },
-    "2024-09-12": {
-      "total_users": 383,
+    "2024-09-13": {
+      "total_users": 390,
       "dataset_count": 3,
-      "avg_users": 127.67
+      "avg_users": 130.0
     },
     "2024-09-15": {
       "total_users": 384,
@@ -2939,15 +2944,15 @@
       "dataset_count": 3,
       "avg_users": 132.67
     },
-    "2024-09-18": {
-      "total_users": 402,
-      "dataset_count": 3,
-      "avg_users": 134.0
-    },
     "2024-09-19": {
       "total_users": 401,
       "dataset_count": 3,
       "avg_users": 133.67
+    },
+    "2024-09-18": {
+      "total_users": 402,
+      "dataset_count": 3,
+      "avg_users": 134.0
     },
     "2024-09-21": {
       "total_users": 388,
@@ -2959,15 +2964,15 @@
       "dataset_count": 3,
       "avg_users": 132.33
     },
+    "2024-09-26": {
+      "total_users": 411,
+      "dataset_count": 3,
+      "avg_users": 137.0
+    },
     "2024-09-22": {
       "total_users": 393,
       "dataset_count": 3,
       "avg_users": 131.0
-    },
-    "2024-09-24": {
-      "total_users": 410,
-      "dataset_count": 3,
-      "avg_users": 136.67
     },
     "2024-09-25": {
       "total_users": 419,
@@ -2979,15 +2984,15 @@
       "dataset_count": 3,
       "avg_users": 133.33
     },
+    "2024-09-24": {
+      "total_users": 410,
+      "dataset_count": 3,
+      "avg_users": 136.67
+    },
     "2024-09-27": {
       "total_users": 398,
       "dataset_count": 3,
       "avg_users": 132.67
-    },
-    "2024-09-26": {
-      "total_users": 411,
-      "dataset_count": 3,
-      "avg_users": 137.0
     },
     "2024-09-28": {
       "total_users": 391,
@@ -3009,11 +3014,6 @@
       "dataset_count": 3,
       "avg_users": 134.33
     },
-    "2024-10-04": {
-      "total_users": 384,
-      "dataset_count": 3,
-      "avg_users": 128.0
-    },
     "2024-10-02": {
       "total_users": 399,
       "dataset_count": 3,
@@ -3033,6 +3033,11 @@
       "total_users": 382,
       "dataset_count": 3,
       "avg_users": 127.33
+    },
+    "2024-10-04": {
+      "total_users": 384,
+      "dataset_count": 3,
+      "avg_users": 128.0
     },
     "2024-10-06": {
       "total_users": 372,
@@ -3069,70 +3074,70 @@
       "dataset_count": 3,
       "avg_users": 119.0
     },
-    "2024-10-14": {
-      "total_users": 376,
-      "dataset_count": 3,
-      "avg_users": 125.33
-    },
     "2024-10-15": {
       "total_users": 388,
       "dataset_count": 3,
       "avg_users": 129.33
     },
-    "2024-10-16": {
-      "total_users": 390,
+    "2024-10-14": {
+      "total_users": 376,
       "dataset_count": 3,
-      "avg_users": 130.0
-    },
-    "2024-10-17": {
-      "total_users": 403,
-      "dataset_count": 3,
-      "avg_users": 134.33
-    },
-    "2024-10-18": {
-      "total_users": 401,
-      "dataset_count": 3,
-      "avg_users": 133.67
-    },
-    "2024-10-20": {
-      "total_users": 394,
-      "dataset_count": 3,
-      "avg_users": 131.33
+      "avg_users": 125.33
     },
     "2024-10-19": {
       "total_users": 392,
       "dataset_count": 3,
       "avg_users": 130.67
     },
+    "2024-10-18": {
+      "total_users": 401,
+      "dataset_count": 3,
+      "avg_users": 133.67
+    },
+    "2024-10-16": {
+      "total_users": 390,
+      "dataset_count": 3,
+      "avg_users": 130.0
+    },
     "2024-10-21": {
       "total_users": 416,
       "dataset_count": 3,
       "avg_users": 138.67
+    },
+    "2024-10-17": {
+      "total_users": 403,
+      "dataset_count": 3,
+      "avg_users": 134.33
+    },
+    "2024-10-20": {
+      "total_users": 394,
+      "dataset_count": 3,
+      "avg_users": 131.33
     },
     "2024-10-22": {
       "total_users": 428,
       "dataset_count": 3,
       "avg_users": 142.67
     },
-    "2024-10-23": {
-      "total_users": 430,
-      "dataset_count": 3,
-      "avg_users": 143.33
-    },
     "2024-10-24": {
       "total_users": 424,
       "dataset_count": 3,
       "avg_users": 141.33
     },
-    "2024-10-26": {
-      "total_users": 423,
+    "2024-10-23": {
+      "total_users": 430,
       "dataset_count": 3,
-      "avg_users": 141.0
+      "avg_users": 143.33
     },
     "2024-10-25": {
       "total_users": 427,
       "dataset_count": 3,
       "avg_users": 142.33
+    },
+    "2024-10-26": {
+      "total_users": 423,
+      "dataset_count": 3,
+      "avg_users": 141.0
     },
     "2024-10-27": {
       "total_users": 424,
@@ -3144,35 +3149,35 @@
       "dataset_count": 3,
       "avg_users": 144.0
     },
-    "2024-10-30": {
-      "total_users": 451,
-      "dataset_count": 3,
-      "avg_users": 150.33
-    },
     "2024-10-29": {
       "total_users": 443,
       "dataset_count": 3,
       "avg_users": 147.67
+    },
+    "2024-10-30": {
+      "total_users": 451,
+      "dataset_count": 3,
+      "avg_users": 150.33
     },
     "2024-10-31": {
       "total_users": 452,
       "dataset_count": 3,
       "avg_users": 150.67
     },
-    "2024-11-02": {
-      "total_users": 448,
+    "2024-11-03": {
+      "total_users": 456,
       "dataset_count": 3,
-      "avg_users": 149.33
+      "avg_users": 152.0
     },
     "2024-11-01": {
       "total_users": 458,
       "dataset_count": 3,
       "avg_users": 152.67
     },
-    "2024-11-03": {
-      "total_users": 456,
+    "2024-11-02": {
+      "total_users": 448,
       "dataset_count": 3,
-      "avg_users": 152.0
+      "avg_users": 149.33
     },
     "2024-11-04": {
       "total_users": 469,
@@ -3184,25 +3189,20 @@
       "dataset_count": 3,
       "avg_users": 161.0
     },
-    "2024-11-07": {
-      "total_users": 485,
-      "dataset_count": 3,
-      "avg_users": 161.67
-    },
     "2024-11-06": {
       "total_users": 478,
       "dataset_count": 3,
       "avg_users": 159.33
     },
+    "2024-11-07": {
+      "total_users": 485,
+      "dataset_count": 3,
+      "avg_users": 161.67
+    },
     "2024-11-08": {
       "total_users": 490,
       "dataset_count": 3,
       "avg_users": 163.33
-    },
-    "2024-11-09": {
-      "total_users": 485,
-      "dataset_count": 3,
-      "avg_users": 161.67
     },
     "2024-11-11": {
       "total_users": 493,
@@ -3214,20 +3214,25 @@
       "dataset_count": 3,
       "avg_users": 161.0
     },
+    "2024-11-09": {
+      "total_users": 485,
+      "dataset_count": 3,
+      "avg_users": 161.67
+    },
     "2024-11-13": {
       "total_users": 511,
       "dataset_count": 3,
       "avg_users": 170.33
     },
-    "2024-11-14": {
-      "total_users": 513,
-      "dataset_count": 3,
-      "avg_users": 171.0
-    },
     "2024-11-15": {
       "total_users": 516,
       "dataset_count": 3,
       "avg_users": 172.0
+    },
+    "2024-11-14": {
+      "total_users": 513,
+      "dataset_count": 3,
+      "avg_users": 171.0
     },
     "2024-11-16": {
       "total_users": 493,
@@ -3239,15 +3244,15 @@
       "dataset_count": 3,
       "avg_users": 162.67
     },
-    "2024-11-19": {
-      "total_users": 509,
-      "dataset_count": 3,
-      "avg_users": 169.67
-    },
     "2024-11-18": {
       "total_users": 506,
       "dataset_count": 3,
       "avg_users": 168.67
+    },
+    "2024-11-19": {
+      "total_users": 509,
+      "dataset_count": 3,
+      "avg_users": 169.67
     },
     "2024-11-20": {
       "total_users": 503,
@@ -3264,20 +3269,15 @@
       "dataset_count": 3,
       "avg_users": 166.33
     },
-    "2024-11-24": {
-      "total_users": 495,
-      "dataset_count": 3,
-      "avg_users": 165.0
-    },
     "2024-11-23": {
       "total_users": 497,
       "dataset_count": 3,
       "avg_users": 165.67
     },
-    "2024-11-26": {
-      "total_users": 500,
+    "2024-11-24": {
+      "total_users": 495,
       "dataset_count": 3,
-      "avg_users": 166.67
+      "avg_users": 165.0
     },
     "2024-11-25": {
       "total_users": 498,
@@ -3285,6 +3285,11 @@
       "avg_users": 166.0
     },
     "2024-11-27": {
+      "total_users": 500,
+      "dataset_count": 3,
+      "avg_users": 166.67
+    },
+    "2024-11-26": {
       "total_users": 500,
       "dataset_count": 3,
       "avg_users": 166.67
@@ -3304,6 +3309,11 @@
       "dataset_count": 3,
       "avg_users": 169.67
     },
+    "2024-12-02": {
+      "total_users": 512,
+      "dataset_count": 3,
+      "avg_users": 170.67
+    },
     "2024-12-01": {
       "total_users": 505,
       "dataset_count": 3,
@@ -3313,11 +3323,6 @@
       "total_users": 505,
       "dataset_count": 3,
       "avg_users": 168.33
-    },
-    "2024-12-02": {
-      "total_users": 512,
-      "dataset_count": 3,
-      "avg_users": 170.67
     },
     "2024-12-04": {
       "total_users": 506,
@@ -3379,6 +3384,11 @@
       "dataset_count": 3,
       "avg_users": 188.67
     },
+    "2024-12-18": {
+      "total_users": 591,
+      "dataset_count": 3,
+      "avg_users": 197.0
+    },
     "2024-12-16": {
       "total_users": 578,
       "dataset_count": 3,
@@ -3394,45 +3404,40 @@
       "dataset_count": 3,
       "avg_users": 197.33
     },
-    "2024-12-18": {
-      "total_users": 591,
+    "2024-12-22": {
+      "total_users": 571,
       "dataset_count": 3,
-      "avg_users": 197.0
+      "avg_users": 190.33
     },
     "2024-12-20": {
       "total_users": 590,
       "dataset_count": 3,
       "avg_users": 196.67
     },
-    "2024-12-21": {
-      "total_users": 575,
-      "dataset_count": 3,
-      "avg_users": 191.67
-    },
-    "2024-12-22": {
-      "total_users": 571,
-      "dataset_count": 3,
-      "avg_users": 190.33
-    },
     "2024-12-23": {
       "total_users": 582,
       "dataset_count": 3,
       "avg_users": 194.0
+    },
+    "2024-12-21": {
+      "total_users": 575,
+      "dataset_count": 3,
+      "avg_users": 191.67
     },
     "2024-12-24": {
       "total_users": 578,
       "dataset_count": 3,
       "avg_users": 192.67
     },
-    "2024-12-26": {
-      "total_users": 568,
-      "dataset_count": 3,
-      "avg_users": 189.33
-    },
     "2024-12-25": {
       "total_users": 572,
       "dataset_count": 3,
       "avg_users": 190.67
+    },
+    "2024-12-26": {
+      "total_users": 568,
+      "dataset_count": 3,
+      "avg_users": 189.33
     },
     "2024-12-27": {
       "total_users": 568,
@@ -3443,11 +3448,6 @@
       "total_users": 499,
       "dataset_count": 3,
       "avg_users": 166.33
-    },
-    "2024-12-30": {
-      "total_users": 488,
-      "dataset_count": 3,
-      "avg_users": 162.67
     },
     "2024-12-29": {
       "total_users": 489,
@@ -3464,32 +3464,37 @@
       "dataset_count": 3,
       "avg_users": 161.0
     },
+    "2024-12-30": {
+      "total_users": 488,
+      "dataset_count": 3,
+      "avg_users": 162.67
+    },
     "2025-01-02": {
       "total_users": 485,
       "dataset_count": 3,
       "avg_users": 161.67
-    },
-    "2025-01-03": {
-      "total_users": 481,
-      "dataset_count": 3,
-      "avg_users": 160.33
     },
     "2025-01-04": {
       "total_users": 465,
       "dataset_count": 3,
       "avg_users": 155.0
     },
+    "2025-01-03": {
+      "total_users": 481,
+      "dataset_count": 3,
+      "avg_users": 160.33
+    },
     "2025-01-05": {
       "total_users": 458,
       "dataset_count": 3,
       "avg_users": 152.67
     },
-    "2025-01-07": {
+    "2025-01-06": {
       "total_users": 458,
       "dataset_count": 3,
       "avg_users": 152.67
     },
-    "2025-01-06": {
+    "2025-01-07": {
       "total_users": 458,
       "dataset_count": 3,
       "avg_users": 152.67
@@ -3504,20 +3509,20 @@
       "dataset_count": 3,
       "avg_users": 143.67
     },
-    "2025-01-10": {
-      "total_users": 423,
+    "2025-01-13": {
+      "total_users": 422,
       "dataset_count": 3,
-      "avg_users": 141.0
+      "avg_users": 140.67
     },
     "2025-01-11": {
       "total_users": 424,
       "dataset_count": 3,
       "avg_users": 141.33
     },
-    "2025-01-13": {
-      "total_users": 422,
+    "2025-01-10": {
+      "total_users": 423,
       "dataset_count": 3,
-      "avg_users": 140.67
+      "avg_users": 141.0
     },
     "2025-01-12": {
       "total_users": 415,
@@ -3529,15 +3534,15 @@
       "dataset_count": 3,
       "avg_users": 143.33
     },
-    "2025-01-15": {
-      "total_users": 427,
-      "dataset_count": 3,
-      "avg_users": 142.33
-    },
     "2025-01-16": {
       "total_users": 424,
       "dataset_count": 3,
       "avg_users": 141.33
+    },
+    "2025-01-15": {
+      "total_users": 427,
+      "dataset_count": 3,
+      "avg_users": 142.33
     },
     "2025-01-17": {
       "total_users": 422,
@@ -3564,15 +3569,15 @@
       "dataset_count": 3,
       "avg_users": 144.33
     },
-    "2025-01-23": {
-      "total_users": 428,
-      "dataset_count": 3,
-      "avg_users": 142.67
-    },
     "2025-01-22": {
       "total_users": 433,
       "dataset_count": 3,
       "avg_users": 144.33
+    },
+    "2025-01-23": {
+      "total_users": 428,
+      "dataset_count": 3,
+      "avg_users": 142.67
     },
     "2025-01-24": {
       "total_users": 430,
@@ -3589,15 +3594,15 @@
       "dataset_count": 3,
       "avg_users": 142.0
     },
-    "2025-01-27": {
-      "total_users": 435,
-      "dataset_count": 3,
-      "avg_users": 145.0
-    },
     "2025-01-28": {
       "total_users": 434,
       "dataset_count": 3,
       "avg_users": 144.67
+    },
+    "2025-01-27": {
+      "total_users": 435,
+      "dataset_count": 3,
+      "avg_users": 145.0
     },
     "2025-01-29": {
       "total_users": 435,
@@ -3624,25 +3629,25 @@
       "dataset_count": 3,
       "avg_users": 146.0
     },
-    "2025-02-06": {
-      "total_users": 413,
-      "dataset_count": 3,
-      "avg_users": 137.67
-    },
     "2025-02-07": {
       "total_users": 413,
       "dataset_count": 3,
       "avg_users": 137.67
     },
-    "2025-02-08": {
-      "total_users": 410,
+    "2025-02-06": {
+      "total_users": 413,
       "dataset_count": 3,
-      "avg_users": 136.67
+      "avg_users": 137.67
     },
     "2025-02-09": {
       "total_users": 469,
       "dataset_count": 3,
       "avg_users": 156.33
+    },
+    "2025-02-08": {
+      "total_users": 410,
+      "dataset_count": 3,
+      "avg_users": 136.67
     },
     "2025-02-10": {
       "total_users": 471,
@@ -3689,40 +3694,40 @@
       "dataset_count": 3,
       "avg_users": 184.0
     },
-    "2025-03-04": {
-      "total_users": 602,
-      "dataset_count": 3,
-      "avg_users": 200.67
-    },
-    "2025-03-03": {
-      "total_users": 580,
-      "dataset_count": 3,
-      "avg_users": 193.33
-    },
     "2025-02-28": {
       "total_users": 562,
       "dataset_count": 3,
       "avg_users": 187.33
-    },
-    "2025-03-02": {
-      "total_users": 565,
-      "dataset_count": 3,
-      "avg_users": 188.33
-    },
-    "2025-03-05": {
-      "total_users": 619,
-      "dataset_count": 3,
-      "avg_users": 206.33
     },
     "2025-03-01": {
       "total_users": 560,
       "dataset_count": 3,
       "avg_users": 186.67
     },
+    "2025-03-02": {
+      "total_users": 565,
+      "dataset_count": 3,
+      "avg_users": 188.33
+    },
+    "2025-03-03": {
+      "total_users": 580,
+      "dataset_count": 3,
+      "avg_users": 193.33
+    },
     "2025-03-06": {
       "total_users": 628,
       "dataset_count": 3,
       "avg_users": 209.33
+    },
+    "2025-03-04": {
+      "total_users": 602,
+      "dataset_count": 3,
+      "avg_users": 200.67
+    },
+    "2025-03-05": {
+      "total_users": 619,
+      "dataset_count": 3,
+      "avg_users": 206.33
     },
     "2025-03-07": {
       "total_users": 629,
@@ -3744,10 +3749,20 @@
       "dataset_count": 3,
       "avg_users": 219.67
     },
+    "2025-03-13": {
+      "total_users": 662,
+      "dataset_count": 3,
+      "avg_users": 220.67
+    },
     "2025-03-11": {
       "total_users": 645,
       "dataset_count": 3,
       "avg_users": 215.0
+    },
+    "2025-03-15": {
+      "total_users": 648,
+      "dataset_count": 3,
+      "avg_users": 216.0
     },
     "2025-03-12": {
       "total_users": 662,
@@ -3759,30 +3774,20 @@
       "dataset_count": 3,
       "avg_users": 217.0
     },
-    "2025-03-13": {
-      "total_users": 662,
-      "dataset_count": 3,
-      "avg_users": 220.67
-    },
-    "2025-03-15": {
-      "total_users": 648,
-      "dataset_count": 3,
-      "avg_users": 216.0
-    },
     "2025-03-17": {
       "total_users": 699,
       "dataset_count": 3,
       "avg_users": 233.0
     },
-    "2025-03-16": {
-      "total_users": 651,
-      "dataset_count": 3,
-      "avg_users": 217.0
-    },
     "2025-03-18": {
       "total_users": 705,
       "dataset_count": 3,
       "avg_users": 235.0
+    },
+    "2025-03-16": {
+      "total_users": 651,
+      "dataset_count": 3,
+      "avg_users": 217.0
     },
     "2025-03-19": {
       "total_users": 696,
@@ -3794,6 +3799,11 @@
       "dataset_count": 3,
       "avg_users": 232.33
     },
+    "2025-03-21": {
+      "total_users": 699,
+      "dataset_count": 3,
+      "avg_users": 233.0
+    },
     "2025-03-22": {
       "total_users": 692,
       "dataset_count": 3,
@@ -3803,11 +3813,6 @@
       "total_users": 690,
       "dataset_count": 3,
       "avg_users": 230.0
-    },
-    "2025-03-21": {
-      "total_users": 699,
-      "dataset_count": 3,
-      "avg_users": 233.0
     },
     "2025-03-24": {
       "total_users": 711,
@@ -3829,11 +3834,6 @@
       "dataset_count": 3,
       "avg_users": 225.0
     },
-    "2025-03-27": {
-      "total_users": 694,
-      "dataset_count": 3,
-      "avg_users": 231.33
-    },
     "2025-03-30": {
       "total_users": 654,
       "dataset_count": 3,
@@ -3844,15 +3844,20 @@
       "dataset_count": 3,
       "avg_users": 220.67
     },
-    "2025-03-31": {
-      "total_users": 666,
+    "2025-03-27": {
+      "total_users": 694,
       "dataset_count": 3,
-      "avg_users": 222.0
+      "avg_users": 231.33
     },
     "2025-04-01": {
       "total_users": 680,
       "dataset_count": 3,
       "avg_users": 226.67
+    },
+    "2025-03-31": {
+      "total_users": 666,
+      "dataset_count": 3,
+      "avg_users": 222.0
     },
     "2025-04-02": {
       "total_users": 674,
@@ -3869,11 +3874,6 @@
       "dataset_count": 3,
       "avg_users": 219.33
     },
-    "2025-04-07": {
-      "total_users": 635,
-      "dataset_count": 3,
-      "avg_users": 211.67
-    },
     "2025-04-05": {
       "total_users": 642,
       "dataset_count": 3,
@@ -3884,6 +3884,16 @@
       "dataset_count": 3,
       "avg_users": 215.67
     },
+    "2025-04-07": {
+      "total_users": 635,
+      "dataset_count": 3,
+      "avg_users": 211.67
+    },
+    "2025-04-11": {
+      "total_users": 659,
+      "dataset_count": 3,
+      "avg_users": 219.67
+    },
     "2025-04-08": {
       "total_users": 649,
       "dataset_count": 3,
@@ -3893,11 +3903,6 @@
       "total_users": 660,
       "dataset_count": 3,
       "avg_users": 220.0
-    },
-    "2025-04-11": {
-      "total_users": 659,
-      "dataset_count": 3,
-      "avg_users": 219.67
     },
     "2025-04-09": {
       "total_users": 649,
@@ -3919,20 +3924,15 @@
       "dataset_count": 3,
       "avg_users": 218.67
     },
-    "2025-04-15": {
-      "total_users": 660,
-      "dataset_count": 3,
-      "avg_users": 220.0
-    },
     "2025-04-16": {
       "total_users": 646,
       "dataset_count": 3,
       "avg_users": 215.33
     },
-    "2025-04-19": {
-      "total_users": 633,
+    "2025-04-15": {
+      "total_users": 660,
       "dataset_count": 3,
-      "avg_users": 211.0
+      "avg_users": 220.0
     },
     "2025-04-17": {
       "total_users": 640,
@@ -3944,6 +3944,16 @@
       "dataset_count": 3,
       "avg_users": 213.33
     },
+    "2025-04-23": {
+      "total_users": 622,
+      "dataset_count": 3,
+      "avg_users": 207.33
+    },
+    "2025-04-19": {
+      "total_users": 633,
+      "dataset_count": 3,
+      "avg_users": 211.0
+    },
     "2025-04-20": {
       "total_users": 623,
       "dataset_count": 3,
@@ -3954,25 +3964,20 @@
       "dataset_count": 3,
       "avg_users": 211.67
     },
-    "2025-04-23": {
-      "total_users": 622,
-      "dataset_count": 3,
-      "avg_users": 207.33
-    },
     "2025-04-22": {
       "total_users": 645,
       "dataset_count": 3,
       "avg_users": 215.0
     },
-    "2025-04-24": {
-      "total_users": 617,
-      "dataset_count": 3,
-      "avg_users": 205.67
-    },
     "2025-04-25": {
       "total_users": 613,
       "dataset_count": 3,
       "avg_users": 204.33
+    },
+    "2025-04-24": {
+      "total_users": 617,
+      "dataset_count": 3,
+      "avg_users": 205.67
     },
     "2025-04-26": {
       "total_users": 603,
@@ -3989,50 +3994,50 @@
       "dataset_count": 3,
       "avg_users": 204.0
     },
-    "2025-04-30": {
-      "total_users": 566,
-      "dataset_count": 3,
-      "avg_users": 188.67
-    },
     "2025-04-29": {
       "total_users": 615,
       "dataset_count": 3,
       "avg_users": 205.0
     },
-    "2025-05-05": {
-      "total_users": 551,
+    "2025-04-30": {
+      "total_users": 566,
       "dataset_count": 3,
-      "avg_users": 183.67
-    },
-    "2025-05-01": {
-      "total_users": 554,
-      "dataset_count": 3,
-      "avg_users": 184.67
+      "avg_users": 188.67
     },
     "2025-05-02": {
       "total_users": 543,
       "dataset_count": 3,
       "avg_users": 181.0
     },
-    "2025-05-04": {
-      "total_users": 533,
+    "2025-05-01": {
+      "total_users": 554,
       "dataset_count": 3,
-      "avg_users": 177.67
+      "avg_users": 184.67
     },
     "2025-05-03": {
       "total_users": 544,
       "dataset_count": 3,
       "avg_users": 181.33
     },
-    "2025-05-06": {
-      "total_users": 550,
+    "2025-05-04": {
+      "total_users": 533,
       "dataset_count": 3,
-      "avg_users": 183.33
+      "avg_users": 177.67
     },
     "2025-05-07": {
       "total_users": 558,
       "dataset_count": 3,
       "avg_users": 186.0
+    },
+    "2025-05-05": {
+      "total_users": 551,
+      "dataset_count": 3,
+      "avg_users": 183.67
+    },
+    "2025-05-06": {
+      "total_users": 550,
+      "dataset_count": 3,
+      "avg_users": 183.33
     },
     "2025-05-08": {
       "total_users": 611,
@@ -4044,15 +4049,20 @@
       "dataset_count": 3,
       "avg_users": 204.0
     },
+    "2025-05-11": {
+      "total_users": 589,
+      "dataset_count": 3,
+      "avg_users": 196.33
+    },
     "2025-05-10": {
       "total_users": 606,
       "dataset_count": 3,
       "avg_users": 202.0
     },
-    "2025-05-11": {
-      "total_users": 589,
+    "2025-05-12": {
+      "total_users": 656,
       "dataset_count": 3,
-      "avg_users": 196.33
+      "avg_users": 218.67
     },
     "2025-05-13": {
       "total_users": 660,
@@ -4064,70 +4074,55 @@
       "dataset_count": 3,
       "avg_users": 216.67
     },
-    "2025-05-18": {
-      "total_users": 618,
+    "2025-05-15": {
+      "total_users": 639,
       "dataset_count": 3,
-      "avg_users": 206.0
-    },
-    "2025-05-12": {
-      "total_users": 656,
-      "dataset_count": 3,
-      "avg_users": 218.67
+      "avg_users": 213.0
     },
     "2025-05-16": {
       "total_users": 571,
       "dataset_count": 3,
       "avg_users": 190.33
     },
-    "2025-05-15": {
-      "total_users": 639,
-      "dataset_count": 3,
-      "avg_users": 213.0
-    },
     "2025-05-17": {
       "total_users": 625,
       "dataset_count": 3,
       "avg_users": 208.33
+    },
+    "2025-05-18": {
+      "total_users": 618,
+      "dataset_count": 3,
+      "avg_users": 206.0
     },
     "2025-05-19": {
       "total_users": 633,
       "dataset_count": 3,
       "avg_users": 211.0
     },
-    "2025-05-21": {
-      "total_users": 634,
-      "dataset_count": 3,
-      "avg_users": 211.33
-    },
     "2025-05-20": {
       "total_users": 628,
       "dataset_count": 3,
       "avg_users": 209.33
+    },
+    "2025-05-21": {
+      "total_users": 634,
+      "dataset_count": 3,
+      "avg_users": 211.33
     },
     "2025-05-22": {
       "total_users": 631,
       "dataset_count": 3,
       "avg_users": 210.33
     },
-    "2025-05-23": {
-      "total_users": 633,
-      "dataset_count": 3,
-      "avg_users": 211.0
-    },
     "2025-05-24": {
       "total_users": 616,
       "dataset_count": 3,
       "avg_users": 205.33
     },
-    "2025-05-27": {
-      "total_users": 629,
+    "2025-05-23": {
+      "total_users": 633,
       "dataset_count": 3,
-      "avg_users": 209.67
-    },
-    "2025-05-28": {
-      "total_users": 636,
-      "dataset_count": 3,
-      "avg_users": 212.0
+      "avg_users": 211.0
     },
     "2025-05-25": {
       "total_users": 615,
@@ -4139,25 +4134,35 @@
       "dataset_count": 3,
       "avg_users": 206.67
     },
-    "2025-05-30": {
-      "total_users": 619,
+    "2025-05-27": {
+      "total_users": 629,
       "dataset_count": 3,
-      "avg_users": 206.33
+      "avg_users": 209.67
     },
     "2025-05-29": {
       "total_users": 632,
       "dataset_count": 3,
       "avg_users": 210.67
     },
-    "2025-05-31": {
-      "total_users": 602,
+    "2025-05-28": {
+      "total_users": 636,
       "dataset_count": 3,
-      "avg_users": 200.67
+      "avg_users": 212.0
     },
     "2025-06-01": {
       "total_users": 613,
       "dataset_count": 3,
       "avg_users": 204.33
+    },
+    "2025-05-31": {
+      "total_users": 602,
+      "dataset_count": 3,
+      "avg_users": 200.67
+    },
+    "2025-05-30": {
+      "total_users": 619,
+      "dataset_count": 3,
+      "avg_users": 206.33
     },
     "2025-06-02": {
       "total_users": 560,
@@ -4179,45 +4184,45 @@
       "dataset_count": 3,
       "avg_users": 205.33
     },
-    "2025-06-06": {
-      "total_users": 652,
-      "dataset_count": 3,
-      "avg_users": 217.33
-    },
-    "2025-06-07": {
-      "total_users": 584,
-      "dataset_count": 3,
-      "avg_users": 194.67
-    },
     "2025-06-08": {
       "total_users": 511,
       "dataset_count": 3,
       "avg_users": 170.33
     },
-    "2025-06-09": {
-      "total_users": 565,
+    "2025-06-06": {
+      "total_users": 652,
       "dataset_count": 3,
-      "avg_users": 188.33
+      "avg_users": 217.33
     },
     "2025-06-10": {
       "total_users": 567,
       "dataset_count": 3,
       "avg_users": 189.0
     },
+    "2025-06-07": {
+      "total_users": 584,
+      "dataset_count": 3,
+      "avg_users": 194.67
+    },
+    "2025-06-09": {
+      "total_users": 565,
+      "dataset_count": 3,
+      "avg_users": 188.33
+    },
     "2025-06-12": {
       "total_users": 500,
       "dataset_count": 3,
       "avg_users": 166.67
     },
-    "2025-06-11": {
-      "total_users": 556,
-      "dataset_count": 3,
-      "avg_users": 185.33
-    },
     "2025-06-13": {
       "total_users": 493,
       "dataset_count": 3,
       "avg_users": 164.33
+    },
+    "2025-06-11": {
+      "total_users": 556,
+      "dataset_count": 3,
+      "avg_users": 185.33
     },
     "2025-06-14": {
       "total_users": 482,
@@ -4234,35 +4239,40 @@
       "dataset_count": 2,
       "avg_users": 203.5
     },
-    "2025-06-18": {
-      "total_users": 424,
-      "dataset_count": 2,
-      "avg_users": 212.0
-    },
     "2025-06-17": {
       "total_users": 421,
       "dataset_count": 2,
       "avg_users": 210.5
+    },
+    "2025-06-18": {
+      "total_users": 424,
+      "dataset_count": 2,
+      "avg_users": 212.0
     },
     "2025-06-19": {
       "total_users": 420,
       "dataset_count": 2,
       "avg_users": 210.0
     },
-    "2025-06-22": {
-      "total_users": 403,
+    "2025-06-21": {
+      "total_users": 409,
       "dataset_count": 2,
-      "avg_users": 201.5
+      "avg_users": 204.5
     },
     "2025-06-20": {
       "total_users": 415,
       "dataset_count": 2,
       "avg_users": 207.5
     },
-    "2025-06-21": {
-      "total_users": 409,
+    "2025-06-22": {
+      "total_users": 403,
       "dataset_count": 2,
-      "avg_users": 204.5
+      "avg_users": 201.5
+    },
+    "2025-06-25": {
+      "total_users": 418,
+      "dataset_count": 2,
+      "avg_users": 209.0
     },
     "2025-06-23": {
       "total_users": 405,
@@ -4273,11 +4283,6 @@
       "total_users": 409,
       "dataset_count": 2,
       "avg_users": 204.5
-    },
-    "2025-06-25": {
-      "total_users": 418,
-      "dataset_count": 2,
-      "avg_users": 209.0
     },
     "2025-06-26": {
       "total_users": 404,
@@ -4304,20 +4309,10 @@
       "dataset_count": 2,
       "avg_users": 217.0
     },
-    "2025-07-02": {
-      "total_users": 486,
-      "dataset_count": 3,
-      "avg_users": 162.0
-    },
     "2025-07-01": {
       "total_users": 434,
       "dataset_count": 2,
       "avg_users": 217.0
-    },
-    "2025-07-03": {
-      "total_users": 440,
-      "dataset_count": 2,
-      "avg_users": 220.0
     },
     "2025-07-04": {
       "total_users": 444,
@@ -4329,15 +4324,20 @@
       "dataset_count": 2,
       "avg_users": 220.0
     },
+    "2025-07-02": {
+      "total_users": 486,
+      "dataset_count": 3,
+      "avg_users": 162.0
+    },
+    "2025-07-03": {
+      "total_users": 440,
+      "dataset_count": 2,
+      "avg_users": 220.0
+    },
     "2025-07-06": {
       "total_users": 443,
       "dataset_count": 2,
       "avg_users": 221.5
-    },
-    "2025-07-07": {
-      "total_users": 454,
-      "dataset_count": 2,
-      "avg_users": 227.0
     },
     "2025-07-08": {
       "total_users": 464,
@@ -4348,6 +4348,11 @@
       "total_users": 460,
       "dataset_count": 2,
       "avg_users": 230.0
+    },
+    "2025-07-07": {
+      "total_users": 454,
+      "dataset_count": 2,
+      "avg_users": 227.0
     },
     "2025-07-10": {
       "total_users": 455,
@@ -4364,6 +4369,11 @@
       "dataset_count": 3,
       "avg_users": 169.0
     },
+    "2025-07-13": {
+      "total_users": 511,
+      "dataset_count": 3,
+      "avg_users": 170.33
+    },
     "2025-07-14": {
       "total_users": 530,
       "dataset_count": 3,
@@ -4373,11 +4383,6 @@
       "total_users": 532,
       "dataset_count": 3,
       "avg_users": 177.33
-    },
-    "2025-07-13": {
-      "total_users": 511,
-      "dataset_count": 3,
-      "avg_users": 170.33
     },
     "2025-07-16": {
       "total_users": 534,
@@ -4389,44 +4394,49 @@
       "dataset_count": 3,
       "avg_users": 180.0
     },
-    "2025-07-19": {
-      "total_users": 551,
-      "dataset_count": 3,
-      "avg_users": 183.67
-    },
     "2025-07-17": {
       "total_users": 538,
       "dataset_count": 3,
       "avg_users": 179.33
-    },
-    "2025-07-20": {
-      "total_users": 548,
-      "dataset_count": 3,
-      "avg_users": 182.67
     },
     "2025-07-21": {
       "total_users": 560,
       "dataset_count": 3,
       "avg_users": 186.67
     },
+    "2025-07-20": {
+      "total_users": 548,
+      "dataset_count": 3,
+      "avg_users": 182.67
+    },
+    "2025-07-19": {
+      "total_users": 551,
+      "dataset_count": 3,
+      "avg_users": 183.67
+    },
     "2025-07-22": {
       "total_users": 619,
       "dataset_count": 3,
       "avg_users": 206.33
+    },
+    "2025-07-23": {
+      "total_users": 640,
+      "dataset_count": 3,
+      "avg_users": 213.33
     }
   },
   "weekly_trends": {
-    "2024-W16": {
-      "total_users": 1254,
-      "avg_users": 418.0,
-      "unique_datasets": 3,
-      "date_range": "2024-04-24 to 2024-04-26"
-    },
     "2024-W17": {
       "total_users": 2888,
       "avg_users": 412.57,
       "unique_datasets": 3,
       "date_range": "2024-04-28 to 2024-05-04"
+    },
+    "2024-W16": {
+      "total_users": 1254,
+      "avg_users": 418.0,
+      "unique_datasets": 3,
+      "date_range": "2024-04-24 to 2024-04-26"
     },
     "2024-W18": {
       "total_users": 2923,
@@ -4813,24 +4823,24 @@
       "date_range": "2025-07-13 to 2025-07-19"
     },
     "2025-W29": {
-      "total_users": 1727,
-      "avg_users": 575.67,
+      "total_users": 2367,
+      "avg_users": 591.75,
       "unique_datasets": 3,
-      "date_range": "2025-07-20 to 2025-07-22"
+      "date_range": "2025-07-20 to 2025-07-23"
     }
   },
   "monthly_trends": {
-    "2024-04": {
-      "total_users": 2479,
-      "avg_users": 413.17,
-      "std_users": 6.52,
-      "unique_datasets": 6
-    },
     "2024-05": {
       "total_users": 13202,
       "avg_users": 425.87,
       "std_users": 12.26,
       "unique_datasets": 31
+    },
+    "2024-04": {
+      "total_users": 2479,
+      "avg_users": 413.17,
+      "std_users": 6.52,
+      "unique_datasets": 6
     },
     "2024-06": {
       "total_users": 11147,
@@ -4911,10 +4921,10 @@
       "unique_datasets": 30
     },
     "2025-07": {
-      "total_users": 10938,
-      "avg_users": 497.18,
-      "std_users": 51.94,
-      "unique_datasets": 22
+      "total_users": 11578,
+      "avg_users": 503.39,
+      "std_users": 58.84,
+      "unique_datasets": 23
     }
   }
 }
