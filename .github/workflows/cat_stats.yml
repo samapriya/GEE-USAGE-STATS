@@ -1,0 +1,554 @@
+name: catalog_stats_complete
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "0 15 * * *"  # Run daily at 14:00 UTC (9:00 AM CDT)
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    
+    permissions:
+      contents: write  # Allow the action to commit and push changes
+    
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        
+      - name: Setup Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: "3.11"
+          
+      - name: Setup Google Cloud CLI
+        uses: google-github-actions/setup-gcloud@v2
+        with:
+          version: 'latest'
+          
+      - name: Create service account key file
+        run: |
+          echo '${{ secrets.GCP_SERVICE_ACCOUNT_KEY }}' > /tmp/gcp-key.json
+          
+      - name: Authenticate to Google Cloud
+        run: |
+          gcloud auth activate-service-account --key-file=/tmp/gcp-key.json
+          gcloud config set project $(cat /tmp/gcp-key.json | jq -r '.project_id')
+          
+      - name: Install Python dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install pandas requests
+          sudo apt-get update
+          sudo apt-get install -y jq
+          
+      - name: Generate Earth Engine Stats JSON
+        uses: jannekem/run-python-script-action@v1
+        with:
+          script: |
+            import json
+            import logging
+            import os
+            import subprocess
+            import tempfile
+            import requests
+            from collections import defaultdict
+            from concurrent.futures import ThreadPoolExecutor, as_completed
+            from datetime import date, datetime, timedelta
+            from typing import Dict, List, Optional, Set
+            import pandas as pd
+
+            # Set up logging
+            logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
+            logger = logging.getLogger(__name__)
+
+            class CommunityDatasetCatalog:
+                """Handle community dataset catalog operations."""
+                
+                def __init__(self):
+                    """Initialize the catalog."""
+                    self.catalog_url = "https://raw.githubusercontent.com/samapriya/awesome-gee-community-datasets/refs/heads/master/community_datasets.json"
+                    self.catalog_data = []
+                    self.id_to_dataset = {}  # Map from id to full dataset info
+                    
+                def fetch_catalog(self) -> bool:
+                    """Fetch the community catalog JSON."""
+                    try:
+                        logger.info(f"Fetching community catalog from {self.catalog_url}")
+                        response = requests.get(self.catalog_url, timeout=30)
+                        response.raise_for_status()
+                        
+                        self.catalog_data = response.json()
+                        logger.info(f"Successfully fetched {len(self.catalog_data)} datasets from community catalog")
+                        
+                        # Build lookup dictionary
+                        for dataset in self.catalog_data:
+                            dataset_id = dataset.get('id', '')
+                            if dataset_id:
+                                self.id_to_dataset[dataset_id] = dataset
+                        
+                        logger.info(f"Built lookup dictionary with {len(self.id_to_dataset)} unique dataset IDs")
+                        return True
+                        
+                    except Exception as e:
+                        logger.error(f"Failed to fetch community catalog: {e}")
+                        return False
+                
+                def get_dataset_info(self, dataset_id: str) -> Optional[Dict]:
+                    """Get dataset information by ID."""
+                    return self.id_to_dataset.get(dataset_id)
+                
+                def is_community_dataset(self, dataset_id: str) -> bool:
+                    """Check if a dataset ID is in the community catalog."""
+                    return dataset_id in self.id_to_dataset
+                
+                def get_community_dataset_ids(self) -> Set[str]:
+                    """Get all community dataset IDs."""
+                    return set(self.id_to_dataset.keys())
+
+            class EarthEngineStatsProcessor:
+                """Process Earth Engine statistics with 30-day moving window data."""
+
+                def __init__(self):
+                    """Initialize the processor."""
+                    self.bucket_name = "earthengine-stats"
+                    self.base_path = "providers/sat-io"
+                    self.start_date = date(2024, 4, 23)
+                    self.moving_window_data = {}  # Store data by date
+                    self.processed_stats = {}
+                    self.community_catalog = CommunityDatasetCatalog()
+
+                def _generate_date_range(self, end_date: Optional[date] = None) -> List[date]:
+                    """Generate list of dates for moving window snapshots."""
+                    if end_date is None:
+                        end_date = date.today() - timedelta(days=1)
+                    return [self.start_date + timedelta(days=x) for x in range((end_date - self.start_date).days + 1)]
+
+                def _extract_dataset_id_from_name(self, dataset_name: str) -> str:
+                    """Extract clean dataset ID from dataset name by removing asset count suffix."""
+                    # Remove patterns like "/[123 assets]" from the end
+                    import re
+                    clean_name = re.sub(r'/\[\d+\s+assets\]$', '', dataset_name.strip())
+                    return clean_name
+
+                def _download_csv_data(self, target_date: date) -> Optional[pd.DataFrame]:
+                    """Download and parse CSV data for a specific date (30-day window ending on this date)."""
+                    filename = f"earthengine_stats_{target_date.strftime('%Y-%m-%d')}.csv"
+                    gs_path = f"gs://{self.bucket_name}/{self.base_path}/{filename}"
+
+                    try:
+                        with tempfile.NamedTemporaryFile(mode='w+', suffix='.csv', delete=False) as temp_file:
+                            temp_path = temp_file.name
+
+                        result = subprocess.run(
+                            ['gcloud', 'storage', 'cp', gs_path, temp_path],
+                            capture_output=True, text=True, timeout=30, check=False
+                        )
+
+                        if result.returncode != 0:
+                            if "No such object" in result.stderr or "Not Found" in result.stderr:
+                                logger.debug(f"File not found: {gs_path}")
+                            else:
+                                logger.error(f"gcloud error for {filename}: {result.stderr.strip()}")
+                            os.unlink(temp_path)
+                            return None
+
+                        df = pd.read_csv(temp_path)
+                        if df.empty:
+                            os.unlink(temp_path)
+                            return None
+
+                        # Add metadata about this moving window snapshot
+                        df['snapshot_date'] = pd.to_datetime(target_date)
+                        df['window_end'] = pd.to_datetime(target_date)
+                        df['window_start'] = pd.to_datetime(target_date) - timedelta(days=29)  # 30-day window
+                        df['30-day active users'] = pd.to_numeric(df['30-day active users'], errors='coerce')
+                        
+                        # Extract clean dataset IDs and add community catalog information
+                        df['clean_dataset_id'] = df['Dataset'].apply(self._extract_dataset_id_from_name)
+                        df['is_community_dataset'] = df['clean_dataset_id'].apply(self.community_catalog.is_community_dataset)
+                        
+                        # Add dataset titles and other community catalog info
+                        def get_dataset_title(dataset_id):
+                            dataset_info = self.community_catalog.get_dataset_info(dataset_id)
+                            return dataset_info.get('title', '') if dataset_info else ''
+                        
+                        def get_dataset_provider(dataset_id):
+                            dataset_info = self.community_catalog.get_dataset_info(dataset_id)
+                            return dataset_info.get('provider', '') if dataset_info else ''
+                        
+                        def get_dataset_thematic_group(dataset_id):
+                            dataset_info = self.community_catalog.get_dataset_info(dataset_id)
+                            return dataset_info.get('thematic_group', '') if dataset_info else ''
+                        
+                        df['dataset_title'] = df['clean_dataset_id'].apply(get_dataset_title)
+                        df['dataset_provider'] = df['clean_dataset_id'].apply(get_dataset_provider)
+                        df['dataset_thematic_group'] = df['clean_dataset_id'].apply(get_dataset_thematic_group)
+                        
+                        logger.debug(f"Successfully downloaded {len(df)} records from {filename} (30-day window ending {target_date})")
+                        logger.debug(f"Community datasets in this snapshot: {df['is_community_dataset'].sum()}")
+                        os.unlink(temp_path)
+                        return df
+
+                    except (subprocess.TimeoutExpired, FileNotFoundError, Exception) as e:
+                        logger.error(f"Error downloading {filename}: {e}")
+                        if 'temp_path' in locals() and os.path.exists(temp_path):
+                            os.unlink(temp_path)
+                        return None
+
+                def collect_all_data(self, end_date: Optional[date] = None, max_workers: int = 12) -> None:
+                    """Collect moving window snapshots from all available dates."""
+                    # First, fetch the community catalog
+                    if not self.community_catalog.fetch_catalog():
+                        logger.error("Failed to fetch community catalog. Proceeding without catalog filtering.")
+                        return
+                    
+                    dates = self._generate_date_range(end_date)
+                    logger.info(f"Collecting 30-day moving window snapshots for {len(dates)} dates using {max_workers} workers.")
+
+                    successful_downloads = 0
+                    
+                    with ThreadPoolExecutor(max_workers=max_workers) as executor:
+                        future_to_date = {executor.submit(self._download_csv_data, target_date): target_date for target_date in dates}
+                        for i, future in enumerate(as_completed(future_to_date)):
+                            target_date = future_to_date[future]
+                            df = future.result()
+                            if df is not None:
+                                # Store the moving window snapshot by date
+                                self.moving_window_data[target_date.strftime('%Y-%m-%d')] = df
+                                successful_downloads += 1
+                                
+                            if (i + 1) % 50 == 0 or (i + 1) == len(dates):
+                                logger.info(f"Download progress: {i + 1}/{len(dates)} snapshots processed, {successful_downloads} successful downloads.")
+
+                    if self.moving_window_data:
+                        logger.info(f"Total moving window snapshots collected: {successful_downloads}")
+                        # Log community dataset statistics
+                        total_community_datasets = 0
+                        for df in self.moving_window_data.values():
+                            total_community_datasets += df['is_community_dataset'].sum()
+                        logger.info(f"Total community dataset records across all snapshots: {total_community_datasets}")
+                    else:
+                        logger.warning("No data was collected.")
+
+                def _generate_moving_window_format(self) -> Dict:
+                    """Generate moving window data in the format expected by the updated HTML template."""
+                    if not self.moving_window_data:
+                        return {}
+
+                    # Convert to the format expected by the template
+                    # Each date represents a 30-day moving window snapshot
+                    formatted_data = {}
+                    
+                    for date_str, df in self.moving_window_data.items():
+                        formatted_data[date_str] = {}
+                        
+                        # Clean dataset names and aggregate if needed
+                        df_clean = df.copy()
+                        df_clean['users'] = df_clean['30-day active users'].fillna(0).astype(int)
+                        
+                        # Group by clean dataset ID (in case there are duplicates after cleaning)
+                        dataset_groups = df_clean.groupby('clean_dataset_id').agg({
+                            'users': 'sum',
+                            'dataset_title': 'first',
+                            'dataset_provider': 'first',
+                            'dataset_thematic_group': 'first',
+                            'is_community_dataset': 'first'
+                        }).reset_index()
+                        
+                        for _, row in dataset_groups.iterrows():
+                            dataset_id = row['clean_dataset_id']
+                            users = int(row['users'])
+                            
+                            # Create enhanced dataset entry
+                            dataset_entry = {
+                                'users': users,
+                                'is_community_dataset': bool(row['is_community_dataset'])
+                            }
+                            
+                            # Add community catalog information if available
+                            if row['is_community_dataset']:
+                                dataset_entry.update({
+                                    'title': row['dataset_title'],
+                                    'provider': row['dataset_provider'],
+                                    'thematic_group': row['dataset_thematic_group']
+                                })
+                            
+                            formatted_data[date_str][dataset_id] = dataset_entry
+                    
+                    return formatted_data
+
+                def _calculate_moving_window_statistics(self) -> Dict:
+                    """Calculate statistics for moving window data."""
+                    if not self.moving_window_data:
+                        return {}
+
+                    # Generate the formatted data
+                    moving_window_snapshots = self._generate_moving_window_format()
+
+                    # Calculate snapshot-level trends (each snapshot is a 30-day window)
+                    snapshot_trends = {}
+                    community_snapshot_trends = {}
+                    
+                    for date_str, datasets in moving_window_snapshots.items():
+                        total_users = sum(d['users'] for d in datasets.values())
+                        dataset_count = len(datasets)
+                        avg_users = total_users / dataset_count if dataset_count > 0 else 0
+                        
+                        # Community dataset statistics
+                        community_datasets = {k: v for k, v in datasets.items() if v.get('is_community_dataset', False)}
+                        community_total_users = sum(d['users'] for d in community_datasets.values())
+                        community_dataset_count = len(community_datasets)
+                        community_avg_users = community_total_users / community_dataset_count if community_dataset_count > 0 else 0
+                        
+                        snapshot_trends[date_str] = {
+                            'total_users': total_users,
+                            'dataset_count': dataset_count,
+                            'avg_users': round(avg_users, 2)
+                        }
+                        
+                        community_snapshot_trends[date_str] = {
+                            'total_users': community_total_users,
+                            'dataset_count': community_dataset_count,
+                            'avg_users': round(community_avg_users, 2),
+                            'percentage_of_total_users': round((community_total_users / total_users * 100) if total_users > 0 else 0, 2)
+                        }
+
+                    # Get latest snapshot for current rankings
+                    sorted_dates = sorted(moving_window_snapshots.keys())
+                    if not sorted_dates:
+                        return {}
+                        
+                    latest_snapshot = moving_window_snapshots[sorted_dates[-1]]
+                    
+                    # Dataset rankings based on latest snapshot (all datasets)
+                    dataset_rankings = {}
+                    community_dataset_rankings = {}
+                    
+                    for dataset_id, dataset_info in sorted(latest_snapshot.items(), key=lambda x: x[1]['users'], reverse=True):
+                        users = dataset_info['users']
+                        
+                        # Calculate appearances and trends across all snapshots
+                        appearances = sum(1 for snapshot in moving_window_snapshots.values() if dataset_id in snapshot)
+                        all_values = [snapshot.get(dataset_id, {}).get('users', 0) for snapshot in moving_window_snapshots.values()]
+                        avg_users = sum(all_values) / len(all_values) if all_values else 0
+                        std_users = pd.Series(all_values).std() if len(all_values) > 1 else 0
+                        
+                        ranking_entry = {
+                            'total_users': users,  # Latest snapshot value
+                            'avg_users': round(avg_users, 2),
+                            'appearances': appearances,
+                            'std_users': round(std_users, 2),
+                            'is_community_dataset': dataset_info.get('is_community_dataset', False)
+                        }
+                        
+                        # Add community catalog info if available
+                        if dataset_info.get('is_community_dataset', False):
+                            ranking_entry.update({
+                                'title': dataset_info.get('title', ''),
+                                'provider': dataset_info.get('provider', ''),
+                                'thematic_group': dataset_info.get('thematic_group', '')
+                            })
+                            community_dataset_rankings[dataset_id] = ranking_entry
+                        
+                        dataset_rankings[dataset_id] = ranking_entry
+
+                    # Summary statistics
+                    latest_total_users = sum(d['users'] for d in latest_snapshot.values())
+                    total_datasets = len(latest_snapshot)
+                    
+                    # Community dataset summary
+                    latest_community_datasets = {k: v for k, v in latest_snapshot.items() if v.get('is_community_dataset', False)}
+                    latest_community_total_users = sum(d['users'] for d in latest_community_datasets.values())
+                    total_community_datasets = len(latest_community_datasets)
+                    
+                    # Growth rate calculation (compare first and last snapshots)
+                    if len(sorted_dates) > 1:
+                        first_snapshot_total = sum(d['users'] for d in moving_window_snapshots[sorted_dates[0]].values())
+                        last_snapshot_total = sum(d['users'] for d in moving_window_snapshots[sorted_dates[-1]].values())
+                        growth_rate = ((last_snapshot_total - first_snapshot_total) / first_snapshot_total * 100) if first_snapshot_total > 0 else 0
+                        
+                        # Community growth rate
+                        first_community_total = sum(d['users'] for d in moving_window_snapshots[sorted_dates[0]].values() if d.get('is_community_dataset', False))
+                        last_community_total = sum(d['users'] for d in moving_window_snapshots[sorted_dates[-1]].values() if d.get('is_community_dataset', False))
+                        community_growth_rate = ((last_community_total - first_community_total) / first_community_total * 100) if first_community_total > 0 else 0
+                    else:
+                        growth_rate = 0
+                        community_growth_rate = 0
+
+                    # Peak snapshot
+                    peak_snapshot_date = max(snapshot_trends.keys(), key=lambda d: snapshot_trends[d]['total_users'])
+                    peak_snapshot = {
+                        'date': peak_snapshot_date,
+                        'total_users': snapshot_trends[peak_snapshot_date]['total_users'],
+                        'dataset_count': snapshot_trends[peak_snapshot_date]['dataset_count']
+                    }
+
+                    # Peak community snapshot
+                    peak_community_snapshot_date = max(community_snapshot_trends.keys(), key=lambda d: community_snapshot_trends[d]['total_users'])
+                    peak_community_snapshot = {
+                        'date': peak_community_snapshot_date,
+                        'total_users': community_snapshot_trends[peak_community_snapshot_date]['total_users'],
+                        'dataset_count': community_snapshot_trends[peak_community_snapshot_date]['dataset_count']
+                    }
+
+                    # Peak dataset (from latest snapshot)
+                    peak_dataset = max(latest_snapshot.items(), key=lambda x: x[1]['users']) if latest_snapshot else ('N/A', {'users': 0})
+                    peak_dataset_info = {
+                        'id': peak_dataset[0],
+                        'total_users': peak_dataset[1]['users'],
+                        'avg_users': dataset_rankings.get(peak_dataset[0], {}).get('avg_users', 0),
+                        'is_community_dataset': peak_dataset[1].get('is_community_dataset', False)
+                    }
+                    
+                    if peak_dataset[1].get('is_community_dataset', False):
+                        peak_dataset_info.update({
+                            'title': peak_dataset[1].get('title', ''),
+                            'provider': peak_dataset[1].get('provider', ''),
+                            'thematic_group': peak_dataset[1].get('thematic_group', '')
+                        })
+
+                    # Peak community dataset
+                    if latest_community_datasets:
+                        peak_community_dataset = max(latest_community_datasets.items(), key=lambda x: x[1]['users'])
+                        peak_community_dataset_info = {
+                            'id': peak_community_dataset[0],
+                            'title': peak_community_dataset[1].get('title', ''),
+                            'total_users': peak_community_dataset[1]['users'],
+                            'avg_users': community_dataset_rankings.get(peak_community_dataset[0], {}).get('avg_users', 0),
+                            'provider': peak_community_dataset[1].get('provider', ''),
+                            'thematic_group': peak_community_dataset[1].get('thematic_group', '')
+                        }
+                    else:
+                        peak_community_dataset_info = {'id': 'N/A', 'title': 'N/A', 'total_users': 0}
+
+                    # Thematic group analysis for community datasets
+                    thematic_groups = {}
+                    for dataset_id, dataset_info in latest_community_datasets.items():
+                        group = dataset_info.get('thematic_group', 'Unknown')
+                        if group not in thematic_groups:
+                            thematic_groups[group] = {'datasets': 0, 'total_users': 0}
+                        thematic_groups[group]['datasets'] += 1
+                        thematic_groups[group]['total_users'] += dataset_info['users']
+
+                    stats = {
+                        "moving_window_snapshots": moving_window_snapshots,  # Key format for the template
+                        "data_type": "moving_window",  # Flag to indicate data type
+                        "window_size_days": 30,  # Document the window size
+                        "community_catalog_info": {
+                            "total_catalog_datasets": len(self.community_catalog.get_community_dataset_ids()),
+                            "catalog_url": self.community_catalog.catalog_url,
+                            "last_updated": datetime.now().isoformat()
+                        },
+                        "summary": {
+                            "total_datasets": total_datasets,
+                            "total_usage_events": len(moving_window_snapshots),  # Number of snapshots
+                            "latest_total_users": latest_total_users,  # Users in latest 30-day window
+                            "avg_users_per_dataset": round(latest_total_users / total_datasets, 2) if total_datasets > 0 else 0,
+                            "date_range": {
+                                "start": sorted_dates[0],
+                                "end": sorted_dates[-1]
+                            },
+                            "growth_rate": round(growth_rate, 2)
+                        },
+                        "community_summary": {
+                            "total_community_datasets": total_community_datasets,
+                            "latest_community_total_users": latest_community_total_users,
+                            "community_percentage_of_datasets": round((total_community_datasets / total_datasets * 100) if total_datasets > 0 else 0, 2),
+                            "community_percentage_of_users": round((latest_community_total_users / latest_total_users * 100) if latest_total_users > 0 else 0, 2),
+                            "avg_users_per_community_dataset": round(latest_community_total_users / total_community_datasets, 2) if total_community_datasets > 0 else 0,
+                            "community_growth_rate": round(community_growth_rate, 2),
+                            "thematic_groups": thematic_groups
+                        },
+                        "peaks": {
+                            "peak_snapshot": peak_snapshot,
+                            "peak_dataset": peak_dataset_info,
+                            "peak_community_snapshot": peak_community_snapshot,
+                            "peak_community_dataset": peak_community_dataset_info
+                        },
+                        "dataset_rankings": dataset_rankings,
+                        "community_dataset_rankings": community_dataset_rankings,
+                        "snapshot_trends": snapshot_trends,
+                        "community_snapshot_trends": community_snapshot_trends
+                    }
+                    
+                    self.processed_stats = stats
+                    return stats
+
+                def generate_json_output(self, output_file: str = "catalog_stats.json") -> None:
+                    """Generate JSON output file."""
+                    if not self.processed_stats:
+                        logger.error("No processed stats available. Run _calculate_moving_window_statistics first.")
+                        return
+
+                    try:
+                        with open(output_file, 'w', encoding='utf-8') as f:
+                            json.dump(self.processed_stats, f, indent=2, ensure_ascii=False)
+                        logger.info(f"Successfully generated JSON output: {output_file}")
+                    except IOError as e:
+                        logger.error(f"Failed to write JSON output to {output_file}: {e}")
+
+                def process_and_generate_json(self, end_date: Optional[date] = None,
+                                              output_file: str = "catalog_stats.json",
+                                              max_workers: int = 12) -> None:
+                    """Main method to process moving window data and generate JSON output."""
+                    logger.info("Starting Earth Engine moving window stats processing...")
+                    self.collect_all_data(end_date, max_workers)
+
+                    if not self.moving_window_data:
+                        logger.error("No moving window data collected. Aborting JSON generation.")
+                        return
+
+                    logger.info("Calculating moving window statistics...")
+                    self._calculate_moving_window_statistics()
+
+                    logger.info("Generating JSON output...")
+                    self.generate_json_output(output_file)
+
+                    # Log summary information
+                    logger.info(f"Processing complete. Summary:")
+                    logger.info(f"  - Moving window snapshots: {len(self.moving_window_data)}")
+                    logger.info(f"  - Latest snapshot datasets: {self.processed_stats['summary']['total_datasets']}")
+                    logger.info(f"  - Community datasets: {self.processed_stats['community_summary']['total_community_datasets']}")
+                    logger.info(f"  - Latest 30-day window users: {self.processed_stats['summary']['latest_total_users']:,}")
+                    logger.info(f"  - Community users: {self.processed_stats['community_summary']['latest_community_total_users']:,}")
+                    logger.info(f"  - Community percentage of users: {self.processed_stats['community_summary']['community_percentage_of_users']:.2f}%")
+                    logger.info(f"  - Snapshot date range: {self.processed_stats['summary']['date_range']['start']} to {self.processed_stats['summary']['date_range']['end']}")
+                    logger.info(f"  - Growth rate: {self.processed_stats['summary']['growth_rate']:.2f}%")
+                    logger.info(f"  - Community growth rate: {self.processed_stats['community_summary']['community_growth_rate']:.2f}%")
+
+            # Main execution
+            processor = EarthEngineStatsProcessor()
+            processor.process_and_generate_json(end_date=None, output_file="catalog_stats.json", max_workers=12)
+            
+      - name: Verify JSON output
+        run: |
+          if [ -f "catalog_stats.json" ]; then
+            echo "JSON file generated successfully"
+            echo "File size: $(stat -c%s catalog_stats.json) bytes"
+            echo "First few lines:"
+            head -10 catalog_stats.json
+            echo "Checking for community dataset information..."
+            if grep -q "community_summary" catalog_stats.json; then
+              echo "Community dataset statistics found in output"
+            else
+              echo "WARNING: Community dataset statistics not found in output"
+            fi
+          else
+            echo "ERROR: JSON file was not generated"
+            exit 1
+          fi
+          
+      - name: Commit and push changes
+        run: |
+          export TZ="America/Chicago"
+          today=$(date +"%Y-%m-%d %H:%M CDT")
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add catalog_stats.json
+          git commit -m "Updated Earth Engine moving window stats with community catalog integration ${today}" -a
+          git push
+          
+      - name: Cleanup
+        if: always()
+        run: |
+          rm -f /tmp/gcp-key.json
