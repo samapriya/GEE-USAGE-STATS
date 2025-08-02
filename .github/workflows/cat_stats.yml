@@ -112,7 +112,7 @@ jobs:
                     """Initialize the processor."""
                     self.bucket_name = "earthengine-stats"
                     self.base_path = "providers/sat-io"
-                    self.start_date = date(2025, 7, 31)
+                    self.start_date = date(2025, 7, 30)
                     self.moving_window_data = {}  # Store data by date
                     self.processed_stats = {}
                     self.community_catalog = CommunityDatasetCatalog()
