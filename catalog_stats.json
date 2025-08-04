@@ -1,78 +1,71 @@
 {
   "moving_window_snapshots": {
-    "2025-07-31": {
+    "2025-08-02": {
       "projects/sat-io/open-datasets/ASTER/GDEM": {
-        "users": 132,
+        "users": 133,
         "is_community_dataset": true,
         "title": "ASTER Global Digital Elevation Model (GDEM) v3",
         "provider": "NASA, METI, AIST, Japan Spacesystems and U.S./Japan ASTER Science Team",
         "thematic_group": "Elevation and Bathymetry"
       },
       "projects/sat-io/open-datasets/ESA/ESA_CCI_AGB": {
-        "users": 253,
+        "users": 237,
         "is_community_dataset": true,
         "title": "ESA CCI Global Forest Above Ground Biomass",
         "provider": "CCI BIOMASS consortium led by the University of Aberystwyth (U.K.)",
         "thematic_group": "Agriculture, Vegetation and Forestry"
       },
       "projects/sat-io/open-datasets/ESA/ESA_CCI_AGB_DIFF": {
-        "users": 57,
+        "users": 51,
         "is_community_dataset": true,
         "title": "ESA CCI Global Forest Above Ground Biomass Change Products",
         "provider": "CCI BIOMASS consortium led by the University of Aberystwyth (U.K.)",
         "thematic_group": "Agriculture, Vegetation and Forestry"
       },
       "projects/sat-io/open-datasets/FABDEM": {
-        "users": 451,
+        "users": 452,
         "is_community_dataset": true,
         "title": "FABDEM (Forest And Buildings removed Copernicus 30m DEM)",
         "provider": " Hawker, L., Uhe, P., Paulo, L., Sosa, J., Savage, J., Sampson, C., & Neal, J",
         "thematic_group": "Elevation and Bathymetry"
       },
-      "projects/sat-io/open-datasets/FAO/GAUL/GAUL_2024_L0": {
-        "users": 50,
-        "is_community_dataset": true,
-        "title": "Global Administrative Unit Layers (GAUL) 2024 - Level 0",
-        "provider": "Food and Agriculture Organization of the United Nations (FAO), Rambaud Pierrick",
-        "thematic_group": "Population & Socioeconomic"
-      },
       "projects/sat-io/open-datasets/FAO/GAUL/GAUL_2024_L1": {
-        "users": 140,
+        "users": 133,
         "is_community_dataset": true,
         "title": "Global Administrative Unit Layers (GAUL) 2024 - Level 1",
         "provider": "Food and Agriculture Organization of the United Nations (FAO)",
         "thematic_group": "Population & Socioeconomic"
       },
       "projects/sat-io/open-datasets/FAO/GAUL/GAUL_2024_L2": {
-        "users": 283,
+        "users": 272,
         "is_community_dataset": true,
         "title": "Global Administrative Unit Layers (GAUL) 2024 - Level 2",
         "provider": "Food and Agriculture Organization of the United Nations (FAO)",
         "thematic_group": "Population & Socioeconomic"
       },
       "projects/sat-io/open-datasets/FAO/HWSD_V2_SMU": {
-        "users": 107,
+        "users": 112,
         "is_community_dataset": true,
         "title": "Harmonized World Soil Database (HWSD) version 2.0",
         "provider": "FAO & IIASA",
         "thematic_group": "Soil Properties"
       },
       "projects/sat-io/open-datasets/FROM-GLC10": {
-        "users": 58,
+        "users": 55,
         "is_community_dataset": true,
         "title": "Finer Resolution Observation and Monitoring of Global Land Cover 10m (FROM-GLC10)",
         "provider": "Chen, B., B. Xu, Z. Zhu, C. Yuan, H. Ping Suen, J. Guo, N. Xu, W. Li, Y. Zhao, and J. J. S. B. Yang.",
         "thematic_group": "Global Land Use and Land Cover"
       },
       "projects/sat-io/open-datasets/GABAM": {
-        "users": 110,
+        "users": 112,
         "is_community_dataset": true,
         "title": "30m Global Annual Burned Area Maps (GABAM)",
         "provider": "Long Tengfei; Zhang Zhaoming; He Guojin",
         "thematic_group": "Fire Monitoring and Analysis"
       },
       "projects/sat-io/open-datasets/GFCC30TC": {
-        "users": 76,
+        "users": 73,
         "is_community_dataset": true,
         "title": "Global 30m Landsat Tree Canopy Cover v4",
         "provider": "Sexton, J. O et al",
@@ -86,14 +79,14 @@
         "thematic_group": "Agriculture, Vegetation and Forestry"
       },
       "projects/sat-io/open-datasets/GFSAD/GCEP30": {
-        "users": 56,
+        "users": 57,
         "is_community_dataset": true,
         "title": "GFSAD Global Cropland Extent Product (GCEP)",
         "provider": "U.S. Geological Survey Center for Earth Resources Observation and Science (EROS)",
         "thematic_group": "Agriculture, Vegetation and Forestry"
       },
       "projects/sat-io/open-datasets/GFSAD/LGRIP30": {
-        "users": 81,
+        "users": 79,
         "is_community_dataset": true,
         "title": "GFSAD Landsat-Derived Global Rainfed and Irrigated-Cropland Product (LGRIP)",
         "provider": "U.S. Geological Survey Center for Earth Resources Observation and Science (EROS)",
@@ -107,7 +100,7 @@
         "thematic_group": "Weather and Climate Layers"
       },
       "projects/sat-io/open-datasets/GHAP/GHAP_M1K_PM25": {
-        "users": 59,
+        "users": 57,
         "is_community_dataset": true,
         "title": "Global High Air Pollutants(GHAP) PM2.5 Concentrations (2017-2022): Monthly",
         "provider": "Wei et al",
@@ -128,130 +121,130 @@
         "thematic_group": "Agriculture, Vegetation and Forestry"
       },
       "projects/sat-io/open-datasets/GLC-FCS30D/annual": {
-        "users": 864,
+        "users": 846,
         "is_community_dataset": true,
         "title": "GLC_FCS30D Global 30-meter Land Cover Change Dataset (1985-2022) Annual",
         "provider": "Zhang et al. 2023",
         "thematic_group": "Global Land Use and Land Cover"
       },
       "projects/sat-io/open-datasets/GLC-FCS30D/annual/GLC_FCS30D_20002022_E0N10_Annual": {
-        "users": 82,
+        "users": 83,
         "is_community_dataset": false
       },
       "projects/sat-io/open-datasets/GLC-FCS30D/five-years-map": {
-        "users": 560,
+        "users": 544,
         "is_community_dataset": true,
         "title": "GLC_FCS30D Global 30-meter Land Cover Change Dataset (1985-2022) Five year",
         "provider": "Zhang et al. 2023",
         "thematic_group": "Global Land Use and Land Cover"
       },
       "projects/sat-io/open-datasets/GLO-30": {
-        "users": 151,
+        "users": 145,
         "is_community_dataset": true,
         "title": "Copernicus Digital Elevation Model (GLO-30 DEM)",
         "provider": " European Space Agency, COPERNICUS",
         "thematic_group": "Elevation and Bathymetry"
       },
       "projects/sat-io/open-datasets/GLOBAL-NATURAL-PLANTED-FORESTS": {
-        "users": 65,
+        "users": 66,
         "is_community_dataset": true,
         "title": "Global Natural and Planted Forests",
         "provider": "Xiao et al 2024",
         "thematic_group": "Agriculture, Vegetation and Forestry"
       },
       "projects/sat-io/open-datasets/GLOBGM/STEADY-STATE/globgm-heads-lower-layer-ss": {
-        "users": 69,
+        "users": 67,
         "is_community_dataset": true,
         "title": "GLOBGM v1.0 Computed steady-state groundwater head [m] for the lower model layer",
         "provider": "Verkaik et al. 2024",
         "thematic_group": "Hydrology"
       },
       "projects/sat-io/open-datasets/GLOBGM/STEADY-STATE/globgm-heads-upper-layer-ss": {
-        "users": 69,
+        "users": 67,
         "is_community_dataset": true,
         "title": "GLOBGM v1.0 Computed steady-state groundwater head [m] for the upper model layer",
         "provider": "Verkaik et al. 2024",
         "thematic_group": "Hydrology"
       },
       "projects/sat-io/open-datasets/GLOBGM/STEADY-STATE/globgm-wtd-ss": {
-        "users": 74,
+        "users": 72,
         "is_community_dataset": true,
         "title": "GLOBGM v1.0 Computed water table depth [m] sampled from upper to lower layer",
         "provider": "Verkaik et al. 2024",
         "thematic_group": "Hydrology"
       },
       "projects/sat-io/open-datasets/GLOBGM/TRANSIENT/WTD": {
-        "users": 77,
+        "users": 75,
         "is_community_dataset": true,
         "title": "GLOBGM v1.0 Computed transient water table depth [m] sampled from upper to lower layer",
         "provider": "Verkaik et al. 2024",
         "thematic_group": "Hydrology"
       },
       "projects/sat-io/open-datasets/GLOBGM/TRANSIENT/WTD-BOTTOM": {
-        "users": 72,
+        "users": 70,
         "is_community_dataset": true,
         "title": "GLOBGM v1.0 Computed transient water table depth [m] lower layer only",
         "provider": "Verkaik et al. 2024",
         "thematic_group": "Hydrology"
       },
       "projects/sat-io/open-datasets/GLOBathy/GLOBathy_bathymetry": {
-        "users": 196,
+        "users": 188,
         "is_community_dataset": true,
         "title": "GLOBathy (Global lakes bathymetry dataset) : Bathymetry",
         "provider": "Khazaei, B., Read, L.K., Casali, M. et al.",
         "thematic_group": "Hydrology"
       },
       "projects/sat-io/open-datasets/GMW/annual-extent/GMW_MNG_2020": {
-        "users": 79,
+        "users": 78,
         "is_community_dataset": true,
         "title": "Global Mangrove Watch 2020 Raster Extent v4.0.19: Raster",
         "provider": "Global Mangrove Watch, Aberystwyth University, solo Earth Observation, Wetlands Institute, International Water Management Institute, UN Environment World Conservation Monitoring Center",
         "thematic_group": "Global Land Use and Land Cover"
       },
       "projects/sat-io/open-datasets/GMW/annual-extent/GMW_MNG_VEC_2020": {
-        "users": 58,
+        "users": 54,
         "is_community_dataset": true,
         "title": "Global Mangrove Watch 2020 Raster Extent v4.0.19: Vector",
         "provider": "Global Mangrove Watch, Aberystwyth University, solo Earth Observation, Wetlands Institute, International Water Management Institute, UN Environment World Conservation Monitoring Center",
         "thematic_group": "Global Land Use and Land Cover"
       },
       "projects/sat-io/open-datasets/GRIP4/Africa": {
-        "users": 120,
+        "users": 117,
         "is_community_dataset": true,
         "title": "GRIP4: Africa",
         "provider": "Global Biodiversity Model for Policy Support, GLOBIO, PBL Netherlands Environmental Assessment Agency",
         "thematic_group": "Global Utilities, Assets and Amenities Layers"
       },
       "projects/sat-io/open-datasets/GRIP4/Central-South-America": {
-        "users": 97,
+        "users": 94,
         "is_community_dataset": true,
         "title": "GRIP4: Central and South America",
         "provider": "Global Biodiversity Model for Policy Support, GLOBIO, PBL Netherlands Environmental Assessment Agency",
         "thematic_group": "Global Utilities, Assets and Amenities Layers"
       },
       "projects/sat-io/open-datasets/GRIP4/Europe": {
-        "users": 89,
+        "users": 86,
         "is_community_dataset": true,
         "title": "GRIP4: Europe",
         "provider": "Global Biodiversity Model for Policy Support, GLOBIO, PBL Netherlands Environmental Assessment Agency",
         "thematic_group": "Global Utilities, Assets and Amenities Layers"
       },
       "projects/sat-io/open-datasets/GRIP4/Middle-East-Central-Asia": {
-        "users": 98,
+        "users": 94,
         "is_community_dataset": true,
         "title": "GRIP4: Middle East and Central Asia",
         "provider": "Global Biodiversity Model for Policy Support, GLOBIO, PBL Netherlands Environmental Assessment Agency",
         "thematic_group": "Global Utilities, Assets and Amenities Layers"
       },
       "projects/sat-io/open-datasets/GRIP4/North-America": {
-        "users": 85,
+        "users": 82,
         "is_community_dataset": true,
         "title": "GRIP4: North America",
         "provider": "Global Biodiversity Model for Policy Support, GLOBIO, PBL Netherlands Environmental Assessment Agency",
         "thematic_group": "Global Utilities, Assets and Amenities Layers"
       },
       "projects/sat-io/open-datasets/GRIP4/Oceania": {
-        "users": 74,
+        "users": 72,
         "is_community_dataset": true,
         "title": "GRIP4: Oceania",
         "provider": "Global Biodiversity Model for Policy Support, GLOBIO, PBL Netherlands Environmental Assessment Agency",
@@ -265,140 +258,133 @@
         "thematic_group": "Global Utilities, Assets and Amenities Layers"
       },
       "projects/sat-io/open-datasets/GWL_FCS30": {
-        "users": 104,
+        "users": 100,
         "is_community_dataset": true,
         "title": "Global 30 m Wetland Map with a Fine Classification System",
         "provider": "Zhang et al 2023",
         "thematic_group": "Global Land Use and Land Cover"
       },
-      "projects/sat-io/open-datasets/Geomorpho90m/cti": {
-        "users": 50,
-        "is_community_dataset": true,
-        "title": "Geomorpho90m First order derivatives: cti",
-        "provider": "Yale University, Coillte, Irish State Forestry Board, Leibniz-Institute of Freshwater Ecology and Inland Fisheries, European Commission - Joint Research Centre, Spatial Ecology",
-        "thematic_group": "Geophysical, Biological & Biogeochemical"
-      },
       "projects/sat-io/open-datasets/Harmonized_NTL/dmsp": {
-        "users": 81,
+        "users": 80,
         "is_community_dataset": true,
         "title": "Harmonized Global Night Time Lights (1992-2021): DMSP",
         "provider": "Xuecao Li et al",
         "thematic_group": "Global Utilities, Assets and Amenities Layers"
       },
       "projects/sat-io/open-datasets/Harmonized_NTL/viirs": {
-        "users": 82,
+        "users": 81,
         "is_community_dataset": true,
         "title": "Harmonized Global Night Time Lights (1992-2021): VIIRS",
         "provider": "Xuecao Li et al",
         "thematic_group": "Global Utilities, Assets and Amenities Layers"
       },
       "projects/sat-io/open-datasets/HiHydroSoilv2_0/Hydrologic_Soil_Group_250m": {
-        "users": 65,
+        "users": 60,
         "is_community_dataset": true,
         "title": "Hydrologic Soil Group",
         "provider": "Future Water",
         "thematic_group": "Soil Properties"
       },
       "projects/sat-io/open-datasets/HiHydroSoilv2_0/N": {
-        "users": 73,
+        "users": 72,
         "is_community_dataset": true,
         "title": "N parameter for Mualem Van Genuchten Equation",
         "provider": "Future Water",
         "thematic_group": "Soil Properties"
       },
       "projects/sat-io/open-datasets/HiHydroSoilv2_0/alpha": {
-        "users": 73,
+        "users": 71,
         "is_community_dataset": true,
         "title": "Alpha parameter for Mualem Van Genuchten Equation",
         "provider": "Future Water",
         "thematic_group": "Soil Properties"
       },
       "projects/sat-io/open-datasets/HiHydroSoilv2_0/crit-wilt": {
-        "users": 73,
+        "users": 71,
         "is_community_dataset": true,
         "title": "Water content between wilting point (pF3)- Wilt Perm",
         "provider": "Future Water",
         "thematic_group": "Soil Properties"
       },
       "projects/sat-io/open-datasets/HiHydroSoilv2_0/field-crit": {
-        "users": 73,
+        "users": 71,
         "is_community_dataset": true,
         "title": "Water content between field capacity (pF2_ and wilting point (pF3)- Field Wilt",
         "provider": "Future Water",
         "thematic_group": "Soil Properties"
       },
       "projects/sat-io/open-datasets/HiHydroSoilv2_0/ksat": {
-        "users": 90,
+        "users": 88,
         "is_community_dataset": true,
         "title": "Saturated Hydraulic Conductivity- Ksat",
         "provider": "Future Water",
         "thematic_group": "Soil Properties"
       },
       "projects/sat-io/open-datasets/HiHydroSoilv2_0/ormc": {
-        "users": 77,
+        "users": 74,
         "is_community_dataset": true,
         "title": "Organic Matter Content- ORMC",
         "provider": "Future Water",
         "thematic_group": "Soil Properties"
       },
       "projects/sat-io/open-datasets/HiHydroSoilv2_0/sat-field": {
-        "users": 71,
+        "users": 69,
         "is_community_dataset": true,
         "title": "Water content between saturation point and field capacity (pF2)- sat-field",
         "provider": "Future Water",
         "thematic_group": "Soil Properties"
       },
       "projects/sat-io/open-datasets/HiHydroSoilv2_0/stc": {
-        "users": 77,
+        "users": 75,
         "is_community_dataset": true,
         "title": "Soil Texture Class- STC",
         "provider": "Future Water",
         "thematic_group": "Soil Properties"
       },
       "projects/sat-io/open-datasets/HiHydroSoilv2_0/wcavail": {
-        "users": 78,
+        "users": 77,
         "is_community_dataset": true,
         "title": "Available water content- wcavail",
         "provider": "Future Water",
         "thematic_group": "Soil Properties"
       },
       "projects/sat-io/open-datasets/HiHydroSoilv2_0/wcpf2": {
-        "users": 83,
+        "users": 81,
         "is_community_dataset": true,
         "title": "Water content at pF2 (field capacity)- wcpf2",
         "provider": "Future Water",
         "thematic_group": "Soil Properties"
       },
       "projects/sat-io/open-datasets/HiHydroSoilv2_0/wcpf3": {
-        "users": 77,
+        "users": 75,
         "is_community_dataset": true,
         "title": "Water content at pF3 (wilting point)- wcpf3",
         "provider": "Future Water",
         "thematic_group": "Soil Properties"
       },
       "projects/sat-io/open-datasets/HiHydroSoilv2_0/wcpf4-2": {
-        "users": 81,
+        "users": 79,
         "is_community_dataset": true,
         "title": "Water content at pF4.2 (permanent wilting point)- wcpf4.2",
         "provider": "Future Water",
         "thematic_group": "Soil Properties"
       },
       "projects/sat-io/open-datasets/HiHydroSoilv2_0/wcres": {
-        "users": 77,
+        "users": 75,
         "is_community_dataset": true,
         "title": "Residual Water Content- wcres",
         "provider": "Future Water",
         "thematic_group": "Soil Properties"
       },
       "projects/sat-io/open-datasets/HiHydroSoilv2_0/wcsat": {
-        "users": 80,
+        "users": 79,
         "is_community_dataset": true,
         "title": "Saturated water content- wcsat",
         "provider": "Future Water",
         "thematic_group": "Soil Properties"
       },
       "projects/sat-io/open-datasets/HydroLakes/lake_poly_v10": {
-        "users": 115,
+        "users": 118,
         "is_community_dataset": true,
         "title": "HydroLAKES v1.0: Polygons",
         "provider": "Messager, M. L., Lehner, B., Grill, G., Nedeva, I., & Schmitt, O",
@@ -409,49 +395,49 @@
         "is_community_dataset": false
       },
       "projects/sat-io/open-datasets/ORNL/LANDSCAN_GLOBAL": {
-        "users": 331,
+        "users": 347,
         "is_community_dataset": true,
         "title": "LANDSCAN GLOBAL",
         "provider": "Oakridge National Laboratory",
         "thematic_group": "Population & Socioeconomic"
       },
       "projects/sat-io/open-datasets/OSM_waterLayer": {
-        "users": 82,
+        "users": 81,
         "is_community_dataset": true,
         "title": "OSM Water Layer Surface Waters",
         "provider": "Institute of Industrial Sciences, Open Street Map, OSM",
         "thematic_group": "Hydrology"
       },
       "projects/sat-io/open-datasets/PKU-GIMMS-NDVI/AVHRR_MODIS_CONSOLIDATED": {
-        "users": 66,
+        "users": 69,
         "is_community_dataset": true,
         "title": "GIMMS Normalized Difference Vegetation Index 1982-2022 AVHRR MODIS CONSOLIDATED",
         "provider": "Li, Muyi, Sen Cao, Zaichun Zhu, Zhe Wang, Ranga B. Myneni, and Shilong Piao",
         "thematic_group": "Agriculture, Vegetation and Forestry"
       },
       "projects/sat-io/open-datasets/PKU-GIMMS-NDVI/AVHRR_SOLELY": {
-        "users": 53,
+        "users": 56,
         "is_community_dataset": true,
         "title": "GIMMS Normalized Difference Vegetation Index 1982-2022 AVHRR SOLELY",
         "provider": "Li, Muyi, Sen Cao, Zaichun Zhu, Zhe Wang, Ranga B. Myneni, and Shilong Piao",
         "thematic_group": "Agriculture, Vegetation and Forestry"
       },
       "projects/sat-io/open-datasets/PLANET/TANAGER_HYPERSPECTRAL": {
-        "users": 53,
+        "users": 56,
         "is_community_dataset": true,
         "title": "Planet Tanager Open Data Hyperspectral",
         "provider": "Planet Labs PBC",
         "thematic_group": "Global Events Layers"
       },
       "projects/sat-io/open-datasets/SWORD/nodes_merged": {
-        "users": 107,
+        "users": 102,
         "is_community_dataset": true,
         "title": "SWOT River Database (SWORD) Nodes Merged",
         "provider": "Altenau et al., (2021)",
         "thematic_group": "Hydrology"
       },
       "projects/sat-io/open-datasets/SWORD/reaches_merged": {
-        "users": 110,
+        "users": 105,
         "is_community_dataset": true,
         "title": "SWOT River Database (SWORD) Reaches Merged",
         "provider": "Altenau et al., (2021)",
@@ -465,35 +451,35 @@
         "thematic_group": "Regional Land Use and Land Cover"
       },
       "projects/sat-io/open-datasets/VIDA_COMBINED/IND": {
-        "users": 78,
+        "users": 71,
         "is_community_dataset": true,
         "title": "Global Google Microsoft Combined Building Footprints VIDA: India",
         "provider": "VIDA, Google, Microsoft",
         "thematic_group": "Global Utilities, Assets and Amenities Layers"
       },
       "projects/sat-io/open-datasets/WSF/WSF_2019": {
-        "users": 71,
+        "users": 67,
         "is_community_dataset": true,
         "title": "World Settlement Footprint (2019)",
         "provider": "Marconcini, et al",
         "thematic_group": "Global Land Use and Land Cover"
       },
       "projects/sat-io/open-datasets/events/global_landslide_1970-2019": {
-        "users": 57,
+        "users": 53,
         "is_community_dataset": true,
         "title": "Global Landslide Catalog - NASA Goddard (1970-2019)",
         "provider": "NASA Goddard Space Flight Center",
         "thematic_group": "Global Events Layers"
       },
       "projects/sat-io/open-datasets/facebook/meta-canopy-height": {
-        "users": 59,
+        "users": 71,
         "is_community_dataset": true,
         "title": "High Resolution Global 1m Canopy Cover",
         "provider": "Meta and WRI, Tolan et al 2023",
         "thematic_group": "Agriculture, Vegetation and Forestry"
       },
       "projects/sat-io/open-datasets/forest_carbon_fluxes/net_flux": {
-        "users": 54,
+        "users": 52,
         "is_community_dataset": true,
         "title": "Global Forest Carbon Fluxes: Net Flux",
         "provider": "Harris, N.L., Gibbs, D.A., Baccini, A. et al",
@@ -507,14 +493,14 @@
         "thematic_group": "Weather and Climate Layers"
       },
       "projects/sat-io/open-datasets/geoboundaries/CGAZ_ADM0": {
-        "users": 82,
+        "users": 84,
         "is_community_dataset": true,
         "title": "Comprehensive Global Administrative Zones(CGAZ)- ADM0",
         "provider": "William & Mary geoLab",
         "thematic_group": "Population & Socioeconomic"
       },
       "projects/sat-io/open-datasets/geoboundaries/CGAZ_ADM1": {
-        "users": 91,
+        "users": 93,
         "is_community_dataset": true,
         "title": "Comprehensive Global Administrative Zones(CGAZ)- ADM1",
         "provider": "William & Mary geoLab",
@@ -528,130 +514,130 @@
         "thematic_group": "Population & Socioeconomic"
       },
       "projects/sat-io/open-datasets/global-monoculture-plantations": {
-        "users": 97,
+        "users": 89,
         "is_community_dataset": true,
         "title": "Aboveground carbon accumulation in global monoculture plantation forests",
         "provider": "Bukoski, Jacob et al 2022",
         "thematic_group": "Agriculture, Vegetation and Forestry"
       },
       "projects/sat-io/open-datasets/global_ai/global_ai_yearly": {
-        "users": 72,
+        "users": 70,
         "is_community_dataset": true,
         "title": "Global Aridity Index Yearly",
         "provider": "CGIAR Platform for Big Data in Agriculture",
         "thematic_group": "Weather and Climate Layers"
       },
       "projects/sat-io/open-datasets/global_soil_salinity": {
-        "users": 84,
+        "users": 81,
         "is_community_dataset": true,
         "title": "Global Soil Salinity 1986-2016",
         "provider": "Ivushkin et al",
         "thematic_group": "Soil Properties"
       },
       "projects/sat-io/open-datasets/global_subsidence/Final_subsidence_prediction_recoded": {
-        "users": 65,
+        "users": 63,
         "is_community_dataset": true,
         "title": "Global Land Subsidence mapping: subsidence_prediction_recoded",
         "provider": "Hasan, M. F., R. Smith, S. Vajedian, R. Pommerenke, S. Majumdar",
         "thematic_group": "Geophysical, Biological & Biogeochemical"
       },
       "projects/sat-io/open-datasets/global_subsidence/Final_subsidence_proba_greater_1cm_2013_2019_recoded": {
-        "users": 66,
+        "users": 65,
         "is_community_dataset": true,
         "title": "Global Land Subsidence mapping: subsidence_prediction_probability",
         "provider": "Hasan, M. F., R. Smith, S. Vajedian, R. Pommerenke, S. Majumdar",
         "thematic_group": "Geophysical, Biological & Biogeochemical"
       },
       "projects/sat-io/open-datasets/hrsl/hrsl_children_under_five": {
-        "users": 65,
+        "users": 63,
         "is_community_dataset": true,
         "title": "High Resolution Settlement Layer: Children under five",
         "provider": "Center for International Earth Science Information Network(CIESIN), Facebook",
         "thematic_group": "Population & Socioeconomic"
       },
       "projects/sat-io/open-datasets/hrsl/hrsl_elderly_over_sixty": {
-        "users": 60,
+        "users": 58,
         "is_community_dataset": true,
         "title": "High Resolution Settlement Layer: Elderly over sixty",
         "provider": "Center for International Earth Science Information Network(CIESIN), Facebook",
         "thematic_group": "Population & Socioeconomic"
       },
       "projects/sat-io/open-datasets/hrsl/hrsl_men": {
-        "users": 62,
+        "users": 61,
         "is_community_dataset": true,
         "title": "High Resolution Settlement Layer: Men",
         "provider": "Center for International Earth Science Information Network(CIESIN), Facebook",
         "thematic_group": "Population & Socioeconomic"
       },
       "projects/sat-io/open-datasets/hrsl/hrsl_women": {
-        "users": 61,
+        "users": 59,
         "is_community_dataset": true,
         "title": "High Resolution Settlement Layer: Women",
         "provider": "Center for International Earth Science Information Network(CIESIN), Facebook",
         "thematic_group": "Population & Socioeconomic"
       },
       "projects/sat-io/open-datasets/hrsl/hrsl_women_reproductive_age": {
-        "users": 60,
+        "users": 58,
         "is_community_dataset": true,
         "title": "High Resolution Settlement Layer: Women of reproductive age",
         "provider": "Center for International Earth Science Information Network(CIESIN), Facebook",
         "thematic_group": "Population & Socioeconomic"
       },
       "projects/sat-io/open-datasets/hrsl/hrsl_youth": {
-        "users": 61,
+        "users": 59,
         "is_community_dataset": true,
         "title": "High Resolution Settlement Layer: Youth",
         "provider": "Center for International Earth Science Information Network(CIESIN), Facebook",
         "thematic_group": "Population & Socioeconomic"
       },
       "projects/sat-io/open-datasets/hrsl/hrslpop": {
-        "users": 116,
+        "users": 111,
         "is_community_dataset": true,
         "title": "High Resolution Settlement Layer: Overall Population",
         "provider": "Center for International Earth Science Information Network(CIESIN), Facebook",
         "thematic_group": "Population & Socioeconomic"
       },
       "projects/sat-io/open-datasets/landcover/ESRI_Global-LULC_10m": {
-        "users": 299,
+        "users": 291,
         "is_community_dataset": true,
         "title": "ESRI Global Land Use Land Cover from Sentinel-2",
         "provider": "Impact Observatory for Esri, Dynamic World Project by National Geographic Society in partnership with Google and the World Resources Institute",
         "thematic_group": "Global Land Use and Land Cover"
       },
       "projects/sat-io/open-datasets/landcover/ESRI_Global-LULC_10m_TS": {
-        "users": 1106,
+        "users": 1087,
         "is_community_dataset": true,
         "title": "ESRI 10m Annual Land Use Land Cover (2017-2023)",
         "provider": "Impact Observatory for Esri, Dynamic World Project by National Geographic Society in partnership with Google and the World Resources Institute",
         "thematic_group": "Global Land Use and Land Cover"
       },
       "projects/sat-io/open-datasets/landcover/ESRI_Global-LULC_10m_TS/01C_2017": {
-        "users": 125,
+        "users": 118,
         "is_community_dataset": false
       },
       "projects/sat-io/open-datasets/npp-viirs-ntl": {
-        "users": 68,
+        "users": 63,
         "is_community_dataset": true,
         "title": "Global NPP-VIIRS-like nighttime light (2000-2023)",
         "provider": "Chen, Zuoqi et al",
         "thematic_group": "Global Utilities, Assets and Amenities Layers"
       },
       "projects/sat-io/open-datasets/shoreline/big_islands": {
-        "users": 119,
+        "users": 111,
         "is_community_dataset": true,
         "title": "Global Shoreline Dataset",
         "provider": "United States Geological Survey, USGS",
         "thematic_group": "Oceans and Shorelines"
       },
       "projects/sat-io/open-datasets/shoreline/mainlands": {
-        "users": 126,
+        "users": 118,
         "is_community_dataset": true,
         "title": "Global Shoreline Dataset",
         "provider": "United States Geological Survey, USGS",
         "thematic_group": "Oceans and Shorelines"
       },
       "projects/sat-io/open-datasets/shoreline/small_islands": {
-        "users": 115,
+        "users": 107,
         "is_community_dataset": true,
         "title": "Global Shoreline Dataset Small Islands",
         "provider": "United States Geological Survey, USGS",
@@ -665,7 +651,7 @@
         "thematic_group": "Global Utilities, Assets and Amenities Layers"
       },
       "projects/sat-io/open-datasets/us-drought-monitor": {
-        "users": 66,
+        "users": 61,
         "is_community_dataset": true,
         "title": "United States Drought Monitor (USDM)",
         "provider": "National Drought Mitigation Center at the University of Nebraska-Lincoln, the United States Department of Agriculture, and the National Oceanic and Atmospheric Administration. Map courtesy of NDMC",
@@ -1359,6 +1345,678 @@
         "provider": "National Drought Mitigation Center at the University of Nebraska-Lincoln, the United States Department of Agriculture, and the National Oceanic and Atmospheric Administration. Map courtesy of NDMC",
         "thematic_group": "Weather and Climate Layers"
       }
+    },
+    "2025-07-31": {
+      "projects/sat-io/open-datasets/ASTER/GDEM": {
+        "users": 132,
+        "is_community_dataset": true,
+        "title": "ASTER Global Digital Elevation Model (GDEM) v3",
+        "provider": "NASA, METI, AIST, Japan Spacesystems and U.S./Japan ASTER Science Team",
+        "thematic_group": "Elevation and Bathymetry"
+      },
+      "projects/sat-io/open-datasets/ESA/ESA_CCI_AGB": {
+        "users": 253,
+        "is_community_dataset": true,
+        "title": "ESA CCI Global Forest Above Ground Biomass",
+        "provider": "CCI BIOMASS consortium led by the University of Aberystwyth (U.K.)",
+        "thematic_group": "Agriculture, Vegetation and Forestry"
+      },
+      "projects/sat-io/open-datasets/ESA/ESA_CCI_AGB_DIFF": {
+        "users": 57,
+        "is_community_dataset": true,
+        "title": "ESA CCI Global Forest Above Ground Biomass Change Products",
+        "provider": "CCI BIOMASS consortium led by the University of Aberystwyth (U.K.)",
+        "thematic_group": "Agriculture, Vegetation and Forestry"
+      },
+      "projects/sat-io/open-datasets/FABDEM": {
+        "users": 451,
+        "is_community_dataset": true,
+        "title": "FABDEM (Forest And Buildings removed Copernicus 30m DEM)",
+        "provider": " Hawker, L., Uhe, P., Paulo, L., Sosa, J., Savage, J., Sampson, C., & Neal, J",
+        "thematic_group": "Elevation and Bathymetry"
+      },
+      "projects/sat-io/open-datasets/FAO/GAUL/GAUL_2024_L0": {
+        "users": 50,
+        "is_community_dataset": true,
+        "title": "Global Administrative Unit Layers (GAUL) 2024 - Level 0",
+        "provider": "Food and Agriculture Organization of the United Nations (FAO), Rambaud Pierrick",
+        "thematic_group": "Population & Socioeconomic"
+      },
+      "projects/sat-io/open-datasets/FAO/GAUL/GAUL_2024_L1": {
+        "users": 140,
+        "is_community_dataset": true,
+        "title": "Global Administrative Unit Layers (GAUL) 2024 - Level 1",
+        "provider": "Food and Agriculture Organization of the United Nations (FAO)",
+        "thematic_group": "Population & Socioeconomic"
+      },
+      "projects/sat-io/open-datasets/FAO/GAUL/GAUL_2024_L2": {
+        "users": 283,
+        "is_community_dataset": true,
+        "title": "Global Administrative Unit Layers (GAUL) 2024 - Level 2",
+        "provider": "Food and Agriculture Organization of the United Nations (FAO)",
+        "thematic_group": "Population & Socioeconomic"
+      },
+      "projects/sat-io/open-datasets/FAO/HWSD_V2_SMU": {
+        "users": 107,
+        "is_community_dataset": true,
+        "title": "Harmonized World Soil Database (HWSD) version 2.0",
+        "provider": "FAO & IIASA",
+        "thematic_group": "Soil Properties"
+      },
+      "projects/sat-io/open-datasets/FROM-GLC10": {
+        "users": 58,
+        "is_community_dataset": true,
+        "title": "Finer Resolution Observation and Monitoring of Global Land Cover 10m (FROM-GLC10)",
+        "provider": "Chen, B., B. Xu, Z. Zhu, C. Yuan, H. Ping Suen, J. Guo, N. Xu, W. Li, Y. Zhao, and J. J. S. B. Yang.",
+        "thematic_group": "Global Land Use and Land Cover"
+      },
+      "projects/sat-io/open-datasets/GABAM": {
+        "users": 110,
+        "is_community_dataset": true,
+        "title": "30m Global Annual Burned Area Maps (GABAM)",
+        "provider": "Long Tengfei; Zhang Zhaoming; He Guojin",
+        "thematic_group": "Fire Monitoring and Analysis"
+      },
+      "projects/sat-io/open-datasets/GFCC30TC": {
+        "users": 76,
+        "is_community_dataset": true,
+        "title": "Global 30m Landsat Tree Canopy Cover v4",
+        "provider": "Sexton, J. O et al",
+        "thematic_group": "Agriculture, Vegetation and Forestry"
+      },
+      "projects/sat-io/open-datasets/GFM/FML_v3-2": {
+        "users": 66,
+        "is_community_dataset": true,
+        "title": "Global Forest Management dataset 2015",
+        "provider": "Myroslava et al. 2022",
+        "thematic_group": "Agriculture, Vegetation and Forestry"
+      },
+      "projects/sat-io/open-datasets/GFSAD/GCEP30": {
+        "users": 56,
+        "is_community_dataset": true,
+        "title": "GFSAD Global Cropland Extent Product (GCEP)",
+        "provider": "U.S. Geological Survey Center for Earth Resources Observation and Science (EROS)",
+        "thematic_group": "Agriculture, Vegetation and Forestry"
+      },
+      "projects/sat-io/open-datasets/GFSAD/LGRIP30": {
+        "users": 81,
+        "is_community_dataset": true,
+        "title": "GFSAD Landsat-Derived Global Rainfed and Irrigated-Cropland Product (LGRIP)",
+        "provider": "U.S. Geological Survey Center for Earth Resources Observation and Science (EROS)",
+        "thematic_group": "Agriculture, Vegetation and Forestry"
+      },
+      "projects/sat-io/open-datasets/GHAP/GHAP_D1K_PM25": {
+        "users": 68,
+        "is_community_dataset": true,
+        "title": "Global High Air Pollutants(GHAP) PM2.5 Concentrations (2017-2022): Daily",
+        "provider": "Wei et al",
+        "thematic_group": "Weather and Climate Layers"
+      },
+      "projects/sat-io/open-datasets/GHAP/GHAP_M1K_PM25": {
+        "users": 59,
+        "is_community_dataset": true,
+        "title": "Global High Air Pollutants(GHAP) PM2.5 Concentrations (2017-2022): Monthly",
+        "provider": "Wei et al",
+        "thematic_group": "Weather and Climate Layers"
+      },
+      "projects/sat-io/open-datasets/GHAP/GHAP_Y1K_PM25": {
+        "users": 72,
+        "is_community_dataset": true,
+        "title": "Global High Air Pollutants(GHAP) PM2.5 Concentrations (2017-2022): Yearly",
+        "provider": "Wei et al",
+        "thematic_group": "Weather and Climate Layers"
+      },
+      "projects/sat-io/open-datasets/GLAD/GEDI_V27": {
+        "users": 68,
+        "is_community_dataset": true,
+        "title": "Global Forest Canopy Height from GEDI & Landsat",
+        "provider": "Potapov et al. (2020)",
+        "thematic_group": "Agriculture, Vegetation and Forestry"
+      },
+      "projects/sat-io/open-datasets/GLC-FCS30D/annual": {
+        "users": 864,
+        "is_community_dataset": true,
+        "title": "GLC_FCS30D Global 30-meter Land Cover Change Dataset (1985-2022) Annual",
+        "provider": "Zhang et al. 2023",
+        "thematic_group": "Global Land Use and Land Cover"
+      },
+      "projects/sat-io/open-datasets/GLC-FCS30D/annual/GLC_FCS30D_20002022_E0N10_Annual": {
+        "users": 82,
+        "is_community_dataset": false
+      },
+      "projects/sat-io/open-datasets/GLC-FCS30D/five-years-map": {
+        "users": 560,
+        "is_community_dataset": true,
+        "title": "GLC_FCS30D Global 30-meter Land Cover Change Dataset (1985-2022) Five year",
+        "provider": "Zhang et al. 2023",
+        "thematic_group": "Global Land Use and Land Cover"
+      },
+      "projects/sat-io/open-datasets/GLO-30": {
+        "users": 151,
+        "is_community_dataset": true,
+        "title": "Copernicus Digital Elevation Model (GLO-30 DEM)",
+        "provider": " European Space Agency, COPERNICUS",
+        "thematic_group": "Elevation and Bathymetry"
+      },
+      "projects/sat-io/open-datasets/GLOBAL-NATURAL-PLANTED-FORESTS": {
+        "users": 65,
+        "is_community_dataset": true,
+        "title": "Global Natural and Planted Forests",
+        "provider": "Xiao et al 2024",
+        "thematic_group": "Agriculture, Vegetation and Forestry"
+      },
+      "projects/sat-io/open-datasets/GLOBGM/STEADY-STATE/globgm-heads-lower-layer-ss": {
+        "users": 69,
+        "is_community_dataset": true,
+        "title": "GLOBGM v1.0 Computed steady-state groundwater head [m] for the lower model layer",
+        "provider": "Verkaik et al. 2024",
+        "thematic_group": "Hydrology"
+      },
+      "projects/sat-io/open-datasets/GLOBGM/STEADY-STATE/globgm-heads-upper-layer-ss": {
+        "users": 69,
+        "is_community_dataset": true,
+        "title": "GLOBGM v1.0 Computed steady-state groundwater head [m] for the upper model layer",
+        "provider": "Verkaik et al. 2024",
+        "thematic_group": "Hydrology"
+      },
+      "projects/sat-io/open-datasets/GLOBGM/STEADY-STATE/globgm-wtd-ss": {
+        "users": 74,
+        "is_community_dataset": true,
+        "title": "GLOBGM v1.0 Computed water table depth [m] sampled from upper to lower layer",
+        "provider": "Verkaik et al. 2024",
+        "thematic_group": "Hydrology"
+      },
+      "projects/sat-io/open-datasets/GLOBGM/TRANSIENT/WTD": {
+        "users": 77,
+        "is_community_dataset": true,
+        "title": "GLOBGM v1.0 Computed transient water table depth [m] sampled from upper to lower layer",
+        "provider": "Verkaik et al. 2024",
+        "thematic_group": "Hydrology"
+      },
+      "projects/sat-io/open-datasets/GLOBGM/TRANSIENT/WTD-BOTTOM": {
+        "users": 72,
+        "is_community_dataset": true,
+        "title": "GLOBGM v1.0 Computed transient water table depth [m] lower layer only",
+        "provider": "Verkaik et al. 2024",
+        "thematic_group": "Hydrology"
+      },
+      "projects/sat-io/open-datasets/GLOBathy/GLOBathy_bathymetry": {
+        "users": 196,
+        "is_community_dataset": true,
+        "title": "GLOBathy (Global lakes bathymetry dataset) : Bathymetry",
+        "provider": "Khazaei, B., Read, L.K., Casali, M. et al.",
+        "thematic_group": "Hydrology"
+      },
+      "projects/sat-io/open-datasets/GMW/annual-extent/GMW_MNG_2020": {
+        "users": 79,
+        "is_community_dataset": true,
+        "title": "Global Mangrove Watch 2020 Raster Extent v4.0.19: Raster",
+        "provider": "Global Mangrove Watch, Aberystwyth University, solo Earth Observation, Wetlands Institute, International Water Management Institute, UN Environment World Conservation Monitoring Center",
+        "thematic_group": "Global Land Use and Land Cover"
+      },
+      "projects/sat-io/open-datasets/GMW/annual-extent/GMW_MNG_VEC_2020": {
+        "users": 58,
+        "is_community_dataset": true,
+        "title": "Global Mangrove Watch 2020 Raster Extent v4.0.19: Vector",
+        "provider": "Global Mangrove Watch, Aberystwyth University, solo Earth Observation, Wetlands Institute, International Water Management Institute, UN Environment World Conservation Monitoring Center",
+        "thematic_group": "Global Land Use and Land Cover"
+      },
+      "projects/sat-io/open-datasets/GRIP4/Africa": {
+        "users": 120,
+        "is_community_dataset": true,
+        "title": "GRIP4: Africa",
+        "provider": "Global Biodiversity Model for Policy Support, GLOBIO, PBL Netherlands Environmental Assessment Agency",
+        "thematic_group": "Global Utilities, Assets and Amenities Layers"
+      },
+      "projects/sat-io/open-datasets/GRIP4/Central-South-America": {
+        "users": 97,
+        "is_community_dataset": true,
+        "title": "GRIP4: Central and South America",
+        "provider": "Global Biodiversity Model for Policy Support, GLOBIO, PBL Netherlands Environmental Assessment Agency",
+        "thematic_group": "Global Utilities, Assets and Amenities Layers"
+      },
+      "projects/sat-io/open-datasets/GRIP4/Europe": {
+        "users": 89,
+        "is_community_dataset": true,
+        "title": "GRIP4: Europe",
+        "provider": "Global Biodiversity Model for Policy Support, GLOBIO, PBL Netherlands Environmental Assessment Agency",
+        "thematic_group": "Global Utilities, Assets and Amenities Layers"
+      },
+      "projects/sat-io/open-datasets/GRIP4/Middle-East-Central-Asia": {
+        "users": 98,
+        "is_community_dataset": true,
+        "title": "GRIP4: Middle East and Central Asia",
+        "provider": "Global Biodiversity Model for Policy Support, GLOBIO, PBL Netherlands Environmental Assessment Agency",
+        "thematic_group": "Global Utilities, Assets and Amenities Layers"
+      },
+      "projects/sat-io/open-datasets/GRIP4/North-America": {
+        "users": 85,
+        "is_community_dataset": true,
+        "title": "GRIP4: North America",
+        "provider": "Global Biodiversity Model for Policy Support, GLOBIO, PBL Netherlands Environmental Assessment Agency",
+        "thematic_group": "Global Utilities, Assets and Amenities Layers"
+      },
+      "projects/sat-io/open-datasets/GRIP4/Oceania": {
+        "users": 74,
+        "is_community_dataset": true,
+        "title": "GRIP4: Oceania",
+        "provider": "Global Biodiversity Model for Policy Support, GLOBIO, PBL Netherlands Environmental Assessment Agency",
+        "thematic_group": "Global Utilities, Assets and Amenities Layers"
+      },
+      "projects/sat-io/open-datasets/GRIP4/South-East-Asia": {
+        "users": 129,
+        "is_community_dataset": true,
+        "title": "GRIP4: South East Asia",
+        "provider": "Global Biodiversity Model for Policy Support, GLOBIO, PBL Netherlands Environmental Assessment Agency",
+        "thematic_group": "Global Utilities, Assets and Amenities Layers"
+      },
+      "projects/sat-io/open-datasets/GWL_FCS30": {
+        "users": 104,
+        "is_community_dataset": true,
+        "title": "Global 30 m Wetland Map with a Fine Classification System",
+        "provider": "Zhang et al 2023",
+        "thematic_group": "Global Land Use and Land Cover"
+      },
+      "projects/sat-io/open-datasets/Geomorpho90m/cti": {
+        "users": 50,
+        "is_community_dataset": true,
+        "title": "Geomorpho90m First order derivatives: cti",
+        "provider": "Yale University, Coillte, Irish State Forestry Board, Leibniz-Institute of Freshwater Ecology and Inland Fisheries, European Commission - Joint Research Centre, Spatial Ecology",
+        "thematic_group": "Geophysical, Biological & Biogeochemical"
+      },
+      "projects/sat-io/open-datasets/Harmonized_NTL/dmsp": {
+        "users": 81,
+        "is_community_dataset": true,
+        "title": "Harmonized Global Night Time Lights (1992-2021): DMSP",
+        "provider": "Xuecao Li et al",
+        "thematic_group": "Global Utilities, Assets and Amenities Layers"
+      },
+      "projects/sat-io/open-datasets/Harmonized_NTL/viirs": {
+        "users": 82,
+        "is_community_dataset": true,
+        "title": "Harmonized Global Night Time Lights (1992-2021): VIIRS",
+        "provider": "Xuecao Li et al",
+        "thematic_group": "Global Utilities, Assets and Amenities Layers"
+      },
+      "projects/sat-io/open-datasets/HiHydroSoilv2_0/Hydrologic_Soil_Group_250m": {
+        "users": 65,
+        "is_community_dataset": true,
+        "title": "Hydrologic Soil Group",
+        "provider": "Future Water",
+        "thematic_group": "Soil Properties"
+      },
+      "projects/sat-io/open-datasets/HiHydroSoilv2_0/N": {
+        "users": 73,
+        "is_community_dataset": true,
+        "title": "N parameter for Mualem Van Genuchten Equation",
+        "provider": "Future Water",
+        "thematic_group": "Soil Properties"
+      },
+      "projects/sat-io/open-datasets/HiHydroSoilv2_0/alpha": {
+        "users": 73,
+        "is_community_dataset": true,
+        "title": "Alpha parameter for Mualem Van Genuchten Equation",
+        "provider": "Future Water",
+        "thematic_group": "Soil Properties"
+      },
+      "projects/sat-io/open-datasets/HiHydroSoilv2_0/crit-wilt": {
+        "users": 73,
+        "is_community_dataset": true,
+        "title": "Water content between wilting point (pF3)- Wilt Perm",
+        "provider": "Future Water",
+        "thematic_group": "Soil Properties"
+      },
+      "projects/sat-io/open-datasets/HiHydroSoilv2_0/field-crit": {
+        "users": 73,
+        "is_community_dataset": true,
+        "title": "Water content between field capacity (pF2_ and wilting point (pF3)- Field Wilt",
+        "provider": "Future Water",
+        "thematic_group": "Soil Properties"
+      },
+      "projects/sat-io/open-datasets/HiHydroSoilv2_0/ksat": {
+        "users": 90,
+        "is_community_dataset": true,
+        "title": "Saturated Hydraulic Conductivity- Ksat",
+        "provider": "Future Water",
+        "thematic_group": "Soil Properties"
+      },
+      "projects/sat-io/open-datasets/HiHydroSoilv2_0/ormc": {
+        "users": 77,
+        "is_community_dataset": true,
+        "title": "Organic Matter Content- ORMC",
+        "provider": "Future Water",
+        "thematic_group": "Soil Properties"
+      },
+      "projects/sat-io/open-datasets/HiHydroSoilv2_0/sat-field": {
+        "users": 71,
+        "is_community_dataset": true,
+        "title": "Water content between saturation point and field capacity (pF2)- sat-field",
+        "provider": "Future Water",
+        "thematic_group": "Soil Properties"
+      },
+      "projects/sat-io/open-datasets/HiHydroSoilv2_0/stc": {
+        "users": 77,
+        "is_community_dataset": true,
+        "title": "Soil Texture Class- STC",
+        "provider": "Future Water",
+        "thematic_group": "Soil Properties"
+      },
+      "projects/sat-io/open-datasets/HiHydroSoilv2_0/wcavail": {
+        "users": 78,
+        "is_community_dataset": true,
+        "title": "Available water content- wcavail",
+        "provider": "Future Water",
+        "thematic_group": "Soil Properties"
+      },
+      "projects/sat-io/open-datasets/HiHydroSoilv2_0/wcpf2": {
+        "users": 83,
+        "is_community_dataset": true,
+        "title": "Water content at pF2 (field capacity)- wcpf2",
+        "provider": "Future Water",
+        "thematic_group": "Soil Properties"
+      },
+      "projects/sat-io/open-datasets/HiHydroSoilv2_0/wcpf3": {
+        "users": 77,
+        "is_community_dataset": true,
+        "title": "Water content at pF3 (wilting point)- wcpf3",
+        "provider": "Future Water",
+        "thematic_group": "Soil Properties"
+      },
+      "projects/sat-io/open-datasets/HiHydroSoilv2_0/wcpf4-2": {
+        "users": 81,
+        "is_community_dataset": true,
+        "title": "Water content at pF4.2 (permanent wilting point)- wcpf4.2",
+        "provider": "Future Water",
+        "thematic_group": "Soil Properties"
+      },
+      "projects/sat-io/open-datasets/HiHydroSoilv2_0/wcres": {
+        "users": 77,
+        "is_community_dataset": true,
+        "title": "Residual Water Content- wcres",
+        "provider": "Future Water",
+        "thematic_group": "Soil Properties"
+      },
+      "projects/sat-io/open-datasets/HiHydroSoilv2_0/wcsat": {
+        "users": 80,
+        "is_community_dataset": true,
+        "title": "Saturated water content- wcsat",
+        "provider": "Future Water",
+        "thematic_group": "Soil Properties"
+      },
+      "projects/sat-io/open-datasets/HydroLakes/lake_poly_v10": {
+        "users": 115,
+        "is_community_dataset": true,
+        "title": "HydroLAKES v1.0: Polygons",
+        "provider": "Messager, M. L., Lehner, B., Grill, G., Nedeva, I., & Schmitt, O",
+        "thematic_group": "Hydrology"
+      },
+      "projects/sat-io/open-datasets/MSBuildings/India": {
+        "users": 53,
+        "is_community_dataset": false
+      },
+      "projects/sat-io/open-datasets/ORNL/LANDSCAN_GLOBAL": {
+        "users": 331,
+        "is_community_dataset": true,
+        "title": "LANDSCAN GLOBAL",
+        "provider": "Oakridge National Laboratory",
+        "thematic_group": "Population & Socioeconomic"
+      },
+      "projects/sat-io/open-datasets/OSM_waterLayer": {
+        "users": 82,
+        "is_community_dataset": true,
+        "title": "OSM Water Layer Surface Waters",
+        "provider": "Institute of Industrial Sciences, Open Street Map, OSM",
+        "thematic_group": "Hydrology"
+      },
+      "projects/sat-io/open-datasets/PKU-GIMMS-NDVI/AVHRR_MODIS_CONSOLIDATED": {
+        "users": 66,
+        "is_community_dataset": true,
+        "title": "GIMMS Normalized Difference Vegetation Index 1982-2022 AVHRR MODIS CONSOLIDATED",
+        "provider": "Li, Muyi, Sen Cao, Zaichun Zhu, Zhe Wang, Ranga B. Myneni, and Shilong Piao",
+        "thematic_group": "Agriculture, Vegetation and Forestry"
+      },
+      "projects/sat-io/open-datasets/PKU-GIMMS-NDVI/AVHRR_SOLELY": {
+        "users": 53,
+        "is_community_dataset": true,
+        "title": "GIMMS Normalized Difference Vegetation Index 1982-2022 AVHRR SOLELY",
+        "provider": "Li, Muyi, Sen Cao, Zaichun Zhu, Zhe Wang, Ranga B. Myneni, and Shilong Piao",
+        "thematic_group": "Agriculture, Vegetation and Forestry"
+      },
+      "projects/sat-io/open-datasets/PLANET/TANAGER_HYPERSPECTRAL": {
+        "users": 53,
+        "is_community_dataset": true,
+        "title": "Planet Tanager Open Data Hyperspectral",
+        "provider": "Planet Labs PBC",
+        "thematic_group": "Global Events Layers"
+      },
+      "projects/sat-io/open-datasets/SWORD/nodes_merged": {
+        "users": 107,
+        "is_community_dataset": true,
+        "title": "SWOT River Database (SWORD) Nodes Merged",
+        "provider": "Altenau et al., (2021)",
+        "thematic_group": "Hydrology"
+      },
+      "projects/sat-io/open-datasets/SWORD/reaches_merged": {
+        "users": 110,
+        "is_community_dataset": true,
+        "title": "SWOT River Database (SWORD) Reaches Merged",
+        "provider": "Altenau et al., (2021)",
+        "thematic_group": "Hydrology"
+      },
+      "projects/sat-io/open-datasets/USGS/ANNUAL_NLCD/LANDCOVER": {
+        "users": 80,
+        "is_community_dataset": true,
+        "title": "USGS Annual NLCD Land Cover Dataset",
+        "provider": "U.S. Geological Survey (USGS)",
+        "thematic_group": "Regional Land Use and Land Cover"
+      },
+      "projects/sat-io/open-datasets/VIDA_COMBINED/IND": {
+        "users": 78,
+        "is_community_dataset": true,
+        "title": "Global Google Microsoft Combined Building Footprints VIDA: India",
+        "provider": "VIDA, Google, Microsoft",
+        "thematic_group": "Global Utilities, Assets and Amenities Layers"
+      },
+      "projects/sat-io/open-datasets/WSF/WSF_2019": {
+        "users": 71,
+        "is_community_dataset": true,
+        "title": "World Settlement Footprint (2019)",
+        "provider": "Marconcini, et al",
+        "thematic_group": "Global Land Use and Land Cover"
+      },
+      "projects/sat-io/open-datasets/events/global_landslide_1970-2019": {
+        "users": 57,
+        "is_community_dataset": true,
+        "title": "Global Landslide Catalog - NASA Goddard (1970-2019)",
+        "provider": "NASA Goddard Space Flight Center",
+        "thematic_group": "Global Events Layers"
+      },
+      "projects/sat-io/open-datasets/facebook/meta-canopy-height": {
+        "users": 59,
+        "is_community_dataset": true,
+        "title": "High Resolution Global 1m Canopy Cover",
+        "provider": "Meta and WRI, Tolan et al 2023",
+        "thematic_group": "Agriculture, Vegetation and Forestry"
+      },
+      "projects/sat-io/open-datasets/forest_carbon_fluxes/net_flux": {
+        "users": 54,
+        "is_community_dataset": true,
+        "title": "Global Forest Carbon Fluxes: Net Flux",
+        "provider": "Harris, N.L., Gibbs, D.A., Baccini, A. et al",
+        "thematic_group": "Agriculture, Vegetation and Forestry"
+      },
+      "projects/sat-io/open-datasets/gap-filled-lst/gf_day_1km": {
+        "users": 58,
+        "is_community_dataset": true,
+        "title": "MODIS Gap filled Long-term Land Surface Temperature Daily Daytime",
+        "provider": "Zhang, Tao; Zhou, Yuyu; Zhu, Zhengyuan; Li, Xiaoma; Asrar, Ghassem",
+        "thematic_group": "Weather and Climate Layers"
+      },
+      "projects/sat-io/open-datasets/geoboundaries/CGAZ_ADM0": {
+        "users": 82,
+        "is_community_dataset": true,
+        "title": "Comprehensive Global Administrative Zones(CGAZ)- ADM0",
+        "provider": "William & Mary geoLab",
+        "thematic_group": "Population & Socioeconomic"
+      },
+      "projects/sat-io/open-datasets/geoboundaries/CGAZ_ADM1": {
+        "users": 91,
+        "is_community_dataset": true,
+        "title": "Comprehensive Global Administrative Zones(CGAZ)- ADM1",
+        "provider": "William & Mary geoLab",
+        "thematic_group": "Population & Socioeconomic"
+      },
+      "projects/sat-io/open-datasets/geoboundaries/CGAZ_ADM2": {
+        "users": 59,
+        "is_community_dataset": true,
+        "title": "Comprehensive Global Administrative Zones(CGAZ)- ADM2",
+        "provider": "William & Mary geoLab",
+        "thematic_group": "Population & Socioeconomic"
+      },
+      "projects/sat-io/open-datasets/global-monoculture-plantations": {
+        "users": 97,
+        "is_community_dataset": true,
+        "title": "Aboveground carbon accumulation in global monoculture plantation forests",
+        "provider": "Bukoski, Jacob et al 2022",
+        "thematic_group": "Agriculture, Vegetation and Forestry"
+      },
+      "projects/sat-io/open-datasets/global_ai/global_ai_yearly": {
+        "users": 72,
+        "is_community_dataset": true,
+        "title": "Global Aridity Index Yearly",
+        "provider": "CGIAR Platform for Big Data in Agriculture",
+        "thematic_group": "Weather and Climate Layers"
+      },
+      "projects/sat-io/open-datasets/global_soil_salinity": {
+        "users": 84,
+        "is_community_dataset": true,
+        "title": "Global Soil Salinity 1986-2016",
+        "provider": "Ivushkin et al",
+        "thematic_group": "Soil Properties"
+      },
+      "projects/sat-io/open-datasets/global_subsidence/Final_subsidence_prediction_recoded": {
+        "users": 65,
+        "is_community_dataset": true,
+        "title": "Global Land Subsidence mapping: subsidence_prediction_recoded",
+        "provider": "Hasan, M. F., R. Smith, S. Vajedian, R. Pommerenke, S. Majumdar",
+        "thematic_group": "Geophysical, Biological & Biogeochemical"
+      },
+      "projects/sat-io/open-datasets/global_subsidence/Final_subsidence_proba_greater_1cm_2013_2019_recoded": {
+        "users": 66,
+        "is_community_dataset": true,
+        "title": "Global Land Subsidence mapping: subsidence_prediction_probability",
+        "provider": "Hasan, M. F., R. Smith, S. Vajedian, R. Pommerenke, S. Majumdar",
+        "thematic_group": "Geophysical, Biological & Biogeochemical"
+      },
+      "projects/sat-io/open-datasets/hrsl/hrsl_children_under_five": {
+        "users": 65,
+        "is_community_dataset": true,
+        "title": "High Resolution Settlement Layer: Children under five",
+        "provider": "Center for International Earth Science Information Network(CIESIN), Facebook",
+        "thematic_group": "Population & Socioeconomic"
+      },
+      "projects/sat-io/open-datasets/hrsl/hrsl_elderly_over_sixty": {
+        "users": 60,
+        "is_community_dataset": true,
+        "title": "High Resolution Settlement Layer: Elderly over sixty",
+        "provider": "Center for International Earth Science Information Network(CIESIN), Facebook",
+        "thematic_group": "Population & Socioeconomic"
+      },
+      "projects/sat-io/open-datasets/hrsl/hrsl_men": {
+        "users": 62,
+        "is_community_dataset": true,
+        "title": "High Resolution Settlement Layer: Men",
+        "provider": "Center for International Earth Science Information Network(CIESIN), Facebook",
+        "thematic_group": "Population & Socioeconomic"
+      },
+      "projects/sat-io/open-datasets/hrsl/hrsl_women": {
+        "users": 61,
+        "is_community_dataset": true,
+        "title": "High Resolution Settlement Layer: Women",
+        "provider": "Center for International Earth Science Information Network(CIESIN), Facebook",
+        "thematic_group": "Population & Socioeconomic"
+      },
+      "projects/sat-io/open-datasets/hrsl/hrsl_women_reproductive_age": {
+        "users": 60,
+        "is_community_dataset": true,
+        "title": "High Resolution Settlement Layer: Women of reproductive age",
+        "provider": "Center for International Earth Science Information Network(CIESIN), Facebook",
+        "thematic_group": "Population & Socioeconomic"
+      },
+      "projects/sat-io/open-datasets/hrsl/hrsl_youth": {
+        "users": 61,
+        "is_community_dataset": true,
+        "title": "High Resolution Settlement Layer: Youth",
+        "provider": "Center for International Earth Science Information Network(CIESIN), Facebook",
+        "thematic_group": "Population & Socioeconomic"
+      },
+      "projects/sat-io/open-datasets/hrsl/hrslpop": {
+        "users": 116,
+        "is_community_dataset": true,
+        "title": "High Resolution Settlement Layer: Overall Population",
+        "provider": "Center for International Earth Science Information Network(CIESIN), Facebook",
+        "thematic_group": "Population & Socioeconomic"
+      },
+      "projects/sat-io/open-datasets/landcover/ESRI_Global-LULC_10m": {
+        "users": 299,
+        "is_community_dataset": true,
+        "title": "ESRI Global Land Use Land Cover from Sentinel-2",
+        "provider": "Impact Observatory for Esri, Dynamic World Project by National Geographic Society in partnership with Google and the World Resources Institute",
+        "thematic_group": "Global Land Use and Land Cover"
+      },
+      "projects/sat-io/open-datasets/landcover/ESRI_Global-LULC_10m_TS": {
+        "users": 1106,
+        "is_community_dataset": true,
+        "title": "ESRI 10m Annual Land Use Land Cover (2017-2023)",
+        "provider": "Impact Observatory for Esri, Dynamic World Project by National Geographic Society in partnership with Google and the World Resources Institute",
+        "thematic_group": "Global Land Use and Land Cover"
+      },
+      "projects/sat-io/open-datasets/landcover/ESRI_Global-LULC_10m_TS/01C_2017": {
+        "users": 125,
+        "is_community_dataset": false
+      },
+      "projects/sat-io/open-datasets/npp-viirs-ntl": {
+        "users": 68,
+        "is_community_dataset": true,
+        "title": "Global NPP-VIIRS-like nighttime light (2000-2023)",
+        "provider": "Chen, Zuoqi et al",
+        "thematic_group": "Global Utilities, Assets and Amenities Layers"
+      },
+      "projects/sat-io/open-datasets/shoreline/big_islands": {
+        "users": 119,
+        "is_community_dataset": true,
+        "title": "Global Shoreline Dataset",
+        "provider": "United States Geological Survey, USGS",
+        "thematic_group": "Oceans and Shorelines"
+      },
+      "projects/sat-io/open-datasets/shoreline/mainlands": {
+        "users": 126,
+        "is_community_dataset": true,
+        "title": "Global Shoreline Dataset",
+        "provider": "United States Geological Survey, USGS",
+        "thematic_group": "Oceans and Shorelines"
+      },
+      "projects/sat-io/open-datasets/shoreline/small_islands": {
+        "users": 115,
+        "is_community_dataset": true,
+        "title": "Global Shoreline Dataset Small Islands",
+        "provider": "United States Geological Survey, USGS",
+        "thematic_group": "Oceans and Shorelines"
+      },
+      "projects/sat-io/open-datasets/srunet-npp-viirs-ntl": {
+        "users": 58,
+        "is_community_dataset": true,
+        "title": "Global Annual Simulated NPP-VIIRS Nighttime Light Dataset (1992-2023)",
+        "provider": "Chen, Xiuxiu et al.",
+        "thematic_group": "Global Utilities, Assets and Amenities Layers"
+      },
+      "projects/sat-io/open-datasets/us-drought-monitor": {
+        "users": 66,
+        "is_community_dataset": true,
+        "title": "United States Drought Monitor (USDM)",
+        "provider": "National Drought Mitigation Center at the University of Nebraska-Lincoln, the United States Department of Agriculture, and the National Oceanic and Atmospheric Administration. Map courtesy of NDMC",
+        "thematic_group": "Weather and Climate Layers"
+      }
     }
   },
   "data_type": "moving_window",
@@ -1366,62 +2024,62 @@
   "community_catalog_info": {
     "total_catalog_datasets": 4280,
     "catalog_url": "https://raw.githubusercontent.com/samapriya/awesome-gee-community-datasets/refs/heads/master/community_datasets.json",
-    "last_updated": "2025-08-03T15:03:23.673855"
+    "last_updated": "2025-08-04T02:43:10.012722"
   },
   "summary": {
-    "total_datasets": 96,
-    "total_usage_events": 3,
-    "latest_total_users": 11223,
-    "avg_users_per_dataset": 116.91,
+    "total_datasets": 95,
+    "total_usage_events": 4,
+    "latest_total_users": 11030,
+    "avg_users_per_dataset": 116.11,
     "date_range": {
       "start": "2025-07-30",
-      "end": "2025-08-01"
+      "end": "2025-08-02"
     },
-    "growth_rate": 1687.1
+    "growth_rate": 1656.37
   },
   "community_summary": {
-    "total_community_datasets": 93,
-    "latest_community_total_users": 10963,
-    "community_percentage_of_datasets": 96.88,
-    "community_percentage_of_users": 97.68,
-    "avg_users_per_community_dataset": 117.88,
-    "community_growth_rate": 1645.7,
+    "total_community_datasets": 92,
+    "latest_community_total_users": 10776,
+    "community_percentage_of_datasets": 96.84,
+    "community_percentage_of_users": 97.7,
+    "avg_users_per_community_dataset": 117.13,
+    "community_growth_rate": 1615.92,
     "thematic_groups": {
       "Elevation and Bathymetry": {
         "datasets": 3,
-        "total_users": 734
+        "total_users": 730
       },
       "Agriculture, Vegetation and Forestry": {
         "datasets": 13,
-        "total_users": 1052
+        "total_users": 1034
       },
       "Population & Socioeconomic": {
         "datasets": 13,
-        "total_users": 1468
+        "total_users": 1457
       },
       "Soil Properties": {
         "datasets": 17,
-        "total_users": 1316
+        "total_users": 1310
       },
       "Global Land Use and Land Cover": {
-        "datasets": 10,
-        "total_users": 3219
+        "datasets": 9,
+        "total_users": 3122
       },
       "Fire Monitoring and Analysis": {
         "datasets": 1,
-        "total_users": 111
+        "total_users": 112
       },
       "Weather and Climate Layers": {
         "datasets": 6,
-        "total_users": 385
+        "total_users": 386
       },
       "Hydrology": {
         "datasets": 10,
-        "total_users": 954
+        "total_users": 945
       },
       "Global Utilities, Assets and Amenities Layers": {
         "datasets": 12,
-        "total_users": 1056
+        "total_users": 1027
       },
       "Global Events Layers": {
         "datasets": 2,
@@ -1433,11 +2091,11 @@
       },
       "Geophysical, Biological & Biogeochemical": {
         "datasets": 2,
-        "total_users": 127
+        "total_users": 128
       },
       "Oceans and Shorelines": {
         "datasets": 3,
-        "total_users": 352
+        "total_users": 336
       }
     }
   },
@@ -1449,8 +2107,8 @@
     },
     "peak_dataset": {
       "id": "projects/sat-io/open-datasets/landcover/ESRI_Global-LULC_10m_TS",
-      "total_users": 1106,
-      "avg_users": 737.33,
+      "total_users": 1087,
+      "avg_users": 824.75,
       "is_community_dataset": true,
       "title": "ESRI 10m Annual Land Use Land Cover (2017-2023)",
       "provider": "Impact Observatory for Esri, Dynamic World Project by National Geographic Society in partnership with Google and the World Resources Institute",
@@ -1464,392 +2122,362 @@
     "peak_community_dataset": {
       "id": "projects/sat-io/open-datasets/landcover/ESRI_Global-LULC_10m_TS",
       "title": "ESRI 10m Annual Land Use Land Cover (2017-2023)",
-      "total_users": 1106,
-      "avg_users": 737.33,
+      "total_users": 1087,
+      "avg_users": 824.75,
       "provider": "Impact Observatory for Esri, Dynamic World Project by National Geographic Society in partnership with Google and the World Resources Institute",
       "thematic_group": "Global Land Use and Land Cover"
     }
   },
   "dataset_rankings": {
     "projects/sat-io/open-datasets/landcover/ESRI_Global-LULC_10m_TS": {
-      "total_users": 1106,
-      "avg_users": 737.33,
-      "appearances": 2,
-      "std_users": 638.55,
+      "total_users": 1087,
+      "avg_users": 824.75,
+      "appearances": 3,
+      "std_users": 549.91,
       "is_community_dataset": true,
       "title": "ESRI 10m Annual Land Use Land Cover (2017-2023)",
       "provider": "Impact Observatory for Esri, Dynamic World Project by National Geographic Society in partnership with Google and the World Resources Institute",
       "thematic_group": "Global Land Use and Land Cover"
     },
     "projects/sat-io/open-datasets/GLC-FCS30D/annual": {
-      "total_users": 854,
-      "avg_users": 572.67,
-      "appearances": 2,
-      "std_users": 495.97,
+      "total_users": 846,
+      "avg_users": 641.0,
+      "appearances": 3,
+      "std_users": 427.4,
       "is_community_dataset": true,
       "title": "GLC_FCS30D Global 30-meter Land Cover Change Dataset (1985-2022) Annual",
       "provider": "Zhang et al. 2023",
       "thematic_group": "Global Land Use and Land Cover"
     },
     "projects/sat-io/open-datasets/GLC-FCS30D/five-years-map": {
-      "total_users": 546,
-      "avg_users": 368.67,
-      "appearances": 2,
-      "std_users": 319.35,
+      "total_users": 544,
+      "avg_users": 412.5,
+      "appearances": 3,
+      "std_users": 275.09,
       "is_community_dataset": true,
       "title": "GLC_FCS30D Global 30-meter Land Cover Change Dataset (1985-2022) Five year",
       "provider": "Zhang et al. 2023",
       "thematic_group": "Global Land Use and Land Cover"
     },
     "projects/sat-io/open-datasets/FABDEM": {
-      "total_users": 451,
-      "avg_users": 300.67,
-      "appearances": 2,
-      "std_users": 260.38,
+      "total_users": 452,
+      "avg_users": 338.5,
+      "appearances": 3,
+      "std_users": 225.67,
       "is_community_dataset": true,
       "title": "FABDEM (Forest And Buildings removed Copernicus 30m DEM)",
       "provider": " Hawker, L., Uhe, P., Paulo, L., Sosa, J., Savage, J., Sampson, C., & Neal, J",
       "thematic_group": "Elevation and Bathymetry"
     },
     "projects/sat-io/open-datasets/ORNL/LANDSCAN_GLOBAL": {
-      "total_users": 334,
-      "avg_users": 344.67,
-      "appearances": 3,
-      "std_users": 21.13,
+      "total_users": 347,
+      "avg_users": 345.25,
+      "appearances": 4,
+      "std_users": 17.29,
       "is_community_dataset": true,
       "title": "LANDSCAN GLOBAL",
       "provider": "Oakridge National Laboratory",
       "thematic_group": "Population & Socioeconomic"
     },
     "projects/sat-io/open-datasets/landcover/ESRI_Global-LULC_10m": {
-      "total_users": 296,
-      "avg_users": 198.33,
-      "appearances": 2,
-      "std_users": 171.77,
+      "total_users": 291,
+      "avg_users": 221.5,
+      "appearances": 3,
+      "std_users": 147.7,
       "is_community_dataset": true,
       "title": "ESRI Global Land Use Land Cover from Sentinel-2",
       "provider": "Impact Observatory for Esri, Dynamic World Project by National Geographic Society in partnership with Google and the World Resources Institute",
       "thematic_group": "Global Land Use and Land Cover"
     },
     "projects/sat-io/open-datasets/FAO/GAUL/GAUL_2024_L2": {
-      "total_users": 279,
-      "avg_users": 187.33,
-      "appearances": 2,
-      "std_users": 162.25,
+      "total_users": 272,
+      "avg_users": 208.5,
+      "appearances": 3,
+      "std_users": 139.07,
       "is_community_dataset": true,
       "title": "Global Administrative Unit Layers (GAUL) 2024 - Level 2",
       "provider": "Food and Agriculture Organization of the United Nations (FAO)",
       "thematic_group": "Population & Socioeconomic"
     },
     "projects/sat-io/open-datasets/ESA/ESA_CCI_AGB": {
-      "total_users": 245,
-      "avg_users": 166.0,
-      "appearances": 2,
-      "std_users": 143.82,
+      "total_users": 237,
+      "avg_users": 183.75,
+      "appearances": 3,
+      "std_users": 122.67,
       "is_community_dataset": true,
       "title": "ESA CCI Global Forest Above Ground Biomass",
       "provider": "CCI BIOMASS consortium led by the University of Aberystwyth (U.K.)",
       "thematic_group": "Agriculture, Vegetation and Forestry"
     },
     "projects/sat-io/open-datasets/GLOBathy/GLOBathy_bathymetry": {
-      "total_users": 191,
-      "avg_users": 193.67,
-      "appearances": 3,
-      "std_users": 2.52,
+      "total_users": 188,
+      "avg_users": 192.25,
+      "appearances": 4,
+      "std_users": 3.5,
       "is_community_dataset": true,
       "title": "GLOBathy (Global lakes bathymetry dataset) : Bathymetry",
       "provider": "Khazaei, B., Read, L.K., Casali, M. et al.",
       "thematic_group": "Hydrology"
     },
     "projects/sat-io/open-datasets/GLO-30": {
-      "total_users": 152,
-      "avg_users": 101.0,
-      "appearances": 2,
-      "std_users": 87.47,
+      "total_users": 145,
+      "avg_users": 112.0,
+      "appearances": 3,
+      "std_users": 74.73,
       "is_community_dataset": true,
       "title": "Copernicus Digital Elevation Model (GLO-30 DEM)",
       "provider": " European Space Agency, COPERNICUS",
       "thematic_group": "Elevation and Bathymetry"
     },
-    "projects/sat-io/open-datasets/FAO/GAUL/GAUL_2024_L1": {
-      "total_users": 136,
-      "avg_users": 92.0,
-      "appearances": 2,
-      "std_users": 79.7,
-      "is_community_dataset": true,
-      "title": "Global Administrative Unit Layers (GAUL) 2024 - Level 1",
-      "provider": "Food and Agriculture Organization of the United Nations (FAO)",
-      "thematic_group": "Population & Socioeconomic"
-    },
     "projects/sat-io/open-datasets/ASTER/GDEM": {
-      "total_users": 131,
-      "avg_users": 87.67,
-      "appearances": 2,
-      "std_users": 75.92,
+      "total_users": 133,
+      "avg_users": 99.0,
+      "appearances": 3,
+      "std_users": 66.01,
       "is_community_dataset": true,
       "title": "ASTER Global Digital Elevation Model (GDEM) v3",
       "provider": "NASA, METI, AIST, Japan Spacesystems and U.S./Japan ASTER Science Team",
       "thematic_group": "Elevation and Bathymetry"
     },
+    "projects/sat-io/open-datasets/FAO/GAUL/GAUL_2024_L1": {
+      "total_users": 133,
+      "avg_users": 102.25,
+      "appearances": 3,
+      "std_users": 68.23,
+      "is_community_dataset": true,
+      "title": "Global Administrative Unit Layers (GAUL) 2024 - Level 1",
+      "provider": "Food and Agriculture Organization of the United Nations (FAO)",
+      "thematic_group": "Population & Socioeconomic"
+    },
     "projects/sat-io/open-datasets/GRIP4/South-East-Asia": {
-      "total_users": 130,
-      "avg_users": 86.33,
-      "appearances": 2,
-      "std_users": 74.77,
+      "total_users": 129,
+      "avg_users": 97.0,
+      "appearances": 3,
+      "std_users": 64.67,
       "is_community_dataset": true,
       "title": "GRIP4: South East Asia",
       "provider": "Global Biodiversity Model for Policy Support, GLOBIO, PBL Netherlands Environmental Assessment Agency",
       "thematic_group": "Global Utilities, Assets and Amenities Layers"
     },
-    "projects/sat-io/open-datasets/shoreline/mainlands": {
-      "total_users": 124,
-      "avg_users": 83.33,
-      "appearances": 2,
-      "std_users": 72.18,
-      "is_community_dataset": true,
-      "title": "Global Shoreline Dataset",
-      "provider": "United States Geological Survey, USGS",
-      "thematic_group": "Oceans and Shorelines"
-    },
-    "projects/sat-io/open-datasets/landcover/ESRI_Global-LULC_10m_TS/01C_2017": {
-      "total_users": 123,
-      "avg_users": 82.67,
-      "appearances": 2,
-      "std_users": 71.6,
-      "is_community_dataset": false
-    },
-    "projects/sat-io/open-datasets/GRIP4/Africa": {
-      "total_users": 119,
-      "avg_users": 79.67,
-      "appearances": 2,
-      "std_users": 69.0,
-      "is_community_dataset": true,
-      "title": "GRIP4: Africa",
-      "provider": "Global Biodiversity Model for Policy Support, GLOBIO, PBL Netherlands Environmental Assessment Agency",
-      "thematic_group": "Global Utilities, Assets and Amenities Layers"
-    },
     "projects/sat-io/open-datasets/HydroLakes/lake_poly_v10": {
-      "total_users": 117,
-      "avg_users": 77.33,
-      "appearances": 2,
-      "std_users": 66.98,
+      "total_users": 118,
+      "avg_users": 87.5,
+      "appearances": 3,
+      "std_users": 58.35,
       "is_community_dataset": true,
       "title": "HydroLAKES v1.0: Polygons",
       "provider": "Messager, M. L., Lehner, B., Grill, G., Nedeva, I., & Schmitt, O",
       "thematic_group": "Hydrology"
     },
-    "projects/sat-io/open-datasets/shoreline/big_islands": {
-      "total_users": 116,
-      "avg_users": 78.33,
-      "appearances": 2,
-      "std_users": 67.86,
+    "projects/sat-io/open-datasets/landcover/ESRI_Global-LULC_10m_TS/01C_2017": {
+      "total_users": 118,
+      "avg_users": 91.5,
+      "appearances": 3,
+      "std_users": 61.07,
+      "is_community_dataset": false
+    },
+    "projects/sat-io/open-datasets/shoreline/mainlands": {
+      "total_users": 118,
+      "avg_users": 92.0,
+      "appearances": 3,
+      "std_users": 61.43,
       "is_community_dataset": true,
       "title": "Global Shoreline Dataset",
       "provider": "United States Geological Survey, USGS",
       "thematic_group": "Oceans and Shorelines"
     },
-    "projects/sat-io/open-datasets/hrsl/hrslpop": {
-      "total_users": 113,
-      "avg_users": 76.33,
-      "appearances": 2,
-      "std_users": 66.12,
+    "projects/sat-io/open-datasets/GRIP4/Africa": {
+      "total_users": 117,
+      "avg_users": 89.0,
+      "appearances": 3,
+      "std_users": 59.35,
       "is_community_dataset": true,
-      "title": "High Resolution Settlement Layer: Overall Population",
-      "provider": "Center for International Earth Science Information Network(CIESIN), Facebook",
-      "thematic_group": "Population & Socioeconomic"
+      "title": "GRIP4: Africa",
+      "provider": "Global Biodiversity Model for Policy Support, GLOBIO, PBL Netherlands Environmental Assessment Agency",
+      "thematic_group": "Global Utilities, Assets and Amenities Layers"
     },
     "projects/sat-io/open-datasets/FAO/HWSD_V2_SMU": {
       "total_users": 112,
-      "avg_users": 73.0,
-      "appearances": 2,
-      "std_users": 63.27,
+      "avg_users": 82.75,
+      "appearances": 3,
+      "std_users": 55.22,
       "is_community_dataset": true,
       "title": "Harmonized World Soil Database (HWSD) version 2.0",
       "provider": "FAO & IIASA",
       "thematic_group": "Soil Properties"
     },
-    "projects/sat-io/open-datasets/shoreline/small_islands": {
-      "total_users": 112,
-      "avg_users": 75.67,
-      "appearances": 2,
-      "std_users": 65.55,
-      "is_community_dataset": true,
-      "title": "Global Shoreline Dataset Small Islands",
-      "provider": "United States Geological Survey, USGS",
-      "thematic_group": "Oceans and Shorelines"
-    },
     "projects/sat-io/open-datasets/GABAM": {
-      "total_users": 111,
-      "avg_users": 73.67,
-      "appearances": 2,
-      "std_users": 63.8,
+      "total_users": 112,
+      "avg_users": 83.25,
+      "appearances": 3,
+      "std_users": 55.51,
       "is_community_dataset": true,
       "title": "30m Global Annual Burned Area Maps (GABAM)",
       "provider": "Long Tengfei; Zhang Zhaoming; He Guojin",
       "thematic_group": "Fire Monitoring and Analysis"
     },
+    "projects/sat-io/open-datasets/hrsl/hrslpop": {
+      "total_users": 111,
+      "avg_users": 85.0,
+      "appearances": 3,
+      "std_users": 56.7,
+      "is_community_dataset": true,
+      "title": "High Resolution Settlement Layer: Overall Population",
+      "provider": "Center for International Earth Science Information Network(CIESIN), Facebook",
+      "thematic_group": "Population & Socioeconomic"
+    },
+    "projects/sat-io/open-datasets/shoreline/big_islands": {
+      "total_users": 111,
+      "avg_users": 86.5,
+      "appearances": 3,
+      "std_users": 57.76,
+      "is_community_dataset": true,
+      "title": "Global Shoreline Dataset",
+      "provider": "United States Geological Survey, USGS",
+      "thematic_group": "Oceans and Shorelines"
+    },
+    "projects/sat-io/open-datasets/shoreline/small_islands": {
+      "total_users": 107,
+      "avg_users": 83.5,
+      "appearances": 3,
+      "std_users": 55.76,
+      "is_community_dataset": true,
+      "title": "Global Shoreline Dataset Small Islands",
+      "provider": "United States Geological Survey, USGS",
+      "thematic_group": "Oceans and Shorelines"
+    },
     "projects/sat-io/open-datasets/SWORD/reaches_merged": {
-      "total_users": 106,
-      "avg_users": 72.0,
-      "appearances": 2,
-      "std_users": 62.39,
+      "total_users": 105,
+      "avg_users": 80.25,
+      "appearances": 3,
+      "std_users": 53.54,
       "is_community_dataset": true,
       "title": "SWOT River Database (SWORD) Reaches Merged",
       "provider": "Altenau et al., (2021)",
       "thematic_group": "Hydrology"
     },
-    "projects/sat-io/open-datasets/GWL_FCS30": {
-      "total_users": 104,
-      "avg_users": 69.33,
-      "appearances": 2,
-      "std_users": 60.04,
-      "is_community_dataset": true,
-      "title": "Global 30 m Wetland Map with a Fine Classification System",
-      "provider": "Zhang et al 2023",
-      "thematic_group": "Global Land Use and Land Cover"
-    },
     "projects/sat-io/open-datasets/SWORD/nodes_merged": {
-      "total_users": 103,
-      "avg_users": 70.0,
-      "appearances": 2,
-      "std_users": 60.65,
+      "total_users": 102,
+      "avg_users": 78.0,
+      "appearances": 3,
+      "std_users": 52.04,
       "is_community_dataset": true,
       "title": "SWOT River Database (SWORD) Nodes Merged",
       "provider": "Altenau et al., (2021)",
       "thematic_group": "Hydrology"
     },
-    "projects/sat-io/open-datasets/GRIP4/Middle-East-Central-Asia": {
-      "total_users": 98,
-      "avg_users": 65.33,
-      "appearances": 2,
-      "std_users": 56.58,
+    "projects/sat-io/open-datasets/GWL_FCS30": {
+      "total_users": 100,
+      "avg_users": 77.0,
+      "appearances": 3,
+      "std_users": 51.37,
       "is_community_dataset": true,
-      "title": "GRIP4: Middle East and Central Asia",
-      "provider": "Global Biodiversity Model for Policy Support, GLOBIO, PBL Netherlands Environmental Assessment Agency",
-      "thematic_group": "Global Utilities, Assets and Amenities Layers"
+      "title": "Global 30 m Wetland Map with a Fine Classification System",
+      "provider": "Zhang et al 2023",
+      "thematic_group": "Global Land Use and Land Cover"
     },
     "projects/sat-io/open-datasets/GRIP4/Central-South-America": {
-      "total_users": 97,
-      "avg_users": 64.67,
-      "appearances": 2,
-      "std_users": 56.0,
+      "total_users": 94,
+      "avg_users": 72.0,
+      "appearances": 3,
+      "std_users": 48.02,
       "is_community_dataset": true,
       "title": "GRIP4: Central and South America",
       "provider": "Global Biodiversity Model for Policy Support, GLOBIO, PBL Netherlands Environmental Assessment Agency",
       "thematic_group": "Global Utilities, Assets and Amenities Layers"
     },
+    "projects/sat-io/open-datasets/GRIP4/Middle-East-Central-Asia": {
+      "total_users": 94,
+      "avg_users": 72.5,
+      "appearances": 3,
+      "std_users": 48.37,
+      "is_community_dataset": true,
+      "title": "GRIP4: Middle East and Central Asia",
+      "provider": "Global Biodiversity Model for Policy Support, GLOBIO, PBL Netherlands Environmental Assessment Agency",
+      "thematic_group": "Global Utilities, Assets and Amenities Layers"
+    },
     "projects/sat-io/open-datasets/geoboundaries/CGAZ_ADM1": {
       "total_users": 93,
-      "avg_users": 61.33,
-      "appearances": 2,
-      "std_users": 53.13,
+      "avg_users": 69.25,
+      "appearances": 3,
+      "std_users": 46.18,
       "is_community_dataset": true,
       "title": "Comprehensive Global Administrative Zones(CGAZ)- ADM1",
       "provider": "William & Mary geoLab",
       "thematic_group": "Population & Socioeconomic"
     },
     "projects/sat-io/open-datasets/global-monoculture-plantations": {
-      "total_users": 92,
-      "avg_users": 63.0,
-      "appearances": 2,
-      "std_users": 54.62,
+      "total_users": 89,
+      "avg_users": 69.5,
+      "appearances": 3,
+      "std_users": 46.45,
       "is_community_dataset": true,
       "title": "Aboveground carbon accumulation in global monoculture plantation forests",
       "provider": "Bukoski, Jacob et al 2022",
       "thematic_group": "Agriculture, Vegetation and Forestry"
     },
     "projects/sat-io/open-datasets/HiHydroSoilv2_0/ksat": {
-      "total_users": 89,
-      "avg_users": 59.67,
-      "appearances": 2,
-      "std_users": 51.68,
+      "total_users": 88,
+      "avg_users": 66.75,
+      "appearances": 3,
+      "std_users": 44.51,
       "is_community_dataset": true,
       "title": "Saturated Hydraulic Conductivity- Ksat",
       "provider": "Future Water",
       "thematic_group": "Soil Properties"
     },
     "projects/sat-io/open-datasets/GRIP4/Europe": {
-      "total_users": 88,
-      "avg_users": 59.0,
-      "appearances": 2,
-      "std_users": 51.1,
+      "total_users": 86,
+      "avg_users": 65.75,
+      "appearances": 3,
+      "std_users": 43.85,
       "is_community_dataset": true,
       "title": "GRIP4: Europe",
       "provider": "Global Biodiversity Model for Policy Support, GLOBIO, PBL Netherlands Environmental Assessment Agency",
       "thematic_group": "Global Utilities, Assets and Amenities Layers"
     },
-    "projects/sat-io/open-datasets/GLC-FCS30D/annual/GLC_FCS30D_20002022_E0N10_Annual": {
-      "total_users": 85,
-      "avg_users": 55.67,
-      "appearances": 2,
-      "std_users": 48.23,
-      "is_community_dataset": false
-    },
-    "projects/sat-io/open-datasets/GRIP4/North-America": {
-      "total_users": 84,
-      "avg_users": 56.33,
-      "appearances": 2,
-      "std_users": 48.79,
-      "is_community_dataset": true,
-      "title": "GRIP4: North America",
-      "provider": "Global Biodiversity Model for Policy Support, GLOBIO, PBL Netherlands Environmental Assessment Agency",
-      "thematic_group": "Global Utilities, Assets and Amenities Layers"
-    },
     "projects/sat-io/open-datasets/geoboundaries/CGAZ_ADM0": {
       "total_users": 84,
-      "avg_users": 55.33,
-      "appearances": 2,
-      "std_users": 47.93,
+      "avg_users": 62.5,
+      "appearances": 3,
+      "std_users": 41.68,
       "is_community_dataset": true,
       "title": "Comprehensive Global Administrative Zones(CGAZ)- ADM0",
       "provider": "William & Mary geoLab",
       "thematic_group": "Population & Socioeconomic"
     },
-    "projects/sat-io/open-datasets/global_soil_salinity": {
-      "total_users": 84,
-      "avg_users": 56.0,
-      "appearances": 2,
-      "std_users": 48.5,
-      "is_community_dataset": true,
-      "title": "Global Soil Salinity 1986-2016",
-      "provider": "Ivushkin et al",
-      "thematic_group": "Soil Properties"
+    "projects/sat-io/open-datasets/GLC-FCS30D/annual/GLC_FCS30D_20002022_E0N10_Annual": {
+      "total_users": 83,
+      "avg_users": 62.5,
+      "appearances": 3,
+      "std_users": 41.69,
+      "is_community_dataset": false
     },
-    "projects/sat-io/open-datasets/Harmonized_NTL/dmsp": {
+    "projects/sat-io/open-datasets/GRIP4/North-America": {
       "total_users": 82,
-      "avg_users": 54.33,
-      "appearances": 2,
-      "std_users": 47.06,
+      "avg_users": 62.75,
+      "appearances": 3,
+      "std_users": 41.85,
       "is_community_dataset": true,
-      "title": "Harmonized Global Night Time Lights (1992-2021): DMSP",
-      "provider": "Xuecao Li et al",
+      "title": "GRIP4: North America",
+      "provider": "Global Biodiversity Model for Policy Support, GLOBIO, PBL Netherlands Environmental Assessment Agency",
       "thematic_group": "Global Utilities, Assets and Amenities Layers"
     },
     "projects/sat-io/open-datasets/Harmonized_NTL/viirs": {
-      "total_users": 82,
-      "avg_users": 54.67,
-      "appearances": 2,
-      "std_users": 47.34,
+      "total_users": 81,
+      "avg_users": 61.25,
+      "appearances": 3,
+      "std_users": 40.84,
       "is_community_dataset": true,
       "title": "Harmonized Global Night Time Lights (1992-2021): VIIRS",
       "provider": "Xuecao Li et al",
       "thematic_group": "Global Utilities, Assets and Amenities Layers"
     },
-    "projects/sat-io/open-datasets/GFSAD/LGRIP30": {
-      "total_users": 81,
-      "avg_users": 54.0,
-      "appearances": 2,
-      "std_users": 46.77,
-      "is_community_dataset": true,
-      "title": "GFSAD Landsat-Derived Global Rainfed and Irrigated-Cropland Product (LGRIP)",
-      "provider": "U.S. Geological Survey Center for Earth Resources Observation and Science (EROS)",
-      "thematic_group": "Agriculture, Vegetation and Forestry"
-    },
     "projects/sat-io/open-datasets/HiHydroSoilv2_0/wcpf2": {
       "total_users": 81,
-      "avg_users": 54.67,
-      "appearances": 2,
-      "std_users": 47.35,
+      "avg_users": 61.25,
+      "appearances": 3,
+      "std_users": 40.84,
       "is_community_dataset": true,
       "title": "Water content at pF2 (field capacity)- wcpf2",
       "provider": "Future Water",
@@ -1857,39 +2485,59 @@
     },
     "projects/sat-io/open-datasets/OSM_waterLayer": {
       "total_users": 81,
-      "avg_users": 54.33,
-      "appearances": 2,
-      "std_users": 47.06,
+      "avg_users": 61.0,
+      "appearances": 3,
+      "std_users": 40.67,
       "is_community_dataset": true,
       "title": "OSM Water Layer Surface Waters",
       "provider": "Institute of Industrial Sciences, Open Street Map, OSM",
       "thematic_group": "Hydrology"
     },
+    "projects/sat-io/open-datasets/global_soil_salinity": {
+      "total_users": 81,
+      "avg_users": 62.25,
+      "appearances": 3,
+      "std_users": 41.52,
+      "is_community_dataset": true,
+      "title": "Global Soil Salinity 1986-2016",
+      "provider": "Ivushkin et al",
+      "thematic_group": "Soil Properties"
+    },
+    "projects/sat-io/open-datasets/Harmonized_NTL/dmsp": {
+      "total_users": 80,
+      "avg_users": 60.75,
+      "appearances": 3,
+      "std_users": 40.51,
+      "is_community_dataset": true,
+      "title": "Harmonized Global Night Time Lights (1992-2021): DMSP",
+      "provider": "Xuecao Li et al",
+      "thematic_group": "Global Utilities, Assets and Amenities Layers"
+    },
     "projects/sat-io/open-datasets/USGS/ANNUAL_NLCD/LANDCOVER": {
       "total_users": 80,
-      "avg_users": 53.33,
-      "appearances": 2,
-      "std_users": 46.19,
+      "avg_users": 60.0,
+      "appearances": 3,
+      "std_users": 40.0,
       "is_community_dataset": true,
       "title": "USGS Annual NLCD Land Cover Dataset",
       "provider": "U.S. Geological Survey (USGS)",
       "thematic_group": "Regional Land Use and Land Cover"
     },
-    "projects/sat-io/open-datasets/GMW/annual-extent/GMW_MNG_2020": {
+    "projects/sat-io/open-datasets/GFSAD/LGRIP30": {
       "total_users": 79,
-      "avg_users": 52.67,
-      "appearances": 2,
-      "std_users": 45.61,
+      "avg_users": 60.25,
+      "appearances": 3,
+      "std_users": 40.18,
       "is_community_dataset": true,
-      "title": "Global Mangrove Watch 2020 Raster Extent v4.0.19: Raster",
-      "provider": "Global Mangrove Watch, Aberystwyth University, solo Earth Observation, Wetlands Institute, International Water Management Institute, UN Environment World Conservation Monitoring Center",
-      "thematic_group": "Global Land Use and Land Cover"
+      "title": "GFSAD Landsat-Derived Global Rainfed and Irrigated-Cropland Product (LGRIP)",
+      "provider": "U.S. Geological Survey Center for Earth Resources Observation and Science (EROS)",
+      "thematic_group": "Agriculture, Vegetation and Forestry"
     },
     "projects/sat-io/open-datasets/HiHydroSoilv2_0/wcpf4-2": {
       "total_users": 79,
-      "avg_users": 53.33,
-      "appearances": 2,
-      "std_users": 46.2,
+      "avg_users": 59.75,
+      "appearances": 3,
+      "std_users": 39.84,
       "is_community_dataset": true,
       "title": "Water content at pF4.2 (permanent wilting point)- wcpf4.2",
       "provider": "Future Water",
@@ -1897,29 +2545,39 @@
     },
     "projects/sat-io/open-datasets/HiHydroSoilv2_0/wcsat": {
       "total_users": 79,
-      "avg_users": 53.0,
-      "appearances": 2,
-      "std_users": 45.9,
+      "avg_users": 59.5,
+      "appearances": 3,
+      "std_users": 39.67,
       "is_community_dataset": true,
       "title": "Saturated water content- wcsat",
       "provider": "Future Water",
       "thematic_group": "Soil Properties"
     },
+    "projects/sat-io/open-datasets/GMW/annual-extent/GMW_MNG_2020": {
+      "total_users": 78,
+      "avg_users": 59.0,
+      "appearances": 3,
+      "std_users": 39.34,
+      "is_community_dataset": true,
+      "title": "Global Mangrove Watch 2020 Raster Extent v4.0.19: Raster",
+      "provider": "Global Mangrove Watch, Aberystwyth University, solo Earth Observation, Wetlands Institute, International Water Management Institute, UN Environment World Conservation Monitoring Center",
+      "thematic_group": "Global Land Use and Land Cover"
+    },
     "projects/sat-io/open-datasets/HiHydroSoilv2_0/wcavail": {
       "total_users": 77,
-      "avg_users": 51.67,
-      "appearances": 2,
-      "std_users": 44.75,
+      "avg_users": 58.0,
+      "appearances": 3,
+      "std_users": 38.67,
       "is_community_dataset": true,
       "title": "Available water content- wcavail",
       "provider": "Future Water",
       "thematic_group": "Soil Properties"
     },
     "projects/sat-io/open-datasets/GLOBGM/TRANSIENT/WTD": {
-      "total_users": 76,
-      "avg_users": 51.0,
-      "appearances": 2,
-      "std_users": 44.17,
+      "total_users": 75,
+      "avg_users": 57.0,
+      "appearances": 3,
+      "std_users": 38.01,
       "is_community_dataset": true,
       "title": "GLOBGM v1.0 Computed transient water table depth [m] sampled from upper to lower layer",
       "provider": "Verkaik et al. 2024",
@@ -1927,9 +2585,9 @@
     },
     "projects/sat-io/open-datasets/HiHydroSoilv2_0/stc": {
       "total_users": 75,
-      "avg_users": 50.67,
-      "appearances": 2,
-      "std_users": 43.89,
+      "avg_users": 56.75,
+      "appearances": 3,
+      "std_users": 37.85,
       "is_community_dataset": true,
       "title": "Soil Texture Class- STC",
       "provider": "Future Water",
@@ -1937,9 +2595,9 @@
     },
     "projects/sat-io/open-datasets/HiHydroSoilv2_0/wcpf3": {
       "total_users": 75,
-      "avg_users": 50.67,
-      "appearances": 2,
-      "std_users": 43.89,
+      "avg_users": 56.75,
+      "appearances": 3,
+      "std_users": 37.85,
       "is_community_dataset": true,
       "title": "Water content at pF3 (wilting point)- wcpf3",
       "provider": "Future Water",
@@ -1947,99 +2605,79 @@
     },
     "projects/sat-io/open-datasets/HiHydroSoilv2_0/wcres": {
       "total_users": 75,
-      "avg_users": 50.67,
-      "appearances": 2,
-      "std_users": 43.89,
+      "avg_users": 56.75,
+      "appearances": 3,
+      "std_users": 37.85,
       "is_community_dataset": true,
       "title": "Residual Water Content- wcres",
       "provider": "Future Water",
       "thematic_group": "Soil Properties"
     },
-    "projects/sat-io/open-datasets/VIDA_COMBINED/IND": {
-      "total_users": 75,
-      "avg_users": 51.0,
-      "appearances": 2,
-      "std_users": 44.19,
-      "is_community_dataset": true,
-      "title": "Global Google Microsoft Combined Building Footprints VIDA: India",
-      "provider": "VIDA, Google, Microsoft",
-      "thematic_group": "Global Utilities, Assets and Amenities Layers"
-    },
-    "projects/sat-io/open-datasets/GFCC30TC": {
-      "total_users": 74,
-      "avg_users": 50.0,
-      "appearances": 2,
-      "std_users": 43.31,
-      "is_community_dataset": true,
-      "title": "Global 30m Landsat Tree Canopy Cover v4",
-      "provider": "Sexton, J. O et al",
-      "thematic_group": "Agriculture, Vegetation and Forestry"
-    },
-    "projects/sat-io/open-datasets/GRIP4/Oceania": {
-      "total_users": 74,
-      "avg_users": 49.33,
-      "appearances": 2,
-      "std_users": 42.72,
-      "is_community_dataset": true,
-      "title": "GRIP4: Oceania",
-      "provider": "Global Biodiversity Model for Policy Support, GLOBIO, PBL Netherlands Environmental Assessment Agency",
-      "thematic_group": "Global Utilities, Assets and Amenities Layers"
-    },
     "projects/sat-io/open-datasets/HiHydroSoilv2_0/ormc": {
       "total_users": 74,
-      "avg_users": 50.33,
-      "appearances": 2,
-      "std_users": 43.62,
+      "avg_users": 56.25,
+      "appearances": 3,
+      "std_users": 37.53,
       "is_community_dataset": true,
       "title": "Organic Matter Content- ORMC",
       "provider": "Future Water",
       "thematic_group": "Soil Properties"
     },
-    "projects/sat-io/open-datasets/GLOBGM/STEADY-STATE/globgm-wtd-ss": {
+    "projects/sat-io/open-datasets/GFCC30TC": {
       "total_users": 73,
-      "avg_users": 49.0,
-      "appearances": 2,
-      "std_users": 42.44,
+      "avg_users": 55.75,
+      "appearances": 3,
+      "std_users": 37.19,
       "is_community_dataset": true,
-      "title": "GLOBGM v1.0 Computed water table depth [m] sampled from upper to lower layer",
-      "provider": "Verkaik et al. 2024",
-      "thematic_group": "Hydrology"
+      "title": "Global 30m Landsat Tree Canopy Cover v4",
+      "provider": "Sexton, J. O et al",
+      "thematic_group": "Agriculture, Vegetation and Forestry"
     },
     "projects/sat-io/open-datasets/GHAP/GHAP_Y1K_PM25": {
       "total_users": 72,
-      "avg_users": 48.0,
-      "appearances": 2,
-      "std_users": 41.57,
+      "avg_users": 54.0,
+      "appearances": 3,
+      "std_users": 36.0,
       "is_community_dataset": true,
       "title": "Global High Air Pollutants(GHAP) PM2.5 Concentrations (2017-2022): Yearly",
       "provider": "Wei et al",
       "thematic_group": "Weather and Climate Layers"
     },
+    "projects/sat-io/open-datasets/GLOBGM/STEADY-STATE/globgm-wtd-ss": {
+      "total_users": 72,
+      "avg_users": 54.75,
+      "appearances": 3,
+      "std_users": 36.51,
+      "is_community_dataset": true,
+      "title": "GLOBGM v1.0 Computed water table depth [m] sampled from upper to lower layer",
+      "provider": "Verkaik et al. 2024",
+      "thematic_group": "Hydrology"
+    },
+    "projects/sat-io/open-datasets/GRIP4/Oceania": {
+      "total_users": 72,
+      "avg_users": 55.0,
+      "appearances": 3,
+      "std_users": 36.68,
+      "is_community_dataset": true,
+      "title": "GRIP4: Oceania",
+      "provider": "Global Biodiversity Model for Policy Support, GLOBIO, PBL Netherlands Environmental Assessment Agency",
+      "thematic_group": "Global Utilities, Assets and Amenities Layers"
+    },
     "projects/sat-io/open-datasets/HiHydroSoilv2_0/N": {
       "total_users": 72,
-      "avg_users": 48.33,
-      "appearances": 2,
-      "std_users": 41.86,
+      "avg_users": 54.25,
+      "appearances": 3,
+      "std_users": 36.17,
       "is_community_dataset": true,
       "title": "N parameter for Mualem Van Genuchten Equation",
       "provider": "Future Water",
       "thematic_group": "Soil Properties"
     },
-    "projects/sat-io/open-datasets/GLOBGM/TRANSIENT/WTD-BOTTOM": {
-      "total_users": 71,
-      "avg_users": 47.67,
-      "appearances": 2,
-      "std_users": 41.28,
-      "is_community_dataset": true,
-      "title": "GLOBGM v1.0 Computed transient water table depth [m] lower layer only",
-      "provider": "Verkaik et al. 2024",
-      "thematic_group": "Hydrology"
-    },
     "projects/sat-io/open-datasets/HiHydroSoilv2_0/alpha": {
       "total_users": 71,
-      "avg_users": 48.0,
-      "appearances": 2,
-      "std_users": 41.58,
+      "avg_users": 53.75,
+      "appearances": 3,
+      "std_users": 35.85,
       "is_community_dataset": true,
       "title": "Alpha parameter for Mualem Van Genuchten Equation",
       "provider": "Future Water",
@@ -2047,9 +2685,9 @@
     },
     "projects/sat-io/open-datasets/HiHydroSoilv2_0/crit-wilt": {
       "total_users": 71,
-      "avg_users": 48.0,
-      "appearances": 2,
-      "std_users": 41.58,
+      "avg_users": 53.75,
+      "appearances": 3,
+      "std_users": 35.85,
       "is_community_dataset": true,
       "title": "Water content between wilting point (pF3)- Wilt Perm",
       "provider": "Future Water",
@@ -2057,29 +2695,49 @@
     },
     "projects/sat-io/open-datasets/HiHydroSoilv2_0/field-crit": {
       "total_users": 71,
-      "avg_users": 48.0,
-      "appearances": 2,
-      "std_users": 41.58,
+      "avg_users": 53.75,
+      "appearances": 3,
+      "std_users": 35.85,
       "is_community_dataset": true,
       "title": "Water content between field capacity (pF2_ and wilting point (pF3)- Field Wilt",
       "provider": "Future Water",
       "thematic_group": "Soil Properties"
     },
-    "projects/sat-io/open-datasets/WSF/WSF_2019": {
+    "projects/sat-io/open-datasets/VIDA_COMBINED/IND": {
       "total_users": 71,
-      "avg_users": 47.33,
-      "appearances": 2,
-      "std_users": 40.99,
+      "avg_users": 56.0,
+      "appearances": 3,
+      "std_users": 37.44,
       "is_community_dataset": true,
-      "title": "World Settlement Footprint (2019)",
-      "provider": "Marconcini, et al",
-      "thematic_group": "Global Land Use and Land Cover"
+      "title": "Global Google Microsoft Combined Building Footprints VIDA: India",
+      "provider": "VIDA, Google, Microsoft",
+      "thematic_group": "Global Utilities, Assets and Amenities Layers"
+    },
+    "projects/sat-io/open-datasets/facebook/meta-canopy-height": {
+      "total_users": 71,
+      "avg_users": 49.5,
+      "appearances": 3,
+      "std_users": 33.39,
+      "is_community_dataset": true,
+      "title": "High Resolution Global 1m Canopy Cover",
+      "provider": "Meta and WRI, Tolan et al 2023",
+      "thematic_group": "Agriculture, Vegetation and Forestry"
+    },
+    "projects/sat-io/open-datasets/GLOBGM/TRANSIENT/WTD-BOTTOM": {
+      "total_users": 70,
+      "avg_users": 53.25,
+      "appearances": 3,
+      "std_users": 35.51,
+      "is_community_dataset": true,
+      "title": "GLOBGM v1.0 Computed transient water table depth [m] lower layer only",
+      "provider": "Verkaik et al. 2024",
+      "thematic_group": "Hydrology"
     },
     "projects/sat-io/open-datasets/global_ai/global_ai_yearly": {
-      "total_users": 71,
-      "avg_users": 47.67,
-      "appearances": 2,
-      "std_users": 41.28,
+      "total_users": 70,
+      "avg_users": 53.25,
+      "appearances": 3,
+      "std_users": 35.51,
       "is_community_dataset": true,
       "title": "Global Aridity Index Yearly",
       "provider": "CGIAR Platform for Big Data in Agriculture",
@@ -2087,9 +2745,9 @@
     },
     "projects/sat-io/open-datasets/HiHydroSoilv2_0/sat-field": {
       "total_users": 69,
-      "avg_users": 46.67,
-      "appearances": 2,
-      "std_users": 40.43,
+      "avg_users": 52.25,
+      "appearances": 3,
+      "std_users": 34.85,
       "is_community_dataset": true,
       "title": "Water content between saturation point and field capacity (pF2)- sat-field",
       "provider": "Future Water",
@@ -2097,79 +2755,69 @@
     },
     "projects/sat-io/open-datasets/PKU-GIMMS-NDVI/AVHRR_MODIS_CONSOLIDATED": {
       "total_users": 69,
-      "avg_users": 45.0,
-      "appearances": 2,
-      "std_users": 39.0,
+      "avg_users": 51.0,
+      "appearances": 3,
+      "std_users": 34.03,
       "is_community_dataset": true,
       "title": "GIMMS Normalized Difference Vegetation Index 1982-2022 AVHRR MODIS CONSOLIDATED",
       "provider": "Li, Muyi, Sen Cao, Zaichun Zhu, Zhe Wang, Ranga B. Myneni, and Shilong Piao",
       "thematic_group": "Agriculture, Vegetation and Forestry"
     },
+    "projects/sat-io/open-datasets/GHAP/GHAP_D1K_PM25": {
+      "total_users": 68,
+      "avg_users": 50.75,
+      "appearances": 3,
+      "std_users": 33.84,
+      "is_community_dataset": true,
+      "title": "Global High Air Pollutants(GHAP) PM2.5 Concentrations (2017-2022): Daily",
+      "provider": "Wei et al",
+      "thematic_group": "Weather and Climate Layers"
+    },
     "projects/sat-io/open-datasets/GLAD/GEDI_V27": {
       "total_users": 68,
-      "avg_users": 45.33,
-      "appearances": 2,
-      "std_users": 39.26,
+      "avg_users": 51.0,
+      "appearances": 3,
+      "std_users": 34.0,
       "is_community_dataset": true,
       "title": "Global Forest Canopy Height from GEDI & Landsat",
       "provider": "Potapov et al. (2020)",
       "thematic_group": "Agriculture, Vegetation and Forestry"
     },
     "projects/sat-io/open-datasets/GLOBGM/STEADY-STATE/globgm-heads-lower-layer-ss": {
-      "total_users": 68,
-      "avg_users": 45.67,
-      "appearances": 2,
-      "std_users": 39.55,
+      "total_users": 67,
+      "avg_users": 51.0,
+      "appearances": 3,
+      "std_users": 34.01,
       "is_community_dataset": true,
       "title": "GLOBGM v1.0 Computed steady-state groundwater head [m] for the lower model layer",
       "provider": "Verkaik et al. 2024",
       "thematic_group": "Hydrology"
     },
     "projects/sat-io/open-datasets/GLOBGM/STEADY-STATE/globgm-heads-upper-layer-ss": {
-      "total_users": 68,
-      "avg_users": 45.67,
-      "appearances": 2,
-      "std_users": 39.55,
+      "total_users": 67,
+      "avg_users": 51.0,
+      "appearances": 3,
+      "std_users": 34.01,
       "is_community_dataset": true,
       "title": "GLOBGM v1.0 Computed steady-state groundwater head [m] for the upper model layer",
       "provider": "Verkaik et al. 2024",
       "thematic_group": "Hydrology"
     },
-    "projects/sat-io/open-datasets/facebook/meta-canopy-height": {
-      "total_users": 68,
-      "avg_users": 42.33,
-      "appearances": 2,
-      "std_users": 36.94,
-      "is_community_dataset": true,
-      "title": "High Resolution Global 1m Canopy Cover",
-      "provider": "Meta and WRI, Tolan et al 2023",
-      "thematic_group": "Agriculture, Vegetation and Forestry"
-    },
-    "projects/sat-io/open-datasets/npp-viirs-ntl": {
-      "total_users": 68,
-      "avg_users": 45.33,
-      "appearances": 2,
-      "std_users": 39.26,
-      "is_community_dataset": true,
-      "title": "Global NPP-VIIRS-like nighttime light (2000-2023)",
-      "provider": "Chen, Zuoqi et al",
-      "thematic_group": "Global Utilities, Assets and Amenities Layers"
-    },
-    "projects/sat-io/open-datasets/GHAP/GHAP_D1K_PM25": {
+    "projects/sat-io/open-datasets/WSF/WSF_2019": {
       "total_users": 67,
-      "avg_users": 45.0,
-      "appearances": 2,
-      "std_users": 38.97,
+      "avg_users": 52.25,
+      "appearances": 3,
+      "std_users": 34.88,
       "is_community_dataset": true,
-      "title": "Global High Air Pollutants(GHAP) PM2.5 Concentrations (2017-2022): Daily",
-      "provider": "Wei et al",
-      "thematic_group": "Weather and Climate Layers"
+      "title": "World Settlement Footprint (2019)",
+      "provider": "Marconcini, et al",
+      "thematic_group": "Global Land Use and Land Cover"
     },
     "projects/sat-io/open-datasets/GFM/FML_v3-2": {
       "total_users": 66,
-      "avg_users": 44.0,
-      "appearances": 2,
-      "std_users": 38.11,
+      "avg_users": 49.5,
+      "appearances": 3,
+      "std_users": 33.0,
       "is_community_dataset": true,
       "title": "Global Forest Management dataset 2015",
       "provider": "Myroslava et al. 2022",
@@ -2177,29 +2825,19 @@
     },
     "projects/sat-io/open-datasets/GLOBAL-NATURAL-PLANTED-FORESTS": {
       "total_users": 66,
-      "avg_users": 43.67,
-      "appearances": 2,
-      "std_users": 37.82,
+      "avg_users": 49.25,
+      "appearances": 3,
+      "std_users": 32.84,
       "is_community_dataset": true,
       "title": "Global Natural and Planted Forests",
       "provider": "Xiao et al 2024",
       "thematic_group": "Agriculture, Vegetation and Forestry"
     },
-    "projects/sat-io/open-datasets/hrsl/hrsl_children_under_five": {
-      "total_users": 65,
-      "avg_users": 43.33,
-      "appearances": 2,
-      "std_users": 37.53,
-      "is_community_dataset": true,
-      "title": "High Resolution Settlement Layer: Children under five",
-      "provider": "Center for International Earth Science Information Network(CIESIN), Facebook",
-      "thematic_group": "Population & Socioeconomic"
-    },
     "projects/sat-io/open-datasets/global_subsidence/Final_subsidence_proba_greater_1cm_2013_2019_recoded": {
-      "total_users": 64,
-      "avg_users": 43.33,
-      "appearances": 2,
-      "std_users": 37.54,
+      "total_users": 65,
+      "avg_users": 48.75,
+      "appearances": 3,
+      "std_users": 32.51,
       "is_community_dataset": true,
       "title": "Global Land Subsidence mapping: subsidence_prediction_probability",
       "provider": "Hasan, M. F., R. Smith, S. Vajedian, R. Pommerenke, S. Majumdar",
@@ -2207,588 +2845,568 @@
     },
     "projects/sat-io/open-datasets/global_subsidence/Final_subsidence_prediction_recoded": {
       "total_users": 63,
-      "avg_users": 42.67,
-      "appearances": 2,
-      "std_users": 36.96,
+      "avg_users": 47.75,
+      "appearances": 3,
+      "std_users": 31.85,
       "is_community_dataset": true,
       "title": "Global Land Subsidence mapping: subsidence_prediction_recoded",
       "provider": "Hasan, M. F., R. Smith, S. Vajedian, R. Pommerenke, S. Majumdar",
       "thematic_group": "Geophysical, Biological & Biogeochemical"
     },
-    "projects/sat-io/open-datasets/HiHydroSoilv2_0/Hydrologic_Soil_Group_250m": {
-      "total_users": 62,
-      "avg_users": 42.33,
-      "appearances": 2,
-      "std_users": 36.69,
+    "projects/sat-io/open-datasets/hrsl/hrsl_children_under_five": {
+      "total_users": 63,
+      "avg_users": 48.25,
+      "appearances": 3,
+      "std_users": 32.18,
       "is_community_dataset": true,
-      "title": "Hydrologic Soil Group",
-      "provider": "Future Water",
-      "thematic_group": "Soil Properties"
+      "title": "High Resolution Settlement Layer: Children under five",
+      "provider": "Center for International Earth Science Information Network(CIESIN), Facebook",
+      "thematic_group": "Population & Socioeconomic"
+    },
+    "projects/sat-io/open-datasets/npp-viirs-ntl": {
+      "total_users": 63,
+      "avg_users": 49.75,
+      "appearances": 3,
+      "std_users": 33.25,
+      "is_community_dataset": true,
+      "title": "Global NPP-VIIRS-like nighttime light (2000-2023)",
+      "provider": "Chen, Zuoqi et al",
+      "thematic_group": "Global Utilities, Assets and Amenities Layers"
     },
     "projects/sat-io/open-datasets/hrsl/hrsl_men": {
-      "total_users": 62,
-      "avg_users": 41.33,
-      "appearances": 2,
-      "std_users": 35.8,
+      "total_users": 61,
+      "avg_users": 46.25,
+      "appearances": 3,
+      "std_users": 30.84,
       "is_community_dataset": true,
       "title": "High Resolution Settlement Layer: Men",
       "provider": "Center for International Earth Science Information Network(CIESIN), Facebook",
       "thematic_group": "Population & Socioeconomic"
     },
     "projects/sat-io/open-datasets/us-drought-monitor": {
-      "total_users": 62,
-      "avg_users": 64.33,
-      "appearances": 3,
-      "std_users": 2.08,
+      "total_users": 61,
+      "avg_users": 63.5,
+      "appearances": 4,
+      "std_users": 2.38,
       "is_community_dataset": true,
       "title": "United States Drought Monitor (USDM)",
       "provider": "National Drought Mitigation Center at the University of Nebraska-Lincoln, the United States Department of Agriculture, and the National Oceanic and Atmospheric Administration. Map courtesy of NDMC",
       "thematic_group": "Weather and Climate Layers"
     },
+    "projects/sat-io/open-datasets/HiHydroSoilv2_0/Hydrologic_Soil_Group_250m": {
+      "total_users": 60,
+      "avg_users": 46.75,
+      "appearances": 3,
+      "std_users": 31.23,
+      "is_community_dataset": true,
+      "title": "Hydrologic Soil Group",
+      "provider": "Future Water",
+      "thematic_group": "Soil Properties"
+    },
+    "projects/sat-io/open-datasets/geoboundaries/CGAZ_ADM2": {
+      "total_users": 59,
+      "avg_users": 44.5,
+      "appearances": 3,
+      "std_users": 29.67,
+      "is_community_dataset": true,
+      "title": "Comprehensive Global Administrative Zones(CGAZ)- ADM2",
+      "provider": "William & Mary geoLab",
+      "thematic_group": "Population & Socioeconomic"
+    },
     "projects/sat-io/open-datasets/hrsl/hrsl_women": {
-      "total_users": 61,
-      "avg_users": 40.67,
-      "appearances": 2,
-      "std_users": 35.22,
+      "total_users": 59,
+      "avg_users": 45.25,
+      "appearances": 3,
+      "std_users": 30.18,
       "is_community_dataset": true,
       "title": "High Resolution Settlement Layer: Women",
       "provider": "Center for International Earth Science Information Network(CIESIN), Facebook",
       "thematic_group": "Population & Socioeconomic"
     },
     "projects/sat-io/open-datasets/hrsl/hrsl_youth": {
-      "total_users": 61,
-      "avg_users": 40.67,
-      "appearances": 2,
-      "std_users": 35.22,
+      "total_users": 59,
+      "avg_users": 45.25,
+      "appearances": 3,
+      "std_users": 30.18,
       "is_community_dataset": true,
       "title": "High Resolution Settlement Layer: Youth",
       "provider": "Center for International Earth Science Information Network(CIESIN), Facebook",
       "thematic_group": "Population & Socioeconomic"
     },
-    "projects/sat-io/open-datasets/geoboundaries/CGAZ_ADM2": {
-      "total_users": 60,
-      "avg_users": 39.67,
-      "appearances": 2,
-      "std_users": 34.36,
+    "projects/sat-io/open-datasets/gap-filled-lst/gf_day_1km": {
+      "total_users": 58,
+      "avg_users": 43.25,
+      "appearances": 3,
+      "std_users": 28.84,
       "is_community_dataset": true,
-      "title": "Comprehensive Global Administrative Zones(CGAZ)- ADM2",
-      "provider": "William & Mary geoLab",
-      "thematic_group": "Population & Socioeconomic"
+      "title": "MODIS Gap filled Long-term Land Surface Temperature Daily Daytime",
+      "provider": "Zhang, Tao; Zhou, Yuyu; Zhu, Zhengyuan; Li, Xiaoma; Asrar, Ghassem",
+      "thematic_group": "Weather and Climate Layers"
     },
     "projects/sat-io/open-datasets/hrsl/hrsl_elderly_over_sixty": {
-      "total_users": 60,
-      "avg_users": 40.0,
-      "appearances": 2,
-      "std_users": 34.64,
+      "total_users": 58,
+      "avg_users": 44.5,
+      "appearances": 3,
+      "std_users": 29.68,
       "is_community_dataset": true,
       "title": "High Resolution Settlement Layer: Elderly over sixty",
       "provider": "Center for International Earth Science Information Network(CIESIN), Facebook",
       "thematic_group": "Population & Socioeconomic"
     },
     "projects/sat-io/open-datasets/hrsl/hrsl_women_reproductive_age": {
-      "total_users": 60,
-      "avg_users": 40.0,
-      "appearances": 2,
-      "std_users": 34.64,
+      "total_users": 58,
+      "avg_users": 44.5,
+      "appearances": 3,
+      "std_users": 29.68,
       "is_community_dataset": true,
       "title": "High Resolution Settlement Layer: Women of reproductive age",
       "provider": "Center for International Earth Science Information Network(CIESIN), Facebook",
       "thematic_group": "Population & Socioeconomic"
     },
     "projects/sat-io/open-datasets/srunet-npp-viirs-ntl": {
-      "total_users": 59,
-      "avg_users": 39.0,
-      "appearances": 2,
-      "std_users": 33.78,
+      "total_users": 58,
+      "avg_users": 43.75,
+      "appearances": 3,
+      "std_users": 29.17,
       "is_community_dataset": true,
       "title": "Global Annual Simulated NPP-VIIRS Nighttime Light Dataset (1992-2023)",
       "provider": "Chen, Xiuxiu et al.",
       "thematic_group": "Global Utilities, Assets and Amenities Layers"
     },
-    "projects/sat-io/open-datasets/FROM-GLC10": {
-      "total_users": 57,
-      "avg_users": 38.33,
-      "appearances": 2,
-      "std_users": 33.2,
-      "is_community_dataset": true,
-      "title": "Finer Resolution Observation and Monitoring of Global Land Cover 10m (FROM-GLC10)",
-      "provider": "Chen, B., B. Xu, Z. Zhu, C. Yuan, H. Ping Suen, J. Guo, N. Xu, W. Li, Y. Zhao, and J. J. S. B. Yang.",
-      "thematic_group": "Global Land Use and Land Cover"
-    },
     "projects/sat-io/open-datasets/GFSAD/GCEP30": {
       "total_users": 57,
-      "avg_users": 37.67,
-      "appearances": 2,
-      "std_users": 32.62,
+      "avg_users": 42.5,
+      "appearances": 3,
+      "std_users": 28.34,
       "is_community_dataset": true,
       "title": "GFSAD Global Cropland Extent Product (GCEP)",
       "provider": "U.S. Geological Survey Center for Earth Resources Observation and Science (EROS)",
       "thematic_group": "Agriculture, Vegetation and Forestry"
     },
-    "projects/sat-io/open-datasets/PKU-GIMMS-NDVI/AVHRR_SOLELY": {
-      "total_users": 57,
-      "avg_users": 36.67,
-      "appearances": 2,
-      "std_users": 31.82,
-      "is_community_dataset": true,
-      "title": "GIMMS Normalized Difference Vegetation Index 1982-2022 AVHRR SOLELY",
-      "provider": "Li, Muyi, Sen Cao, Zaichun Zhu, Zhe Wang, Ranga B. Myneni, and Shilong Piao",
-      "thematic_group": "Agriculture, Vegetation and Forestry"
-    },
-    "projects/sat-io/open-datasets/gap-filled-lst/gf_day_1km": {
-      "total_users": 57,
-      "avg_users": 38.33,
-      "appearances": 2,
-      "std_users": 33.2,
-      "is_community_dataset": true,
-      "title": "MODIS Gap filled Long-term Land Surface Temperature Daily Daytime",
-      "provider": "Zhang, Tao; Zhou, Yuyu; Zhu, Zhengyuan; Li, Xiaoma; Asrar, Ghassem",
-      "thematic_group": "Weather and Climate Layers"
-    },
     "projects/sat-io/open-datasets/GHAP/GHAP_M1K_PM25": {
-      "total_users": 56,
-      "avg_users": 38.33,
-      "appearances": 2,
-      "std_users": 33.23,
+      "total_users": 57,
+      "avg_users": 43.0,
+      "appearances": 3,
+      "std_users": 28.69,
       "is_community_dataset": true,
       "title": "Global High Air Pollutants(GHAP) PM2.5 Concentrations (2017-2022): Monthly",
       "provider": "Wei et al",
       "thematic_group": "Weather and Climate Layers"
     },
-    "projects/sat-io/open-datasets/GMW/annual-extent/GMW_MNG_VEC_2020": {
+    "projects/sat-io/open-datasets/PKU-GIMMS-NDVI/AVHRR_SOLELY": {
       "total_users": 56,
-      "avg_users": 38.0,
-      "appearances": 2,
-      "std_users": 32.92,
+      "avg_users": 41.5,
+      "appearances": 3,
+      "std_users": 27.72,
       "is_community_dataset": true,
-      "title": "Global Mangrove Watch 2020 Raster Extent v4.0.19: Vector",
-      "provider": "Global Mangrove Watch, Aberystwyth University, solo Earth Observation, Wetlands Institute, International Water Management Institute, UN Environment World Conservation Monitoring Center",
-      "thematic_group": "Global Land Use and Land Cover"
-    },
-    "projects/sat-io/open-datasets/ESA/ESA_CCI_AGB_DIFF": {
-      "total_users": 55,
-      "avg_users": 37.33,
-      "appearances": 2,
-      "std_users": 32.35,
-      "is_community_dataset": true,
-      "title": "ESA CCI Global Forest Above Ground Biomass Change Products",
-      "provider": "CCI BIOMASS consortium led by the University of Aberystwyth (U.K.)",
+      "title": "GIMMS Normalized Difference Vegetation Index 1982-2022 AVHRR SOLELY",
+      "provider": "Li, Muyi, Sen Cao, Zaichun Zhu, Zhe Wang, Ranga B. Myneni, and Shilong Piao",
       "thematic_group": "Agriculture, Vegetation and Forestry"
     },
-    "projects/sat-io/open-datasets/events/global_landslide_1970-2019": {
-      "total_users": 55,
-      "avg_users": 37.33,
-      "appearances": 2,
-      "std_users": 32.35,
-      "is_community_dataset": true,
-      "title": "Global Landslide Catalog - NASA Goddard (1970-2019)",
-      "provider": "NASA Goddard Space Flight Center",
-      "thematic_group": "Global Events Layers"
-    },
     "projects/sat-io/open-datasets/PLANET/TANAGER_HYPERSPECTRAL": {
-      "total_users": 54,
-      "avg_users": 35.67,
-      "appearances": 2,
-      "std_users": 30.89,
+      "total_users": 56,
+      "avg_users": 40.75,
+      "appearances": 3,
+      "std_users": 27.2,
       "is_community_dataset": true,
       "title": "Planet Tanager Open Data Hyperspectral",
       "provider": "Planet Labs PBC",
       "thematic_group": "Global Events Layers"
     },
-    "projects/sat-io/open-datasets/forest_carbon_fluxes/net_flux": {
+    "projects/sat-io/open-datasets/FROM-GLC10": {
+      "total_users": 55,
+      "avg_users": 42.5,
+      "appearances": 3,
+      "std_users": 28.36,
+      "is_community_dataset": true,
+      "title": "Finer Resolution Observation and Monitoring of Global Land Cover 10m (FROM-GLC10)",
+      "provider": "Chen, B., B. Xu, Z. Zhu, C. Yuan, H. Ping Suen, J. Guo, N. Xu, W. Li, Y. Zhao, and J. J. S. B. Yang.",
+      "thematic_group": "Global Land Use and Land Cover"
+    },
+    "projects/sat-io/open-datasets/GMW/annual-extent/GMW_MNG_VEC_2020": {
       "total_users": 54,
-      "avg_users": 36.0,
-      "appearances": 2,
-      "std_users": 31.18,
+      "avg_users": 42.0,
+      "appearances": 3,
+      "std_users": 28.05,
+      "is_community_dataset": true,
+      "title": "Global Mangrove Watch 2020 Raster Extent v4.0.19: Vector",
+      "provider": "Global Mangrove Watch, Aberystwyth University, solo Earth Observation, Wetlands Institute, International Water Management Institute, UN Environment World Conservation Monitoring Center",
+      "thematic_group": "Global Land Use and Land Cover"
+    },
+    "projects/sat-io/open-datasets/MSBuildings/India": {
+      "total_users": 53,
+      "avg_users": 39.5,
+      "appearances": 3,
+      "std_users": 26.34,
+      "is_community_dataset": false
+    },
+    "projects/sat-io/open-datasets/events/global_landslide_1970-2019": {
+      "total_users": 53,
+      "avg_users": 41.25,
+      "appearances": 3,
+      "std_users": 27.55,
+      "is_community_dataset": true,
+      "title": "Global Landslide Catalog - NASA Goddard (1970-2019)",
+      "provider": "NASA Goddard Space Flight Center",
+      "thematic_group": "Global Events Layers"
+    },
+    "projects/sat-io/open-datasets/forest_carbon_fluxes/net_flux": {
+      "total_users": 52,
+      "avg_users": 40.0,
+      "appearances": 3,
+      "std_users": 26.68,
       "is_community_dataset": true,
       "title": "Global Forest Carbon Fluxes: Net Flux",
       "provider": "Harris, N.L., Gibbs, D.A., Baccini, A. et al",
       "thematic_group": "Agriculture, Vegetation and Forestry"
     },
-    "projects/sat-io/open-datasets/MSBuildings/India": {
-      "total_users": 52,
-      "avg_users": 35.0,
-      "appearances": 2,
-      "std_users": 30.32,
-      "is_community_dataset": false
-    },
-    "projects/sat-io/open-datasets/WSF/WSF_EVO": {
-      "total_users": 50,
-      "avg_users": 16.67,
-      "appearances": 1,
-      "std_users": 28.87,
+    "projects/sat-io/open-datasets/ESA/ESA_CCI_AGB_DIFF": {
+      "total_users": 51,
+      "avg_users": 40.75,
+      "appearances": 3,
+      "std_users": 27.28,
       "is_community_dataset": true,
-      "title": "World Settlement Footprint Evolution (1985-2015)",
-      "provider": "Marconcini, et al",
-      "thematic_group": "Global Land Use and Land Cover"
+      "title": "ESA CCI Global Forest Above Ground Biomass Change Products",
+      "provider": "CCI BIOMASS consortium led by the University of Aberystwyth (U.K.)",
+      "thematic_group": "Agriculture, Vegetation and Forestry"
     }
   },
   "community_dataset_rankings": {
     "projects/sat-io/open-datasets/landcover/ESRI_Global-LULC_10m_TS": {
-      "total_users": 1106,
-      "avg_users": 737.33,
-      "appearances": 2,
-      "std_users": 638.55,
+      "total_users": 1087,
+      "avg_users": 824.75,
+      "appearances": 3,
+      "std_users": 549.91,
       "is_community_dataset": true,
       "title": "ESRI 10m Annual Land Use Land Cover (2017-2023)",
       "provider": "Impact Observatory for Esri, Dynamic World Project by National Geographic Society in partnership with Google and the World Resources Institute",
       "thematic_group": "Global Land Use and Land Cover"
     },
     "projects/sat-io/open-datasets/GLC-FCS30D/annual": {
-      "total_users": 854,
-      "avg_users": 572.67,
-      "appearances": 2,
-      "std_users": 495.97,
+      "total_users": 846,
+      "avg_users": 641.0,
+      "appearances": 3,
+      "std_users": 427.4,
       "is_community_dataset": true,
       "title": "GLC_FCS30D Global 30-meter Land Cover Change Dataset (1985-2022) Annual",
       "provider": "Zhang et al. 2023",
       "thematic_group": "Global Land Use and Land Cover"
     },
     "projects/sat-io/open-datasets/GLC-FCS30D/five-years-map": {
-      "total_users": 546,
-      "avg_users": 368.67,
-      "appearances": 2,
-      "std_users": 319.35,
+      "total_users": 544,
+      "avg_users": 412.5,
+      "appearances": 3,
+      "std_users": 275.09,
       "is_community_dataset": true,
       "title": "GLC_FCS30D Global 30-meter Land Cover Change Dataset (1985-2022) Five year",
       "provider": "Zhang et al. 2023",
       "thematic_group": "Global Land Use and Land Cover"
     },
     "projects/sat-io/open-datasets/FABDEM": {
-      "total_users": 451,
-      "avg_users": 300.67,
-      "appearances": 2,
-      "std_users": 260.38,
+      "total_users": 452,
+      "avg_users": 338.5,
+      "appearances": 3,
+      "std_users": 225.67,
       "is_community_dataset": true,
       "title": "FABDEM (Forest And Buildings removed Copernicus 30m DEM)",
       "provider": " Hawker, L., Uhe, P., Paulo, L., Sosa, J., Savage, J., Sampson, C., & Neal, J",
       "thematic_group": "Elevation and Bathymetry"
     },
     "projects/sat-io/open-datasets/ORNL/LANDSCAN_GLOBAL": {
-      "total_users": 334,
-      "avg_users": 344.67,
-      "appearances": 3,
-      "std_users": 21.13,
+      "total_users": 347,
+      "avg_users": 345.25,
+      "appearances": 4,
+      "std_users": 17.29,
       "is_community_dataset": true,
       "title": "LANDSCAN GLOBAL",
       "provider": "Oakridge National Laboratory",
       "thematic_group": "Population & Socioeconomic"
     },
     "projects/sat-io/open-datasets/landcover/ESRI_Global-LULC_10m": {
-      "total_users": 296,
-      "avg_users": 198.33,
-      "appearances": 2,
-      "std_users": 171.77,
+      "total_users": 291,
+      "avg_users": 221.5,
+      "appearances": 3,
+      "std_users": 147.7,
       "is_community_dataset": true,
       "title": "ESRI Global Land Use Land Cover from Sentinel-2",
       "provider": "Impact Observatory for Esri, Dynamic World Project by National Geographic Society in partnership with Google and the World Resources Institute",
       "thematic_group": "Global Land Use and Land Cover"
     },
     "projects/sat-io/open-datasets/FAO/GAUL/GAUL_2024_L2": {
-      "total_users": 279,
-      "avg_users": 187.33,
-      "appearances": 2,
-      "std_users": 162.25,
+      "total_users": 272,
+      "avg_users": 208.5,
+      "appearances": 3,
+      "std_users": 139.07,
       "is_community_dataset": true,
       "title": "Global Administrative Unit Layers (GAUL) 2024 - Level 2",
       "provider": "Food and Agriculture Organization of the United Nations (FAO)",
       "thematic_group": "Population & Socioeconomic"
     },
     "projects/sat-io/open-datasets/ESA/ESA_CCI_AGB": {
-      "total_users": 245,
-      "avg_users": 166.0,
-      "appearances": 2,
-      "std_users": 143.82,
+      "total_users": 237,
+      "avg_users": 183.75,
+      "appearances": 3,
+      "std_users": 122.67,
       "is_community_dataset": true,
       "title": "ESA CCI Global Forest Above Ground Biomass",
       "provider": "CCI BIOMASS consortium led by the University of Aberystwyth (U.K.)",
       "thematic_group": "Agriculture, Vegetation and Forestry"
     },
     "projects/sat-io/open-datasets/GLOBathy/GLOBathy_bathymetry": {
-      "total_users": 191,
-      "avg_users": 193.67,
-      "appearances": 3,
-      "std_users": 2.52,
+      "total_users": 188,
+      "avg_users": 192.25,
+      "appearances": 4,
+      "std_users": 3.5,
       "is_community_dataset": true,
       "title": "GLOBathy (Global lakes bathymetry dataset) : Bathymetry",
       "provider": "Khazaei, B., Read, L.K., Casali, M. et al.",
       "thematic_group": "Hydrology"
     },
     "projects/sat-io/open-datasets/GLO-30": {
-      "total_users": 152,
-      "avg_users": 101.0,
-      "appearances": 2,
-      "std_users": 87.47,
+      "total_users": 145,
+      "avg_users": 112.0,
+      "appearances": 3,
+      "std_users": 74.73,
       "is_community_dataset": true,
       "title": "Copernicus Digital Elevation Model (GLO-30 DEM)",
       "provider": " European Space Agency, COPERNICUS",
       "thematic_group": "Elevation and Bathymetry"
     },
-    "projects/sat-io/open-datasets/FAO/GAUL/GAUL_2024_L1": {
-      "total_users": 136,
-      "avg_users": 92.0,
-      "appearances": 2,
-      "std_users": 79.7,
-      "is_community_dataset": true,
-      "title": "Global Administrative Unit Layers (GAUL) 2024 - Level 1",
-      "provider": "Food and Agriculture Organization of the United Nations (FAO)",
-      "thematic_group": "Population & Socioeconomic"
-    },
     "projects/sat-io/open-datasets/ASTER/GDEM": {
-      "total_users": 131,
-      "avg_users": 87.67,
-      "appearances": 2,
-      "std_users": 75.92,
+      "total_users": 133,
+      "avg_users": 99.0,
+      "appearances": 3,
+      "std_users": 66.01,
       "is_community_dataset": true,
       "title": "ASTER Global Digital Elevation Model (GDEM) v3",
       "provider": "NASA, METI, AIST, Japan Spacesystems and U.S./Japan ASTER Science Team",
       "thematic_group": "Elevation and Bathymetry"
     },
+    "projects/sat-io/open-datasets/FAO/GAUL/GAUL_2024_L1": {
+      "total_users": 133,
+      "avg_users": 102.25,
+      "appearances": 3,
+      "std_users": 68.23,
+      "is_community_dataset": true,
+      "title": "Global Administrative Unit Layers (GAUL) 2024 - Level 1",
+      "provider": "Food and Agriculture Organization of the United Nations (FAO)",
+      "thematic_group": "Population & Socioeconomic"
+    },
     "projects/sat-io/open-datasets/GRIP4/South-East-Asia": {
-      "total_users": 130,
-      "avg_users": 86.33,
-      "appearances": 2,
-      "std_users": 74.77,
+      "total_users": 129,
+      "avg_users": 97.0,
+      "appearances": 3,
+      "std_users": 64.67,
       "is_community_dataset": true,
       "title": "GRIP4: South East Asia",
       "provider": "Global Biodiversity Model for Policy Support, GLOBIO, PBL Netherlands Environmental Assessment Agency",
       "thematic_group": "Global Utilities, Assets and Amenities Layers"
     },
+    "projects/sat-io/open-datasets/HydroLakes/lake_poly_v10": {
+      "total_users": 118,
+      "avg_users": 87.5,
+      "appearances": 3,
+      "std_users": 58.35,
+      "is_community_dataset": true,
+      "title": "HydroLAKES v1.0: Polygons",
+      "provider": "Messager, M. L., Lehner, B., Grill, G., Nedeva, I., & Schmitt, O",
+      "thematic_group": "Hydrology"
+    },
     "projects/sat-io/open-datasets/shoreline/mainlands": {
-      "total_users": 124,
-      "avg_users": 83.33,
-      "appearances": 2,
-      "std_users": 72.18,
+      "total_users": 118,
+      "avg_users": 92.0,
+      "appearances": 3,
+      "std_users": 61.43,
       "is_community_dataset": true,
       "title": "Global Shoreline Dataset",
       "provider": "United States Geological Survey, USGS",
       "thematic_group": "Oceans and Shorelines"
     },
     "projects/sat-io/open-datasets/GRIP4/Africa": {
-      "total_users": 119,
-      "avg_users": 79.67,
-      "appearances": 2,
-      "std_users": 69.0,
+      "total_users": 117,
+      "avg_users": 89.0,
+      "appearances": 3,
+      "std_users": 59.35,
       "is_community_dataset": true,
       "title": "GRIP4: Africa",
       "provider": "Global Biodiversity Model for Policy Support, GLOBIO, PBL Netherlands Environmental Assessment Agency",
       "thematic_group": "Global Utilities, Assets and Amenities Layers"
     },
-    "projects/sat-io/open-datasets/HydroLakes/lake_poly_v10": {
-      "total_users": 117,
-      "avg_users": 77.33,
-      "appearances": 2,
-      "std_users": 66.98,
-      "is_community_dataset": true,
-      "title": "HydroLAKES v1.0: Polygons",
-      "provider": "Messager, M. L., Lehner, B., Grill, G., Nedeva, I., & Schmitt, O",
-      "thematic_group": "Hydrology"
-    },
-    "projects/sat-io/open-datasets/shoreline/big_islands": {
-      "total_users": 116,
-      "avg_users": 78.33,
-      "appearances": 2,
-      "std_users": 67.86,
-      "is_community_dataset": true,
-      "title": "Global Shoreline Dataset",
-      "provider": "United States Geological Survey, USGS",
-      "thematic_group": "Oceans and Shorelines"
-    },
-    "projects/sat-io/open-datasets/hrsl/hrslpop": {
-      "total_users": 113,
-      "avg_users": 76.33,
-      "appearances": 2,
-      "std_users": 66.12,
-      "is_community_dataset": true,
-      "title": "High Resolution Settlement Layer: Overall Population",
-      "provider": "Center for International Earth Science Information Network(CIESIN), Facebook",
-      "thematic_group": "Population & Socioeconomic"
-    },
     "projects/sat-io/open-datasets/FAO/HWSD_V2_SMU": {
       "total_users": 112,
-      "avg_users": 73.0,
-      "appearances": 2,
-      "std_users": 63.27,
+      "avg_users": 82.75,
+      "appearances": 3,
+      "std_users": 55.22,
       "is_community_dataset": true,
       "title": "Harmonized World Soil Database (HWSD) version 2.0",
       "provider": "FAO & IIASA",
       "thematic_group": "Soil Properties"
     },
-    "projects/sat-io/open-datasets/shoreline/small_islands": {
-      "total_users": 112,
-      "avg_users": 75.67,
-      "appearances": 2,
-      "std_users": 65.55,
-      "is_community_dataset": true,
-      "title": "Global Shoreline Dataset Small Islands",
-      "provider": "United States Geological Survey, USGS",
-      "thematic_group": "Oceans and Shorelines"
-    },
     "projects/sat-io/open-datasets/GABAM": {
-      "total_users": 111,
-      "avg_users": 73.67,
-      "appearances": 2,
-      "std_users": 63.8,
+      "total_users": 112,
+      "avg_users": 83.25,
+      "appearances": 3,
+      "std_users": 55.51,
       "is_community_dataset": true,
       "title": "30m Global Annual Burned Area Maps (GABAM)",
       "provider": "Long Tengfei; Zhang Zhaoming; He Guojin",
       "thematic_group": "Fire Monitoring and Analysis"
     },
+    "projects/sat-io/open-datasets/hrsl/hrslpop": {
+      "total_users": 111,
+      "avg_users": 85.0,
+      "appearances": 3,
+      "std_users": 56.7,
+      "is_community_dataset": true,
+      "title": "High Resolution Settlement Layer: Overall Population",
+      "provider": "Center for International Earth Science Information Network(CIESIN), Facebook",
+      "thematic_group": "Population & Socioeconomic"
+    },
+    "projects/sat-io/open-datasets/shoreline/big_islands": {
+      "total_users": 111,
+      "avg_users": 86.5,
+      "appearances": 3,
+      "std_users": 57.76,
+      "is_community_dataset": true,
+      "title": "Global Shoreline Dataset",
+      "provider": "United States Geological Survey, USGS",
+      "thematic_group": "Oceans and Shorelines"
+    },
+    "projects/sat-io/open-datasets/shoreline/small_islands": {
+      "total_users": 107,
+      "avg_users": 83.5,
+      "appearances": 3,
+      "std_users": 55.76,
+      "is_community_dataset": true,
+      "title": "Global Shoreline Dataset Small Islands",
+      "provider": "United States Geological Survey, USGS",
+      "thematic_group": "Oceans and Shorelines"
+    },
     "projects/sat-io/open-datasets/SWORD/reaches_merged": {
-      "total_users": 106,
-      "avg_users": 72.0,
-      "appearances": 2,
-      "std_users": 62.39,
+      "total_users": 105,
+      "avg_users": 80.25,
+      "appearances": 3,
+      "std_users": 53.54,
       "is_community_dataset": true,
       "title": "SWOT River Database (SWORD) Reaches Merged",
       "provider": "Altenau et al., (2021)",
       "thematic_group": "Hydrology"
     },
-    "projects/sat-io/open-datasets/GWL_FCS30": {
-      "total_users": 104,
-      "avg_users": 69.33,
-      "appearances": 2,
-      "std_users": 60.04,
-      "is_community_dataset": true,
-      "title": "Global 30 m Wetland Map with a Fine Classification System",
-      "provider": "Zhang et al 2023",
-      "thematic_group": "Global Land Use and Land Cover"
-    },
     "projects/sat-io/open-datasets/SWORD/nodes_merged": {
-      "total_users": 103,
-      "avg_users": 70.0,
-      "appearances": 2,
-      "std_users": 60.65,
+      "total_users": 102,
+      "avg_users": 78.0,
+      "appearances": 3,
+      "std_users": 52.04,
       "is_community_dataset": true,
       "title": "SWOT River Database (SWORD) Nodes Merged",
       "provider": "Altenau et al., (2021)",
       "thematic_group": "Hydrology"
     },
-    "projects/sat-io/open-datasets/GRIP4/Middle-East-Central-Asia": {
-      "total_users": 98,
-      "avg_users": 65.33,
-      "appearances": 2,
-      "std_users": 56.58,
+    "projects/sat-io/open-datasets/GWL_FCS30": {
+      "total_users": 100,
+      "avg_users": 77.0,
+      "appearances": 3,
+      "std_users": 51.37,
       "is_community_dataset": true,
-      "title": "GRIP4: Middle East and Central Asia",
-      "provider": "Global Biodiversity Model for Policy Support, GLOBIO, PBL Netherlands Environmental Assessment Agency",
-      "thematic_group": "Global Utilities, Assets and Amenities Layers"
+      "title": "Global 30 m Wetland Map with a Fine Classification System",
+      "provider": "Zhang et al 2023",
+      "thematic_group": "Global Land Use and Land Cover"
     },
     "projects/sat-io/open-datasets/GRIP4/Central-South-America": {
-      "total_users": 97,
-      "avg_users": 64.67,
-      "appearances": 2,
-      "std_users": 56.0,
+      "total_users": 94,
+      "avg_users": 72.0,
+      "appearances": 3,
+      "std_users": 48.02,
       "is_community_dataset": true,
       "title": "GRIP4: Central and South America",
       "provider": "Global Biodiversity Model for Policy Support, GLOBIO, PBL Netherlands Environmental Assessment Agency",
       "thematic_group": "Global Utilities, Assets and Amenities Layers"
     },
+    "projects/sat-io/open-datasets/GRIP4/Middle-East-Central-Asia": {
+      "total_users": 94,
+      "avg_users": 72.5,
+      "appearances": 3,
+      "std_users": 48.37,
+      "is_community_dataset": true,
+      "title": "GRIP4: Middle East and Central Asia",
+      "provider": "Global Biodiversity Model for Policy Support, GLOBIO, PBL Netherlands Environmental Assessment Agency",
+      "thematic_group": "Global Utilities, Assets and Amenities Layers"
+    },
     "projects/sat-io/open-datasets/geoboundaries/CGAZ_ADM1": {
       "total_users": 93,
-      "avg_users": 61.33,
-      "appearances": 2,
-      "std_users": 53.13,
+      "avg_users": 69.25,
+      "appearances": 3,
+      "std_users": 46.18,
       "is_community_dataset": true,
       "title": "Comprehensive Global Administrative Zones(CGAZ)- ADM1",
       "provider": "William & Mary geoLab",
       "thematic_group": "Population & Socioeconomic"
     },
     "projects/sat-io/open-datasets/global-monoculture-plantations": {
-      "total_users": 92,
-      "avg_users": 63.0,
-      "appearances": 2,
-      "std_users": 54.62,
+      "total_users": 89,
+      "avg_users": 69.5,
+      "appearances": 3,
+      "std_users": 46.45,
       "is_community_dataset": true,
       "title": "Aboveground carbon accumulation in global monoculture plantation forests",
       "provider": "Bukoski, Jacob et al 2022",
       "thematic_group": "Agriculture, Vegetation and Forestry"
     },
     "projects/sat-io/open-datasets/HiHydroSoilv2_0/ksat": {
-      "total_users": 89,
-      "avg_users": 59.67,
-      "appearances": 2,
-      "std_users": 51.68,
+      "total_users": 88,
+      "avg_users": 66.75,
+      "appearances": 3,
+      "std_users": 44.51,
       "is_community_dataset": true,
       "title": "Saturated Hydraulic Conductivity- Ksat",
       "provider": "Future Water",
       "thematic_group": "Soil Properties"
     },
     "projects/sat-io/open-datasets/GRIP4/Europe": {
-      "total_users": 88,
-      "avg_users": 59.0,
-      "appearances": 2,
-      "std_users": 51.1,
+      "total_users": 86,
+      "avg_users": 65.75,
+      "appearances": 3,
+      "std_users": 43.85,
       "is_community_dataset": true,
       "title": "GRIP4: Europe",
       "provider": "Global Biodiversity Model for Policy Support, GLOBIO, PBL Netherlands Environmental Assessment Agency",
       "thematic_group": "Global Utilities, Assets and Amenities Layers"
     },
-    "projects/sat-io/open-datasets/GRIP4/North-America": {
-      "total_users": 84,
-      "avg_users": 56.33,
-      "appearances": 2,
-      "std_users": 48.79,
-      "is_community_dataset": true,
-      "title": "GRIP4: North America",
-      "provider": "Global Biodiversity Model for Policy Support, GLOBIO, PBL Netherlands Environmental Assessment Agency",
-      "thematic_group": "Global Utilities, Assets and Amenities Layers"
-    },
     "projects/sat-io/open-datasets/geoboundaries/CGAZ_ADM0": {
       "total_users": 84,
-      "avg_users": 55.33,
-      "appearances": 2,
-      "std_users": 47.93,
+      "avg_users": 62.5,
+      "appearances": 3,
+      "std_users": 41.68,
       "is_community_dataset": true,
       "title": "Comprehensive Global Administrative Zones(CGAZ)- ADM0",
       "provider": "William & Mary geoLab",
       "thematic_group": "Population & Socioeconomic"
     },
-    "projects/sat-io/open-datasets/global_soil_salinity": {
-      "total_users": 84,
-      "avg_users": 56.0,
-      "appearances": 2,
-      "std_users": 48.5,
-      "is_community_dataset": true,
-      "title": "Global Soil Salinity 1986-2016",
-      "provider": "Ivushkin et al",
-      "thematic_group": "Soil Properties"
-    },
-    "projects/sat-io/open-datasets/Harmonized_NTL/dmsp": {
+    "projects/sat-io/open-datasets/GRIP4/North-America": {
       "total_users": 82,
-      "avg_users": 54.33,
-      "appearances": 2,
-      "std_users": 47.06,
+      "avg_users": 62.75,
+      "appearances": 3,
+      "std_users": 41.85,
       "is_community_dataset": true,
-      "title": "Harmonized Global Night Time Lights (1992-2021): DMSP",
-      "provider": "Xuecao Li et al",
+      "title": "GRIP4: North America",
+      "provider": "Global Biodiversity Model for Policy Support, GLOBIO, PBL Netherlands Environmental Assessment Agency",
       "thematic_group": "Global Utilities, Assets and Amenities Layers"
     },
     "projects/sat-io/open-datasets/Harmonized_NTL/viirs": {
-      "total_users": 82,
-      "avg_users": 54.67,
-      "appearances": 2,
-      "std_users": 47.34,
+      "total_users": 81,
+      "avg_users": 61.25,
+      "appearances": 3,
+      "std_users": 40.84,
       "is_community_dataset": true,
       "title": "Harmonized Global Night Time Lights (1992-2021): VIIRS",
       "provider": "Xuecao Li et al",
       "thematic_group": "Global Utilities, Assets and Amenities Layers"
     },
-    "projects/sat-io/open-datasets/GFSAD/LGRIP30": {
-      "total_users": 81,
-      "avg_users": 54.0,
-      "appearances": 2,
-      "std_users": 46.77,
-      "is_community_dataset": true,
-      "title": "GFSAD Landsat-Derived Global Rainfed and Irrigated-Cropland Product (LGRIP)",
-      "provider": "U.S. Geological Survey Center for Earth Resources Observation and Science (EROS)",
-      "thematic_group": "Agriculture, Vegetation and Forestry"
-    },
     "projects/sat-io/open-datasets/HiHydroSoilv2_0/wcpf2": {
       "total_users": 81,
-      "avg_users": 54.67,
-      "appearances": 2,
-      "std_users": 47.35,
+      "avg_users": 61.25,
+      "appearances": 3,
+      "std_users": 40.84,
       "is_community_dataset": true,
       "title": "Water content at pF2 (field capacity)- wcpf2",
       "provider": "Future Water",
@@ -2796,39 +3414,59 @@
     },
     "projects/sat-io/open-datasets/OSM_waterLayer": {
       "total_users": 81,
-      "avg_users": 54.33,
-      "appearances": 2,
-      "std_users": 47.06,
+      "avg_users": 61.0,
+      "appearances": 3,
+      "std_users": 40.67,
       "is_community_dataset": true,
       "title": "OSM Water Layer Surface Waters",
       "provider": "Institute of Industrial Sciences, Open Street Map, OSM",
       "thematic_group": "Hydrology"
     },
+    "projects/sat-io/open-datasets/global_soil_salinity": {
+      "total_users": 81,
+      "avg_users": 62.25,
+      "appearances": 3,
+      "std_users": 41.52,
+      "is_community_dataset": true,
+      "title": "Global Soil Salinity 1986-2016",
+      "provider": "Ivushkin et al",
+      "thematic_group": "Soil Properties"
+    },
+    "projects/sat-io/open-datasets/Harmonized_NTL/dmsp": {
+      "total_users": 80,
+      "avg_users": 60.75,
+      "appearances": 3,
+      "std_users": 40.51,
+      "is_community_dataset": true,
+      "title": "Harmonized Global Night Time Lights (1992-2021): DMSP",
+      "provider": "Xuecao Li et al",
+      "thematic_group": "Global Utilities, Assets and Amenities Layers"
+    },
     "projects/sat-io/open-datasets/USGS/ANNUAL_NLCD/LANDCOVER": {
       "total_users": 80,
-      "avg_users": 53.33,
-      "appearances": 2,
-      "std_users": 46.19,
+      "avg_users": 60.0,
+      "appearances": 3,
+      "std_users": 40.0,
       "is_community_dataset": true,
       "title": "USGS Annual NLCD Land Cover Dataset",
       "provider": "U.S. Geological Survey (USGS)",
       "thematic_group": "Regional Land Use and Land Cover"
     },
-    "projects/sat-io/open-datasets/GMW/annual-extent/GMW_MNG_2020": {
+    "projects/sat-io/open-datasets/GFSAD/LGRIP30": {
       "total_users": 79,
-      "avg_users": 52.67,
-      "appearances": 2,
-      "std_users": 45.61,
+      "avg_users": 60.25,
+      "appearances": 3,
+      "std_users": 40.18,
       "is_community_dataset": true,
-      "title": "Global Mangrove Watch 2020 Raster Extent v4.0.19: Raster",
-      "provider": "Global Mangrove Watch, Aberystwyth University, solo Earth Observation, Wetlands Institute, International Water Management Institute, UN Environment World Conservation Monitoring Center",
-      "thematic_group": "Global Land Use and Land Cover"
+      "title": "GFSAD Landsat-Derived Global Rainfed and Irrigated-Cropland Product (LGRIP)",
+      "provider": "U.S. Geological Survey Center for Earth Resources Observation and Science (EROS)",
+      "thematic_group": "Agriculture, Vegetation and Forestry"
     },
     "projects/sat-io/open-datasets/HiHydroSoilv2_0/wcpf4-2": {
       "total_users": 79,
-      "avg_users": 53.33,
-      "appearances": 2,
-      "std_users": 46.2,
+      "avg_users": 59.75,
+      "appearances": 3,
+      "std_users": 39.84,
       "is_community_dataset": true,
       "title": "Water content at pF4.2 (permanent wilting point)- wcpf4.2",
       "provider": "Future Water",
@@ -2836,29 +3474,39 @@
     },
     "projects/sat-io/open-datasets/HiHydroSoilv2_0/wcsat": {
       "total_users": 79,
-      "avg_users": 53.0,
-      "appearances": 2,
-      "std_users": 45.9,
+      "avg_users": 59.5,
+      "appearances": 3,
+      "std_users": 39.67,
       "is_community_dataset": true,
       "title": "Saturated water content- wcsat",
       "provider": "Future Water",
       "thematic_group": "Soil Properties"
     },
+    "projects/sat-io/open-datasets/GMW/annual-extent/GMW_MNG_2020": {
+      "total_users": 78,
+      "avg_users": 59.0,
+      "appearances": 3,
+      "std_users": 39.34,
+      "is_community_dataset": true,
+      "title": "Global Mangrove Watch 2020 Raster Extent v4.0.19: Raster",
+      "provider": "Global Mangrove Watch, Aberystwyth University, solo Earth Observation, Wetlands Institute, International Water Management Institute, UN Environment World Conservation Monitoring Center",
+      "thematic_group": "Global Land Use and Land Cover"
+    },
     "projects/sat-io/open-datasets/HiHydroSoilv2_0/wcavail": {
       "total_users": 77,
-      "avg_users": 51.67,
-      "appearances": 2,
-      "std_users": 44.75,
+      "avg_users": 58.0,
+      "appearances": 3,
+      "std_users": 38.67,
       "is_community_dataset": true,
       "title": "Available water content- wcavail",
       "provider": "Future Water",
       "thematic_group": "Soil Properties"
     },
     "projects/sat-io/open-datasets/GLOBGM/TRANSIENT/WTD": {
-      "total_users": 76,
-      "avg_users": 51.0,
-      "appearances": 2,
-      "std_users": 44.17,
+      "total_users": 75,
+      "avg_users": 57.0,
+      "appearances": 3,
+      "std_users": 38.01,
       "is_community_dataset": true,
       "title": "GLOBGM v1.0 Computed transient water table depth [m] sampled from upper to lower layer",
       "provider": "Verkaik et al. 2024",
@@ -2866,9 +3514,9 @@
     },
     "projects/sat-io/open-datasets/HiHydroSoilv2_0/stc": {
       "total_users": 75,
-      "avg_users": 50.67,
-      "appearances": 2,
-      "std_users": 43.89,
+      "avg_users": 56.75,
+      "appearances": 3,
+      "std_users": 37.85,
       "is_community_dataset": true,
       "title": "Soil Texture Class- STC",
       "provider": "Future Water",
@@ -2876,9 +3524,9 @@
     },
     "projects/sat-io/open-datasets/HiHydroSoilv2_0/wcpf3": {
       "total_users": 75,
-      "avg_users": 50.67,
-      "appearances": 2,
-      "std_users": 43.89,
+      "avg_users": 56.75,
+      "appearances": 3,
+      "std_users": 37.85,
       "is_community_dataset": true,
       "title": "Water content at pF3 (wilting point)- wcpf3",
       "provider": "Future Water",
@@ -2886,99 +3534,79 @@
     },
     "projects/sat-io/open-datasets/HiHydroSoilv2_0/wcres": {
       "total_users": 75,
-      "avg_users": 50.67,
-      "appearances": 2,
-      "std_users": 43.89,
+      "avg_users": 56.75,
+      "appearances": 3,
+      "std_users": 37.85,
       "is_community_dataset": true,
       "title": "Residual Water Content- wcres",
       "provider": "Future Water",
       "thematic_group": "Soil Properties"
     },
-    "projects/sat-io/open-datasets/VIDA_COMBINED/IND": {
-      "total_users": 75,
-      "avg_users": 51.0,
-      "appearances": 2,
-      "std_users": 44.19,
-      "is_community_dataset": true,
-      "title": "Global Google Microsoft Combined Building Footprints VIDA: India",
-      "provider": "VIDA, Google, Microsoft",
-      "thematic_group": "Global Utilities, Assets and Amenities Layers"
-    },
-    "projects/sat-io/open-datasets/GFCC30TC": {
-      "total_users": 74,
-      "avg_users": 50.0,
-      "appearances": 2,
-      "std_users": 43.31,
-      "is_community_dataset": true,
-      "title": "Global 30m Landsat Tree Canopy Cover v4",
-      "provider": "Sexton, J. O et al",
-      "thematic_group": "Agriculture, Vegetation and Forestry"
-    },
-    "projects/sat-io/open-datasets/GRIP4/Oceania": {
-      "total_users": 74,
-      "avg_users": 49.33,
-      "appearances": 2,
-      "std_users": 42.72,
-      "is_community_dataset": true,
-      "title": "GRIP4: Oceania",
-      "provider": "Global Biodiversity Model for Policy Support, GLOBIO, PBL Netherlands Environmental Assessment Agency",
-      "thematic_group": "Global Utilities, Assets and Amenities Layers"
-    },
     "projects/sat-io/open-datasets/HiHydroSoilv2_0/ormc": {
       "total_users": 74,
-      "avg_users": 50.33,
-      "appearances": 2,
-      "std_users": 43.62,
+      "avg_users": 56.25,
+      "appearances": 3,
+      "std_users": 37.53,
       "is_community_dataset": true,
       "title": "Organic Matter Content- ORMC",
       "provider": "Future Water",
       "thematic_group": "Soil Properties"
     },
-    "projects/sat-io/open-datasets/GLOBGM/STEADY-STATE/globgm-wtd-ss": {
+    "projects/sat-io/open-datasets/GFCC30TC": {
       "total_users": 73,
-      "avg_users": 49.0,
-      "appearances": 2,
-      "std_users": 42.44,
+      "avg_users": 55.75,
+      "appearances": 3,
+      "std_users": 37.19,
       "is_community_dataset": true,
-      "title": "GLOBGM v1.0 Computed water table depth [m] sampled from upper to lower layer",
-      "provider": "Verkaik et al. 2024",
-      "thematic_group": "Hydrology"
+      "title": "Global 30m Landsat Tree Canopy Cover v4",
+      "provider": "Sexton, J. O et al",
+      "thematic_group": "Agriculture, Vegetation and Forestry"
     },
     "projects/sat-io/open-datasets/GHAP/GHAP_Y1K_PM25": {
       "total_users": 72,
-      "avg_users": 48.0,
-      "appearances": 2,
-      "std_users": 41.57,
+      "avg_users": 54.0,
+      "appearances": 3,
+      "std_users": 36.0,
       "is_community_dataset": true,
       "title": "Global High Air Pollutants(GHAP) PM2.5 Concentrations (2017-2022): Yearly",
       "provider": "Wei et al",
       "thematic_group": "Weather and Climate Layers"
     },
+    "projects/sat-io/open-datasets/GLOBGM/STEADY-STATE/globgm-wtd-ss": {
+      "total_users": 72,
+      "avg_users": 54.75,
+      "appearances": 3,
+      "std_users": 36.51,
+      "is_community_dataset": true,
+      "title": "GLOBGM v1.0 Computed water table depth [m] sampled from upper to lower layer",
+      "provider": "Verkaik et al. 2024",
+      "thematic_group": "Hydrology"
+    },
+    "projects/sat-io/open-datasets/GRIP4/Oceania": {
+      "total_users": 72,
+      "avg_users": 55.0,
+      "appearances": 3,
+      "std_users": 36.68,
+      "is_community_dataset": true,
+      "title": "GRIP4: Oceania",
+      "provider": "Global Biodiversity Model for Policy Support, GLOBIO, PBL Netherlands Environmental Assessment Agency",
+      "thematic_group": "Global Utilities, Assets and Amenities Layers"
+    },
     "projects/sat-io/open-datasets/HiHydroSoilv2_0/N": {
       "total_users": 72,
-      "avg_users": 48.33,
-      "appearances": 2,
-      "std_users": 41.86,
+      "avg_users": 54.25,
+      "appearances": 3,
+      "std_users": 36.17,
       "is_community_dataset": true,
       "title": "N parameter for Mualem Van Genuchten Equation",
       "provider": "Future Water",
       "thematic_group": "Soil Properties"
     },
-    "projects/sat-io/open-datasets/GLOBGM/TRANSIENT/WTD-BOTTOM": {
-      "total_users": 71,
-      "avg_users": 47.67,
-      "appearances": 2,
-      "std_users": 41.28,
-      "is_community_dataset": true,
-      "title": "GLOBGM v1.0 Computed transient water table depth [m] lower layer only",
-      "provider": "Verkaik et al. 2024",
-      "thematic_group": "Hydrology"
-    },
     "projects/sat-io/open-datasets/HiHydroSoilv2_0/alpha": {
       "total_users": 71,
-      "avg_users": 48.0,
-      "appearances": 2,
-      "std_users": 41.58,
+      "avg_users": 53.75,
+      "appearances": 3,
+      "std_users": 35.85,
       "is_community_dataset": true,
       "title": "Alpha parameter for Mualem Van Genuchten Equation",
       "provider": "Future Water",
@@ -2986,9 +3614,9 @@
     },
     "projects/sat-io/open-datasets/HiHydroSoilv2_0/crit-wilt": {
       "total_users": 71,
-      "avg_users": 48.0,
-      "appearances": 2,
-      "std_users": 41.58,
+      "avg_users": 53.75,
+      "appearances": 3,
+      "std_users": 35.85,
       "is_community_dataset": true,
       "title": "Water content between wilting point (pF3)- Wilt Perm",
       "provider": "Future Water",
@@ -2996,29 +3624,49 @@
     },
     "projects/sat-io/open-datasets/HiHydroSoilv2_0/field-crit": {
       "total_users": 71,
-      "avg_users": 48.0,
-      "appearances": 2,
-      "std_users": 41.58,
+      "avg_users": 53.75,
+      "appearances": 3,
+      "std_users": 35.85,
       "is_community_dataset": true,
       "title": "Water content between field capacity (pF2_ and wilting point (pF3)- Field Wilt",
       "provider": "Future Water",
       "thematic_group": "Soil Properties"
     },
-    "projects/sat-io/open-datasets/WSF/WSF_2019": {
+    "projects/sat-io/open-datasets/VIDA_COMBINED/IND": {
       "total_users": 71,
-      "avg_users": 47.33,
-      "appearances": 2,
-      "std_users": 40.99,
+      "avg_users": 56.0,
+      "appearances": 3,
+      "std_users": 37.44,
       "is_community_dataset": true,
-      "title": "World Settlement Footprint (2019)",
-      "provider": "Marconcini, et al",
-      "thematic_group": "Global Land Use and Land Cover"
+      "title": "Global Google Microsoft Combined Building Footprints VIDA: India",
+      "provider": "VIDA, Google, Microsoft",
+      "thematic_group": "Global Utilities, Assets and Amenities Layers"
+    },
+    "projects/sat-io/open-datasets/facebook/meta-canopy-height": {
+      "total_users": 71,
+      "avg_users": 49.5,
+      "appearances": 3,
+      "std_users": 33.39,
+      "is_community_dataset": true,
+      "title": "High Resolution Global 1m Canopy Cover",
+      "provider": "Meta and WRI, Tolan et al 2023",
+      "thematic_group": "Agriculture, Vegetation and Forestry"
+    },
+    "projects/sat-io/open-datasets/GLOBGM/TRANSIENT/WTD-BOTTOM": {
+      "total_users": 70,
+      "avg_users": 53.25,
+      "appearances": 3,
+      "std_users": 35.51,
+      "is_community_dataset": true,
+      "title": "GLOBGM v1.0 Computed transient water table depth [m] lower layer only",
+      "provider": "Verkaik et al. 2024",
+      "thematic_group": "Hydrology"
     },
     "projects/sat-io/open-datasets/global_ai/global_ai_yearly": {
-      "total_users": 71,
-      "avg_users": 47.67,
-      "appearances": 2,
-      "std_users": 41.28,
+      "total_users": 70,
+      "avg_users": 53.25,
+      "appearances": 3,
+      "std_users": 35.51,
       "is_community_dataset": true,
       "title": "Global Aridity Index Yearly",
       "provider": "CGIAR Platform for Big Data in Agriculture",
@@ -3026,9 +3674,9 @@
     },
     "projects/sat-io/open-datasets/HiHydroSoilv2_0/sat-field": {
       "total_users": 69,
-      "avg_users": 46.67,
-      "appearances": 2,
-      "std_users": 40.43,
+      "avg_users": 52.25,
+      "appearances": 3,
+      "std_users": 34.85,
       "is_community_dataset": true,
       "title": "Water content between saturation point and field capacity (pF2)- sat-field",
       "provider": "Future Water",
@@ -3036,79 +3684,69 @@
     },
     "projects/sat-io/open-datasets/PKU-GIMMS-NDVI/AVHRR_MODIS_CONSOLIDATED": {
       "total_users": 69,
-      "avg_users": 45.0,
-      "appearances": 2,
-      "std_users": 39.0,
+      "avg_users": 51.0,
+      "appearances": 3,
+      "std_users": 34.03,
       "is_community_dataset": true,
       "title": "GIMMS Normalized Difference Vegetation Index 1982-2022 AVHRR MODIS CONSOLIDATED",
       "provider": "Li, Muyi, Sen Cao, Zaichun Zhu, Zhe Wang, Ranga B. Myneni, and Shilong Piao",
       "thematic_group": "Agriculture, Vegetation and Forestry"
     },
+    "projects/sat-io/open-datasets/GHAP/GHAP_D1K_PM25": {
+      "total_users": 68,
+      "avg_users": 50.75,
+      "appearances": 3,
+      "std_users": 33.84,
+      "is_community_dataset": true,
+      "title": "Global High Air Pollutants(GHAP) PM2.5 Concentrations (2017-2022): Daily",
+      "provider": "Wei et al",
+      "thematic_group": "Weather and Climate Layers"
+    },
     "projects/sat-io/open-datasets/GLAD/GEDI_V27": {
       "total_users": 68,
-      "avg_users": 45.33,
-      "appearances": 2,
-      "std_users": 39.26,
+      "avg_users": 51.0,
+      "appearances": 3,
+      "std_users": 34.0,
       "is_community_dataset": true,
       "title": "Global Forest Canopy Height from GEDI & Landsat",
       "provider": "Potapov et al. (2020)",
       "thematic_group": "Agriculture, Vegetation and Forestry"
     },
     "projects/sat-io/open-datasets/GLOBGM/STEADY-STATE/globgm-heads-lower-layer-ss": {
-      "total_users": 68,
-      "avg_users": 45.67,
-      "appearances": 2,
-      "std_users": 39.55,
+      "total_users": 67,
+      "avg_users": 51.0,
+      "appearances": 3,
+      "std_users": 34.01,
       "is_community_dataset": true,
       "title": "GLOBGM v1.0 Computed steady-state groundwater head [m] for the lower model layer",
       "provider": "Verkaik et al. 2024",
       "thematic_group": "Hydrology"
     },
     "projects/sat-io/open-datasets/GLOBGM/STEADY-STATE/globgm-heads-upper-layer-ss": {
-      "total_users": 68,
-      "avg_users": 45.67,
-      "appearances": 2,
-      "std_users": 39.55,
+      "total_users": 67,
+      "avg_users": 51.0,
+      "appearances": 3,
+      "std_users": 34.01,
       "is_community_dataset": true,
       "title": "GLOBGM v1.0 Computed steady-state groundwater head [m] for the upper model layer",
       "provider": "Verkaik et al. 2024",
       "thematic_group": "Hydrology"
     },
-    "projects/sat-io/open-datasets/facebook/meta-canopy-height": {
-      "total_users": 68,
-      "avg_users": 42.33,
-      "appearances": 2,
-      "std_users": 36.94,
-      "is_community_dataset": true,
-      "title": "High Resolution Global 1m Canopy Cover",
-      "provider": "Meta and WRI, Tolan et al 2023",
-      "thematic_group": "Agriculture, Vegetation and Forestry"
-    },
-    "projects/sat-io/open-datasets/npp-viirs-ntl": {
-      "total_users": 68,
-      "avg_users": 45.33,
-      "appearances": 2,
-      "std_users": 39.26,
-      "is_community_dataset": true,
-      "title": "Global NPP-VIIRS-like nighttime light (2000-2023)",
-      "provider": "Chen, Zuoqi et al",
-      "thematic_group": "Global Utilities, Assets and Amenities Layers"
-    },
-    "projects/sat-io/open-datasets/GHAP/GHAP_D1K_PM25": {
+    "projects/sat-io/open-datasets/WSF/WSF_2019": {
       "total_users": 67,
-      "avg_users": 45.0,
-      "appearances": 2,
-      "std_users": 38.97,
+      "avg_users": 52.25,
+      "appearances": 3,
+      "std_users": 34.88,
       "is_community_dataset": true,
-      "title": "Global High Air Pollutants(GHAP) PM2.5 Concentrations (2017-2022): Daily",
-      "provider": "Wei et al",
-      "thematic_group": "Weather and Climate Layers"
+      "title": "World Settlement Footprint (2019)",
+      "provider": "Marconcini, et al",
+      "thematic_group": "Global Land Use and Land Cover"
     },
     "projects/sat-io/open-datasets/GFM/FML_v3-2": {
       "total_users": 66,
-      "avg_users": 44.0,
-      "appearances": 2,
-      "std_users": 38.11,
+      "avg_users": 49.5,
+      "appearances": 3,
+      "std_users": 33.0,
       "is_community_dataset": true,
       "title": "Global Forest Management dataset 2015",
       "provider": "Myroslava et al. 2022",
@@ -3116,29 +3754,19 @@
     },
     "projects/sat-io/open-datasets/GLOBAL-NATURAL-PLANTED-FORESTS": {
       "total_users": 66,
-      "avg_users": 43.67,
-      "appearances": 2,
-      "std_users": 37.82,
+      "avg_users": 49.25,
+      "appearances": 3,
+      "std_users": 32.84,
       "is_community_dataset": true,
       "title": "Global Natural and Planted Forests",
       "provider": "Xiao et al 2024",
       "thematic_group": "Agriculture, Vegetation and Forestry"
     },
-    "projects/sat-io/open-datasets/hrsl/hrsl_children_under_five": {
-      "total_users": 65,
-      "avg_users": 43.33,
-      "appearances": 2,
-      "std_users": 37.53,
-      "is_community_dataset": true,
-      "title": "High Resolution Settlement Layer: Children under five",
-      "provider": "Center for International Earth Science Information Network(CIESIN), Facebook",
-      "thematic_group": "Population & Socioeconomic"
-    },
     "projects/sat-io/open-datasets/global_subsidence/Final_subsidence_proba_greater_1cm_2013_2019_recoded": {
-      "total_users": 64,
-      "avg_users": 43.33,
-      "appearances": 2,
-      "std_users": 37.54,
+      "total_users": 65,
+      "avg_users": 48.75,
+      "appearances": 3,
+      "std_users": 32.51,
       "is_community_dataset": true,
       "title": "Global Land Subsidence mapping: subsidence_prediction_probability",
       "provider": "Hasan, M. F., R. Smith, S. Vajedian, R. Pommerenke, S. Majumdar",
@@ -3146,220 +3774,230 @@
     },
     "projects/sat-io/open-datasets/global_subsidence/Final_subsidence_prediction_recoded": {
       "total_users": 63,
-      "avg_users": 42.67,
-      "appearances": 2,
-      "std_users": 36.96,
+      "avg_users": 47.75,
+      "appearances": 3,
+      "std_users": 31.85,
       "is_community_dataset": true,
       "title": "Global Land Subsidence mapping: subsidence_prediction_recoded",
       "provider": "Hasan, M. F., R. Smith, S. Vajedian, R. Pommerenke, S. Majumdar",
       "thematic_group": "Geophysical, Biological & Biogeochemical"
     },
-    "projects/sat-io/open-datasets/HiHydroSoilv2_0/Hydrologic_Soil_Group_250m": {
-      "total_users": 62,
-      "avg_users": 42.33,
-      "appearances": 2,
-      "std_users": 36.69,
+    "projects/sat-io/open-datasets/hrsl/hrsl_children_under_five": {
+      "total_users": 63,
+      "avg_users": 48.25,
+      "appearances": 3,
+      "std_users": 32.18,
       "is_community_dataset": true,
-      "title": "Hydrologic Soil Group",
-      "provider": "Future Water",
-      "thematic_group": "Soil Properties"
+      "title": "High Resolution Settlement Layer: Children under five",
+      "provider": "Center for International Earth Science Information Network(CIESIN), Facebook",
+      "thematic_group": "Population & Socioeconomic"
+    },
+    "projects/sat-io/open-datasets/npp-viirs-ntl": {
+      "total_users": 63,
+      "avg_users": 49.75,
+      "appearances": 3,
+      "std_users": 33.25,
+      "is_community_dataset": true,
+      "title": "Global NPP-VIIRS-like nighttime light (2000-2023)",
+      "provider": "Chen, Zuoqi et al",
+      "thematic_group": "Global Utilities, Assets and Amenities Layers"
     },
     "projects/sat-io/open-datasets/hrsl/hrsl_men": {
-      "total_users": 62,
-      "avg_users": 41.33,
-      "appearances": 2,
-      "std_users": 35.8,
+      "total_users": 61,
+      "avg_users": 46.25,
+      "appearances": 3,
+      "std_users": 30.84,
       "is_community_dataset": true,
       "title": "High Resolution Settlement Layer: Men",
       "provider": "Center for International Earth Science Information Network(CIESIN), Facebook",
       "thematic_group": "Population & Socioeconomic"
     },
     "projects/sat-io/open-datasets/us-drought-monitor": {
-      "total_users": 62,
-      "avg_users": 64.33,
-      "appearances": 3,
-      "std_users": 2.08,
+      "total_users": 61,
+      "avg_users": 63.5,
+      "appearances": 4,
+      "std_users": 2.38,
       "is_community_dataset": true,
       "title": "United States Drought Monitor (USDM)",
       "provider": "National Drought Mitigation Center at the University of Nebraska-Lincoln, the United States Department of Agriculture, and the National Oceanic and Atmospheric Administration. Map courtesy of NDMC",
       "thematic_group": "Weather and Climate Layers"
     },
+    "projects/sat-io/open-datasets/HiHydroSoilv2_0/Hydrologic_Soil_Group_250m": {
+      "total_users": 60,
+      "avg_users": 46.75,
+      "appearances": 3,
+      "std_users": 31.23,
+      "is_community_dataset": true,
+      "title": "Hydrologic Soil Group",
+      "provider": "Future Water",
+      "thematic_group": "Soil Properties"
+    },
+    "projects/sat-io/open-datasets/geoboundaries/CGAZ_ADM2": {
+      "total_users": 59,
+      "avg_users": 44.5,
+      "appearances": 3,
+      "std_users": 29.67,
+      "is_community_dataset": true,
+      "title": "Comprehensive Global Administrative Zones(CGAZ)- ADM2",
+      "provider": "William & Mary geoLab",
+      "thematic_group": "Population & Socioeconomic"
+    },
     "projects/sat-io/open-datasets/hrsl/hrsl_women": {
-      "total_users": 61,
-      "avg_users": 40.67,
-      "appearances": 2,
-      "std_users": 35.22,
+      "total_users": 59,
+      "avg_users": 45.25,
+      "appearances": 3,
+      "std_users": 30.18,
       "is_community_dataset": true,
       "title": "High Resolution Settlement Layer: Women",
       "provider": "Center for International Earth Science Information Network(CIESIN), Facebook",
       "thematic_group": "Population & Socioeconomic"
     },
     "projects/sat-io/open-datasets/hrsl/hrsl_youth": {
-      "total_users": 61,
-      "avg_users": 40.67,
-      "appearances": 2,
-      "std_users": 35.22,
+      "total_users": 59,
+      "avg_users": 45.25,
+      "appearances": 3,
+      "std_users": 30.18,
       "is_community_dataset": true,
       "title": "High Resolution Settlement Layer: Youth",
       "provider": "Center for International Earth Science Information Network(CIESIN), Facebook",
       "thematic_group": "Population & Socioeconomic"
     },
-    "projects/sat-io/open-datasets/geoboundaries/CGAZ_ADM2": {
-      "total_users": 60,
-      "avg_users": 39.67,
-      "appearances": 2,
-      "std_users": 34.36,
+    "projects/sat-io/open-datasets/gap-filled-lst/gf_day_1km": {
+      "total_users": 58,
+      "avg_users": 43.25,
+      "appearances": 3,
+      "std_users": 28.84,
       "is_community_dataset": true,
-      "title": "Comprehensive Global Administrative Zones(CGAZ)- ADM2",
-      "provider": "William & Mary geoLab",
-      "thematic_group": "Population & Socioeconomic"
+      "title": "MODIS Gap filled Long-term Land Surface Temperature Daily Daytime",
+      "provider": "Zhang, Tao; Zhou, Yuyu; Zhu, Zhengyuan; Li, Xiaoma; Asrar, Ghassem",
+      "thematic_group": "Weather and Climate Layers"
     },
     "projects/sat-io/open-datasets/hrsl/hrsl_elderly_over_sixty": {
-      "total_users": 60,
-      "avg_users": 40.0,
-      "appearances": 2,
-      "std_users": 34.64,
+      "total_users": 58,
+      "avg_users": 44.5,
+      "appearances": 3,
+      "std_users": 29.68,
       "is_community_dataset": true,
       "title": "High Resolution Settlement Layer: Elderly over sixty",
       "provider": "Center for International Earth Science Information Network(CIESIN), Facebook",
       "thematic_group": "Population & Socioeconomic"
     },
     "projects/sat-io/open-datasets/hrsl/hrsl_women_reproductive_age": {
-      "total_users": 60,
-      "avg_users": 40.0,
-      "appearances": 2,
-      "std_users": 34.64,
+      "total_users": 58,
+      "avg_users": 44.5,
+      "appearances": 3,
+      "std_users": 29.68,
       "is_community_dataset": true,
       "title": "High Resolution Settlement Layer: Women of reproductive age",
       "provider": "Center for International Earth Science Information Network(CIESIN), Facebook",
       "thematic_group": "Population & Socioeconomic"
     },
     "projects/sat-io/open-datasets/srunet-npp-viirs-ntl": {
-      "total_users": 59,
-      "avg_users": 39.0,
-      "appearances": 2,
-      "std_users": 33.78,
+      "total_users": 58,
+      "avg_users": 43.75,
+      "appearances": 3,
+      "std_users": 29.17,
       "is_community_dataset": true,
       "title": "Global Annual Simulated NPP-VIIRS Nighttime Light Dataset (1992-2023)",
       "provider": "Chen, Xiuxiu et al.",
       "thematic_group": "Global Utilities, Assets and Amenities Layers"
     },
-    "projects/sat-io/open-datasets/FROM-GLC10": {
-      "total_users": 57,
-      "avg_users": 38.33,
-      "appearances": 2,
-      "std_users": 33.2,
-      "is_community_dataset": true,
-      "title": "Finer Resolution Observation and Monitoring of Global Land Cover 10m (FROM-GLC10)",
-      "provider": "Chen, B., B. Xu, Z. Zhu, C. Yuan, H. Ping Suen, J. Guo, N. Xu, W. Li, Y. Zhao, and J. J. S. B. Yang.",
-      "thematic_group": "Global Land Use and Land Cover"
-    },
     "projects/sat-io/open-datasets/GFSAD/GCEP30": {
       "total_users": 57,
-      "avg_users": 37.67,
-      "appearances": 2,
-      "std_users": 32.62,
+      "avg_users": 42.5,
+      "appearances": 3,
+      "std_users": 28.34,
       "is_community_dataset": true,
       "title": "GFSAD Global Cropland Extent Product (GCEP)",
       "provider": "U.S. Geological Survey Center for Earth Resources Observation and Science (EROS)",
       "thematic_group": "Agriculture, Vegetation and Forestry"
     },
-    "projects/sat-io/open-datasets/PKU-GIMMS-NDVI/AVHRR_SOLELY": {
-      "total_users": 57,
-      "avg_users": 36.67,
-      "appearances": 2,
-      "std_users": 31.82,
-      "is_community_dataset": true,
-      "title": "GIMMS Normalized Difference Vegetation Index 1982-2022 AVHRR SOLELY",
-      "provider": "Li, Muyi, Sen Cao, Zaichun Zhu, Zhe Wang, Ranga B. Myneni, and Shilong Piao",
-      "thematic_group": "Agriculture, Vegetation and Forestry"
-    },
-    "projects/sat-io/open-datasets/gap-filled-lst/gf_day_1km": {
-      "total_users": 57,
-      "avg_users": 38.33,
-      "appearances": 2,
-      "std_users": 33.2,
-      "is_community_dataset": true,
-      "title": "MODIS Gap filled Long-term Land Surface Temperature Daily Daytime",
-      "provider": "Zhang, Tao; Zhou, Yuyu; Zhu, Zhengyuan; Li, Xiaoma; Asrar, Ghassem",
-      "thematic_group": "Weather and Climate Layers"
-    },
     "projects/sat-io/open-datasets/GHAP/GHAP_M1K_PM25": {
-      "total_users": 56,
-      "avg_users": 38.33,
-      "appearances": 2,
-      "std_users": 33.23,
+      "total_users": 57,
+      "avg_users": 43.0,
+      "appearances": 3,
+      "std_users": 28.69,
       "is_community_dataset": true,
       "title": "Global High Air Pollutants(GHAP) PM2.5 Concentrations (2017-2022): Monthly",
       "provider": "Wei et al",
       "thematic_group": "Weather and Climate Layers"
     },
-    "projects/sat-io/open-datasets/GMW/annual-extent/GMW_MNG_VEC_2020": {
+    "projects/sat-io/open-datasets/PKU-GIMMS-NDVI/AVHRR_SOLELY": {
       "total_users": 56,
-      "avg_users": 38.0,
-      "appearances": 2,
-      "std_users": 32.92,
+      "avg_users": 41.5,
+      "appearances": 3,
+      "std_users": 27.72,
       "is_community_dataset": true,
-      "title": "Global Mangrove Watch 2020 Raster Extent v4.0.19: Vector",
-      "provider": "Global Mangrove Watch, Aberystwyth University, solo Earth Observation, Wetlands Institute, International Water Management Institute, UN Environment World Conservation Monitoring Center",
-      "thematic_group": "Global Land Use and Land Cover"
-    },
-    "projects/sat-io/open-datasets/ESA/ESA_CCI_AGB_DIFF": {
-      "total_users": 55,
-      "avg_users": 37.33,
-      "appearances": 2,
-      "std_users": 32.35,
-      "is_community_dataset": true,
-      "title": "ESA CCI Global Forest Above Ground Biomass Change Products",
-      "provider": "CCI BIOMASS consortium led by the University of Aberystwyth (U.K.)",
+      "title": "GIMMS Normalized Difference Vegetation Index 1982-2022 AVHRR SOLELY",
+      "provider": "Li, Muyi, Sen Cao, Zaichun Zhu, Zhe Wang, Ranga B. Myneni, and Shilong Piao",
       "thematic_group": "Agriculture, Vegetation and Forestry"
     },
-    "projects/sat-io/open-datasets/events/global_landslide_1970-2019": {
-      "total_users": 55,
-      "avg_users": 37.33,
-      "appearances": 2,
-      "std_users": 32.35,
-      "is_community_dataset": true,
-      "title": "Global Landslide Catalog - NASA Goddard (1970-2019)",
-      "provider": "NASA Goddard Space Flight Center",
-      "thematic_group": "Global Events Layers"
-    },
     "projects/sat-io/open-datasets/PLANET/TANAGER_HYPERSPECTRAL": {
-      "total_users": 54,
-      "avg_users": 35.67,
-      "appearances": 2,
-      "std_users": 30.89,
+      "total_users": 56,
+      "avg_users": 40.75,
+      "appearances": 3,
+      "std_users": 27.2,
       "is_community_dataset": true,
       "title": "Planet Tanager Open Data Hyperspectral",
       "provider": "Planet Labs PBC",
       "thematic_group": "Global Events Layers"
     },
-    "projects/sat-io/open-datasets/forest_carbon_fluxes/net_flux": {
+    "projects/sat-io/open-datasets/FROM-GLC10": {
+      "total_users": 55,
+      "avg_users": 42.5,
+      "appearances": 3,
+      "std_users": 28.36,
+      "is_community_dataset": true,
+      "title": "Finer Resolution Observation and Monitoring of Global Land Cover 10m (FROM-GLC10)",
+      "provider": "Chen, B., B. Xu, Z. Zhu, C. Yuan, H. Ping Suen, J. Guo, N. Xu, W. Li, Y. Zhao, and J. J. S. B. Yang.",
+      "thematic_group": "Global Land Use and Land Cover"
+    },
+    "projects/sat-io/open-datasets/GMW/annual-extent/GMW_MNG_VEC_2020": {
       "total_users": 54,
-      "avg_users": 36.0,
-      "appearances": 2,
-      "std_users": 31.18,
+      "avg_users": 42.0,
+      "appearances": 3,
+      "std_users": 28.05,
+      "is_community_dataset": true,
+      "title": "Global Mangrove Watch 2020 Raster Extent v4.0.19: Vector",
+      "provider": "Global Mangrove Watch, Aberystwyth University, solo Earth Observation, Wetlands Institute, International Water Management Institute, UN Environment World Conservation Monitoring Center",
+      "thematic_group": "Global Land Use and Land Cover"
+    },
+    "projects/sat-io/open-datasets/events/global_landslide_1970-2019": {
+      "total_users": 53,
+      "avg_users": 41.25,
+      "appearances": 3,
+      "std_users": 27.55,
+      "is_community_dataset": true,
+      "title": "Global Landslide Catalog - NASA Goddard (1970-2019)",
+      "provider": "NASA Goddard Space Flight Center",
+      "thematic_group": "Global Events Layers"
+    },
+    "projects/sat-io/open-datasets/forest_carbon_fluxes/net_flux": {
+      "total_users": 52,
+      "avg_users": 40.0,
+      "appearances": 3,
+      "std_users": 26.68,
       "is_community_dataset": true,
       "title": "Global Forest Carbon Fluxes: Net Flux",
       "provider": "Harris, N.L., Gibbs, D.A., Baccini, A. et al",
       "thematic_group": "Agriculture, Vegetation and Forestry"
     },
-    "projects/sat-io/open-datasets/WSF/WSF_EVO": {
-      "total_users": 50,
-      "avg_users": 16.67,
-      "appearances": 1,
-      "std_users": 28.87,
+    "projects/sat-io/open-datasets/ESA/ESA_CCI_AGB_DIFF": {
+      "total_users": 51,
+      "avg_users": 40.75,
+      "appearances": 3,
+      "std_users": 27.28,
       "is_community_dataset": true,
-      "title": "World Settlement Footprint Evolution (1985-2015)",
-      "provider": "Marconcini, et al",
-      "thematic_group": "Global Land Use and Land Cover"
+      "title": "ESA CCI Global Forest Above Ground Biomass Change Products",
+      "provider": "CCI BIOMASS consortium led by the University of Aberystwyth (U.K.)",
+      "thematic_group": "Agriculture, Vegetation and Forestry"
     }
   },
   "snapshot_trends": {
-    "2025-07-31": {
-      "total_users": 11370,
-      "dataset_count": 97,
-      "avg_users": 117.22
+    "2025-08-02": {
+      "total_users": 11030,
+      "dataset_count": 95,
+      "avg_users": 116.11
     },
     "2025-08-01": {
       "total_users": 11223,
@@ -3370,14 +4008,19 @@
       "total_users": 628,
       "dataset_count": 3,
       "avg_users": 209.33
+    },
+    "2025-07-31": {
+      "total_users": 11370,
+      "dataset_count": 97,
+      "avg_users": 117.22
     }
   },
   "community_snapshot_trends": {
-    "2025-07-31": {
-      "total_users": 11110,
-      "dataset_count": 94,
-      "avg_users": 118.19,
-      "percentage_of_total_users": 97.71
+    "2025-08-02": {
+      "total_users": 10776,
+      "dataset_count": 92,
+      "avg_users": 117.13,
+      "percentage_of_total_users": 97.7
     },
     "2025-08-01": {
       "total_users": 10963,
@@ -3390,6 +4033,12 @@
       "dataset_count": 3,
       "avg_users": 209.33,
       "percentage_of_total_users": 100.0
+    },
+    "2025-07-31": {
+      "total_users": 11110,
+      "dataset_count": 94,
+      "avg_users": 118.19,
+      "percentage_of_total_users": 97.71
     }
   }
 }
