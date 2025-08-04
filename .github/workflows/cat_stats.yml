@@ -2,7 +2,7 @@ name: catalog_stats_complete
 on:
   workflow_dispatch:
   schedule:
-    - cron: "0 15 * * *"  # Run daily at 14:00 UTC (9:00 AM CDT)
+    - cron: "0 22 * * *"  # Run daily at 22:00 UTC (5:00 PM CDT)
 
 jobs:
   build:
